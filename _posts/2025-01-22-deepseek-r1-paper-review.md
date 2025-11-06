@@ -2,7 +2,7 @@
 layout: post
 title:  "Deepseek R1 Paper review"
 date:   2025-01-22 00:42:45 +0900
-categories: LLM deepseek
+categories: [LLM] [deepseek]
 ---
 
 **DeepSeek-R1: Incentivizing Reasoning Capability in Large Language Models**  
