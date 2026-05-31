@@ -16,7 +16,7 @@ style: hacker
 
 footer: 'follow me on <a href="https://www.linkedin.com/in/kiranramanna/">linkedin</a>'
 #style: light # dark (default) or light
-#listen_for_clients_preferred_style: true # true or false (default)
+listen_for_clients_preferred_style: true # respect visitor's OS prefers-color-scheme (light/dark), hacker as no-preference fallback
 
 plugins:
   - jekyll-seo-tag
