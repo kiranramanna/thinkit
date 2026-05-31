@@ -1,0 +1,42 @@
+# hn-daily routine configuration
+# Spec: ../specs/2026-05-31-thinkit-publishing-routines-design.md § 4.9
+
+# --- HN fetching ---
+# How many top HN stories to fetch and score per run
+fetch_limit: 30
+
+# Minimum raw HN score (upvotes) for an item to be considered
+# (filters out HN noise before LLM scoring)
+min_hn_score: 30
+
+# --- Selection ---
+# Minimum LLM score (1-10) for an item to be eligible for publishing
+threshold: 7
+
+# Max posts to publish in a single run (cap)
+posts_per_run: 2
+
+# Max posts to publish per day across all runs (soft global cap; advisory)
+posts_per_day: 4
+
+# Rolling dedup window — don't republish an HN ID within this many days
+dedup_window_days: 7
+
+# --- Output formatting ---
+# Timezone for post `date:` frontmatter. Always UTC to avoid past JST bugs.
+date_timezone: "+0000"
+
+# --- LLM models ---
+# Cheaper model for scoring (30 items in one call)
+scoring_model: "claude-haiku-4-5"
+
+# Better-voice model for writing (per-item)
+writing_model: "claude-sonnet-4-6"
+
+# --- Behavior ---
+# If true, commit even when 0 posts published (preserves audit trail)
+commit_on_zero_posts: true
+
+# If true, abort the run on the first per-item writing error
+# If false, skip the bad item and continue
+abort_on_writing_error: false
