@@ -5,10 +5,50 @@
 @import "hacker";
 @import "base";
 
-@media (prefers-color-scheme: light) {
-	@import "light";
+// Brighter theme — opt-in via the header toggle, which sets
+// <html data-theme="light">. Default (no attribute) stays hacker green.
+:root[data-theme="light"] {
+  --base-color: #000;
+  --border: dashed 1px rgba(0, 0, 0, 1);
+  --selection-background: rgba(0, 0, 0, 0.99);
+  --selection-text: #FFF;
+  --background-color: #FFF;
+  --text-color: var(--base-color);
+  --placeholder-color: var(--base-color);
+  --link-color: var(--base-color);
+  --code-color-1: #aaaaaa;
+  --code-color-2: #ffffcc;
+  --code-color-3: #F00000;
+  --code-color-4: #F0A0A0;
+  --code-color-5: #0000aa;
+  --code-color-6: #4c8317;
+  --code-color-7: #aa0000;
+  --code-color-8: #000080;
+  --code-color-9: #00aa00;
+  --code-color-10: #888888;
+  --code-color-11: #555555;
+  --code-color-12: #800080;
+  --code-color-13: #00aaaa;
+  --code-color-14: #009999;
+  --code-color-15: #aa5500;
+  --code-color-16: #1e90ff;
+  --code-color-17: #800000;
+  --code-color-18: #bbbbbb;
 }
 
-@media (prefers-color-scheme: dark) {
-	@import "dark";
+// Header theme toggle — styled to read like the nav text links.
+.theme-toggle {
+  display: inline;
+  font: inherit;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  color: var(--background-color);
+  background-color: var(--base-color);
 }

@@ -2,6 +2,7 @@
 <header>
   <div class="menu">
     <ul>
+      <li><button type="button" id="theme-toggle" class="theme-toggle" aria-label="Toggle brighter theme">[ brighter ]</button></li>
       {%- for path in page_paths -%}
         {%- assign my_page = site.pages | where: "path", path | first -%}
         {%- if my_page.title -%}
