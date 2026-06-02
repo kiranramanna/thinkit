@@ -11,6 +11,17 @@
   },
   "runs": [
     {
+      "candidates_count": 25,
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48359102,
+        48363132
+      ],
+      "ts": "2026-06-02T06:34:08Z",
+      "window": "manual"
+    },
+    {
       "candidates_count": 24,
       "note": "Skipped 48440448 (DeepSeek V4 Pro beats GPT-5.5): source runtimewire.com returned no extractable body via curl or WebFetch and is an unknown outlet; declined to publish an unverifiable benchmark claim (prefer fewer posts when ambiguous). Published 48413366 (Playing with Vision Embeddings).",
       "posts_written": 1,
