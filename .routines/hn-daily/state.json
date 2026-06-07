@@ -1,7 +1,9 @@
 {
   "last_pruned_ts": "2026-06-10T14:09:37Z",
   "published_ids": {
+    "48400151": "2026-06-07T14:05:16Z",
     "48413366": "2026-06-08T14:06:25Z",
+    "48430923": "2026-06-07T14:05:16Z",
     "48446639": "2026-06-09T03:06:07Z",
     "48451723": "2026-06-09T03:06:07Z",
     "48460863": "2026-06-10T03:04:44Z",
@@ -10,6 +12,17 @@
     "48473166": "2026-06-10T14:09:37Z"
   },
   "runs": [
+    {
+      "candidates_count": 23,
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48400151,
+        48430923
+      ],
+      "ts": "2026-06-07T14:05:16Z",
+      "window": "morning"
+    },
     {
       "candidates_count": 24,
       "note": "Skipped 48440448 (DeepSeek V4 Pro beats GPT-5.5): source runtimewire.com returned no extractable body via curl or WebFetch and is an unknown outlet; declined to publish an unverifiable benchmark claim (prefer fewer posts when ambiguous). Published 48413366 (Playing with Vision Embeddings).",
