@@ -1,6 +1,21 @@
 {
-  "schema_version": 1,
-  "last_pruned_ts": null,
-  "runs": [],
-  "published_ids": {}
+  "last_pruned_ts": "2026-06-10T14:09:37Z",
+  "published_ids": {
+    "48470248": "2026-06-10T14:09:37Z",
+    "48473166": "2026-06-10T14:09:37Z"
+  },
+  "runs": [
+    {
+      "candidates_count": 26,
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48473166,
+        48470248
+      ],
+      "ts": "2026-06-10T14:09:37Z",
+      "window": "morning"
+    }
+  ],
+  "schema_version": 1
 }
