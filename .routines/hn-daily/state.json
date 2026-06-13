@@ -1,11 +1,9 @@
 {
-  "last_pruned_ts": "2026-06-13T03:06:47Z",
+  "last_pruned_ts": "2026-06-13T14:04:09Z",
   "published_ids": {
-    "48398689": "2026-06-06T03:10:00Z",
     "48400151": "2026-06-07T14:05:16Z",
     "48411635": "2026-06-06T14:08:22Z",
     "48413366": "2026-06-08T14:06:25Z",
-    "48414367": "2026-06-06T03:10:00Z",
     "48416264": "2026-06-07T03:04:44Z",
     "48425347": "2026-06-07T03:04:44Z",
     "48430923": "2026-06-07T14:05:16Z",
@@ -19,8 +17,10 @@
     "48473166": "2026-06-10T14:09:37Z",
     "48498573": "2026-06-12T14:09:11Z",
     "48500012": "2026-06-12T14:09:11Z",
+    "48506545": "2026-06-13T14:04:09Z",
     "48507020": "2026-06-13T03:06:47Z",
-    "48509133": "2026-06-13T03:06:47Z"
+    "48509133": "2026-06-13T03:06:47Z",
+    "48511908": "2026-06-13T14:04:09Z"
   },
   "runs": [
     {
@@ -244,6 +244,18 @@
       ],
       "ts": "2026-06-13T03:06:47Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 26,
+      "note": "Weak lane-fit day (gaming/hardware/biotech/AI-policy dominated top 30). Two items cleared threshold 7: 48511908 (Open Source AI Must Win manifesto) and 48506545 (BitBoard Launch HN, analytics workspace for agents). Both written from verifiable primary sources (the manifesto page and the founders' own Launch HN text). Scored via inline agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48511908,
+        48506545
+      ],
+      "ts": "2026-06-13T14:04:09Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
