@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-06-12T14:09:11Z",
+  "last_pruned_ts": "2026-06-13T03:06:47Z",
   "published_ids": {
     "48398689": "2026-06-06T03:10:00Z",
     "48400151": "2026-06-07T14:05:16Z",
@@ -18,7 +18,9 @@
     "48470248": "2026-06-10T14:09:37Z",
     "48473166": "2026-06-10T14:09:37Z",
     "48498573": "2026-06-12T14:09:11Z",
-    "48500012": "2026-06-12T14:09:11Z"
+    "48500012": "2026-06-12T14:09:11Z",
+    "48507020": "2026-06-13T03:06:47Z",
+    "48509133": "2026-06-13T03:06:47Z"
   },
   "runs": [
     {
@@ -230,6 +232,18 @@
       ],
       "ts": "2026-06-12T14:09:11Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 25,
+      "note": "3 items >=7 (48509133:8, 48507020:7, 48506545:7); cap 2. Took the 8 plus 48507020; deprioritized 48506545 (BitBoard) as a YC launch landing page (thin marketing, low writability). Both published posts verified from real source text.",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48509133,
+        48507020
+      ],
+      "ts": "2026-06-13T03:06:47Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
