@@ -1,8 +1,7 @@
 {
-  "last_pruned_ts": "2026-06-13T14:04:09Z",
+  "last_pruned_ts": "2026-06-14T03:04:24Z",
   "published_ids": {
     "48400151": "2026-06-07T14:05:16Z",
-    "48411635": "2026-06-06T14:08:22Z",
     "48413366": "2026-06-08T14:06:25Z",
     "48416264": "2026-06-07T03:04:44Z",
     "48425347": "2026-06-07T03:04:44Z",
@@ -20,7 +19,9 @@
     "48506545": "2026-06-13T14:04:09Z",
     "48507020": "2026-06-13T03:06:47Z",
     "48509133": "2026-06-13T03:06:47Z",
-    "48511908": "2026-06-13T14:04:09Z"
+    "48511908": "2026-06-13T14:04:09Z",
+    "48515454": "2026-06-14T03:04:24Z",
+    "48518969": "2026-06-14T03:04:24Z"
   },
   "runs": [
     {
@@ -256,6 +257,18 @@
       ],
       "ts": "2026-06-13T14:04:09Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 26,
+      "note": "Lane-thin top 30 (gaming/retro-hardware/biotech/politics dominated). 4 items >=7: 48518969(8), 48497195(8), 48515454(7), 48518684(6.. just under). Cap 2. Wrote the two fully-verifiable on-lane pieces: 48518969 (AI coding at home: self-host vs rent vs subscription economics) and 48515454 (dual-GPU RTX 5080+3090 local Qwen 3.6 27B Q8 inference). Declined 48497195 (Codex for OSS, score 8) -- source openai.com/form/codex-for-oss is a JS-gated signup form with no extractable body, unverifiable; prefer fewer/verifiable. Also passed 48518684 (GLM 5.2) as a thin promo tweet on X. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48518969,
+        48515454
+      ],
+      "ts": "2026-06-14T03:04:24Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
