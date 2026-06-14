@@ -1,11 +1,7 @@
 {
-  "last_pruned_ts": "2026-06-14T03:04:24Z",
+  "last_pruned_ts": "2026-06-14T14:06:22Z",
   "published_ids": {
-    "48400151": "2026-06-07T14:05:16Z",
     "48413366": "2026-06-08T14:06:25Z",
-    "48416264": "2026-06-07T03:04:44Z",
-    "48425347": "2026-06-07T03:04:44Z",
-    "48430923": "2026-06-07T14:05:16Z",
     "48434312": "2026-06-08T03:07:36Z",
     "48446639": "2026-06-09T03:06:07Z",
     "48450142": "2026-06-09T14:09:48Z",
@@ -21,7 +17,9 @@
     "48509133": "2026-06-13T03:06:47Z",
     "48511908": "2026-06-13T14:04:09Z",
     "48515454": "2026-06-14T03:04:24Z",
-    "48518969": "2026-06-14T03:04:24Z"
+    "48518969": "2026-06-14T03:04:24Z",
+    "48523752": "2026-06-14T14:06:22Z",
+    "48524620": "2026-06-14T14:06:22Z"
   },
   "runs": [
     {
@@ -269,6 +267,18 @@
       ],
       "ts": "2026-06-14T03:04:24Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 27,
+      "note": "Lane-thin top 30 (retro-hardware/gaming/biotech/JS-history dominated). 2 items cleared threshold 7 and both were also the most verifiable on-lane pieces: 48524620 (context-rot / long-context vs retrieval, garrit.xyz blog) scored 9, and 48523752 (Anthropic 'Making Claude a chemist', representation-translation + evals) scored 8. Two more hit 7 but were unwritable: 48518684 (GLM 5.2) is a promo tweet on X with no substance, and 48497195 (Codex for OSS) is a JS-gated openai.com signup form with no extractable body. Both published posts written from real primary source text. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48524620,
+        48523752
+      ],
+      "ts": "2026-06-14T14:06:22Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
