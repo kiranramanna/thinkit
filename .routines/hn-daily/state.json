@@ -1,12 +1,7 @@
 {
-  "last_pruned_ts": "2026-06-14T03:04:24Z",
+  "last_pruned_ts": "2026-06-15T03:07:50Z",
   "published_ids": {
-    "48400151": "2026-06-07T14:05:16Z",
     "48413366": "2026-06-08T14:06:25Z",
-    "48416264": "2026-06-07T03:04:44Z",
-    "48425347": "2026-06-07T03:04:44Z",
-    "48430923": "2026-06-07T14:05:16Z",
-    "48434312": "2026-06-08T03:07:36Z",
     "48446639": "2026-06-09T03:06:07Z",
     "48450142": "2026-06-09T14:09:48Z",
     "48451723": "2026-06-09T03:06:07Z",
@@ -21,7 +16,9 @@
     "48509133": "2026-06-13T03:06:47Z",
     "48511908": "2026-06-13T14:04:09Z",
     "48515454": "2026-06-14T03:04:24Z",
-    "48518969": "2026-06-14T03:04:24Z"
+    "48518969": "2026-06-14T03:04:24Z",
+    "48528371": "2026-06-15T03:07:50Z",
+    "48532178": "2026-06-15T03:07:50Z"
   },
   "runs": [
     {
@@ -268,6 +265,18 @@
         48515454
       ],
       "ts": "2026-06-14T03:04:24Z",
+      "window": "evening"
+    },
+    {
+      "candidates_count": 25,
+      "note": "Lane-thin top 30 (gaming/ebooks/language-history/consumer-tech dominated). Two items cleared threshold 7, both scored 8 and fully verified from primary sources: 48528371 (Nex AGI's GitHub issue alleging Rio-3.5-Open-397B is a ~0.6 Nex / 0.4 Qwen3.5 element-wise merge, framed as an allegation per SOFT policy on contentious claims) and 48532178 (The Register on the jqwik anti-AI stdout prompt-injection that made coding agents delete code). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48528371,
+        48532178
+      ],
+      "ts": "2026-06-15T03:07:50Z",
       "window": "evening"
     }
   ],
