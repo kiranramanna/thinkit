@@ -1,7 +1,6 @@
 {
-  "last_pruned_ts": "2026-06-15T03:07:50Z",
+  "last_pruned_ts": "2026-06-15T14:06:48Z",
   "published_ids": {
-    "48413366": "2026-06-08T14:06:25Z",
     "48446639": "2026-06-09T03:06:07Z",
     "48450142": "2026-06-09T14:09:48Z",
     "48451723": "2026-06-09T03:06:07Z",
@@ -18,7 +17,9 @@
     "48515454": "2026-06-14T03:04:24Z",
     "48518969": "2026-06-14T03:04:24Z",
     "48528371": "2026-06-15T03:07:50Z",
-    "48532178": "2026-06-15T03:07:50Z"
+    "48532178": "2026-06-15T03:07:50Z",
+    "48537641": "2026-06-15T14:06:48Z",
+    "48540126": "2026-06-15T14:06:48Z"
   },
   "runs": [
     {
@@ -278,6 +279,18 @@
       ],
       "ts": "2026-06-15T03:07:50Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 24,
+      "note": "On-lane day. 24 eligible after dedup. Top-2 selected, both scored 8 and verified from primary sources: 48537641 (OpenRouter Fusion = multi-model deliberation + judge-synthesis API; direct agentic/LLM-ops/judge-eval lane) and 48540126 (Salesforce to acquire Fin/Intercom for .6B; conversational+agentic enterprise AI, purpose-built support model 'Apex'). Also >=7-ish but declined: 48536776 (Apple Foundation Models) JS-gated Claude docs page, no extractable body; 48539078 (Anthropic Safety Superpower) Stratechery subscriber/paywalled post, only intro free + thinner technical lane. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48537641,
+        48540126
+      ],
+      "ts": "2026-06-15T14:06:48Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
