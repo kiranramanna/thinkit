@@ -1,9 +1,7 @@
 {
-  "last_pruned_ts": "2026-06-15T14:06:48Z",
+  "last_pruned_ts": "2026-06-16T03:04:13Z",
   "published_ids": {
-    "48446639": "2026-06-09T03:06:07Z",
     "48450142": "2026-06-09T14:09:48Z",
-    "48451723": "2026-06-09T03:06:07Z",
     "48460863": "2026-06-10T03:04:44Z",
     "48463808": "2026-06-10T03:04:44Z",
     "48470248": "2026-06-10T14:09:37Z",
@@ -19,7 +17,9 @@
     "48528371": "2026-06-15T03:07:50Z",
     "48532178": "2026-06-15T03:07:50Z",
     "48537641": "2026-06-15T14:06:48Z",
-    "48540126": "2026-06-15T14:06:48Z"
+    "48540126": "2026-06-15T14:06:48Z",
+    "48542100": "2026-06-16T03:04:13Z",
+    "48542433": "2026-06-16T03:04:13Z"
   },
   "runs": [
     {
@@ -291,6 +291,18 @@
       ],
       "ts": "2026-06-15T14:06:48Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 24,
+      "note": "On-lane evening run. 24 eligible after dedup; top 30 otherwise dominated by gaming/biotech/media-M&A/IoT-hacks. Two items cleared threshold 7, both fully verifiable: 48542100 (Ask HN: replacing Claude/GPT with a local model for daily coding -- score 8, direct LLM-ops/local-inference/agentic-loop lane, written from the question + HN thread) and 48542433 (My Homelab AI Dev Platform, score 7, OpenCode self-host with PR-gated agent git identity; primary source rsgm.dev fully extractable). Claude Corps (48544637) scored 5 -- AI industry news, thin technical content. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48542100,
+        48542433
+      ],
+      "ts": "2026-06-16T03:04:13Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
