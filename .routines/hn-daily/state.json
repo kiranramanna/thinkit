@@ -1,11 +1,12 @@
 {
-  "last_pruned_ts": "2026-06-16T03:04:13Z",
+  "last_pruned_ts": "2026-06-16T14:08:00Z",
   "published_ids": {
     "48450142": "2026-06-09T14:09:48Z",
     "48460863": "2026-06-10T03:04:44Z",
     "48463808": "2026-06-10T03:04:44Z",
     "48470248": "2026-06-10T14:09:37Z",
     "48473166": "2026-06-10T14:09:37Z",
+    "48489934": "2026-06-16T14:08:00Z",
     "48498573": "2026-06-12T14:09:11Z",
     "48500012": "2026-06-12T14:09:11Z",
     "48506545": "2026-06-13T14:04:09Z",
@@ -19,7 +20,8 @@
     "48537641": "2026-06-15T14:06:48Z",
     "48540126": "2026-06-15T14:06:48Z",
     "48542100": "2026-06-16T03:04:13Z",
-    "48542433": "2026-06-16T03:04:13Z"
+    "48542433": "2026-06-16T03:04:13Z",
+    "48552687": "2026-06-16T14:08:00Z"
   },
   "runs": [
     {
@@ -303,6 +305,18 @@
       ],
       "ts": "2026-06-16T03:04:13Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 25,
+      "note": "Off-lane top 30 (mechanical-watch explainer, multiple games, hardware hacks, politics, media M&A, personal essays). Two items cleared threshold 7, both verified from primary sources: 48489934 (Cohere North Mini Code -- 30B/3B-active MoE Apache-2.0 agentic coding model, direct agentic-ai/enterprise lane, score 8) and 48552687 (The Register: 'fix this code' export-control story on Fable 5 -- written strictly on the LLM-eval/dual-use-guardrail angle, kept factual/non-inflammatory per policy SOFT review since context is politically charged, score 7). Cohere blog and Register article both fully extractable. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48489934,
+        48552687
+      ],
+      "ts": "2026-06-16T14:08:00Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
