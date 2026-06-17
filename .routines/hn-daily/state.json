@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-06-17T03:05:30Z",
+  "last_pruned_ts": "2026-06-17T14:07:31Z",
   "published_ids": {
     "48470248": "2026-06-10T14:09:37Z",
     "48473166": "2026-06-10T14:09:37Z",
@@ -20,7 +20,9 @@
     "48542433": "2026-06-16T03:04:13Z",
     "48552687": "2026-06-16T14:08:00Z",
     "48555993": "2026-06-17T03:05:30Z",
-    "48559188": "2026-06-17T03:05:30Z"
+    "48559188": "2026-06-17T03:05:30Z",
+    "48566832": "2026-06-17T14:07:31Z",
+    "48567759": "2026-06-17T14:07:31Z"
   },
   "runs": [
     {
@@ -328,6 +330,18 @@
       ],
       "ts": "2026-06-17T03:05:30Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 25,
+      "note": "Lane-thin morning top 30 (GrapheneOS port, SpaceX/Cursor $60B M&A, JWT/IIS security, Calvin&Hobbes & yak-shaving essays, fungi/gravity science dominated). Three items cleared threshold 7 but two were the same GLM-5.2 story: published 48567759 (GLM-5.2 new leading open-weights model on Artificial Analysis, score 8 -- direct LLM-ops/agentic lane, rich primary data: 51 Intelligence Index, 1524 GDPval-AA v2 level with GPT-5.5, 744B/40B MIT, 43k tokens/task) and dropped its duplicate 48567004 (GLM 5.2 benchmarks). Second post 48566832 (Anthropic 'founder's playbook' for AI-native startups, score 7) written as an honest/critical engineering take on AI-generated-code tech debt + agentic ops -- NOT promotion (policy rule 7), source verified via WebFetch. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48567759,
+        48566832
+      ],
+      "ts": "2026-06-17T14:07:31Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
