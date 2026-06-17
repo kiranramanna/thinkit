@@ -1,9 +1,6 @@
 {
-  "last_pruned_ts": "2026-06-16T14:08:00Z",
+  "last_pruned_ts": "2026-06-17T03:05:30Z",
   "published_ids": {
-    "48450142": "2026-06-09T14:09:48Z",
-    "48460863": "2026-06-10T03:04:44Z",
-    "48463808": "2026-06-10T03:04:44Z",
     "48470248": "2026-06-10T14:09:37Z",
     "48473166": "2026-06-10T14:09:37Z",
     "48489934": "2026-06-16T14:08:00Z",
@@ -21,7 +18,9 @@
     "48540126": "2026-06-15T14:06:48Z",
     "48542100": "2026-06-16T03:04:13Z",
     "48542433": "2026-06-16T03:04:13Z",
-    "48552687": "2026-06-16T14:08:00Z"
+    "48552687": "2026-06-16T14:08:00Z",
+    "48555993": "2026-06-17T03:05:30Z",
+    "48559188": "2026-06-17T03:05:30Z"
   },
   "runs": [
     {
@@ -317,6 +316,18 @@
       ],
       "ts": "2026-06-16T14:08:00Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 26,
+      "note": "On-lane evening run. 26 eligible after dedup; rest of top 30 was off-lane (mechanical watch, GrapheneOS, Apple consumer, gaming, retro computing, homelab). Two items cleared threshold 7, both verified from primary sources: 48555993 (Vicki Boykis, 'Running local models is good now' -- score 8, direct LLM-ops/local-inference/agentic-loop lane, written from the full post incl. Docker-sandbox detail) and 48559188 (GPT-NL sovereign Dutch LLM by TNO/SURF/NFI -- score 7, enterprise-AI/data-governance lane, written from TNO page via WebFetch: train-from-scratch, Content Board, EUR13.5M). SpaceX/Cursor M&A (909 upvotes) scored 5 (thin technical); Qwen-Robot Suite scored 6 (embodied/robotics off the software-agent lane). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48555993,
+        48559188
+      ],
+      "ts": "2026-06-17T03:05:30Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
