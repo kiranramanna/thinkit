@@ -1,8 +1,6 @@
 {
-  "last_pruned_ts": "2026-06-17T14:07:31Z",
+  "last_pruned_ts": "2026-06-18T03:03:18Z",
   "published_ids": {
-    "48470248": "2026-06-10T14:09:37Z",
-    "48473166": "2026-06-10T14:09:37Z",
     "48489934": "2026-06-16T14:08:00Z",
     "48498573": "2026-06-12T14:09:11Z",
     "48500012": "2026-06-12T14:09:11Z",
@@ -20,9 +18,11 @@
     "48542433": "2026-06-16T03:04:13Z",
     "48552687": "2026-06-16T14:08:00Z",
     "48555993": "2026-06-17T03:05:30Z",
+    "48556561": "2026-06-18T03:03:18Z",
     "48559188": "2026-06-17T03:05:30Z",
     "48566832": "2026-06-17T14:07:31Z",
-    "48567759": "2026-06-17T14:07:31Z"
+    "48567759": "2026-06-17T14:07:31Z",
+    "48576824": "2026-06-18T03:03:18Z"
   },
   "runs": [
     {
@@ -342,6 +342,18 @@
       ],
       "ts": "2026-06-17T14:07:31Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 25,
+      "note": "On-lane evening run. 25 eligible after dedup; rest of top 30 was off-lane (open-source VCS, color/IF/art tools, US-science politics, GrapheneOS/VW, retro CPU, roundabouts, image-compression explainer). Three items cleared threshold 7, both published were 8 and fully verified from primary sources: 48556561 (browser-use: Firecracker microVMs nested inside EC2 for sub-1s, $0.02/hr cloud browsers -- AI-infrastructure for agentic browser tools, incl. the unikernel-autoscale outage and Chromium-startup bottleneck) and 48576824 (OpenRouter 'Last Agent Standing': 11 LLMs in a 2D battle royale x30 games; Grok 4.1 Fast 13 wins @$0.97, Claude Sonnet 4.6 next @$26.78 = 27x, GPT 5.4 most kills/2 wins, soul.md/memory.md self-edits, Artificial Analysis benchmarks didn't predict winners -- agentic-eval/model-routing lane). Also >=7 but dropped (cap 2): 48578894 (Mindgard ChatGPT image-gen jailbreak, score 7, LLM safety/guardrails). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48556561,
+        48576824
+      ],
+      "ts": "2026-06-18T03:03:18Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
