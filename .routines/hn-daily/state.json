@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-06-18T03:03:18Z",
+  "last_pruned_ts": "2026-06-18T14:05:25Z",
   "published_ids": {
     "48489934": "2026-06-16T14:08:00Z",
     "48498573": "2026-06-12T14:09:11Z",
@@ -22,7 +22,9 @@
     "48559188": "2026-06-17T03:05:30Z",
     "48566832": "2026-06-17T14:07:31Z",
     "48567759": "2026-06-17T14:07:31Z",
-    "48576824": "2026-06-18T03:03:18Z"
+    "48576824": "2026-06-18T03:03:18Z",
+    "48580209": "2026-06-18T14:05:25Z",
+    "48583703": "2026-06-18T14:05:25Z"
   },
   "runs": [
     {
@@ -354,6 +356,18 @@
       ],
       "ts": "2026-06-18T03:03:18Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 26,
+      "note": "On-lane morning run. 26 eligible after dedup; rest of top 30 off-lane (Emacs 31, compilers course, Lore VCS, AMD memory-encryption, MAME/emulators, Clojure-on-Go, color/bread-tag/metro/RFC trivia). Two items cleared threshold 7, both verified from primary sources: 48583703 (Elastic search-labs: persistent multi-tenant agent memory -- three indices, hybrid RRF+reranker, supersession/decay, per-user DLS, R@10 0.89 across 168 Qs, score 9) and 48580209 (Alex Ellis 'Local Qwen isn't a worse Opus, it's a different tool' -- SWE-Bench 77.2 vs Opus 88.6 benchmark-domain critique, quant-induced loops/hallucination, route-by-task not rank-by-axis, score 8). Near-misses dropped: 48581458 DeepSeek Vision (6, chat.deepseek.com JS app unwritable), 48565498 US/DeepSeek blacklist (5, AI-policy+politics thin technical), 48568502 RFC 10008 HTTP QUERY (5, API-design adjacency). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48583703,
+        48580209
+      ],
+      "ts": "2026-06-18T14:05:25Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
