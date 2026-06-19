@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-06-19T03:03:49Z",
+  "last_pruned_ts": "2026-06-19T14:03:30Z",
   "published_ids": {
     "48489934": "2026-06-16T14:08:00Z",
     "48498573": "2026-06-12T14:09:11Z",
@@ -16,6 +16,7 @@
     "48540126": "2026-06-15T14:06:48Z",
     "48542100": "2026-06-16T03:04:13Z",
     "48542433": "2026-06-16T03:04:13Z",
+    "48547969": "2026-06-19T14:03:30Z",
     "48552687": "2026-06-16T14:08:00Z",
     "48555993": "2026-06-17T03:05:30Z",
     "48556561": "2026-06-18T03:03:18Z",
@@ -25,6 +26,7 @@
     "48576824": "2026-06-18T03:03:18Z",
     "48580209": "2026-06-18T14:05:25Z",
     "48583703": "2026-06-18T14:05:25Z",
+    "48584761": "2026-06-19T14:03:30Z",
     "48588755": "2026-06-19T03:03:49Z",
     "48592163": "2026-06-19T03:03:49Z"
   },
@@ -382,6 +384,18 @@
       ],
       "ts": "2026-06-19T03:03:49Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 24,
+      "note": "Lane-thin morning top 30 (JVM Valhalla, DuckDB/ClickHouse internals, compilers course, GitHub-malware report, e-paper monitor, ship tunnel, drug-repurposing, railway/economics essays dominated). No primary-lane agentic-AI/RAG/LLM-ops item present. Two items cleared threshold 7, both verified from primary sources: 48547969 (Amex eng blog, cell-based architecture for resilient payments -- system-design/reliability/platform-architecture lane, failure-boundary-not-infra-construct + no-synchronous-cross-cell-in-critical-path, connected to AI-serving blast-radius containment) and 48584761 (Show HN: Talos, Lean-based formal verification of WebAssembly -- thesis that cheap AI codegen makes verification the bottleneck; LLM-ops/agentic-code-safety adjacency, written as an honest take incl. spec-is-the-real-bottleneck critique, not promotion). Near-misses at 5 (dropped): 48553388 DuckDB internals, 48546890 ClickHouse 10yr, 48549118 Zen ML research essay, 48595331 well-known URI, 48593731 Datasette apps. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48584761,
+        48547969
+      ],
+      "ts": "2026-06-19T14:03:30Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
