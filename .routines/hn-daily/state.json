@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-06-18T14:05:25Z",
+  "last_pruned_ts": "2026-06-19T03:03:49Z",
   "published_ids": {
     "48489934": "2026-06-16T14:08:00Z",
     "48498573": "2026-06-12T14:09:11Z",
@@ -24,7 +24,9 @@
     "48567759": "2026-06-17T14:07:31Z",
     "48576824": "2026-06-18T03:03:18Z",
     "48580209": "2026-06-18T14:05:25Z",
-    "48583703": "2026-06-18T14:05:25Z"
+    "48583703": "2026-06-18T14:05:25Z",
+    "48588755": "2026-06-19T03:03:49Z",
+    "48592163": "2026-06-19T03:03:49Z"
   },
   "runs": [
     {
@@ -368,6 +370,18 @@
       ],
       "ts": "2026-06-18T14:05:25Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 24,
+      "note": "On-lane evening run. 24 eligible after dedup; rest of top 30 was off-lane (railway/org history, ZFS NAS, compilers course, drug-repurposing, GDPR saga, Swiss nuclear vote, e-paper monitor, rat eradication, dotfiles, puzzle game, ocean science). One item at LLM-score 8 and three tied at 7. Published 48592163 (MCP Enterprise-Managed Authorization now stable -- ID-JAG/SSO zero-touch OAuth, IdP-central policy+audit, adopted by Anthropic/Microsoft/Okta; direct agentic-ai/enterprise/llm-ops lane, score 8, fully verified from the official MCP blog) and 48588755 (Mroczek's RTK token-compression skepticism -- 60-90% 'savings' is just stdout stripped not real API bill, silent asymmetric failures, no SWE-bench accuracy, feature-not-product; LLM-ops/context-engineering contrarian take, score 7, verified from primary source). Among the 7s, deprioritized 48573268 (Agentic Resource Discovery spec -- on-lane but early-stage AND thematically overlaps the MCP auth piece) for topic diversity, and dropped 48586299 (TesterArmy, YC launch -- thin marketing landing page, low writability). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48592163,
+        48588755
+      ],
+      "ts": "2026-06-19T03:03:49Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
