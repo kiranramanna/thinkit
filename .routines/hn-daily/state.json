@@ -1,11 +1,7 @@
 {
-  "last_pruned_ts": "2026-06-20T03:03:24Z",
+  "last_pruned_ts": "2026-06-20T14:06:07Z",
   "published_ids": {
     "48489934": "2026-06-16T14:08:00Z",
-    "48506545": "2026-06-13T14:04:09Z",
-    "48507020": "2026-06-13T03:06:47Z",
-    "48509133": "2026-06-13T03:06:47Z",
-    "48511908": "2026-06-13T14:04:09Z",
     "48515454": "2026-06-14T03:04:24Z",
     "48518969": "2026-06-14T03:04:24Z",
     "48528371": "2026-06-15T03:07:50Z",
@@ -27,7 +23,8 @@
     "48584761": "2026-06-19T14:03:30Z",
     "48588755": "2026-06-19T03:03:49Z",
     "48592163": "2026-06-19T03:03:49Z",
-    "48602918": "2026-06-20T03:03:24Z"
+    "48602918": "2026-06-20T03:03:24Z",
+    "48605355": "2026-06-20T14:06:07Z"
   },
   "runs": [
     {
@@ -406,6 +403,18 @@
       ],
       "ts": "2026-06-20T03:03:24Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 25,
+      "note": "Lane-thin morning top 30 (CSS/favicon/color/vocab web hacks, gaming, obituary, Egyptian fractions, whale/memory/GPS science, Norway AI-in-schools policy, Hyundai/Boston Dynamics M&A, JDK Valhalla, AUR supply-chain attacks, robotics homelab dominated). Two items cleared threshold 7. Published 48605355 (Ian Barber, 'LLMs Are Complicated Now' -- score 8: modern attention variants + MoE routing into attention/residual stream + multi-GPU inference comms ops, recsys analogy, and the contrarian thread that agentic 'just emit fused kernels' fails without a trusted, continuously-tested baseline; LLM-ops/ai-infrastructure/agentic lane, fully verified from the primary source). Declined 48600167 (arrowtsx.dev 'Bigger models are not the way' / HN headline 'GPT-5.5 hallucinates 3x more than GLM-5.2', score 7) -- unknown outlet whose core is unverifiable AA-Omniscience hallucination %s plus a politically-charged, unverifiable 'Fable 5 banned by US govt 3 days after release' claim; same pattern as the previously-declined runtimewire DeepSeek benchmark, so prefer fewer/verifiable. Next tier all 5s (Hyundai/BostonDynamics, Norway AI policy, Zen-of-ML essay, JDK Valhalla, robotics setup) -- below threshold. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 1,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48605355,
+        48600167
+      ],
+      "ts": "2026-06-20T14:06:07Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
