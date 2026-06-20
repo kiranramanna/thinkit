@@ -1,9 +1,7 @@
 {
-  "last_pruned_ts": "2026-06-19T14:03:30Z",
+  "last_pruned_ts": "2026-06-20T03:03:24Z",
   "published_ids": {
     "48489934": "2026-06-16T14:08:00Z",
-    "48498573": "2026-06-12T14:09:11Z",
-    "48500012": "2026-06-12T14:09:11Z",
     "48506545": "2026-06-13T14:04:09Z",
     "48507020": "2026-06-13T03:06:47Z",
     "48509133": "2026-06-13T03:06:47Z",
@@ -28,7 +26,8 @@
     "48583703": "2026-06-18T14:05:25Z",
     "48584761": "2026-06-19T14:03:30Z",
     "48588755": "2026-06-19T03:03:49Z",
-    "48592163": "2026-06-19T03:03:49Z"
+    "48592163": "2026-06-19T03:03:49Z",
+    "48602918": "2026-06-20T03:03:24Z"
   },
   "runs": [
     {
@@ -396,6 +395,17 @@
       ],
       "ts": "2026-06-19T14:03:30Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 26,
+      "note": "Lane-thin evening top 30 (films, an obituary, math curios, JDK Valhalla, DuckDB/ClickHouse internals, vocab/energy/CAD toys dominated). No primary-lane agentic-AI/RAG item present. Only one item cleared threshold 7: 48602918 (Marc Brooker, Surprising Economics of Load-Balanced Systems) -- the M/M/c queueing result applied to LLM inference fleet sizing (KV-cache/batch-slot concurrency ceilings, tail-latency, why one big shared GPU pool beats fragmented per-team pools); author works on agentic-AI serving at AWS, fully verified from primary source. Near-misses dropped: 48601162 John Jumper->Anthropic (5, AI-industry tweet, thin technical), 48600093 Norway near-ban on AI in schools (5, education policy, thin+contentious), 48600312 Hyundai buys Boston Dynamics (5, robotics M&A/hardware, off the software-agent lane), 48604851 Kent Beck (4, career-mentorship essay about human juniors, not agentic AI). Prefer fewer/verifiable -> 1 post. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 1,
+      "scored_above_threshold": 1,
+      "selected_ids": [
+        48602918
+      ],
+      "ts": "2026-06-20T03:03:24Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
