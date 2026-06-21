@@ -1,13 +1,7 @@
 {
-  "last_pruned_ts": "2026-06-20T03:03:24Z",
+  "last_pruned_ts": "2026-06-21T03:05:12Z",
   "published_ids": {
     "48489934": "2026-06-16T14:08:00Z",
-    "48506545": "2026-06-13T14:04:09Z",
-    "48507020": "2026-06-13T03:06:47Z",
-    "48509133": "2026-06-13T03:06:47Z",
-    "48511908": "2026-06-13T14:04:09Z",
-    "48515454": "2026-06-14T03:04:24Z",
-    "48518969": "2026-06-14T03:04:24Z",
     "48528371": "2026-06-15T03:07:50Z",
     "48532178": "2026-06-15T03:07:50Z",
     "48537641": "2026-06-15T14:06:48Z",
@@ -19,6 +13,7 @@
     "48555993": "2026-06-17T03:05:30Z",
     "48556561": "2026-06-18T03:03:18Z",
     "48559188": "2026-06-17T03:05:30Z",
+    "48560227": "2026-06-21T03:05:12Z",
     "48566832": "2026-06-17T14:07:31Z",
     "48567759": "2026-06-17T14:07:31Z",
     "48576824": "2026-06-18T03:03:18Z",
@@ -27,7 +22,8 @@
     "48584761": "2026-06-19T14:03:30Z",
     "48588755": "2026-06-19T03:03:49Z",
     "48592163": "2026-06-19T03:03:49Z",
-    "48602918": "2026-06-20T03:03:24Z"
+    "48602918": "2026-06-20T03:03:24Z",
+    "48608394": "2026-06-21T03:05:12Z"
   },
   "runs": [
     {
@@ -405,6 +401,18 @@
         48602918
       ],
       "ts": "2026-06-20T03:03:24Z",
+      "window": "evening"
+    },
+    {
+      "candidates_count": 27,
+      "note": "On-lane evening run. 27 eligible after dedup; rest of top 30 was off-lane (library sewing machines, SMPTE standards, DOS game reversing, CSSQuake, Vision Pro X11, biotech/defense/politics). Two items cleared threshold 7, both scored 8 and fully verified from primary sources: 48560227 (injuly.in 'Inference cost at scale with napkin math' -- GPU FLOPs/bandwidth, KV-cache, tokens/sec and dollar-cost-per-user; direct LLM-ops/ai-infra lane) and 48608394 (Cloudflare blog 'Temporary Accounts for AI agents' -- wrangler deploy --temporary, 60-min ephemeral claimable accounts for background agents; agentic-ai/ai-infra lane, written with the abuse/blast-radius flip side per policy). Near-misses dropped (cap 2): 48614631 (vinibrasil 'When I reject AI code even if it works', 7, AI-assisted-dev opinion, thinner technical), 48614311 (Anthropic Project Fetch Phase Two, 6, embodied-robotics demo off the software-agent lane), 48612740 (Marc Brooker 'Alice is impatient', 6 -- same author published 2026-06-20, deprioritized for topic diversity), 48611942 (PostgresBench, 5, db-benchmark adjacency). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48560227,
+        48608394
+      ],
+      "ts": "2026-06-21T03:05:12Z",
       "window": "evening"
     }
   ],
