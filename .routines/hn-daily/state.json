@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-06-21T03:05:12Z",
+  "last_pruned_ts": "2026-06-21T14:05:37Z",
   "published_ids": {
     "48489934": "2026-06-16T14:08:00Z",
     "48528371": "2026-06-15T03:07:50Z",
@@ -23,7 +23,8 @@
     "48588755": "2026-06-19T03:03:49Z",
     "48592163": "2026-06-19T03:03:49Z",
     "48602918": "2026-06-20T03:03:24Z",
-    "48608394": "2026-06-21T03:05:12Z"
+    "48608394": "2026-06-21T03:05:12Z",
+    "48615680": "2026-06-21T14:05:37Z"
   },
   "runs": [
     {
@@ -414,6 +415,17 @@
       ],
       "ts": "2026-06-21T03:05:12Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 24,
+      "note": "On-lane morning run. 24 eligible after dedup; rest of top 30 was off-lane (RTS/voxel games, DOS F-15 reversing, IPv6 milestone, CORS, SMPTE standards, sewing-machine libraries, AVX-512/io_uring systems trivia, ultrasound tomography, PID/TD4 hardware, Vision Pro X11, Brazil cell-alert hack). Only one item cleared threshold 7: 48615680 (martinfowler.com 'Building Reliable Agentic AI Systems' -- PRINCE agentic RAG + Text-to-SQL over preclinical safety data; reflection agent validates evidence sufficiency before synthesis; harness/context engineering, explainability, human-in-the-loop), scored 9 and fully verified from primary source. Near-miss dropped: 48612740 (Marc Brooker 'Alice is impatient', 6 -- inspection-paradox/tail-latency math, real LLM-ops adjacency but general distributed-systems and same author already covered/deprioritized 2026-06-20). Prefer fewer/verifiable -> 1 post. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 1,
+      "scored_above_threshold": 1,
+      "selected_ids": [
+        48615680
+      ],
+      "ts": "2026-06-21T14:05:37Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
