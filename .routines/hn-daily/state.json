@@ -1,11 +1,7 @@
 {
-  "last_pruned_ts": "2026-06-22T03:03:30Z",
+  "last_pruned_ts": "2026-06-22T14:07:28Z",
   "published_ids": {
     "48489934": "2026-06-16T14:08:00Z",
-    "48528371": "2026-06-15T03:07:50Z",
-    "48532178": "2026-06-15T03:07:50Z",
-    "48537641": "2026-06-15T14:06:48Z",
-    "48540126": "2026-06-15T14:06:48Z",
     "48542100": "2026-06-16T03:04:13Z",
     "48542433": "2026-06-16T03:04:13Z",
     "48547969": "2026-06-19T14:03:30Z",
@@ -26,7 +22,9 @@
     "48608394": "2026-06-21T03:05:12Z",
     "48615680": "2026-06-21T14:05:37Z",
     "48622778": "2026-06-22T03:03:30Z",
-    "48623434": "2026-06-22T03:03:30Z"
+    "48623434": "2026-06-22T03:03:30Z",
+    "48624782": "2026-06-22T14:07:28Z",
+    "48626930": "2026-06-22T14:07:28Z"
   },
   "runs": [
     {
@@ -440,6 +438,18 @@
       ],
       "ts": "2026-06-22T03:03:30Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 25,
+      "note": "On-lane morning run. 25 eligible after dedup; rest of top 30 was off-lane (Zig/Deno/Greenspan/Codex-aside, frontend showDirectoryPicker, wigglegram, fraud-job & 1992-programming personal essays, math/logarithms, Lisp-in-types, JSON-LD, Japanese conjugation, perfect-pitch trainer, C++/asm micro-opt, privacy-activist raid, dad-brain science). Two items cleared threshold 7, both fully verified from primary sources: 48624782 (Sakana Fugu -- multi-agent system delivered as one model/API; learned orchestration via TRINITY Thinker/Worker/Verifier roles + Conductor RL coordination; Fugu Ultra 73.7 SWE-Bench Pro vs Opus 4.8 69.2, 93.2 LiveCodeBench; written with an operability/observability critique of opaque routing, score 9 -- direct multi-agent-orchestration lane) and 48626930 (OpenAI Codex issue #28224 -- SQLite feedback sink global TRACE default writing ~637 TB/yr, 37 TB/21d, 36211 rows/15s insert-and-prune amplification, TRACE 70.7%% + OTel mirrors 25.3%% of bytes; LLM-ops/observability lane, score 7, verified from the GitHub issue via WebFetch). Near-misses dropped (cap 2): 48626866 (GLM 5.2 vs Opus on techstackups.com, 6 -- SEO comparison page + GLM-5.2 already covered 2026-06-17 + open-model topic fatigue), 48622518 (marble.onl 'minimal downside to open models', 7 -- already deprioritized 2026-06-22 evening for open/local-model-economics fatigue), 48599998 (Schmidhuber 'Munich 1991 roots of AI boom', 5 -- AI history retrospective, off the production lane). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48624782,
+        48626930
+      ],
+      "ts": "2026-06-22T14:07:28Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
