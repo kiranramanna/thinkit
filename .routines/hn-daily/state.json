@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-06-21T14:05:37Z",
+  "last_pruned_ts": "2026-06-22T03:03:30Z",
   "published_ids": {
     "48489934": "2026-06-16T14:08:00Z",
     "48528371": "2026-06-15T03:07:50Z",
@@ -24,7 +24,9 @@
     "48592163": "2026-06-19T03:03:49Z",
     "48602918": "2026-06-20T03:03:24Z",
     "48608394": "2026-06-21T03:05:12Z",
-    "48615680": "2026-06-21T14:05:37Z"
+    "48615680": "2026-06-21T14:05:37Z",
+    "48622778": "2026-06-22T03:03:30Z",
+    "48623434": "2026-06-22T03:03:30Z"
   },
   "runs": [
     {
@@ -426,6 +428,18 @@
       ],
       "ts": "2026-06-21T14:05:37Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 23,
+      "note": "On-lane evening run. 23 eligible after dedup; rest of top 30 was off-lane (Total Annihilation RTS, Minecraft Vulkan, Criterion-films site, floppy Linux, Commodore phone, HPV/Moderna health, NY rent politics, Lispy interpreter, JSON-LD/SEO, math-logarithms, fraud-job and computer-programming personal essays). Four items cleared threshold 7; cap 2. Published the two strongest, most diverse, fully-verified picks: 48622778 (Apertus -- Swiss AI Initiative EPFL/ETH/CSCS fully-open foundation model: open weights+data+code+methods+alignment, EU AI Act compliant w/ PII removal+opt-outs+anti-memorization, 8B/70B, 1000+ languages; enterprise-ai/llm-ops/provenance lane, score 8) and 48623434 (teachmecoolstuff: fine-tuning Qwen 3:0.6B as a RAG query-router/intent classifier -- baseline 10% -> QLoRA/Unsloth 79% -> opaque 2-char output codes 92% on a 131-case eval; rag/conversational-ai/llm-ops lane, score 8). Near-misses dropped (cap 2): 48622590 (Recall, local memory for Claude Code, score 7 -- on-lane but overlaps recent agent-memory coverage 48583703) and 48622518 (marble.onl 'minimal downside to switching to open models', score 7 -- heavy open/local-model-economics topic fatigue + thematic overlap with Apertus). 48618455 (Identity verification on Claude, 602 upvotes) scored 5 (AI-industry/policy, thin technical); 48624195 (geohot 'The Doom Justifies the Valuation') scored 4 (contentious AI-culture rant, off the technical lane). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48622778,
+        48623434
+      ],
+      "ts": "2026-06-22T03:03:30Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
