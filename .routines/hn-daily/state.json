@@ -1,9 +1,7 @@
 {
-  "last_pruned_ts": "2026-06-23T03:03:39Z",
+  "last_pruned_ts": "2026-06-23T14:06:28Z",
   "published_ids": {
     "48489934": "2026-06-16T14:08:00Z",
-    "48542100": "2026-06-16T03:04:13Z",
-    "48542433": "2026-06-16T03:04:13Z",
     "48547969": "2026-06-19T14:03:30Z",
     "48552687": "2026-06-16T14:08:00Z",
     "48555993": "2026-06-17T03:05:30Z",
@@ -26,7 +24,9 @@
     "48624782": "2026-06-22T14:07:28Z",
     "48626930": "2026-06-22T14:07:28Z",
     "48631726": "2026-06-23T03:03:39Z",
-    "48631888": "2026-06-23T03:03:39Z"
+    "48631888": "2026-06-23T03:03:39Z",
+    "48639240": "2026-06-23T14:06:28Z",
+    "48640382": "2026-06-23T14:06:28Z"
   },
   "runs": [
     {
@@ -464,6 +464,18 @@
       ],
       "ts": "2026-06-23T03:03:39Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 24,
+      "note": "On-lane morning run. 24 eligible after dedup; rest of top 30 was off-lane (Steam Machine launch, crypto-2026 essay, plotnine/ggplot port, vi history, memcached, 8086 segmented memory, Apple price rumor, Oracle layoffs, giant-banana news, Pi-Zero camera, ARM64-asm web server, Common-Lisp BBS, math/regression personal essays). Two items selected, both fully verified from primary sources: 48639240 (VibeThinker-3B, arXiv 2606.16140 -- 3B reasoning model, AIME26 94.3 / LiveCodeBench v6 80.2 Pass@1; Spectrum-to-Signal post-training = curriculum SFT + multi-domain RL + offline self-distillation; Parametric Compression-Coverage Hypothesis that verifiable reasoning compresses but knowledge needs coverage; written with the benchmark-domain-is-circular caveat, score 9 -- research/llm-ops lane) and 48640382 (owulveryck 'Team Topologies for the Agentic Platform' -- stream-aligned/platform/enabling/complicated-subsystem mapping for agentic production, cognitive-load-front-loading thesis, rule-of-three guardrail graduation, industrialized-shadow-IT governance warning; agentic-ai/enterprise-ai lane, score 8). Near-misses dropped: 48643180 (Armin Ronacher 'The Coming Loop', 8 -- agent/harness nested loops & AI-code-quality, strong but agentic-coding/AI-code-quality is heavily recurring across recent runs, deprioritized for topic diversity), 48643426 (Baidu Unlimited-OCR long-horizon parsing, 7 -- RAG-ingestion-adjacent, narrower, under cap 2), 48636377 (GLM-5.2 run locally, 7 -- GLM-5.2 already covered 2026-06-17 + open/local-model economics heavily fatigued), 48639063 (OpenAI GPT-5.5-Cyber DayBreak, 6 -- openai.com announcement page, thin technical), 48630171 (Moebius 0.2B inpainting, 6 -- efficient vision off the agentic/RAG/ops lane), 48639165 (YOLO26, 5 -- object detection adjacency), 48640974 (HTTP QUERY method, 5 -- API-design secondary lane), 48638886 (memcached, 5 -- caching/systems secondary). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48639240,
+        48640382
+      ],
+      "ts": "2026-06-23T14:06:28Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
