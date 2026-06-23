@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-06-22T14:07:28Z",
+  "last_pruned_ts": "2026-06-23T03:03:39Z",
   "published_ids": {
     "48489934": "2026-06-16T14:08:00Z",
     "48542100": "2026-06-16T03:04:13Z",
@@ -24,7 +24,9 @@
     "48622778": "2026-06-22T03:03:30Z",
     "48623434": "2026-06-22T03:03:30Z",
     "48624782": "2026-06-22T14:07:28Z",
-    "48626930": "2026-06-22T14:07:28Z"
+    "48626930": "2026-06-22T14:07:28Z",
+    "48631726": "2026-06-23T03:03:39Z",
+    "48631888": "2026-06-23T03:03:39Z"
   },
   "runs": [
     {
@@ -450,6 +452,18 @@
       ],
       "ts": "2026-06-22T14:07:28Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 27,
+      "note": "On-lane evening run. 27 eligible after dedup; rest of top 30 was off-lane (Steam Machine launch, Deno Desktop, Zig foundation funding, Canada nuclear, Polymarket/Flock-surveillance, Pi-camera/cyberdeck/wigglegram hardware, Postgres-timezone and math/dog-treat-stats personal essays). Two items cleared threshold 7, both scored 8 and fully verified from primary sources: 48631726 (Oak -- open-source VCS designed for agents: branch-per-session replaces commit messages, content-addressed lazy mounts, machine-readable JSON + documented exit-code taxonomy, low-token output; agentic-ai/ai-infrastructure lane, verified via WebFetch of oak.space) and 48631888 (Prompt Injection as Role Confusion, ICML 2026 -- models infer role from writing style not authenticated tags; role probes show style overrides tags, CoT-forgery raised jailbreak success ~0->60%, destyling 61%->10%, frontier models still fail 11-25%% of adaptive attacks; llm-ops/safety lane, verified via WebFetch of role-confusion.github.io). Near-miss dropped (cap 2 + topic fatigue): 48636377 (Running GLM-5.2 on local hardware, 7 -- GLM-5.2 already covered 2026-06-17 and open/local-model economics is heavily fatigued across recent runs). Also scored: 48630171 Moebius 0.2B inpainting (6, efficient vision model off the core agentic/RAG/ops lane), 48638886 In Praise of Memcached (5, systems/caching secondary lane), 48630029 Chevron/Microsoft data-center power deal (5, AI-compute-economics industry news, thin technical). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48631726,
+        48631888
+      ],
+      "ts": "2026-06-23T03:03:39Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
