@@ -1,12 +1,8 @@
 {
-  "last_pruned_ts": "2026-06-23T14:06:28Z",
+  "last_pruned_ts": "2026-06-24T03:06:03Z",
   "published_ids": {
-    "48489934": "2026-06-16T14:08:00Z",
     "48547969": "2026-06-19T14:03:30Z",
-    "48552687": "2026-06-16T14:08:00Z",
-    "48555993": "2026-06-17T03:05:30Z",
     "48556561": "2026-06-18T03:03:18Z",
-    "48559188": "2026-06-17T03:05:30Z",
     "48560227": "2026-06-21T03:05:12Z",
     "48566832": "2026-06-17T14:07:31Z",
     "48567759": "2026-06-17T14:07:31Z",
@@ -26,7 +22,9 @@
     "48631726": "2026-06-23T03:03:39Z",
     "48631888": "2026-06-23T03:03:39Z",
     "48639240": "2026-06-23T14:06:28Z",
-    "48640382": "2026-06-23T14:06:28Z"
+    "48640382": "2026-06-23T14:06:28Z",
+    "48643180": "2026-06-24T03:06:03Z",
+    "48643426": "2026-06-24T03:06:03Z"
   },
   "runs": [
     {
@@ -476,6 +474,18 @@
       ],
       "ts": "2026-06-23T14:06:28Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 22,
+      "note": "On-lane evening run despite a lane-thin top 30 (Jerry's Map art project, FUTO swipe-typing model, spell-check obituary, A12/A13 SecureROM exploit, Gaussian-splat printing, Swift Package Index->Apple, Rhombus 1.0, TikZ editor, Vitamin D, Lisp machine, Commodore 128, Samsung 3D-FET dominated). Exactly two items cleared threshold 7, both verified from primary sources and both prior near-miss drops from 2026-06-23 morning (cap/diversity, never published): 48643180 (Armin Ronacher 'The Coming Loop', score 8 -- harness loop vs agent loop; loops amplify the model's local-defense/exception-terror tendency on invariant-bearing code while shining on transform/throwaway work like porting/perf-search/security-scan; agentic-ai/llm-ops lane, written with the retry-fallback-policy production framing) and 48643426 (Baidu Unlimited-OCR, score 7 -- one-shot long-horizon multi-page PDF parsing built on DeepSeek-OCR, 32K context, no-repeat-ngram logit processor, transformers+SGLang serving; rag/ai-infrastructure lane, written on the parse-fidelity-is-the-RAG-quality-ceiling angle incl. the open eval-gap critique vs DeepSeek-OCR, not promotion). Near-misses dropped: 48653216 (filippo.io 'Vulnerability reports are not special', 5 -- AI-slop-report angle but core is security-disclosure process), 48648619 (FUTO Swipe model, 4 -- on-device ML keyboard/mobile off-lane), 48597201 (Samsung 3D-FET, 4 -- semiconductor, AI-compute adjacent at best), 48622433 (F* kernel-bypass file search, 4 -- systems secondary lane), 48643489 (Low-Tech AI of Elden Ring, 3 -- game-design AI not ML). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48643180,
+        48643426
+      ],
+      "ts": "2026-06-24T03:06:03Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
