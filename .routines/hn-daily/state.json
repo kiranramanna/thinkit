@@ -1,11 +1,9 @@
 {
-  "last_pruned_ts": "2026-06-24T03:06:03Z",
+  "last_pruned_ts": "2026-06-24T14:03:52Z",
   "published_ids": {
     "48547969": "2026-06-19T14:03:30Z",
     "48556561": "2026-06-18T03:03:18Z",
     "48560227": "2026-06-21T03:05:12Z",
-    "48566832": "2026-06-17T14:07:31Z",
-    "48567759": "2026-06-17T14:07:31Z",
     "48576824": "2026-06-18T03:03:18Z",
     "48580209": "2026-06-18T14:05:25Z",
     "48583703": "2026-06-18T14:05:25Z",
@@ -486,6 +484,15 @@
       ],
       "ts": "2026-06-24T03:06:03Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 23,
+      "note": "Lane-thin morning top 30 (Slate EV truck, spell-check obituary, Jerry's Map art, Vitamin D, deadly-fungus health, FUTO swipe-typing, Rhombus 1.0, TikZ editor, Gaussian-splat printing, Pi Pico Wi-Fi, BBC test cards, German-bureaucracy/CRAN essays, A12/A13 SecureROM exploit dominated). NO primary-lane agentic-AI/RAG/LLM-ops item present and nothing cleared threshold 7. Highest was 48646659 (Krea 2 Technical Report, score 6 -- generative image/video model, off the software-agent lane), then 48653216 (filippo.io 'Vulnerability reports are not special', score 5 -- AI-slop-flooding-maintainers adjacency but core is security-disclosure process, already a near-miss drop 2026-06-24 evening). Others: 48629810 SQL-stats (4), 48658647 Reid Hoffman/xAI fortune.com (4, contentious thin-technical industry opinion), 48657940 CRAN overload (4), 48648619 FUTO swipe model (4, on-device ML keyboard). Prefer fewer/verifiable -> 0 posts. Scored inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 0,
+      "scored_above_threshold": 0,
+      "selected_ids": [],
+      "ts": "2026-06-24T14:03:52Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
