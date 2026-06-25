@@ -1,10 +1,8 @@
 {
-  "last_pruned_ts": "2026-06-24T14:03:52Z",
+  "last_pruned_ts": "2026-06-25T03:07:36Z",
   "published_ids": {
     "48547969": "2026-06-19T14:03:30Z",
-    "48556561": "2026-06-18T03:03:18Z",
     "48560227": "2026-06-21T03:05:12Z",
-    "48576824": "2026-06-18T03:03:18Z",
     "48580209": "2026-06-18T14:05:25Z",
     "48583703": "2026-06-18T14:05:25Z",
     "48584761": "2026-06-19T14:03:30Z",
@@ -20,9 +18,11 @@
     "48631726": "2026-06-23T03:03:39Z",
     "48631888": "2026-06-23T03:03:39Z",
     "48639240": "2026-06-23T14:06:28Z",
+    "48639840": "2026-06-25T03:07:36Z",
     "48640382": "2026-06-23T14:06:28Z",
     "48643180": "2026-06-24T03:06:03Z",
-    "48643426": "2026-06-24T03:06:03Z"
+    "48643426": "2026-06-24T03:06:03Z",
+    "48662999": "2026-06-25T03:07:36Z"
   },
   "runs": [
     {
@@ -493,6 +493,18 @@
       "selected_ids": [],
       "ts": "2026-06-24T14:03:52Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 23,
+      "note": "Scored inline by the agent (no Anthropic SDK/key in env, permitted by trigger). 23 eligible; two items tied at LLM-score 8, both squarely agentic-AI: 48662999 (computer use in Gemini 3.5 Flash) and 48639840 (GLM-5.2 open agents). Both written from verifiable sources; GLM post kept technical, avoiding the contentious export-restriction framing in the source.",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48662999,
+        48639840
+      ],
+      "ts": "2026-06-25T03:07:36Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
