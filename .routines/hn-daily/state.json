@@ -1,12 +1,8 @@
 {
-  "last_pruned_ts": "2026-06-24T14:03:52Z",
+  "last_pruned_ts": "2026-06-25T14:07:24Z",
   "published_ids": {
     "48547969": "2026-06-19T14:03:30Z",
-    "48556561": "2026-06-18T03:03:18Z",
     "48560227": "2026-06-21T03:05:12Z",
-    "48576824": "2026-06-18T03:03:18Z",
-    "48580209": "2026-06-18T14:05:25Z",
-    "48583703": "2026-06-18T14:05:25Z",
     "48584761": "2026-06-19T14:03:30Z",
     "48588755": "2026-06-19T03:03:49Z",
     "48592163": "2026-06-19T03:03:49Z",
@@ -22,7 +18,9 @@
     "48639240": "2026-06-23T14:06:28Z",
     "48640382": "2026-06-23T14:06:28Z",
     "48643180": "2026-06-24T03:06:03Z",
-    "48643426": "2026-06-24T03:06:03Z"
+    "48643426": "2026-06-24T03:06:03Z",
+    "48660579": "2026-06-25T14:07:24Z",
+    "48662999": "2026-06-25T14:07:24Z"
   },
   "runs": [
     {
@@ -492,6 +490,18 @@
       "scored_above_threshold": 0,
       "selected_ids": [],
       "ts": "2026-06-24T14:03:52Z",
+      "window": "morning"
+    },
+    {
+      "candidates_count": 24,
+      "note": "On-lane morning run. 24 eligible after dedup; rest of top 30 was off-lane (Half-Life 2-in-browser & Dolphin/Bohemia gaming, LastPass breach, Apple price hike, Wikipedia union, LuaJIT 3.0, mass-surveillance/privacy, Dostoyevsky & blogging essays, e-ink reader, Brazilian-startups map). Two items cleared threshold 7, both fully verified from primary sources: 48662999 (Google computer use in Gemini 3.5 Flash -- written on the agentic-safety-harness angle: indirect-prompt-injection auto-stop, HITL confirmation for irreversible actions, sandboxing/defense-in-depth, framed as the confused-deputy problem; agentic-ai/llm-ops lane, score 8) and 48660579 (Greptile 'PR spam = early-2000s email spam' on OpenClaw -- merge rate 48%->9.3% as PRs went 2->3,400/wk, 106 PRs/day @3s median, reputation tiers 8.2/10.3/18.6%, refactors 35% vs features 9%, Vouch reputation gating; agentic-code-ops/trust lane, score 7). Near-misses dropped: 48639840 (GLM-5.2 step change for open agents, interconnects.ai, 8 on merits -- GLM-5.2 already covered 2026-06-17 and open/local-model economics heavily fatigued across recent runs), 48668033 (Cloudflare self-managed OAuth, 6 -- general platform/developer API auth, not agent-specific), 48659798 (Qualcomm acquiring Modular, 6 -- AI-infra M&A press release, thin technical), 48660711 (RubyLLM multi-provider framework, 6 -- LLM-ops adjacency but Ruby off the writer's Python/LangChain stack), 48657049 (You can't unit test for taste, 6 -- AI-codegen/craft tangential), 48664814 (Alibaba/Claude extraction, 5 -- contentious AI-IP industry news), 48663324 (OpenAI/Broadcom Jalapeno chip, 5 -- AI-compute industry news), 48660178 (NVIDIA 45C datacenter cooling, 5 -- AI-infra/sustainability off the software lane). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48662999,
+        48660579
+      ],
+      "ts": "2026-06-25T14:07:24Z",
       "window": "morning"
     }
   ],
