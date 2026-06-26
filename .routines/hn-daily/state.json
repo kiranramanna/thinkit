@@ -1,11 +1,7 @@
 {
-  "last_pruned_ts": "2026-06-26T03:03:06Z",
+  "last_pruned_ts": "2026-06-26T14:05:16Z",
   "published_ids": {
-    "48547969": "2026-06-19T14:03:30Z",
     "48560227": "2026-06-21T03:05:12Z",
-    "48584761": "2026-06-19T14:03:30Z",
-    "48588755": "2026-06-19T03:03:49Z",
-    "48592163": "2026-06-19T03:03:49Z",
     "48602918": "2026-06-20T03:03:24Z",
     "48608394": "2026-06-21T03:05:12Z",
     "48615680": "2026-06-21T14:05:37Z",
@@ -21,7 +17,8 @@
     "48643426": "2026-06-24T03:06:03Z",
     "48657049": "2026-06-26T03:03:06Z",
     "48660579": "2026-06-25T14:07:24Z",
-    "48662999": "2026-06-25T14:07:24Z"
+    "48662999": "2026-06-25T14:07:24Z",
+    "48681687": "2026-06-26T14:05:16Z"
   },
   "runs": [
     {
@@ -515,6 +512,17 @@
       ],
       "ts": "2026-06-26T03:03:06Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 25,
+      "note": "On-lane morning run. 25 eligible after dedup; remainder of top 30 off-lane (Om Malik obituary, Herculaneum scroll, Bipartite Matching NC theory, Libre Barcode, Framework 10G Ethernet, Mozart notebook, open-source-defense letter, papers-please privacy-politics, you're-the-OS game, GC Handbook, Oxide rack, IBM sub-1nm chip, Papermark IP-theft Twitter spat, OpenKnowledge Obsidian/Notion clone [off-lane productivity, already dropped], Chess roguelike, Un-0 coupled-oscillator image-gen [off-LLM-lane, already dropped], Bank Python oral history, Apple price hike, Zig bitCast, OS9Map, Doorman's Fallacy, masters-in-Spain, last-Romans, Haskell record inference). One item cleared threshold 7, fully verified from primary source: 48681687 (fernandoi.cl hackmyclaw -- 6000+ emails from 2000 people failed to extract secrets.env from an OpenClaw email agent; written on the agentic-safety/llm-ops angle: 4-line guardrail + frontier model beat authority-impersonation/multilingual social-engineering, but the real failure modes were batch-context contamination of the eval, Gmail fraud-suspension, 00 API cost, agent memory as a side channel, and model-choice dependence; closes on the multi-turn-vs-one-shot gap; score 8). No clean second on-lane item -> prefer fewer -> 1 post. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 1,
+      "scored_above_threshold": 1,
+      "selected_ids": [
+        48681687
+      ],
+      "ts": "2026-06-26T14:05:16Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
