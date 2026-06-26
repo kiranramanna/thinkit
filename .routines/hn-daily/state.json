@@ -3,6 +3,7 @@
   "published_ids": {
     "48560227": "2026-06-21T03:05:12Z",
     "48602918": "2026-06-20T03:03:24Z",
+    "48605355": "2026-06-20T14:06:07Z",
     "48608394": "2026-06-21T03:05:12Z",
     "48615680": "2026-06-21T14:05:37Z",
     "48622778": "2026-06-22T03:03:30Z",
@@ -12,6 +13,7 @@
     "48631726": "2026-06-23T03:03:39Z",
     "48631888": "2026-06-23T03:03:39Z",
     "48639240": "2026-06-23T14:06:28Z",
+    "48639840": "2026-06-25T03:07:00Z",
     "48640382": "2026-06-23T14:06:28Z",
     "48643180": "2026-06-24T03:06:03Z",
     "48643426": "2026-06-24T03:06:03Z",
@@ -523,6 +525,16 @@
       ],
       "ts": "2026-06-26T14:05:16Z",
       "window": "morning"
+    },
+    {
+      "note": "Reconciliation (not a fetch run): cherry-picked 2 unique posts onto master that were stranded on stray PR branches from parallel sessions. From PR #16 (branch ...i90g7u): 48605355 'Why Agents Won't Just Fix Your Fused Kernels' (2026-06-20). From PR #17 (branch ...qebmhc): 48639840 'Open Weights Quietly Cross the Agentic Threshold' / GLM-5.2 (2026-06-25). SKIPPED the duplicate 48662999 in PR #17 (master already has a different post for that same HN item, 'Computer Use Lives or Dies on Its Kill-Switch'). Both stray PRs closed. Both ids recorded above for dedup.",
+      "posts_written": 2,
+      "selected_ids": [
+        48605355,
+        48639840
+      ],
+      "ts": "2026-06-26T14:31:00Z",
+      "window": "manual"
     }
   ],
   "schema_version": 1
