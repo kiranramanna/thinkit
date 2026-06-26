@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-06-25T14:07:24Z",
+  "last_pruned_ts": "2026-06-26T03:03:06Z",
   "published_ids": {
     "48547969": "2026-06-19T14:03:30Z",
     "48560227": "2026-06-21T03:05:12Z",
@@ -19,6 +19,7 @@
     "48640382": "2026-06-23T14:06:28Z",
     "48643180": "2026-06-24T03:06:03Z",
     "48643426": "2026-06-24T03:06:03Z",
+    "48657049": "2026-06-26T03:03:06Z",
     "48660579": "2026-06-25T14:07:24Z",
     "48662999": "2026-06-25T14:07:24Z"
   },
@@ -503,6 +504,17 @@
       ],
       "ts": "2026-06-25T14:07:24Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 25,
+      "note": "Lane-thin evening top 30 (Om Malik obituary, Apple price-hike & M7/IBM/Oxide hardware, Herculaneum scroll, gaming, retro/OS9, Zig, privacy-politics, history dominated). No primary-lane agentic-AI/RAG/LLM-ops item present. Only one item cleared threshold 7: 48657049 (Karl Tryggvason 'You can't unit test for taste', score 7) -- written on the LLM-ops/eval angle: grounding mitigates but doesn't eliminate hallucination (ungrounded Haiku promoted Central Park Decatur->Manhattan, inflated populations/mountains), so demote the model from facts (revert to Wikipedia/deterministic) and keep it for subjective taste/ranking; the un-testable-subjective-quality boundary is exactly the eval-harness limit. Fully verified from primary source. Near-misses dropped: 48675435 (OpenKnowledge Show HN, 6 -- agent/MCP/RAG features but a Notion/Obsidian productivity editor at its core, explicit off-lane signal, deep eng is CRDT/editor internals), 48638120 (Annotated PyTorch training loop, 6 -- solid but introductory ML training mechanics, secondary lane), 48679007 (Un-0 coupled-oscillator image gen, 6 -- novel ML research but image-gen/analog-compute off the LLM lane), 48675179 (Herculaneum scroll, 5 -- ML/CV application off-lane domain). Prefer fewer/verifiable -> 1 post. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 1,
+      "scored_above_threshold": 1,
+      "selected_ids": [
+        48657049
+      ],
+      "ts": "2026-06-26T03:03:06Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
