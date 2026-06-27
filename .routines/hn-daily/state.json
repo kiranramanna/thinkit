@@ -1,8 +1,7 @@
 {
-  "last_pruned_ts": "2026-06-26T14:05:16Z",
+  "last_pruned_ts": "2026-06-27T03:06:39Z",
   "published_ids": {
     "48560227": "2026-06-21T03:05:12Z",
-    "48602918": "2026-06-20T03:03:24Z",
     "48605355": "2026-06-20T14:06:07Z",
     "48608394": "2026-06-21T03:05:12Z",
     "48615680": "2026-06-21T14:05:37Z",
@@ -15,12 +14,14 @@
     "48639240": "2026-06-23T14:06:28Z",
     "48639840": "2026-06-25T03:07:00Z",
     "48640382": "2026-06-23T14:06:28Z",
+    "48642510": "2026-06-27T03:06:39Z",
     "48643180": "2026-06-24T03:06:03Z",
     "48643426": "2026-06-24T03:06:03Z",
     "48657049": "2026-06-26T03:03:06Z",
     "48660579": "2026-06-25T14:07:24Z",
     "48662999": "2026-06-25T14:07:24Z",
-    "48681687": "2026-06-26T14:05:16Z"
+    "48681687": "2026-06-26T14:05:16Z",
+    "48688700": "2026-06-27T03:06:39Z"
   },
   "runs": [
     {
@@ -535,6 +536,18 @@
       ],
       "ts": "2026-06-26T14:31:00Z",
       "window": "manual"
+    },
+    {
+      "candidates_count": 24,
+      "note": "On-lane evening run. 24 eligible after dedup; rest of top 30 off-lane (GPT-5.6 Sol/government-access policy items, EFF 3D-printer-surveillance, PlayStation DRM, kinetic-energy/physics, hopscotch hashing, Gossamer lang, LaTeX.wasm, Steam Machine, museum/radio/worldbuilding trivia). Two items cleared threshold 7, both scored 8 and fully verified from primary sources: 48642510 (AWS Lambda MicroVMs -- Firecracker-backed serverless primitive to run AI/user-generated code in isolated STATEFUL sandboxes with near-instant launch/resume + lifecycle control; ai-infrastructure/agentic-sandbox lane, written on the stateful-resume-unlock + per-session blast-radius/billing flip side, distinct angle from prior sandbox/browser-microVM posts) and 48688700 (Show HN workweave/router -- drop-in Anthropic/OpenAI/Gemini proxy that routes per request via an on-box embedder + Avengers-Pro cluster scorer, BYOK, OTLP traces, claims 40-70%% cost cut; llm-ops/model-routing/agentic lane, written on the routing-quality-is-an-eval-problem + reproducibility angle, README verified via raw.githubusercontent). Near-misses dropped (cap 2): 48692058 (doubleword.ai open-vs-closed-weights gap prediction, 7 on merits -- heavy open/local-model-economics topic fatigue across recent runs), 48689028 (GPT-5.6 Sol preview, 6 -- openai.com announcement page, thin technical/industry), 48643459 (Modern GPU Programming for MLSys, 6 -- educational MLSys course, ai-infra adjacency), 48692883 (AI in mathematics, 5 -- AI/research off the production lane), 48660522 (1996 AOL outage postmortem, 5 -- SRE/reliability secondary lane). Politically-charged items (48690101 US-government GPT-5.6 access, 48692995 Anthropic Mythos trusted-partners, 48692051 EFF surveillance) scored 2-4 per policy. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48642510,
+        48688700
+      ],
+      "ts": "2026-06-27T03:06:39Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
