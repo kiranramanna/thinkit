@@ -1,8 +1,7 @@
 {
-  "last_pruned_ts": "2026-06-27T03:06:39Z",
+  "last_pruned_ts": "2026-06-27T14:07:01Z",
   "published_ids": {
     "48560227": "2026-06-21T03:05:12Z",
-    "48605355": "2026-06-20T14:06:07Z",
     "48608394": "2026-06-21T03:05:12Z",
     "48615680": "2026-06-21T14:05:37Z",
     "48622778": "2026-06-22T03:03:30Z",
@@ -21,7 +20,9 @@
     "48660579": "2026-06-25T14:07:24Z",
     "48662999": "2026-06-25T14:07:24Z",
     "48681687": "2026-06-26T14:05:16Z",
-    "48688700": "2026-06-27T03:06:39Z"
+    "48682243": "2026-06-27T14:07:01Z",
+    "48688700": "2026-06-27T03:06:39Z",
+    "48696585": "2026-06-27T14:07:01Z"
   },
   "runs": [
     {
@@ -548,6 +549,18 @@
       ],
       "ts": "2026-06-27T03:06:39Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 22,
+      "note": "On-lane morning run. 22 eligible after dedup; rest of top 30 off-lane (OpenRA/OpenTTD gaming, kinetic-energy physics, WordStar retro, BBC long-wave, fintech handbook, housing economics, Beer CSS frontend, Fusion lang, WWII ocarinas). Two items cleared threshold 7, both verified from primary sources. 48696585 (DSpark, PKU/DeepSeek-AI -- confidence-scheduled speculative decoding + semi-autoregressive draft; verification length sized per request from prefix-survival prob AND live engine throughput; 60-85%% faster per-user gen vs MTP-1 at matched throughput in DeepSeek-V4 live serving; PDF extracted via pdfminer after fixing cffi, score 9 -- llm-ops/ai-infra/inference lane) and 48682243 (Manticore 2-pass HNSW: prefetch-then-score, compile-time distance specialization, batched distances, AVX-512 16-float; +0.5-29%% single-thread, +22-24%% 16-thread @k=1000 on 1M x 1536d, no rebuild; Medium Cloudflare-gated to curl so verified via WebFetch, score 8 -- rag/retrieval-infra lane). Near-misses dropped (cap 2): 48692058 (doubleword.ai open-vs-closed weights gap, 7 on merits -- heavy open/local-model-economics topic fatigue, near-miss drop 2026-06-27 evening too), 48692883 (AI in mathematics, 5 -- research off the production lane), 48689028 (GPT-5.6 Sol preview, 5 -- openai.com announcement, thin technical). Politically-charged items 48690101 (US govt vets GPT-5.6 users) and 48692995 (Anthropic Mythos 'trusted' US orgs) scored 3 per policy. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48696585,
+        48682243
+      ],
+      "ts": "2026-06-27T14:07:01Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
