@@ -1,7 +1,6 @@
 {
-  "last_pruned_ts": "2026-06-28T03:05:35Z",
+  "last_pruned_ts": "2026-06-28T14:06:51Z",
   "published_ids": {
-    "48615680": "2026-06-21T14:05:37Z",
     "48622778": "2026-06-22T03:03:30Z",
     "48623434": "2026-06-22T03:03:30Z",
     "48624782": "2026-06-22T14:07:28Z",
@@ -20,7 +19,9 @@
     "48681687": "2026-06-26T14:05:16Z",
     "48682243": "2026-06-27T14:07:01Z",
     "48688700": "2026-06-27T03:06:39Z",
-    "48696585": "2026-06-27T14:07:01Z"
+    "48696585": "2026-06-27T14:07:01Z",
+    "48704373": "2026-06-28T14:06:51Z",
+    "48706714": "2026-06-28T14:06:51Z"
   },
   "runs": [
     {
@@ -568,6 +569,18 @@
       "selected_ids": [],
       "ts": "2026-06-28T03:05:35Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 20,
+      "note": "On-lane morning run. 20 eligible after dedup; rest of top 30 was off-lane (OpenRA + Decomp-Academy/GameCube gaming, Marfa public radio, anon mass-0-day GitHub drop, EFF Kids-Act age-checks politics, public-DNS-resolver + Strix-Halo RDMA + WAL-RUS Postgres-backup systems, bashblog, Win DLL-debugging, tick-density ecology, Space-Shuttle display, music/regex/stray-j essays). Two items cleared threshold 7, both verified from primary sources. 48704373 (Wayfinder Router -- deterministic, offline, no-model-call prompt-complexity router: structural score in microseconds -> local|cloud, OpenAI-compatible drop-in, never stores keys; honest double-blind eval shows lexical cues don't generalize (~20% of unseen hard prompts, loses to word-count baseline) so they ship off by default, and it documents that short-but-semantically-hard prompts like 'Prove sqrt2 irrational' score ~0 and can't be routed; llm-ops/model-routing/cost lane, score 8 -- README+benchmarks verified via raw.githubusercontent) and 48706714 (OpenAI Codex issue #2847 'A way to exclude sensitive files', 81 GH comments -- requests a deterministic, shareable .codexignore deny-list so coding agents never read/send .env/*.pem/.aws/.ssh to the model; read-exclusion vs search-exclusion distinction; regressed when #205 closed in favor of codex-rs; agentic-ai/llm-ops safety lane, score 7 -- verified via GitHub API). Near-misses dropped (cap 2): 48685967 (shapeofthesystem 'Engineering for Bounded Cognition', 6 -- well-written cognitive-load/system-design essay, secondary lane), 48703258 (AMD Strix Halo RDMA cluster guide, 6 -- local-inference homelab how-to, deprioritized repeatedly incl. 2026-06-28 evening), 48660021 (AI learns 'dark art' of RFIC design, 5 -- ML for analog-circuit design, off the LLM/agent lane), 48698617 (anon GitHub 0-day drop, 4 -- security-disclosure drama), 48702848 (WAL-RUS Postgres backups, 4 -- DB-ops/Rust systems secondary). Both routing-themed candidates are distinct topics (cost routing vs secrets-exfiltration safety) so no fatigue overlap despite 48688700 model-router post 2026-06-27 evening. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48704373,
+        48706714
+      ],
+      "ts": "2026-06-28T14:06:51Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
