@@ -1,8 +1,6 @@
 {
-  "last_pruned_ts": "2026-06-27T14:07:01Z",
+  "last_pruned_ts": "2026-06-28T03:05:35Z",
   "published_ids": {
-    "48560227": "2026-06-21T03:05:12Z",
-    "48608394": "2026-06-21T03:05:12Z",
     "48615680": "2026-06-21T14:05:37Z",
     "48622778": "2026-06-22T03:03:30Z",
     "48623434": "2026-06-22T03:03:30Z",
@@ -561,6 +559,15 @@
       ],
       "ts": "2026-06-27T14:07:01Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 21,
+      "note": "On-lane evening run. 21 eligible after dedup; today's top 30 was unusually off-lane (OpenRA + GameCube-decomp gaming, anon-account 0-day drop / IP-Crawl open-webcams / public-DNS / X11-LXC security, physical-media-DRM, Ozempic + tick-density health/ecology, Michigan jobs economics, RISC-V kernel hacking, Galapagos/Darwin, fintech handbook, danluu suspicious-discontinuities essay). ZERO items cleared threshold 7. Strongest borderline 48703258 (AMD Strix Halo RDMA cluster setup guide) scored 6: verified it's amd-strix-halo-vllm-toolboxes/rdma_cluster -- RDMA-clustered vLLM inference on consumer APUs, genuinely ai-infra-adjacent but a local/homelab how-to in the local-inference/local-model lane this routine has repeatedly deprioritized (doubleword.ai open-vs-closed weights dropped as near-miss twice, GLM open-weights), and a setup guide rather than the eval/production insight that defines a 7+ here. 48697958 (TechCrunch: Asian startups ship Mythos-like models amid Anthropic export ban) scored 5 -- thin industry news with geopolitical/export-ban framing that policy scores low. 48660021 (ML for RFIC chip design) and 48698559 (post-Mythos cybersecurity reaction) and 48701512 (Show HN Mac stay-awake-for-agents utility) each 5 -- adjacent but off the production agentic/RAG/LLM-ops lane. Per 'prefer fewer when ambiguous', published 0. Scored inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 0,
+      "scored_above_threshold": 0,
+      "selected_ids": [],
+      "ts": "2026-06-28T03:05:35Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
