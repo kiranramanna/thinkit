@@ -1,8 +1,6 @@
 {
-  "last_pruned_ts": "2026-06-29T03:06:35Z",
+  "last_pruned_ts": "2026-06-29T14:07:49Z",
   "published_ids": {
-    "48624782": "2026-06-22T14:07:28Z",
-    "48626930": "2026-06-22T14:07:28Z",
     "48631726": "2026-06-23T03:03:39Z",
     "48631888": "2026-06-23T03:03:39Z",
     "48639240": "2026-06-23T14:06:28Z",
@@ -19,7 +17,9 @@
     "48688700": "2026-06-27T03:06:39Z",
     "48696585": "2026-06-27T14:07:01Z",
     "48706714": "2026-06-29T03:06:35Z",
-    "48712420": "2026-06-29T03:06:35Z"
+    "48712420": "2026-06-29T03:06:35Z",
+    "48713832": "2026-06-29T14:07:49Z",
+    "48714802": "2026-06-29T14:07:49Z"
   },
   "runs": [
     {
@@ -579,6 +579,18 @@
       ],
       "ts": "2026-06-29T03:06:35Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 20,
+      "note": "On-lane morning run. 20 eligible after dedup; rest of top 30 was off-lane (Sandia 8085 retro CPU, memory price-fixing suit + 1960-2026 price history, Apple ASIF format RE, hyper/Rust HTTP bug, NYPL menus, Max Planck retraction, Zanagrams word game, KIDS-Act/age-verification/EFF privacy-politics, Brown AI-exam-fraud, Pollen takedown drama, NUMA, entrepreneurship guide). Two items selected, both fully verified from primary sources and diverse: 48713832 (HackerRank's open-sourced ATS 'hiring-agent' -- Dan Kinsky looped one unchanged resume 100x at temp 0.1 on gemma3:4b and got 66-99; checklist categories stable [tech-skills 8/10 in 98/100 runs] but judgment categories [projects] swung wildly; written on the LLM-as-judge-is-a-measurement-instrument angle -- ship the distribution not the point estimate, score 8, llm-ops/eval/research lane) and 48714802 (Herdr, Show HN agent multiplexer/tmux-for-coding-agents -- workspaces/tabs/panes, detach-reattach, blocked/working/done fleet status, socket API; written on the supervision-is-the-bottleneck + socket-API-as-orchestration-control-plane angle, README verified via raw.githubusercontent, score 7, agentic-ai/llm-ops/ai-infra lane). Near-misses dropped (cap 2): 48709670 (semgrep 'GLM 5.2 beats Claude', 7 on merits -- heavy GLM-5.2 topic fatigue + model-war framing, repeatedly deprioritized across recent runs), 48708795 (tokenmaxxing, 7 -- LLM-ops cost/perf-incentive on-lane but snarky opinion piece and a prior near-miss, deprioritized for diversity), 48708941 (Claude Code MRI second opinion, 6 -- agentic-AI application but thin technical + medical-advice policy minefield). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48713832,
+        48714802
+      ],
+      "ts": "2026-06-29T14:07:49Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
