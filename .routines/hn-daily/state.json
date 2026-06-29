@@ -1,9 +1,6 @@
 {
-  "last_pruned_ts": "2026-06-28T03:05:35Z",
+  "last_pruned_ts": "2026-06-29T03:06:35Z",
   "published_ids": {
-    "48615680": "2026-06-21T14:05:37Z",
-    "48622778": "2026-06-22T03:03:30Z",
-    "48623434": "2026-06-22T03:03:30Z",
     "48624782": "2026-06-22T14:07:28Z",
     "48626930": "2026-06-22T14:07:28Z",
     "48631726": "2026-06-23T03:03:39Z",
@@ -20,7 +17,9 @@
     "48681687": "2026-06-26T14:05:16Z",
     "48682243": "2026-06-27T14:07:01Z",
     "48688700": "2026-06-27T03:06:39Z",
-    "48696585": "2026-06-27T14:07:01Z"
+    "48696585": "2026-06-27T14:07:01Z",
+    "48706714": "2026-06-29T03:06:35Z",
+    "48712420": "2026-06-29T03:06:35Z"
   },
   "runs": [
     {
@@ -567,6 +566,18 @@
       "scored_above_threshold": 0,
       "selected_ids": [],
       "ts": "2026-06-28T03:05:35Z",
+      "window": "evening"
+    },
+    {
+      "candidates_count": 24,
+      "note": "On-lane evening run. 24 eligible after dedup; rest of top 30 was off-lane (Boeing 747 retrospective, NYPL menus, memory-price history, TOP500 supercomputer, Librepods/AirPods, Daisugi trees, Polish-S typography, MUMPS/Yeeloong retro, Space Shuttle boards, KIDS Act/EFF + AI-fraud-at-Brown politics). Two items cleared threshold 7, both verified from primary sources and diverse: 48712420 (Proxy-KD, arXiv 2401.07013 -- knowledge distillation from black-box LLMs via a proxy model that bridges API-only outputs to gradient-accessible internals; claims it beats white-box KD; written with the transfer-set-dependence and own-the-weights/SLA framing, score 8, research/llm-ops lane) and 48706714 (open OpenAI Codex issue #2847 requesting .codexignore to stop the agent reading/sending .env/*.pem/id_*/.aws/.ssh to the model, repo-local+global; written on the gitignore-protects-history-not-the-context-window + denylist-before-tokenizer governance angle, score 7, agentic-ai/llm-ops/enterprise-ai lane). Near-misses dropped: 48708795 (tokenmaxxing, 7 on context-engineering merits but Substack body un-extractable via curl -> writability risk), 48709670 (semgrep GLM-5.2-beats-Claude cyber-bench, 7 on merits but heavy GLM-5.2 topic fatigue + model-war framing + article body buried behind nav chrome), 48708941 (Claude Code on an MRI, 6 -- agentic-AI application but thin technical + medical-advice policy minefield), 48710778 (NanoEuler GPT-2 in C/CUDA, 6 -- educational from-scratch), 48710827 (Bash4LLM+ wrapper, 5 -- thin tooling), 48713697 (central bankers AI-crash warning, 4 -- finance/industry thin). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48712420,
+        48706714
+      ],
+      "ts": "2026-06-29T03:06:35Z",
       "window": "evening"
     }
   ],
