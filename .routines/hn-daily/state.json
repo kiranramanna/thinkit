@@ -1,8 +1,6 @@
 {
-  "last_pruned_ts": "2026-06-29T14:07:49Z",
+  "last_pruned_ts": "2026-06-30T03:05:44Z",
   "published_ids": {
-    "48631726": "2026-06-23T03:03:39Z",
-    "48631888": "2026-06-23T03:03:39Z",
     "48639240": "2026-06-23T14:06:28Z",
     "48639840": "2026-06-25T03:07:00Z",
     "48640382": "2026-06-23T14:06:28Z",
@@ -19,7 +17,9 @@
     "48706714": "2026-06-29T03:06:35Z",
     "48712420": "2026-06-29T03:06:35Z",
     "48713832": "2026-06-29T14:07:49Z",
-    "48714802": "2026-06-29T14:07:49Z"
+    "48714802": "2026-06-29T14:07:49Z",
+    "48722052": "2026-06-30T03:05:44Z",
+    "48722802": "2026-06-30T03:05:44Z"
   },
   "runs": [
     {
@@ -591,6 +591,18 @@
       ],
       "ts": "2026-06-29T14:07:49Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 24,
+      "note": "Inline scoring/writing (no Anthropic SDK/key in env). 3 items >=7: 48722052 (Ornith-1.0 self-improving agentic-coding models):8, 48722802 (vLLM Micro-Agent multi-agent collaboration):8, 48721903 (Qwen 3.6 local-dev):7. Cap 2; took both 8s \u2014 distinct agentic-AI hits, both written from verified primary source text.",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48722052,
+        48722802
+      ],
+      "ts": "2026-06-30T03:05:44Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
