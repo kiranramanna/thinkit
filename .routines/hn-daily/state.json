@@ -1,15 +1,14 @@
 {
-  "last_pruned_ts": "2026-06-30T03:05:44Z",
+  "last_pruned_ts": "2026-06-30T14:08:04Z",
   "published_ids": {
-    "48639240": "2026-06-23T14:06:28Z",
     "48639840": "2026-06-25T03:07:00Z",
-    "48640382": "2026-06-23T14:06:28Z",
     "48642510": "2026-06-27T03:06:39Z",
     "48643180": "2026-06-24T03:06:03Z",
     "48643426": "2026-06-24T03:06:03Z",
     "48657049": "2026-06-26T03:03:06Z",
     "48660579": "2026-06-25T14:07:24Z",
     "48662999": "2026-06-25T14:07:24Z",
+    "48679762": "2026-06-30T14:08:04Z",
     "48681687": "2026-06-26T14:05:16Z",
     "48682243": "2026-06-27T14:07:01Z",
     "48688700": "2026-06-27T03:06:39Z",
@@ -19,7 +18,8 @@
     "48713832": "2026-06-29T14:07:49Z",
     "48714802": "2026-06-29T14:07:49Z",
     "48722052": "2026-06-30T03:05:44Z",
-    "48722802": "2026-06-30T03:05:44Z"
+    "48722802": "2026-06-30T03:05:44Z",
+    "48727116": "2026-06-30T14:08:04Z"
   },
   "runs": [
     {
@@ -603,6 +603,18 @@
       ],
       "ts": "2026-06-30T03:05:44Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 24,
+      "note": "On-lane morning run. 24 eligible after dedup; rest of top 30 overwhelmingly off-lane (US-ambassador/Belgian-police press-freedom, EU digital-ID wallets, DIY octocopter, open-source-low-tech, exercise-science, Parse-Don't-Validate types, Zluda CUDA, .self TLD, Free the Icons, fil-c memory-safe context switching, Rocketlab/Iridium M&A, Linux-on-MegaDrive, Old Computer Challenge, PDP-1 Lisp, 1M-passport leak, SQLite corruption, SCOTUS geofence warrants, Zig SPIR-V, dark-sky lighting, CUDA-kernel internals). Three items cleared threshold 7: 48679762(8), 48727116(7), 48721903(7); cap 2. Published the two diverse, fully-verifiable on-lane picks: 48679762 (twoheads.net 'The operating cost starts after the demo' -- production agent ops: demo-happy-path vs real missing-data/broken-integration/exceptions, ownership+monitoring+fallbacks vs babysitting, false-productivity, 'AI makes software judgment more important'; agentic-ai/llm-ops/enterprise lane, fully extractable primary source) and 48727116 (LongCat-2.0 1.6T-total/~48B-active MoE, MIT license, 'LongCat Sparse Attention', 1M-context training, coding/agentic focus -- written verifiable-facts-only/skeptical: weights 'coming soon' + no published benchmarks, sparse-attention serving-economics angle; longcat.chat blog JS-gated to curl/WebFetch so specs verified from the HuggingFace model card). Dropped 48721903 (Qwen 3.6 27B local-dev, score 7 on merits) -- local/open-model economics heavily topic-fatigued across recent runs and a near-miss drop just last night (2026-06-30 evening). Near-misses below threshold: 48702825 Apple Neural Engine paper (6, accelerator hardware off the software lane), 48718863 CUDA-kernel internals (5), 48730713 Zluda (5). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48679762,
+        48727116
+      ],
+      "ts": "2026-06-30T14:08:04Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
