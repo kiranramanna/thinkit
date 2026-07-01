@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-06-30T14:08:04Z",
+  "last_pruned_ts": "2026-07-01T03:05:57Z",
   "published_ids": {
     "48639840": "2026-06-25T03:07:00Z",
     "48642510": "2026-06-27T03:06:39Z",
@@ -19,7 +19,9 @@
     "48714802": "2026-06-29T14:07:49Z",
     "48722052": "2026-06-30T03:05:44Z",
     "48722802": "2026-06-30T03:05:44Z",
-    "48727116": "2026-06-30T14:08:04Z"
+    "48727116": "2026-06-30T14:08:04Z",
+    "48734373": "2026-07-01T03:05:57Z",
+    "48736605": "2026-07-01T03:05:57Z"
   },
   "runs": [
     {
@@ -615,6 +617,18 @@
       ],
       "ts": "2026-06-30T14:08:04Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 27,
+      "note": "On-lane evening run. 27 eligible after dedup; rest of top 30 was off-lane (octocopter build, Knoppix, Nano Banana 2 Lite image-gen, Gutenberg 1852 book, K8s-in-browser, mmWave radar, CERN LHC, restart-your-computer essay, Meta brain2qwerty BCI, pull-back car teardown, barley-tea/nuclear-plant/mini-rack, Trump-crypto politics, Stroustrup's Rule, Postgres internals, copybara, Ante borrow-checking, ant-colony tracker, TabFM tabular FM, Hatari emulator). Two items cleared threshold 7, both scored 8 and fully verified from primary sources: 48734373 (thereallo.dev 'Claude Code Is Steganographically Marking Requests' -- decompiled harness rewrites the system-prompt date line with near-identical Unicode apostrophe variants + '-'->'/' separator keyed on ANTHROPIC_BASE_URL host and system timezone, base64+XOR-91 domain/keyword lists; agentic-ai/llm-ops/enterprise supply-chain+observability lane, written factual/neutral per policy SOFT since it's a contentious claim about a vendor -- CN-timezone detail stated as fact, not inflammatory) and 48736605 (anthropic.com Claude Sonnet 5 -- most-agentic Sonnet, near-Opus-4.8 perf at lower price, lower cyber capability per system card; written as an llm-ops routing/cost-per-turn take, NOT promotion). Near-misses below cap/threshold: 48738938 Leanstral 1.5 (6 -- Mistral Lean4 theorem-proving model, niche formal-proof domain off the core lane), 48735770 Claude Science (5 -- product marketing page), 48735444 Nano Banana 2 Lite (5 -- image-gen off the LLM/agentic lane), 48739466 Meta brain2qwerty (5 -- BCI research off-lane domain), 48739919 TabFM (6 -- tabular foundation model, adjacent), 48718716 Postgres internals (5 -- systems/db secondary lane). Politically-charged 48740771 (Commerce lifts Claude Fable5/Mythos5 export controls) and 48741012 (Trump crypto) scored 2-3 per policy. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48734373,
+        48736605
+      ],
+      "ts": "2026-07-01T03:05:57Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
