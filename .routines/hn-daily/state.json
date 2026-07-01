@@ -1,10 +1,8 @@
 {
-  "last_pruned_ts": "2026-07-01T03:05:57Z",
+  "last_pruned_ts": "2026-07-01T14:08:11Z",
   "published_ids": {
     "48639840": "2026-06-25T03:07:00Z",
     "48642510": "2026-06-27T03:06:39Z",
-    "48643180": "2026-06-24T03:06:03Z",
-    "48643426": "2026-06-24T03:06:03Z",
     "48657049": "2026-06-26T03:03:06Z",
     "48660579": "2026-06-25T14:07:24Z",
     "48662999": "2026-06-25T14:07:24Z",
@@ -21,7 +19,8 @@
     "48722802": "2026-06-30T03:05:44Z",
     "48727116": "2026-06-30T14:08:04Z",
     "48734373": "2026-07-01T03:05:57Z",
-    "48736605": "2026-07-01T03:05:57Z"
+    "48736605": "2026-07-01T03:05:57Z",
+    "48743472": "2026-07-01T14:08:11Z"
   },
   "runs": [
     {
@@ -629,6 +628,17 @@
       ],
       "ts": "2026-07-01T03:05:57Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 21,
+      "note": "Weak lane-fit day (top 30 dominated by gaming/biotech/physics/consumer-AI-product launches). Published 48743472 (Godot tightens AI-code contribution policy) \u2014 score 7, grounded on Godot's primary blog post, in-lane on agentic-coding governance / review ownership. 48738938 (Leanstral 1.5) initially scored 7 but on reading the model card it is a niche Lean 4 formal-proof / autoformalization model (MoE 119B/6.5B active), off the writer's core RAG/agentic/LLM-ops lane; re-scored 6, below threshold. Scored + written inline by the agent (no Anthropic SDK/key in env). Prefer fewer posts when ambiguous -> 1 post.",
+      "posts_written": 1,
+      "scored_above_threshold": 1,
+      "selected_ids": [
+        48743472
+      ],
+      "ts": "2026-07-01T14:08:11Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
