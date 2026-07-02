@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-07-01T14:08:11Z",
+  "last_pruned_ts": "2026-07-02T03:05:35Z",
   "published_ids": {
     "48639840": "2026-06-25T03:07:00Z",
     "48642510": "2026-06-27T03:06:39Z",
@@ -20,7 +20,9 @@
     "48727116": "2026-06-30T14:08:04Z",
     "48734373": "2026-07-01T03:05:57Z",
     "48736605": "2026-07-01T03:05:57Z",
-    "48743472": "2026-07-01T14:08:11Z"
+    "48743472": "2026-07-01T14:08:11Z",
+    "48746752": "2026-07-02T03:05:35Z",
+    "48746914": "2026-07-02T03:05:35Z"
   },
   "runs": [
     {
@@ -639,6 +641,18 @@
       ],
       "ts": "2026-07-01T14:08:11Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 25,
+      "note": "On-lane evening run. 25 eligible after dedup; rest of top 30 heavily off-lane (scratch-built cell biology, mRNA vaccines, PlayStation disc production, Box3D/graphics, FFmpeg AAC, wombat physiology, IPFS, Qualcomm Linux, robot vacuum/Weave home robot, Apple Disk II retro, worker-owned co-op directory, ICE explainer, hiring threads). Two items cleared threshold 7, both verified from primary sources and diverse: 48746752 (Launch HN Parsewise, YC P25 -- agentic cross-document schema extraction/ETL that resolves fields ACROSS documents with lineage/provenance; written from founders' own Launch HN text on the retrieval-and-reasoning-vs-parsing + validation-is-the-bottleneck + grounding/entity-linking angle, score 8, rag/agentic-ai/enterprise-ai lane; source_url null = text post) and 48746914 (Cloudflare Monetization Gateway/x402 -- charge per-request for pages, datasets, APIs, and MCP tools now that agents are the dominant web reader; written on the 'tool calls stop being free -> orchestration policy becomes budget policy, cost-per-successful-task as an agent eval metric' governance angle, verified from the Cloudflare blog, score 7, agentic-ai/ai-infrastructure/industry lane). Near-misses dropped: 48753715 (ZCode agentic harness for GLM-5.2, 6 -- vendor product landing page + GLM model-war topic fatigue this routine has repeatedly deprioritized), 48752030 (Fable 5 Is Back, 5 -- twitter.com link, thin/un-extractable model announcement). Policy-low/off-lane: co-op directory (2), ZKP age-assurance (3), ACX essay (3). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48746752,
+        48746914
+      ],
+      "ts": "2026-07-02T03:05:35Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
