@@ -1,16 +1,7 @@
 {
-  "last_pruned_ts": "2026-06-29T03:06:35Z",
+  "last_pruned_ts": "2026-07-02T14:06:40Z",
   "published_ids": {
-    "48624782": "2026-06-22T14:07:28Z",
-    "48626930": "2026-06-22T14:07:28Z",
-    "48631726": "2026-06-23T03:03:39Z",
-    "48631888": "2026-06-23T03:03:39Z",
-    "48639240": "2026-06-23T14:06:28Z",
-    "48639840": "2026-06-25T03:07:00Z",
-    "48640382": "2026-06-23T14:06:28Z",
     "48642510": "2026-06-27T03:06:39Z",
-    "48643180": "2026-06-24T03:06:03Z",
-    "48643426": "2026-06-24T03:06:03Z",
     "48657049": "2026-06-26T03:03:06Z",
     "48660579": "2026-06-25T14:07:24Z",
     "48662999": "2026-06-25T14:07:24Z",
@@ -19,7 +10,9 @@
     "48688700": "2026-06-27T03:06:39Z",
     "48696585": "2026-06-27T14:07:01Z",
     "48706714": "2026-06-29T03:06:35Z",
-    "48712420": "2026-06-29T03:06:35Z"
+    "48712420": "2026-06-29T03:06:35Z",
+    "48724127": "2026-07-02T14:06:40Z",
+    "48753715": "2026-07-02T14:06:40Z"
   },
   "runs": [
     {
@@ -579,6 +572,18 @@
       ],
       "ts": "2026-06-29T03:06:35Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 21,
+      "note": "Scored 21 eligible via inline agent (no Anthropic SDK/key in env, permitted by trigger). Clear distribution: one 9 (48724127 mixedbread asymmetric quantization / late-interaction RAG storage) and one 7 (48753715 ZCode agentic coding harness for GLM-5.2); next best was 6. Both written from verified primary source text.",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48724127,
+        48753715
+      ],
+      "ts": "2026-07-02T14:06:40Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
