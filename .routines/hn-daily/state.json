@@ -1,9 +1,8 @@
 {
-  "last_pruned_ts": "2026-07-03T03:05:56Z",
+  "last_pruned_ts": "2026-07-03T14:05:54Z",
   "published_ids": {
     "48642510": "2026-06-27T03:06:39Z",
     "48679762": "2026-06-30T14:08:04Z",
-    "48681687": "2026-06-26T14:05:16Z",
     "48682243": "2026-06-27T14:07:01Z",
     "48688700": "2026-06-27T03:06:39Z",
     "48696585": "2026-06-27T14:07:01Z",
@@ -20,7 +19,9 @@
     "48743472": "2026-07-01T14:08:11Z",
     "48746752": "2026-07-02T03:05:35Z",
     "48746914": "2026-07-02T03:05:35Z",
-    "48766026": "2026-07-03T03:05:56Z"
+    "48766026": "2026-07-03T03:05:56Z",
+    "48769639": "2026-07-03T14:05:54Z",
+    "48770477": "2026-07-03T14:05:54Z"
   },
   "runs": [
     {
@@ -663,6 +664,18 @@
       ],
       "ts": "2026-07-03T03:05:56Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 22,
+      "note": "On-lane morning run. 22 eligible after dedup; the rest of the top 30 were heavily off-lane (Virginia geolocation-data ban + Scott Aaronson 'American Privacy Emergency' privacy-politics, Podman v6, crustc rustc->C, LUKS-suspend kernel key-wipe bug, Immich 3.0, Postgres OOM/overcommit, Exapunks/Quake-13KB/Steam-Machine gaming, CarPlay/Wordgard/accessibility consumer+frontend, cyborg-insect biotech, 'Half-Baked Product' startup essay, Meta-layoffs industry gossip). Two items cleared threshold 7, both verified from primary sources on distinct angles: 48769639 (WebKit's Safari MCP server, webkit.org -- Model Context Protocol server giving coding agents direct browser observation: DOM, network, screenshots, console, so the human stops being the relay in the see-fix-verify loop; written on the 'tool use is only as good as the observation you feed back / raw browser state is a context-budget tax / does sight raise fix-on-first-try or just token bill' agentic-eval angle, score 8, agentic-ai/ai-infrastructure/industry lane) and 48770477 (Manticore's ONNX embedding rebuild, manticoresearch.com -- ~14x faster embeddings [5-11 -> 70-230 docs/sec], same model/weights, win came from swapping SentenceTransformers/Candle for ONNX Runtime and killing single-model-session serialization, holds 1->32 threads; written on the 'embedding throughput is a hidden RAG-ops bottleneck / don't multiply a single-doc latency / profile under concurrency before reaching for a GPU' angle, score 8, rag/ai-infrastructure/llm-ops lane). Near-misses dropped: 48772443 (Alibaba-bans-Claude-Code Reuters rumor, 6 -- enterprise agentic-coding governance angle but thin source-says news, little technical substance), 48774414 (elenaverna 'AI confidence theater', 5 -- PM/UX essay, not technical). Everything else <=4. No Anthropic SDK/key in env, so scored + written inline by the agent per trigger.md's explicit permission.",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48769639,
+        48770477
+      ],
+      "ts": "2026-07-03T14:05:54Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
