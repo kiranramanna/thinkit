@@ -1,11 +1,7 @@
 {
-  "last_pruned_ts": "2026-07-02T03:05:35Z",
+  "last_pruned_ts": "2026-07-03T03:05:56Z",
   "published_ids": {
-    "48639840": "2026-06-25T03:07:00Z",
     "48642510": "2026-06-27T03:06:39Z",
-    "48657049": "2026-06-26T03:03:06Z",
-    "48660579": "2026-06-25T14:07:24Z",
-    "48662999": "2026-06-25T14:07:24Z",
     "48679762": "2026-06-30T14:08:04Z",
     "48681687": "2026-06-26T14:05:16Z",
     "48682243": "2026-06-27T14:07:01Z",
@@ -20,9 +16,11 @@
     "48727116": "2026-06-30T14:08:04Z",
     "48734373": "2026-07-01T03:05:57Z",
     "48736605": "2026-07-01T03:05:57Z",
+    "48739459": "2026-07-03T03:05:56Z",
     "48743472": "2026-07-01T14:08:11Z",
     "48746752": "2026-07-02T03:05:35Z",
-    "48746914": "2026-07-02T03:05:35Z"
+    "48746914": "2026-07-02T03:05:35Z",
+    "48766026": "2026-07-03T03:05:56Z"
   },
   "runs": [
     {
@@ -652,6 +650,18 @@
         48746914
       ],
       "ts": "2026-07-02T03:05:35Z",
+      "window": "evening"
+    },
+    {
+      "candidates_count": 25,
+      "note": "On-lane evening run. 25 eligible after dedup; rest of top 30 heavily off-lane (Virginia geolocation-data ban + Scott Aaronson 'American Privacy Emergency' + EFF/FTC-X privacy-politics, crustc rustc->C, GitHub-repo-on-CD-ROM joke, Reality-has-detail essay, LUKS-suspend key-wipe kernel bug, Exapunks/Green-Boots/PeerTube/Immich/Inkwell consumer, Podman 6 / FoundationDB Flow / LMDB 1.0 / Postgres-txn / JEP 539 / Vulkan-on-NetBSD systems). Two items cleared threshold 7, both fully verified from primary sources and distinct angles: 48739459 (Superpowers 6, blog.fsck.com -- agentic coding harness architecture + LLM-ops economics: merged the code-quality & spec-compliance review subagents, pre-baked diff packets so reviewers stop shelling to git, orchestrator routes easy subtasks to cheaper models, terse reviewer contract -41% output at same verdicts, narration recipe -54% cost, net -50% build time / -60% tokens; config found by an overnight 25-experiment PRE-REGISTERED auto-research loop for ~$165; written on the where-do-the-tokens-go / per-subagent-cost-is-the-eval angle, score 9) and 48766026 (Greg Slepak 'The short leash AI coding method', blog.okturtles.org -- anti-vibe-engineering human-in-the-loop discipline: no YOLO mode / review each diff / model-as-linter / commit-per-subtask / separate latest-model PR-review pass / AI Disclosure section / submitter reads own PR line-by-line; written on the leash-length-by-blast-radius-not-ideology angle, score 8). Near-misses dropped (cap 2): 48766005 (claude-real-video -- token-budget-aware video->LLM context tool: scene detection + density floor + dedup window + 150-frame hard cap + Whisper fallback, score 7, verifiable but smaller/README-scale piece), 48768951 (Right to Local Intelligence manifesto -- AI-policy advocacy, righttointelligence.org body un-extractable via WebFetch [JS SPA], politics-adjacent, score 5). Everything else <=5. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48739459,
+        48766026
+      ],
+      "ts": "2026-07-03T03:05:56Z",
       "window": "evening"
     }
   ],
