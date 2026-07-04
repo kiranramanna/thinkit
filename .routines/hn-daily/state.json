@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-07-03T14:05:54Z",
+  "last_pruned_ts": "2026-07-04T03:03:03Z",
   "published_ids": {
     "48642510": "2026-06-27T03:06:39Z",
     "48679762": "2026-06-30T14:08:04Z",
@@ -21,7 +21,9 @@
     "48746914": "2026-07-02T03:05:35Z",
     "48766026": "2026-07-03T03:05:56Z",
     "48769639": "2026-07-03T14:05:54Z",
-    "48770477": "2026-07-03T14:05:54Z"
+    "48770477": "2026-07-03T14:05:54Z",
+    "48775921": "2026-07-04T03:03:03Z",
+    "48780056": "2026-07-04T03:03:03Z"
   },
   "runs": [
     {
@@ -676,6 +678,18 @@
       ],
       "ts": "2026-07-03T14:05:54Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 22,
+      "note": "On-lane evening run. 22 eligible after dedup; rest of top 30 off-lane (giant-tree hydraulics, SearXNG metasearch, Costco/anti-Amazon economics, Kramnik chess sanctions, Pegasus/EU-Parliament espionage, ProseMirror rich-text editor, Amsterdam fire-brigade history, Applied Category Theory course, Steam-Controller CV charging, Starlink-in-Africa). Three items cleared threshold 7; cap 2. Published the two most diverse, fully-verified picks: 48780056 (Epoch AI data insight -- 3.5x spike in high/critical CVEs from 21 orgs in June after Claude Mythos Preview's autonomous-vuln-discovery claim + Project Glasswing's 10k finds; written on the llm-ops/eval measurement angle: disclosed-CVE count can't separate cheaper-to-find vs more-interest vs disclosure-lag, and the metric you want is MTTR not bugs-found; score 7, verified via WebFetch of epoch.ai) and 48775921 (jamesob local-llm guide -- spend on VRAM, buy everything else secondhand; $40k 4x RTX 6000 Blackwell runs GLM-5.2 quant ~80 tok/s @460k ctx 'close to Opus', $2k dual-3090 runs Qwen3.6-27B; vLLM/docker, IOMMU/PCIe-ACS/power-limit tuning, PCIe Gen4 switch 27.5 GB/s P2P; written on the VRAM-is-the-constraint + local-buys-data-control-not-convenience angle; score 8, verified via raw.githubusercontent README). Near-miss dropped (cap 2 + fatigue/diversity): 48780417 (GLM5.2 on AMD MI355X 2626 tok/s/node vs Blackwell, score 7 -- overlaps GLM-5.2 coverage AND local/inference-economics topic fatigue AND same local-serving lane as jamesob). Also scored: 48780801 (Leanstral 1.5 Mistral Lean-proof model, 6 -- LLM but narrow formal-theorem-proving niche off the agentic/RAG/ops lane), 48774509 (Postgres OOM killer, 5 -- systems/reliability secondary lane), 48730953 (SQLite WAL bug w/ TLA+, 4 -- formal methods/debugging), 48778757 (FreeBSD ate my RAM, 4), 48780224 (Software from First Principles, 4), 48781597/48781688 (threat-models/MSI privesc, 3-4 -- security not AI). Off-lane (botany/chess/Costco/espionage/editor/history/telecom) scored 1-3. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48780056,
+        48775921
+      ],
+      "ts": "2026-07-04T03:03:03Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
