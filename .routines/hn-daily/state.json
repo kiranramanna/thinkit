@@ -1,9 +1,7 @@
 {
-  "last_pruned_ts": "2026-07-04T14:05:18Z",
+  "last_pruned_ts": "2026-07-05T03:05:11Z",
   "published_ids": {
     "48679762": "2026-06-30T14:08:04Z",
-    "48682243": "2026-06-27T14:07:01Z",
-    "48696585": "2026-06-27T14:07:01Z",
     "48706714": "2026-06-29T03:06:35Z",
     "48712420": "2026-06-29T03:06:35Z",
     "48713832": "2026-06-29T14:07:49Z",
@@ -22,7 +20,9 @@
     "48770477": "2026-07-03T14:05:54Z",
     "48775921": "2026-07-04T03:03:03Z",
     "48780056": "2026-07-04T03:03:03Z",
-    "48782671": "2026-07-04T14:05:18Z"
+    "48782671": "2026-07-04T14:05:18Z",
+    "48788599": "2026-07-05T03:05:11Z",
+    "48789428": "2026-07-05T03:05:11Z"
   },
   "runs": [
     {
@@ -700,6 +700,18 @@
       ],
       "ts": "2026-07-04T14:05:18Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 20,
+      "note": "On-lane evening run. 20 eligible after dedup; rest of top 30 was off-lane (brain-aging nasal spray, C&C Generals macOS port, Google Books $200k bounty, YouTube private-video leak, htop/top explainer 2019, Zig package-manager move, Verizon watches, drone physics, Windows CE Dreamcast, Vespa, egg/Alzheimer's, Disney neural render proxies, zebra-finch decoding). Two items cleared threshold 7, both scored 8 and fully verified from primary sources: 48789428 (OpenAI Codex issue #30364 -- GPT-5.5 Codex reasoning-token clustering: exact-516-token terminations, 82% of exact-516 events from 19% of responses, 44% vs ~1% exact-516/>=516 ratio, climbing 0.11%->53.3% Feb->May over 390k logged responses, linked #29353 wrong-answer correlation; written on the observability/eval angle -- histogram the reasoning-token distribution, still an open unconfirmed allegation; llm-ops/research lane) and 48788599 (Armin Ronacher 'Better Models: Worse Tools' -- newer Claude models RL-overfit to Claude Code's forgiving harness emit invented tool-call keys off-distribution, ~1-in-5 failures only in multi-turn histories, strict mode fixes it; written on the tool-schema-as-training-surface / bespoke-integration-tax angle; agentic-ai/llm-ops lane). Near-miss dropped: 48785485 (claude-code session/cache leakage issue, 6 -- unconfirmed security report, thin). Off-lane top items scored 1-3. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48789428,
+        48788599
+      ],
+      "ts": "2026-07-05T03:05:11Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
