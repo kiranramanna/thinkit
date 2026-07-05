@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-07-05T03:05:11Z",
+  "last_pruned_ts": "2026-07-05T14:07:28Z",
   "published_ids": {
     "48679762": "2026-06-30T14:08:04Z",
     "48706714": "2026-06-29T03:06:35Z",
@@ -22,7 +22,8 @@
     "48780056": "2026-07-04T03:03:03Z",
     "48782671": "2026-07-04T14:05:18Z",
     "48788599": "2026-07-05T03:05:11Z",
-    "48789428": "2026-07-05T03:05:11Z"
+    "48789428": "2026-07-05T03:05:11Z",
+    "48790912": "2026-07-05T14:07:28Z"
   },
   "runs": [
     {
@@ -712,6 +713,17 @@
       ],
       "ts": "2026-07-05T03:05:11Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 22,
+      "note": "On-lane morning run. 22 eligible after dedup; rest of top 30 heavily off-lane (Phosh/Linux-mobile, Shadcn/UI->Base-UI frontend, Intro-to-Compilers textbook, C&C Generals macOS/iOS port via Fable [gaming], jellyfish-wound-healing/cannabis-heart/atomic-force-microscope/night-sky-satellites science, ORMs-just-learn-SQL 2014 essay, Pandoc Lua filters, Moby Dick Workout, hica FP, book-club/Nigerian-prince scams, ASN/BGP journey, Megawatts-by-Microwave power-transmission, Artful Cats, 'If you're a button' UX, 'Fast Software' 2019 essay, 'Knowledge Should Not Be Gated'). Only ONE item cleanly cleared threshold 7: 48790912 (arXiv 2605.21997 'The Log is the Agent' / ActiveGraph -- append-only event log as source of truth, working graph is a deterministic projection of it, behaviors [functions/classes/LLM routines/typed-edge logic] react to graph changes and emit events with no component instructing another; yields deterministic replay, cheap forking without re-executing the shared prefix, and end-to-end goal->model-call lineage; determinism contract; extends BabyAGI/graph-memory lineage), scored 9 and fully verified from the arXiv abstract. Written on the event-sourcing-vs-summarized-memory / reproducible-debugging + blackboard-coordination angle, closing on the open question of whether determinism survives stateful external tool calls. Near-misses below threshold: 48750405 (Meta's Un-Stable Signature, 6 -- Krawetz analysis that Meta/Google-SynthID/Adobe-TrustMark invisible AI-image watermarks share a fundamental flaw; AI provenance/safety adjacency but image-gen domain off the core lane), 48792399 (Claude Design System Prompt, 6 -- substantive reverse-engineered 20-chapter design system prompt + 14 skills, real prompt-engineering but a design-generation vertical off the RAG/agentic/LLM-ops lane), 48788283 (C&C Generals ported via Fable, 5 -- AI-assisted porting showcase but gaming/mobile). Everything else 1-4. Prefer fewer/verifiable when ambiguous -> 1 post. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 1,
+      "scored_above_threshold": 1,
+      "selected_ids": [
+        48790912
+      ],
+      "ts": "2026-07-05T14:07:28Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
