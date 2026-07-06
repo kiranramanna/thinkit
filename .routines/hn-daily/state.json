@@ -1,9 +1,7 @@
 {
-  "last_pruned_ts": "2026-07-06T03:06:17Z",
+  "last_pruned_ts": "2026-07-06T14:06:35Z",
   "published_ids": {
     "48679762": "2026-06-30T14:08:04Z",
-    "48706714": "2026-06-29T03:06:35Z",
-    "48712420": "2026-06-29T03:06:35Z",
     "48713832": "2026-06-29T14:07:49Z",
     "48714802": "2026-06-29T14:07:49Z",
     "48722052": "2026-06-30T03:05:44Z",
@@ -25,7 +23,8 @@
     "48788599": "2026-07-05T03:05:11Z",
     "48789428": "2026-07-05T03:05:11Z",
     "48790912": "2026-07-05T14:07:28Z",
-    "48798815": "2026-07-06T03:06:17Z"
+    "48798815": "2026-07-06T03:06:17Z",
+    "48804219": "2026-07-06T14:06:35Z"
   },
   "runs": [
     {
@@ -737,6 +736,17 @@
       ],
       "ts": "2026-07-06T03:06:17Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 16,
+      "note": "Lane-thin morning top 30 (GB rail-network map, Elm 1.0, Genomics-for-engineers, Workers Cache, OpenPrinter repairable-hardware [1009 upvotes, off-lane], C-readability, Tetris quest, juggling-beanbag guide, Bryan-Johnson health tweet, IEEE US-sovereignty geopolitics, customer-support essays dominated). No primary-lane agentic-AI/RAG item present. One item cleared threshold 7, fully verified from primary source: 48804219 (rruxandra 'Regression to the Mean: on LLMs and the quiet death of the new', score 7) -- written as an LLM-ops take on mode collapse / model collapse: RLHF+low-temp decoding+synthetic-data feedback shrink generation variance; argued mean-reversion is the FEATURE for grounded RAG/virtual-agent SLAs but a liability for ideation/red-teaming surfaces, so diversity must be measured in the eval not just accuracy; framed 'guard the tail' as a per-surface ops decision. Near-misses dropped: 48799614 (GPT-5.6 Sol Ultra in Codex, 6 -- a 4-word twitter/X reply 'Ultra will be in codex', unverifiable+thin), 48803751 (Anthropic-goodwill blog, 5 -- contentious AI-industry opinion, thin technical), 48804014 (Cloudflare Workers Cache, 4 -- edge-caching platform, not AI), 48803711 (AI marketing backlash, 4 -- marketing/industry commentary), 48797916 (OpenPrinter, 2 -- repairable printer hardware), rest <=3 off-lane (rail map, Elm, genomics, C-crimes, Tetris, juggling, US-sovereignty, support essays). Prefer fewer/verifiable -> 1 post. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 1,
+      "scored_above_threshold": 1,
+      "selected_ids": [
+        48804219
+      ],
+      "ts": "2026-07-06T14:06:35Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
