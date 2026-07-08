@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-07-08T03:06:00Z",
+  "last_pruned_ts": "2026-07-08T14:03:32Z",
   "published_ids": {
     "48739459": "2026-07-03T03:05:56Z",
     "48743472": "2026-07-01T14:08:11Z",
@@ -22,7 +22,9 @@
     "48809354": "2026-07-07T03:06:49Z",
     "48811644": "2026-07-07T14:04:30Z",
     "48819808": "2026-07-08T03:06:00Z",
-    "48821749": "2026-07-08T03:06:00Z"
+    "48821576": "2026-07-08T14:03:32Z",
+    "48821749": "2026-07-08T03:06:00Z",
+    "48827858": "2026-07-08T14:03:32Z"
   },
   "runs": [
     {
@@ -781,6 +783,18 @@
       ],
       "ts": "2026-07-08T03:06:00Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 27,
+      "note": "On-lane morning run. 27 eligible after dedup; rest of top 30 was off-lane (Uniqlo obfuscated-bash curio, EVE Carbon engine, ZFS NAS, FDA/PFAS & nuclear-cleanup politics, Tenda backdoor, Chat Control EU-surveillance, floppy preservation, SICP lectures, ants, watchmaking, home-made GPU, LineageOS/Android stats, Doctorow productivity essay, Excel-with-Python, Davit Apple-Containers UI, k/q runtime, QR-code font, Postgres pooler). Two items cleared threshold 7, both fully verified from primary sources: 48827858 (Noma Labs GitLost -- unauthenticated indirect prompt injection in GitHub Agentic Workflows: issues.assigned trigger + cross-repo read access lets a crafted public-repo issue exfiltrate a private repo's README as a public comment; 'Additionally' keyword bypassed the guardrail; written on the trust-boundary/confused-deputy/permission-scoping angle, score 8) and 48821576 (ariya.io Kokoro TTS -- 82M-param multilingual speech on CPU while the GPU stays reserved for LLM inference, OpenAI-speech-API-compatible drop-in, ~5GB container; conversational-AI/voice-loop-latency angle, score 7). Near-misses dropped: 48829242 (Geosql Claude/Codex geospatial skill, 6 -- agentic tool-use but niche/thin, HN 60), 48819608 (30papers.com Ilya's ML papers, 6 -- research reading list, meta not deep technical), 48742703 (IEEE LLM course, 5 -- thin news about a course), 48819308 (yet another Postgres pooler, 5 -- systems secondary), 48756578 (Herdr terminal, 5 -- dev-tool, not agent-specific on inspection), 48830565 (Apple/Broadcom chips, 4 -- AI-compute industry news, thin technical). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48827858,
+        48821576
+      ],
+      "ts": "2026-07-08T14:03:32Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
