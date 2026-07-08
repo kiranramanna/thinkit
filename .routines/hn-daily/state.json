@@ -1,10 +1,6 @@
 {
-  "last_pruned_ts": "2026-07-07T14:04:30Z",
+  "last_pruned_ts": "2026-07-08T03:06:00Z",
   "published_ids": {
-    "48679762": "2026-06-30T14:08:04Z",
-    "48727116": "2026-06-30T14:08:04Z",
-    "48734373": "2026-07-01T03:05:57Z",
-    "48736605": "2026-07-01T03:05:57Z",
     "48739459": "2026-07-03T03:05:56Z",
     "48743472": "2026-07-01T14:08:11Z",
     "48746752": "2026-07-02T03:05:35Z",
@@ -24,7 +20,9 @@
     "48807225": "2026-07-07T03:06:49Z",
     "48808002": "2026-07-07T14:04:30Z",
     "48809354": "2026-07-07T03:06:49Z",
-    "48811644": "2026-07-07T14:04:30Z"
+    "48811644": "2026-07-07T14:04:30Z",
+    "48819808": "2026-07-08T03:06:00Z",
+    "48821749": "2026-07-08T03:06:00Z"
   },
   "runs": [
     {
@@ -771,6 +769,18 @@
       ],
       "ts": "2026-07-07T14:04:30Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 23,
+      "note": "On-lane evening run. 23 eligible after dedup; rest of top 30 off-lane (GAO nuclear cleanup, watchmaking school, SICP lectures, StreetComplete/OSM, EU Chat Control, Apple Containers UI, gym-shorts knot, Scheme/k-q runtimes, EU driver-camera mandate, QR-font, Postgres pooler, Germany-migration essay). Two items cleared threshold 7, both scored high and fully verified from primary sources: 48819808 (Rowboat -- 'local-first Claude Desktop alternative' that is really a knowledge-graph-backed agentic coworker: Obsidian-style backlinked markdown memory, background agents, MCP, Ollama/LM Studio, multi-agent + Claude Code; written on the memory-as-KG-vs-on-demand-RAG angle incl. supersession/decay + blast-radius critique, score 9 -- agentic-ai/knowledge-graphs/rag lane) and 48821749 (zkSecurity 'AI Meets Cryptography 1' -- LLM pipeline found 7 confirmed CIRCL bugs incl. CP-ABE access-control break and Float64 threshold-RSA precision loss; written on the recall-not-judgment / asymmetric-severity / expert-authored-skills / model-roles-flip-in-weeks angle, score 8 -- llm-ops/eval lane; Claude Opus 4.6 + GPT-5.3 attributions factual per source). Near-misses dropped (cap 2): 48821576 (Kokoro local CPU TTS, 7 -- conversational-ai/local-inference but weaker+narrower), 48819608 (30papers Ilya reading list, 6 -- beginner aggregator, thin original content), 48821102 (Fable 5 access, 5 -- thin promo tweet on X), 48821441 (Notes on Software Quality, 5 -- general craft essay), 48819308 (yet another Postgres pooler, 5 -- platform/systems secondary lane). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48819808,
+        48821749
+      ],
+      "ts": "2026-07-08T03:06:00Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
