@@ -1,8 +1,6 @@
 {
-  "last_pruned_ts": "2026-07-09T14:08:24Z",
+  "last_pruned_ts": "2026-07-10T03:07:55Z",
   "published_ids": {
-    "48739459": "2026-07-03T03:05:56Z",
-    "48766026": "2026-07-03T03:05:56Z",
     "48767058": "2026-07-06T03:06:17Z",
     "48769639": "2026-07-03T14:05:54Z",
     "48770477": "2026-07-03T14:05:54Z",
@@ -25,7 +23,9 @@
     "48834924": "2026-07-09T03:06:49Z",
     "48835111": "2026-07-09T14:08:24Z",
     "48837396": "2026-07-09T03:06:49Z",
-    "48837696": "2026-07-09T14:08:24Z"
+    "48837696": "2026-07-09T14:08:24Z",
+    "48850414": "2026-07-10T03:07:55Z",
+    "48852199": "2026-07-10T03:07:55Z"
   },
   "runs": [
     {
@@ -818,6 +818,18 @@
       ],
       "ts": "2026-07-09T14:08:24Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 23,
+      "note": "On-lane evening run. 23 eligible after dedup; rest of top 30 was off-lane (EU Chat Control & Army-logistics politics, 18 Words/train-sim/3D-Realms gaming, Ghostty/Zig & Why-Lisp language pieces, Postgres-in-Rust DB-internals, leap-second, ambulance-cost, iPhone-dumb-phone, Muse Spark/Hy3 generative-media). Two items selected, both scored 7 and fully verified from primary sources: 48852199 (Ello 'Teaching a child in <1000ms' -- real-time kids' tutor; they threw out the standard tool loop for a streaming-execution harness where an interpreter runs each action while the model generates the next, action-space scoped to the moment, stream validation with no happy-path pause; conversational-ai/agentic-ai/llm-ops lane) and 48850414 (Toot GLM-5.2 UK VAT-return agentic eval -- 59 tx via bash+report-only minimal harness in 68min for $2.73, Box 5 off 7p vs human-verified ground truth, <1% of a \u00a3750-2,100/qtr accounting fee; written on the eval-awareness angle -- the model's own reasoning shows it knew it was tested ('what is the expected answer') -- plus silent reverse-charge-VAT lookup and governance gap; agentic-ai/llm-ops/research lane). Dropped GPT-5.6 (48849066, ~7 on merits) -- openai.com/index/gpt-5-6 is JS-gated (curl JS-wall, WebFetch 403), no extractable body, unverifiable primary source (prefer fewer/verifiable). Deprioritized GLM-5.2-on-slow-computer (48842459, colibri repo) for heavy GLM/local-model topic fatigue and thinner angle; the VAT-eval GLM piece was kept because its angle is an agentic-task accuracy eval, not open-model economics. Also passed Context.dev Launch HN (48847562, ~6, YC landing-page thin writability) and Hy3/Muse Spark generative media (~5-6, off the software-agent lane). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48852199,
+        48850414
+      ],
+      "ts": "2026-07-10T03:07:55Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
