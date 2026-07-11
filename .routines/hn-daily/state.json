@@ -1,9 +1,7 @@
 {
-  "last_pruned_ts": "2026-07-10T14:06:17Z",
+  "last_pruned_ts": "2026-07-11T03:07:45Z",
   "published_ids": {
     "48767058": "2026-07-06T03:06:17Z",
-    "48775921": "2026-07-04T03:03:03Z",
-    "48780056": "2026-07-04T03:03:03Z",
     "48782671": "2026-07-04T14:05:18Z",
     "48788599": "2026-07-05T03:05:11Z",
     "48789428": "2026-07-05T03:05:11Z",
@@ -14,6 +12,7 @@
     "48808002": "2026-07-07T14:04:30Z",
     "48809354": "2026-07-07T03:06:49Z",
     "48811644": "2026-07-07T14:04:30Z",
+    "48814170": "2026-07-11T03:07:45Z",
     "48819808": "2026-07-08T03:06:00Z",
     "48821576": "2026-07-08T14:03:32Z",
     "48821749": "2026-07-08T03:06:00Z",
@@ -25,7 +24,8 @@
     "48842459": "2026-07-10T14:06:17Z",
     "48849066": "2026-07-10T14:06:17Z",
     "48850414": "2026-07-10T03:07:55Z",
-    "48852199": "2026-07-10T03:07:55Z"
+    "48852199": "2026-07-10T03:07:55Z",
+    "48863490": "2026-07-11T03:07:45Z"
   },
   "runs": [
     {
@@ -841,6 +841,18 @@
       ],
       "ts": "2026-07-10T14:06:17Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 27,
+      "note": "On-lane evening run. 27 eligible after dedup; rest of top 30 was off-lane (Apple v OpenAI IP suit, drone-RF hobby hardware, Starlink, Bronze Age Collapse, Egypt archaeology, snail-teeth material, flashcards, FreeCAD-in-browser, Linux GhostLock UAF, negative-leap-second Ask HN, org-culture essays). Two items cleared threshold 7, both scored 8 and verified from primary sources: 48814170 (Xiaomi MiMo-V2.5 full-pipeline inference optimization -- Hybrid SWA 60 SWA + 10 Full layers -> ~1/7 KVCache/compute, SWA-aware prefix-cache trees, Prefill/Decode pipeline; llm-ops/ai-infra lane, written on the theory-vs-serving-stack gap) and 48863490 (GPT-5.6 Sol Ultra 'proof' of the Cycle Double Cover Conjecture -- written strictly on the verification/eval angle per policy SOFT on contentious/unverifiable claims: unverified artifact, anti-reward-hacking prompt, LLM-checking-LLM circularity, formal-checker bottleneck; did NOT endorse proof correctness; source PDF + HN thread verified, PDF body unextractable in-env due to broken crypto bindings so framed from the released prompt excerpt quoted on HN + the discussion). Near-misses dropped: 48865019 Apple v OpenAI (5, IP-dispute industry news, thin+contentious), 48863707 Boko Haram frontier-AI report (5, LLM-misuse adjacency but politically inflammatory framing), 48848425 AI 2040 (5, futurism/policy thin), 48864252 residential-proxy/scraper (5, web-infra adjacency). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48814170,
+        48863490
+      ],
+      "ts": "2026-07-11T03:07:45Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
