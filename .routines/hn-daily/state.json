@@ -1,8 +1,7 @@
 {
-  "last_pruned_ts": "2026-07-11T03:07:45Z",
+  "last_pruned_ts": "2026-07-11T14:05:44Z",
   "published_ids": {
     "48767058": "2026-07-06T03:06:17Z",
-    "48782671": "2026-07-04T14:05:18Z",
     "48788599": "2026-07-05T03:05:11Z",
     "48789428": "2026-07-05T03:05:11Z",
     "48790912": "2026-07-05T14:07:28Z",
@@ -853,6 +852,15 @@
       ],
       "ts": "2026-07-11T03:07:45Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 25,
+      "note": "Lane-thin morning top 30 (physics/heavy-element chemistry, RF drone-detection hardware, SpaceX Starlink, FCC space mirror, Late Bronze Age Collapse, Terminator 2 VFX oral history, Soviet control rooms, combustion simulator, alternate clocks, snails'-teeth materials science, NYC subscription-ban policy, HotSpot JIT internals, Scarf-off-Haskell, flashcards essays dominated). NO primary-lane agentic-AI/RAG/LLM-ops item present and nothing cleared threshold 7. Highest was 48864252 (LWN 'update on the scraper situation', score 6 -- AI training-crawler externalities on the open web, genuine adjacency but core substance is web-infra defense: residential proxies, rate limiting, bot detection, not the writer's production-ML lane; subscriber-only source). Then 48848425 (AI 2040: Plan A, score 5 -- AI-safety/governance policy manifesto from the AI 2027 authors, contentious, thin production-engineering substance) and 48865019 (Apple sues OpenAI, score 5 -- AI-industry IP dispute, contentious, thin technical). Others: 48871470 networking-first-principles (4), 48870799 fast-code-if-lucky (4), 48798566 HotSpot JIT known-bits (4), 48858121 'Good Tools Are Invisible' (4), 48825216 silent-speech-ultrasound (4), 48859673 Scarf-off-Haskell (4). Prefer fewer/verifiable -> 0 posts. Scored inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 0,
+      "scored_above_threshold": 0,
+      "selected_ids": [],
+      "ts": "2026-07-11T14:05:44Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
