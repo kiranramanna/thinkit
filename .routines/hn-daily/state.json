@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-07-11T14:05:44Z",
+  "last_pruned_ts": "2026-07-12T03:03:03Z",
   "published_ids": {
     "48767058": "2026-07-06T03:06:17Z",
     "48788599": "2026-07-05T03:05:11Z",
@@ -24,7 +24,9 @@
     "48849066": "2026-07-10T14:06:17Z",
     "48850414": "2026-07-10T03:07:55Z",
     "48852199": "2026-07-10T03:07:55Z",
-    "48863490": "2026-07-11T03:07:45Z"
+    "48863490": "2026-07-11T03:07:45Z",
+    "48876505": "2026-07-12T03:03:03Z",
+    "48877371": "2026-07-12T03:03:03Z"
   },
   "runs": [
     {
@@ -861,6 +863,18 @@
       "selected_ids": [],
       "ts": "2026-07-11T14:05:44Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 17,
+      "note": "On-lane evening run. 17 eligible after dedup (min_hn_score 30); rest of top 30 was off-lane (Ant JS runtime, RISCBoy games console, Thunderbolt dock, SVD history PDF, SQLite strict-tables & PgBouncer 4x/Postgres pruning systems, UPI payment-architecture explainer, Clojure Biff.graph code-query graph, learn-by-rebuilding-Redis, AR satellite tracker, and medical/obituary/Long-Covid/GPU-circular-financing-finance items). Two items cleared threshold 7, both scored 8 and fully verified from primary sources: 48876505 (iroh Mesh LLM -- OpenAI-compatible distributed inference over p2p iroh/QUIC; 'Skippy' pipeline-splits a model by layer ranges across machines so a 235B MoE runs where no single node holds the weights; ALPN/single-byte-stream multiplexing, ~18MB runtime; written on the activation-transport-latency-is-the-missing-number / no-P99-no-failure-mode critique, ai-infrastructure/llm-ops lane) and 48877371 (independent MITM analysis of xAI's Grok Build CLI -- canary-seeded repo showed /v1/storage uploading 5.10 GiB of never-read files from a 12GB repo [~27,800x the model channel] as git bundles to a grok-code-session-traces bucket, planted .env secrets captured verbatim, Mixpanel telemetry, and 'Improve the model' OFF still left trace_upload_enabled/upload_enabled true; written factually per policy SOFT on the confused-deputy/egress-governance angle, agentic-ai/enterprise-ai/llm-ops lane). Near-misses below threshold: 48873836 GPU circular financing (5, AI-compute-economics/finance news, thin technical), 48872874 PgBouncer 4x (5, DB/systems secondary), 48873457 UPI anatomy (5, payment system-design explainer), 48820361 Biff.graph (5, Clojure code-query graph off the KG-for-LLM lane), 48873940 SQLite strict tables (4), 48871973 learn-by-rebuilding (4, educational). Off-lane (JS runtime/gaming/dock/SVD-history/medical/obituary) scored 1-3. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48876505,
+        48877371
+      ],
+      "ts": "2026-07-12T03:03:03Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
