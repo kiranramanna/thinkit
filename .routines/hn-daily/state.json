@@ -1,9 +1,7 @@
 {
-  "last_pruned_ts": "2026-07-12T03:03:03Z",
+  "last_pruned_ts": "2026-07-12T14:06:18Z",
   "published_ids": {
     "48767058": "2026-07-06T03:06:17Z",
-    "48788599": "2026-07-05T03:05:11Z",
-    "48789428": "2026-07-05T03:05:11Z",
     "48790912": "2026-07-05T14:07:28Z",
     "48798815": "2026-07-06T03:06:17Z",
     "48804219": "2026-07-06T14:06:35Z",
@@ -26,7 +24,9 @@
     "48852199": "2026-07-10T03:07:55Z",
     "48863490": "2026-07-11T03:07:45Z",
     "48876505": "2026-07-12T03:03:03Z",
-    "48877371": "2026-07-12T03:03:03Z"
+    "48877371": "2026-07-12T03:03:03Z",
+    "48878682": "2026-07-12T14:06:18Z",
+    "48880170": "2026-07-12T14:06:18Z"
   },
   "runs": [
     {
@@ -875,6 +875,18 @@
       ],
       "ts": "2026-07-12T03:03:03Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 23,
+      "note": "On-lane morning run. 23 eligible after dedup; rest of top 30 was off-lane (new JS runtime, Odin language, RISCBoy console, 9front art, SQLite/EF Core/PgBouncer db-perf, SVD history, UPI payments, Vint Cerf retiring, decor/health, college-aid politics). Three items cleared threshold 7, all agentic-coding; cap 2. Published the two strongest at score 8, both fully verified from primary sources and diverse in angle: 48880170 (Terry Tao 'Old and new apps via modern coding agents' -- a practitioner's downside-risk framing: agents fine when output is a secondary aid not a critical component, bugs a net wash of +1 introduced / 2 old bugs surfaced; agentic-ai/llm-ops lane) and 48878682 (Show HN Mindwalk -- replays coding-agent sessions as light over a 3D codebase map, trace/citymap/UI layers, touch-state + attention telemetry, local-only Claude Code/Codex log normalization; agentic-ai/llm-ops observability lane). Dropped under cap: 48823981 (An agent in 100 lines of Lisp, score 7 -- on-lane but a recurring build-an-agent tutorial angle, weaker distinct take). 48873836 (Circular financing of the GPU boom, 307 upvotes) scored 5 -- AI compute economics but investment/finance analysis, thin technical. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48880170,
+        48878682
+      ],
+      "ts": "2026-07-12T14:06:18Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
