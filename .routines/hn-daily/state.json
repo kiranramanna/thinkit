@@ -1,8 +1,7 @@
 {
-  "last_pruned_ts": "2026-07-12T14:06:18Z",
+  "last_pruned_ts": "2026-07-13T03:03:36Z",
   "published_ids": {
     "48767058": "2026-07-06T03:06:17Z",
-    "48790912": "2026-07-05T14:07:28Z",
     "48798815": "2026-07-06T03:06:17Z",
     "48804219": "2026-07-06T14:06:35Z",
     "48807225": "2026-07-07T03:06:49Z",
@@ -26,7 +25,9 @@
     "48876505": "2026-07-12T03:03:03Z",
     "48877371": "2026-07-12T03:03:03Z",
     "48878682": "2026-07-12T14:06:18Z",
-    "48880170": "2026-07-12T14:06:18Z"
+    "48880170": "2026-07-12T14:06:18Z",
+    "48882716": "2026-07-13T03:03:36Z",
+    "48883275": "2026-07-13T03:03:36Z"
   },
   "runs": [
     {
@@ -887,6 +888,18 @@
       ],
       "ts": "2026-07-12T14:06:18Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 23,
+      "note": "On-lane evening run. 23 eligible after dedup; rest of top 30 off-lane (browser/OS fingerprinting, Linux stack-UAF, cyberpunk comics, tiny emulators, vanilla-JS/PCB/physics/read-more-books essays, Vint Cerf retiring, geohot LLM-hype rant). Two items scored 8, both fully verified from primary sources and distinct in angle: 48882716 (Ploy migrating a production agent to GPT-5.6 -- tool-schema all-args-filled bug turning 52-64%% of file reads empty, anyOf:[T,null] required-nullable fix, org->workspace prompt-cache rewrite to 83.7%% hits, store:false reasoning replay; a third of failures were harness bugs not the model; agentic-ai/llm-ops lane, source JS-gated on curl but extractable via WebFetch) and 48883275 (Systima logging-proxy measurement: Claude Code ~33k vs OpenCode ~7k harness tokens before the prompt on Sonnet 4.5, ~3.3x on Fable 5; up to 54x more cache-write tokens; 72KB CLAUDE.md +~20k/req; subagents 121k->513k; CC wins multi-step by batching; EU AI Act Art.12 logging angle; agentic-ai/llm-ops/ai-infrastructure lane, fully extractable via curl). Dropped 48883090 (CACM mechanistic-interpretability/causality on LLMs, scored 8 but 403 Forbidden via both curl and WebFetch -- unverifiable, prefer verifiable), 48882554 (arXiv 'Automation Without Understanding', scored 5 -- math History&Overview policy essay on US math-education pipeline, off the agentic/RAG/llm-ops lane and politically contentious), 48861923 (Why write code in 2026, 6), 48883415 (Sutton One-Step Trap in AI Research, 6 -- RL-research methodology, off core lane), 48881967 (Google traffic-congestion ML, 5), 48883343 (geohot 'I love LLMs I hate hype', 4 -- contentious AI-culture rant). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48882716,
+        48883275
+      ],
+      "ts": "2026-07-13T03:03:36Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
