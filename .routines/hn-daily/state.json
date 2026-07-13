@@ -1,9 +1,6 @@
 {
-  "last_pruned_ts": "2026-07-13T03:03:36Z",
+  "last_pruned_ts": "2026-07-13T14:08:00Z",
   "published_ids": {
-    "48767058": "2026-07-06T03:06:17Z",
-    "48798815": "2026-07-06T03:06:17Z",
-    "48804219": "2026-07-06T14:06:35Z",
     "48807225": "2026-07-07T03:06:49Z",
     "48808002": "2026-07-07T14:04:30Z",
     "48809354": "2026-07-07T03:06:49Z",
@@ -27,7 +24,8 @@
     "48878682": "2026-07-12T14:06:18Z",
     "48880170": "2026-07-12T14:06:18Z",
     "48882716": "2026-07-13T03:03:36Z",
-    "48883275": "2026-07-13T03:03:36Z"
+    "48883275": "2026-07-13T03:03:36Z",
+    "48891184": "2026-07-13T14:08:00Z"
   },
   "runs": [
     {
@@ -900,6 +898,17 @@
       ],
       "ts": "2026-07-13T03:03:36Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 27,
+      "note": "Lane-thin morning top 30 (retro emulators/ISA sound-card/PCB hardware, learn-physics, how-to-read-books, cyberpunk comics, interrail travel, Photoshop farewell, Vint Cerf retirement, Sam Neill obituary, SFPD drone-surveillance, frontend scrollHeight dominated). Three items scored >=7 but only one was publishable. Published 48891184 (antirez 'Control the ideas, not the code' -- substantive AI-assisted-dev/LLM-ops take on steering design over reviewing LLM-generated diffs, score 7, fully verified from antirez.com/news/169). Declined the two >=7 duplicates 48892512 / 48892468 (Grok CLI exfiltrated home directory to xAI/GCS -- on-lane agent tool-use-safety topic but sourced only from a single tweet; x.com returned 402 and nitter 503, so the allegation against a named company was unverifiable -> prefer fewer/verifiable per policy). Also passed 48889637 (raymyers 'Zig Creator Calls Spade a Spade, Anthropic Blows Smoke', score 6 -- contentious AI-industry hype critique, thin technical, SOFT-flag, below threshold) and 48886741 (Ask HN flag AI-generated articles, score 5 -- AI-content-provenance adjacency but thin meta feature request). Prefer fewer/verifiable -> 1 post. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 1,
+      "scored_above_threshold": 3,
+      "selected_ids": [
+        48891184
+      ],
+      "ts": "2026-07-13T14:08:00Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
