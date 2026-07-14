@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-07-13T14:08:00Z",
+  "last_pruned_ts": "2026-07-14T03:03:29Z",
   "published_ids": {
     "48807225": "2026-07-07T03:06:49Z",
     "48808002": "2026-07-07T14:04:30Z",
@@ -25,7 +25,9 @@
     "48880170": "2026-07-12T14:06:18Z",
     "48882716": "2026-07-13T03:03:36Z",
     "48883275": "2026-07-13T03:03:36Z",
-    "48891184": "2026-07-13T14:08:00Z"
+    "48891184": "2026-07-13T14:08:00Z",
+    "48894630": "2026-07-14T03:03:29Z",
+    "48899321": "2026-07-14T03:03:29Z"
   },
   "runs": [
     {
@@ -909,6 +911,18 @@
       ],
       "ts": "2026-07-13T14:08:00Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 16,
+      "note": "On-lane evening run. 16 eligible after dedup; the rest of the top 30 was off-lane (git-history tip, iOS/Mac app shipping, colonial-India sketches, founder-motivation essay, CA social-media law/infinite-scroll, guitar-tab CLI, Sega CD Silpheed + Linux on Sega 32X retro-hardware, TFTP honeypot, Roman board game, Telegram t.me suspension, voxel-Tokyo Japanese toy). Two items cleared threshold 7, both verified from primary sources and distinct in angle: 48899321 (arXiv 2607.01418 Murphy-Hill et al., Microsoft's early-2026 Claude Code / Copilot CLI rollout -- tens of thousands of engineers over 4mo, adopters merged ~24%% more PRs with no novelty cliff, first-use spreads via social ties not mandates, retention predicted by coding activity not demographics; my take pushes on merged-PRs-as-proxy vs review debt/token spend; enterprise-ai/agentic-ai/llm-ops lane, verified via WebFetch) and 48894630 (Show HN Jacquard v0.1, jbwinters -- a language that surfaces effects in type signatures ((text)->{net}text), content-addressed structural identity so reformat/rename skips re-verification, worlds-instead-of-mocks handler swap, first-class uncertainty, byte-identical AOT; capability-based authority = sandboxed tool-use pushed into the language; agentic-ai/llm-ops/ai-infrastructure lane, README verified). Scored+written inline by agent (no Anthropic SDK/key in env). Notable near-misses below threshold: 48894752 Apple SpeechAnalyzer ASR benchmark (6, adjacent conversational-AI front-end but consumer-platform), 48897975 neural-net-in-SQL (5, ML/db novelty).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48899321,
+        48894630
+      ],
+      "ts": "2026-07-14T03:03:29Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
