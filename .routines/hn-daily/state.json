@@ -1,10 +1,6 @@
 {
-  "last_pruned_ts": "2026-07-14T03:03:29Z",
+  "last_pruned_ts": "2026-07-14T14:05:20Z",
   "published_ids": {
-    "48807225": "2026-07-07T03:06:49Z",
-    "48808002": "2026-07-07T14:04:30Z",
-    "48809354": "2026-07-07T03:06:49Z",
-    "48811644": "2026-07-07T14:04:30Z",
     "48814170": "2026-07-11T03:07:45Z",
     "48819808": "2026-07-08T03:06:00Z",
     "48821576": "2026-07-08T14:03:32Z",
@@ -27,7 +23,9 @@
     "48883275": "2026-07-13T03:03:36Z",
     "48891184": "2026-07-13T14:08:00Z",
     "48894630": "2026-07-14T03:03:29Z",
-    "48899321": "2026-07-14T03:03:29Z"
+    "48899321": "2026-07-14T03:03:29Z",
+    "48905028": "2026-07-14T14:05:20Z",
+    "48905764": "2026-07-14T14:05:20Z"
   },
   "runs": [
     {
@@ -923,6 +921,18 @@
       ],
       "ts": "2026-07-14T03:03:29Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 24,
+      "note": "On-lane morning run. 24 eligible after dedup; rest of top 30 off-lane (Japan lithium recycling 635, Australian daytime electricity, Germany FOIA, human-brainstem 3D atlas, 'git history' command, Stanford wireless-comms textbook, satellite tracker, x86 arch, LCD-clock build, India-sketches history). Four items cleared threshold 7; cap 2. Published the two strongest, most diverse, fully-verified picks: 48905764 (arXiv 2607.05188 'Latent Programming Horizons in Coding Agents' -- logistic-regression probes on hidden states decode future edit properties ~25 steps ahead, AUC up to 0.83 for correctness, probes transfer across benchmarks; agentic-ai/research/llm-ops lane, score 9, verified via arXiv) and 48905028 (openai/codex issue #28058 -- PR #26210 encrypted MultiAgentV2 inter-agent message payloads, leaving plaintext content empty and only ciphertext persisted, erasing human-readable rollout/history/trace audit trails for spawn_agent tasks; agentic-ai/llm-ops observability lane, score 8, verified via the GitHub issue). Near-misses dropped (cap 2): 48905919 (Show HN RL-agent-trains-models, score 7, on-lane but under cap) and 48902026 (JetBrains YouTrackDB object-oriented graph DB, score 7, knowledge-graphs adjacency, under cap). Also scored: 48901224 Economics of Recursive Self-Improvement (6), 48903715 CUDA on non-Nvidia (6), 48904905 Thinking Machines essay (5), 48905091 Codex-scrape-Fields-Medal (5, sensational/off-lane). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48905764,
+        48905028
+      ],
+      "ts": "2026-07-14T14:05:20Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
