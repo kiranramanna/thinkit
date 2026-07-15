@@ -1,10 +1,8 @@
 {
-  "last_pruned_ts": "2026-07-14T14:05:20Z",
+  "last_pruned_ts": "2026-07-15T03:05:11Z",
   "published_ids": {
     "48814170": "2026-07-11T03:07:45Z",
-    "48819808": "2026-07-08T03:06:00Z",
     "48821576": "2026-07-08T14:03:32Z",
-    "48821749": "2026-07-08T03:06:00Z",
     "48827858": "2026-07-08T14:03:32Z",
     "48834924": "2026-07-09T03:06:49Z",
     "48835111": "2026-07-09T14:08:24Z",
@@ -25,7 +23,9 @@
     "48894630": "2026-07-14T03:03:29Z",
     "48899321": "2026-07-14T03:03:29Z",
     "48905028": "2026-07-14T14:05:20Z",
-    "48905764": "2026-07-14T14:05:20Z"
+    "48905764": "2026-07-14T14:05:20Z",
+    "48910545": "2026-07-15T03:05:11Z",
+    "48910676": "2026-07-15T03:05:11Z"
   },
   "runs": [
     {
@@ -933,6 +933,18 @@
       ],
       "ts": "2026-07-14T14:05:20Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 26,
+      "note": "On-lane evening run. 26 eligible after dedup; rest of top 30 was off-lane (Vancouver PD privacy button, Tailscale SSH CVE, Dependabot cooldown, Minecraft 15TB, USB-C/PSP hardware, HTMX+Go, Ballard/literature, smart-TV IoT, Maya astronomy, MS Patch Tuesday). Several items clustered at 7-8; cap 2. Published the two strongest, most-diverse, fully-verified picks from distinct topics: 48910545 (PrismML Bonsai 27B -- ternary/1-bit quant of Qwen3.6 27B, 3.9GB fits iPhone 17 Pro / 5.9GB ternary on a laptop, full agentic/tool-call/computer-use stack; llm-ops/ai-infra local-inference lane, score 8, verified from prismml.com) and 48910676 (Mindgard/Aaron Portnoy Cursor 0day -- Windows Cursor auto-executes a planted workspace-root git.exe with no prompt = arbitrary code exec, recurring; written on the trust-boundary/permissions-bug angle matching prior 'prompt injection is a permissions bug' post, factual/non-inflammatory per policy SOFT since full-disclosure framing is contentious, score 8, verified from mindgard.ai). Near-misses dropped (cap 2 + coding-agent topic fatigue): 48883305 (Juggler OSS GUI coding agent, 7), 48909785 (Ronacher 'The Tower Keeps Rising', 7 -- AI-code-quality recurring), 48905248 (stop Claude saying 'load-bearing', 7 -- prompt-steering), 48906041 (gwern Guardian Angels LLM personalization, 7), 48914646 (20 Erdos problems via 20 parallel Codex accounts, 8 merit but starfleetmath.com unknown outlet + 44 upvotes, verifiability risk). Off-lane at <=6: 48865001 zero-cost OSS agentic era (6), 48913763 LeMario JEPA world model (6), 48913443 AI-boom financing BIS (5), 48908178 offloading thinking to AI (4), 48914683 data-center electricity 3B (4). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48910545,
+        48910676
+      ],
+      "ts": "2026-07-15T03:05:11Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
