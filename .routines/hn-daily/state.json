@@ -1,9 +1,7 @@
 {
-  "last_pruned_ts": "2026-07-15T03:05:11Z",
+  "last_pruned_ts": "2026-07-15T14:05:05Z",
   "published_ids": {
     "48814170": "2026-07-11T03:07:45Z",
-    "48821576": "2026-07-08T14:03:32Z",
-    "48827858": "2026-07-08T14:03:32Z",
     "48834924": "2026-07-09T03:06:49Z",
     "48835111": "2026-07-09T14:08:24Z",
     "48837396": "2026-07-09T03:06:49Z",
@@ -25,7 +23,8 @@
     "48905028": "2026-07-14T14:05:20Z",
     "48905764": "2026-07-14T14:05:20Z",
     "48910545": "2026-07-15T03:05:11Z",
-    "48910676": "2026-07-15T03:05:11Z"
+    "48910676": "2026-07-15T03:05:11Z",
+    "48918575": "2026-07-15T14:05:05Z"
   },
   "runs": [
     {
@@ -945,6 +944,17 @@
       ],
       "ts": "2026-07-15T03:05:11Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 12,
+      "note": "On-lane morning run but lane-thin top 30 (sleep-science, Jurassic Park retro computers, SpaceX junk-bond, mental-health essay, climate Tamagotchi, 90s Kansai BBS, VPD quick-escape UX, Neverclick, Telegram Serverless, Tailscale SSH CVE, RPKI servers). 12 eligible after dedup. Only one item cleared threshold 7: 48918575 (martinfowler.com 'DSLs Enable Reliable Use of LLMs' by Unmesh Joshi/Thoughtworks -- DSL as a harness that constrains LLM codegen, upfront-spec-impossibility, two-phase build-then-use, DSL-as-source-of-truth incl. the Tickloom distributed-systems example; direct llm-ops/agentic-reliability lane, score 8, fully verified from primary source). Near-misses dropped: 48918534 Telegram Serverless (4, platform adjacency not AI), 48915004 Tailscale SSH root CVE (4, security/infra not lane), 48914644 VPD quick-escape button (3, privacy UX), 48919198 mental-health essay (3, career/personal). Prefer fewer/verifiable -> 1 post. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 1,
+      "scored_above_threshold": 1,
+      "selected_ids": [
+        48918575
+      ],
+      "ts": "2026-07-15T14:05:05Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
