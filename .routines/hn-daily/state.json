@@ -1,10 +1,8 @@
 {
-  "last_pruned_ts": "2026-07-16T03:03:32Z",
+  "last_pruned_ts": "2026-07-16T14:05:49Z",
   "published_ids": {
     "48814170": "2026-07-11T03:07:45Z",
-    "48834924": "2026-07-09T03:06:49Z",
     "48835111": "2026-07-09T14:08:24Z",
-    "48837396": "2026-07-09T03:06:49Z",
     "48837696": "2026-07-09T14:08:24Z",
     "48842459": "2026-07-10T14:06:17Z",
     "48849066": "2026-07-10T14:06:17Z",
@@ -26,7 +24,9 @@
     "48910545": "2026-07-15T03:05:11Z",
     "48910676": "2026-07-15T03:05:11Z",
     "48918575": "2026-07-15T14:05:05Z",
-    "48921077": "2026-07-16T03:03:32Z"
+    "48921077": "2026-07-16T03:03:32Z",
+    "48924912": "2026-07-16T14:05:49Z",
+    "48926590": "2026-07-16T14:05:49Z"
   },
   "runs": [
     {
@@ -968,6 +968,18 @@
       ],
       "ts": "2026-07-16T03:03:32Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 19,
+      "note": "On-lane morning run. 19 eligible after dedup; rest of top 30 was off-lane (OnePlus US/EU exit, SpaceX stock slide, Stripe/Advent-PayPal M&A, music-piracy and USB-hub/wildlife-illustration/CSS-button essays, Sony DRM deletions, Bluesky trademarks ATProto, SQLite Rust-editions, PlanetScale-from-scratch db-infra). Two items cleared threshold 7, both scored high and fully verified from primary sources, distinct in angle: 48924912 (Thinking Machines Lab 'Inkling' open-weights 975B/41B-active MoE, 256+2 experts/6 active, 1M ctx, 45T multimodal tokens, Muon+Adam, 30M RL rollouts, controllable thinking effort 0.2-0.99, Inkling-Small 276B/12B-active; model card openly states 'not the strongest overall model' and prints losing benchmarks vs Fable 5/GPT 5.6 -- written on the customization-economics + effort-as-latency-knob angle; llm-ops/research/agentic lane, score 9, verified via thinkingmachines.ai + WebFetch) and 48926590 (xAI 'Grok Build' terminal coding agent open-sourced Apache-2.0, 99.6% Rust, ACP+MCP first-class, TUI/headless/stdio off one runtime, workspace=fs+VCS+exec+checkpoints, 'external contributions not accepted' one-way monorepo sync -- written on the read-only-reference-harness angle; agentic-ai/ai-infra lane, score 8, github.com blocked on curl/MCP scope so verified via WebFetch of the README). Near-misses dropped (below threshold): 48933310 theocharis.dev 'LLM Critics Are Right, I Use LLMs Anyway' (6, AI-code-quality opinion, heavy topic fatigue), 48927095 Siegel open-source-AI investment PDF (6, policy/advocacy thin technical, overlaps prior open-AI-manifesto coverage), 48931588 'Where are YC founders now' (4, AI-industry data thin technical), 48928135 SQLite Rust-editions (4, lang-design secondary), 48933303 PlanetScale-from-scratch (5, db-infra secondary). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48924912,
+        48926590
+      ],
+      "ts": "2026-07-16T14:05:49Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
