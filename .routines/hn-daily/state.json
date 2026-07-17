@@ -1,9 +1,7 @@
 {
-  "last_pruned_ts": "2026-07-16T14:05:49Z",
+  "last_pruned_ts": "2026-07-17T03:03:37Z",
   "published_ids": {
     "48814170": "2026-07-11T03:07:45Z",
-    "48835111": "2026-07-09T14:08:24Z",
-    "48837696": "2026-07-09T14:08:24Z",
     "48842459": "2026-07-10T14:06:17Z",
     "48849066": "2026-07-10T14:06:17Z",
     "48850414": "2026-07-10T03:07:55Z",
@@ -26,7 +24,9 @@
     "48918575": "2026-07-15T14:05:05Z",
     "48921077": "2026-07-16T03:03:32Z",
     "48924912": "2026-07-16T14:05:49Z",
-    "48926590": "2026-07-16T14:05:49Z"
+    "48926590": "2026-07-16T14:05:49Z",
+    "48935342": "2026-07-17T03:03:37Z",
+    "48940603": "2026-07-17T03:03:37Z"
   },
   "runs": [
     {
@@ -980,6 +980,18 @@
       ],
       "ts": "2026-07-16T14:05:49Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 25,
+      "note": "On-lane evening run. 25 eligible after dedup; rest of top 30 was off-lane (Microsoft Comic Chat, Decoy Font, Rust-to-Zig rewrite, linear-algebra/data-science textbooks, exoplanet/monkey/earthquake science, CD-vs-vinyl, Unicode/Lua/Go tooling). Six items cleared threshold 7; cap 2. Published the two strongest, most diverse, fully-verified picks: 48935342 (Kimi K3 -- first open 3T-class model, 2.8T params on Kimi Delta Attention + Attention Residuals, 16/896-expert MoE, 1M context, native vision, weights due 2026-07-27; written on the ~2.5x scaling-efficiency + serving/eval angle, score 9, verified from kimi.com blog) and 48940603 (Ring-Zero, arXiv 2607.12395 -- zero-RL verifiable-reward training scaled to 1T params, discovery->sharpening two-phase dynamics, emergent self-verification/parallel-reasoning/'context anxiety', and a CoT eval framework of comprehensibility/reproducibility/efficiency; written on the measure-the-reasoning-not-just-the-answer angle, score 8, verified from arXiv abstract v2). Deprioritized under cap 2: 48939662 (LM Studio Bionic agent for open models, 8 -- overlaps recent open/local-model topic fatigue, and pairs redundantly with Kimi K3's open-model theme), 48937020 (Traceforce Launch HN AI-app security, 7 -- on-lane llm-ops but launch-marketing thin), 48936880 (classical-ML LLM-text detector, 7) and 48933310 (LLM-critics honest-take essay, 7). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48935342,
+        48940603
+      ],
+      "ts": "2026-07-17T03:03:37Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
