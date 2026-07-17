@@ -1,11 +1,7 @@
 {
-  "last_pruned_ts": "2026-07-17T03:03:37Z",
+  "last_pruned_ts": "2026-07-17T14:07:25Z",
   "published_ids": {
     "48814170": "2026-07-11T03:07:45Z",
-    "48842459": "2026-07-10T14:06:17Z",
-    "48849066": "2026-07-10T14:06:17Z",
-    "48850414": "2026-07-10T03:07:55Z",
-    "48852199": "2026-07-10T03:07:55Z",
     "48863490": "2026-07-11T03:07:45Z",
     "48876505": "2026-07-12T03:03:03Z",
     "48877371": "2026-07-12T03:03:03Z",
@@ -26,6 +22,8 @@
     "48924912": "2026-07-16T14:05:49Z",
     "48926590": "2026-07-16T14:05:49Z",
     "48935342": "2026-07-17T03:03:37Z",
+    "48936880": "2026-07-17T14:07:25Z",
+    "48939662": "2026-07-17T14:07:25Z",
     "48940603": "2026-07-17T03:03:37Z"
   },
   "runs": [
@@ -992,6 +990,18 @@
       ],
       "ts": "2026-07-17T03:03:37Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 26,
+      "note": "On-lane morning run. 26 eligible after dedup; rest of top 30 was off-lane (Pebble smartwatch x2, Roman concrete, MS Comic Chat OSS, Decoy Font, USB-C guide, Commodore 64/Starlink/retro essays, immersive linear algebra, CD-vs-vinyl, exoplanet/monkey science, Go-vs-C, Minikotlin). Two items cleared threshold 7, both scored 8 and fully verified from primary sources: 48939662 (LM Studio Bionic -- agent for open models: per-task local-vs-cloud model routing via LM Link/Secure Cloud, ZDR, sandboxed Work projects, automatic checkpoints/rollback, inline diffs, GLM 5.2 / Kimi K2.7 Code; agentic-ai/llm-ops/ai-infra lane) and 48936880 (Detecting LLM-generated web fiction with classical ML -- perplexity method failed, scikit-learn linear SVM/Naive Bayes hits ~85% on single sentences via lexical fingerprints, ~10k pre-ChatGPT human vs 7-model regenerated samples, translation/rewrite bypass; llm-ops/research lane). Near-miss dropped: 48946010 (Kaggle 'AI slop won $25k DeepMind AGI prize', score 7 -- eval/benchmark-integrity lane but source is a JS-gated Kaggle discussion thread returning title-only, unverifiable, and framing is contentious/inflammatory; prefer fewer/verifiable). Also scored: 48936451 NotebookLM->Gemini Notebook (5, RAG product rebrand, thin technical), 48939524 AI music video Fable5 vs GPT-5.6 (5, creative gen off the production lane), 48941104 Little Book of RL (5, ML education adjacency), 48945681 Ask HN AWS $3B billing (4, cloud-cost anomaly, thin), 48946303 Apple legal letters to OpenAI staff (4, AI-industry legal/politics). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48939662,
+        48936880
+      ],
+      "ts": "2026-07-17T14:07:25Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
