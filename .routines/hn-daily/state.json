@@ -1,11 +1,7 @@
 {
-  "last_pruned_ts": "2026-07-17T03:03:37Z",
+  "last_pruned_ts": "2026-07-18T03:07:12Z",
   "published_ids": {
     "48814170": "2026-07-11T03:07:45Z",
-    "48842459": "2026-07-10T14:06:17Z",
-    "48849066": "2026-07-10T14:06:17Z",
-    "48850414": "2026-07-10T03:07:55Z",
-    "48852199": "2026-07-10T03:07:55Z",
     "48863490": "2026-07-11T03:07:45Z",
     "48876505": "2026-07-12T03:03:03Z",
     "48877371": "2026-07-12T03:03:03Z",
@@ -26,7 +22,8 @@
     "48924912": "2026-07-16T14:05:49Z",
     "48926590": "2026-07-16T14:05:49Z",
     "48935342": "2026-07-17T03:03:37Z",
-    "48940603": "2026-07-17T03:03:37Z"
+    "48940603": "2026-07-17T03:03:37Z",
+    "48947825": "2026-07-18T03:07:12Z"
   },
   "runs": [
     {
@@ -991,6 +988,17 @@
         48940603
       ],
       "ts": "2026-07-17T03:03:37Z",
+      "window": "evening"
+    },
+    {
+      "candidates_count": 24,
+      "note": "On-lane evening run. 24 eligible after dedup; rest of top 30 off-lane (Z80-at-50, exoplanet atmosphere, e-reader, Boeing/FAA, Rust web framework, Lego, railroad-rail-painting, Wikipedia timeline, SSH-honeypot, IoT-cam CVE, and several personal/politics essays). Two items cleared threshold 7: 48947717 (Simon Willison on Kimi K3, score 8) and 48947825 (State of Open Source AI, score 7). DROPPED 48947717 as a near-duplicate: yesterday's 2026-07-17 evening run already published a Kimi K3 post (hn_id 48935342, source kimi.com/blog/kimi-k3) covering the same 2.8T model, the July-27 open-weights drop, and the same eval-harness theme -- publishing a second Kimi K3 take 24h later is topic fatigue even though HN-id dedup wouldn't catch it. Published only 48947825 (The State of Open Source AI V1.0 report by CTO Raffi Krikorian: open weights at coding parity but behind on reasoning; GPT-4-class inference 0->/bin/bash.40/1M in 36mo = 50x; ownership/deployment examples PwC + Swiss public-supercomputer consortium; written on the per-capability-parity + open-model-economics + reasoning-gap-as-moat angle), fully verified from primary source via curl. Near-misses at 5 (dropped): 48953406 Isomorphic Labs drug-design engine (substantive AI but off the agentic/RAG/LLM-ops lane), 48945241 AWS .7B billing-data Ask HN (cloud-ops/data-quality, thin technical), 48950122 running SQLite (systems/DB secondary). 48896149 Vagdhenu Sanskrit-chanting TTS scored 4 per profile (Sanskrit = personal interest, write manually not via routine). Prefer fewer/verifiable -> 1 post. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 1,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48947825
+      ],
+      "ts": "2026-07-18T03:07:12Z",
       "window": "evening"
     }
   ],
