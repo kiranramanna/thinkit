@@ -1,8 +1,6 @@
 {
-  "last_pruned_ts": "2026-07-18T03:07:12Z",
+  "last_pruned_ts": "2026-07-18T14:05:42Z",
   "published_ids": {
-    "48814170": "2026-07-11T03:07:45Z",
-    "48863490": "2026-07-11T03:07:45Z",
     "48876505": "2026-07-12T03:03:03Z",
     "48877371": "2026-07-12T03:03:03Z",
     "48878682": "2026-07-12T14:06:18Z",
@@ -23,7 +21,9 @@
     "48926590": "2026-07-16T14:05:49Z",
     "48935342": "2026-07-17T03:03:37Z",
     "48940603": "2026-07-17T03:03:37Z",
-    "48947825": "2026-07-18T03:07:12Z"
+    "48947717": "2026-07-18T14:05:42Z",
+    "48947825": "2026-07-18T03:07:12Z",
+    "48956879": "2026-07-18T14:05:42Z"
   },
   "runs": [
     {
@@ -1000,6 +1000,18 @@
       ],
       "ts": "2026-07-18T03:07:12Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 27,
+      "note": "On-lane morning run. 27 eligible after dedup; rest of top 30 was off-lane (LG-monitor/Windows-Update security, Regressive JPEGs, AWS $1.7B billing bug, Z80-at-50, TP-Link Kasa GPS leak, IKEA Complexity Index, exoplanet atmosphere, e-reader/Steam-Machine hardware, SQLite/static-search-tree systems trivia, AI-logos humor). Two items cleared threshold 7, both scored 8 and fully verified from primary sources: 48947717 (Simon Willison on Kimi K3 -- Moonshot's 2.8T 'open 3T-class' model, open weights by Jul 27; written on the cost-per-task $0.94 + token-efficiency + held-out-pelican-probe angle rather than the parameter-count headline; llm-ops/eval lane) and 48956879 (Charles Azam, Fable 5 vs GPT-5.6 Sol on an unpublished NP-hard OR problem -- /goal changes the control loop not a quality knob, same command backs a separate evaluator in Claude Code vs persisted-state lifecycle in Codex, 'wins most runs and still a bad default'; agentic-ai/llm-ops lane). Dropped 48957779 (GPT-5.6 closes 30-year convex-optimization gap, score 8 but old.reddit.com thread is network-policy-BLOCKED and is a secondhand/unverifiable proof claim; also thematically overlaps the Fable-5 piece -- prefer fewer/verifiable). 48896149 (Vagdhenu Sanskrit Chanting TTS, 4) is personal-interest per profile (write manually, not via routine). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48947717,
+        48956879
+      ],
+      "ts": "2026-07-18T14:05:42Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
