@@ -1,8 +1,6 @@
 {
-  "last_pruned_ts": "2026-07-18T14:05:42Z",
+  "last_pruned_ts": "2026-07-19T03:06:04Z",
   "published_ids": {
-    "48876505": "2026-07-12T03:03:03Z",
-    "48877371": "2026-07-12T03:03:03Z",
     "48878682": "2026-07-12T14:06:18Z",
     "48880170": "2026-07-12T14:06:18Z",
     "48882716": "2026-07-13T03:03:36Z",
@@ -15,6 +13,7 @@
     "48905764": "2026-07-14T14:05:20Z",
     "48910545": "2026-07-15T03:05:11Z",
     "48910676": "2026-07-15T03:05:11Z",
+    "48911793": "2026-07-19T03:06:04Z",
     "48918575": "2026-07-15T14:05:05Z",
     "48921077": "2026-07-16T03:03:32Z",
     "48924912": "2026-07-16T14:05:49Z",
@@ -23,7 +22,8 @@
     "48940603": "2026-07-17T03:03:37Z",
     "48947717": "2026-07-18T14:05:42Z",
     "48947825": "2026-07-18T03:07:12Z",
-    "48956879": "2026-07-18T14:05:42Z"
+    "48956879": "2026-07-18T14:05:42Z",
+    "48959392": "2026-07-19T03:06:04Z"
   },
   "runs": [
     {
@@ -1012,6 +1012,18 @@
       ],
       "ts": "2026-07-18T14:05:42Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 24,
+      "note": "On-lane evening run. 24 eligible after dedup; rest of top 30 was off-lane (LG monitors Windows-Update 1030, GoPro decline, Amiga freeware, Quake3 map editor, Gleam/Elixir lang sites, LuaTeX, IndieWeb self-hosting, digital-alife arXiv, GitHub durable-owner security, lcamtuf V-I plots, NYT Backyard-Baseball). Four items cleared threshold 7; cap 2. Published the two strongest, most-diverse, fully-verified picks: 48959392 (ykdojo guide -- turn a spare Mac into an always-on host Claude Code fully controls with computer-use, phone/SSH access; --dangerously-skip-permissions risk mitigated by physical isolation vs a container -- written on the blast-radius/trust-boundary angle: ephemeral-scoped-disposable beats a long-lived fully-provisioned host in production, score 8, github.io fully extractable via curl) and 48911793 (Moonshine micro -- full VAD+STT+TTS voice stack on an ~80c RP2350 in ~470KB RAM, 3 stages time-share one ~384KB TFLM arena, ~0.7-1.0s, MIT; SpellingCNN STT is constrained-vocab not Whisper -- written on the on-device/escalate routing + latency-budget/privacy angle for conversational AI, score 7, verified via WebFetch of the GitHub repo). Dropped 48957779 (GPT-5.6 closes 30-year convex-optimization gap, 513 upvotes, merit score 8 -- but old.reddit.com source is network-policy-BLOCKED and it's a secondhand/unverifiable proof claim; already declined 2026-07-18 morning for the same reason -- prefer fewer/verifiable). Deprioritized 48956949 (What AI did to StackOverflow, 370up -- score 7 knowledge-commons/RAG-substrate angle, but the data.stackexchange graph is Cloudflare-JS-gated/unrenderable via curl+WebFetch and the piece is more industry commentary than core technical lane; under cap 2). Also scored: 48959297 Isomorphic/DeepMind Bioresilience (5, AI-for-bio off the agentic/RAG/LLM-ops software-agent lane), 48963465 Codex-Resets quota tracker (5, LLM-ops-adjacent novelty), 48963879 Transcribe.cpp (5), 48962983 Mamdani AI-image ad rule (3, AI+politics), 48962429 digital-primordial-soup alife (4). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48959392,
+        48911793
+      ],
+      "ts": "2026-07-19T03:06:04Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
