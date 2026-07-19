@@ -1,8 +1,6 @@
 {
-  "last_pruned_ts": "2026-07-19T03:06:04Z",
+  "last_pruned_ts": "2026-07-19T14:06:21Z",
   "published_ids": {
-    "48878682": "2026-07-12T14:06:18Z",
-    "48880170": "2026-07-12T14:06:18Z",
     "48882716": "2026-07-13T03:03:36Z",
     "48883275": "2026-07-13T03:03:36Z",
     "48891184": "2026-07-13T14:08:00Z",
@@ -23,7 +21,9 @@
     "48947717": "2026-07-18T14:05:42Z",
     "48947825": "2026-07-18T03:07:12Z",
     "48956879": "2026-07-18T14:05:42Z",
-    "48959392": "2026-07-19T03:06:04Z"
+    "48959392": "2026-07-19T03:06:04Z",
+    "48963879": "2026-07-19T14:06:21Z",
+    "48967355": "2026-07-19T14:06:21Z"
   },
   "runs": [
     {
@@ -1024,6 +1024,18 @@
       ],
       "ts": "2026-07-19T03:06:04Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 23,
+      "note": "On-lane morning run. 23 eligible after dedup; rest of top 30 was off-lane (Minecraft/SDL3, Blender 5.2, Amiga/retro-Mac games, MIDI-hardware & homelab, IPTV tool, IndieWeb hosting, font-making, fastest-multiplication math, ACM bikeshed essay, NYC AI-listing politics, Rome-tourism). Two items cleared threshold 7, both verified from primary sources and diverse: 48967355 (Quesma 'I burned all my tokens researching how to save tokens' -- custom deep-research pipeline, score 8; role-based model routing Find/Verify/Judge, cross-vendor headless subagents Codex+Antigravity under a Claude Code harness sharing claude-mem, verification-bound cost model: 111 agents/123 claims queued, only 25 verified before the limit and synthesis never ran; agentic-ai/llm-ops lane) and 48963879 (transcribe.cpp, score 7 -- ggml-based cross-platform ASR inference library by Handy's maintainer, 16 ASR families/60+ models, Vulkan/Metal/CUDA, every model numerically verified + WER-tested vs reference impl; written on the eval-harness-in-the-inference-engine angle, conversational-ai/ai-infrastructure adjacency). Dropped despite >=7-ish: 48960218 (The Kimi K3 Moment, ~8 technical but source pivots into inflammatory US-AI-policy/geopolitics framing -- politics off-lane + policy rule 6) and 48966190 (Qwen 3.8 Max Preview, source is a marketing pricing/token-plan page with cross-sell, thin/promo -- policy rule 7). 48965850 (OpenAI Codex context 372k->272k) on-lane but the GitHub PR source could not be extracted through the proxy to verify details. 48963465 (Codex Resets) is a satirical tweet-tracker, thin -> 4. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48967355,
+        48963879
+      ],
+      "ts": "2026-07-19T14:06:21Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
