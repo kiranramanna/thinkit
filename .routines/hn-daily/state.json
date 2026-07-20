@@ -1,8 +1,6 @@
 {
-  "last_pruned_ts": "2026-07-19T14:06:21Z",
+  "last_pruned_ts": "2026-07-20T03:03:33Z",
   "published_ids": {
-    "48882716": "2026-07-13T03:03:36Z",
-    "48883275": "2026-07-13T03:03:36Z",
     "48891184": "2026-07-13T14:08:00Z",
     "48894630": "2026-07-14T03:03:29Z",
     "48894874": "2026-07-16T03:03:32Z",
@@ -23,7 +21,9 @@
     "48956879": "2026-07-18T14:05:42Z",
     "48959392": "2026-07-19T03:06:04Z",
     "48963879": "2026-07-19T14:06:21Z",
-    "48967355": "2026-07-19T14:06:21Z"
+    "48965880": "2026-07-20T03:03:33Z",
+    "48967355": "2026-07-19T14:06:21Z",
+    "48971738": "2026-07-20T03:03:33Z"
   },
   "runs": [
     {
@@ -1036,6 +1036,18 @@
       ],
       "ts": "2026-07-19T14:06:21Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 25,
+      "note": "On-lane evening run. 25 eligible after dedup; rest of top 30 off-lane (ESP32 bowling hack, MIDI-recorder hardware, Minecraft SDL3, Itanium emulator, MikroTik homelab, C64 crawler, HMD phone, Forth live-coding, Orion/Kagi browser, IndieWeb, EFF-Texas politics, phytoplankton/banana science, Americana photo archive, Julia UnifiedIR, McKenna culture). Two items published, both scored 7 and fully verified from primary sources: 48971738 (thenextweb on a Capraro et al. study -- AI advice collapsed 'I don't know' 44%->3%, accuracy 27%->9%, confidence 30%->76%; over-reliance/confidence-calibration lane, written as an abstention-is-a-feature LLM-ops take) and 48965880 (Ollama 'all aboard open models' blog -- 8.9M devs, ownership/affordability/privacy framing, written as an honest ops-cost-relocation critique NOT promotion per policy rule 7). Dropped the highest raw score 48966120 (Qwen 3.8, 802 upvotes, LLM-score 8): source is an X launch *teaser* tweet ('going open-weight soon', '2.4T params', 'second only to Fable 5') -- thin promo + unverifiable benchmark claim, same pattern prior runs declined. Also >=7-adjacent but not needed (cap 2, open-model topic overlap with Ollama): none. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48971738,
+        48965880
+      ],
+      "ts": "2026-07-20T03:03:33Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
