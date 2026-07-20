@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-07-20T03:03:33Z",
+  "last_pruned_ts": "2026-07-20T14:04:05Z",
   "published_ids": {
     "48891184": "2026-07-13T14:08:00Z",
     "48894630": "2026-07-14T03:03:29Z",
@@ -23,7 +23,9 @@
     "48963879": "2026-07-19T14:06:21Z",
     "48965880": "2026-07-20T03:03:33Z",
     "48967355": "2026-07-19T14:06:21Z",
-    "48971738": "2026-07-20T03:03:33Z"
+    "48971738": "2026-07-20T03:03:33Z",
+    "48974325": "2026-07-20T14:04:05Z",
+    "48975665": "2026-07-20T14:04:05Z"
   },
   "runs": [
     {
@@ -1048,6 +1050,18 @@
       ],
       "ts": "2026-07-20T03:03:33Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 23,
+      "note": "On-lane morning run. 23 eligible after dedup; rest of top 30 was heavily off-lane (Airport Simulator, Moonshine game-streaming, Riemann zeta, Egyptian tomb, Moist Towelette Museum, Orion browser, Minecraft SDL3, MIDI-recorder hardware, Xiaomi robotics, bananas-in-UK, architecture-photo archive). Two items cleared threshold 7, both fully verified via WebFetch of primary sources: 48975665 (slcyber.io -- pre-auth WordPress REST batch-endpoint index-misalignment SQLi->RCE found by up to 4 concurrent GPT5.6 agents on source-only, no-internet, ~$25 = 50%% of a weekly $200 sub; written on the orchestration/search-strategy angle, defensive-research framing, no exploit payloads, score 9) and 48974325 (github lora-speedrun -- wall-clock LoRA fine-tuning leaderboard: Qwen2.5-1.5B->=57%% GSM8K on one L40S, record 6m05s@61.1%% vs 11m57s baseline via seq-packing+completion-only masking; Track2 SmolLM2-1.7B SQuAD 11m08s@77.5%%; llm-ops/fine-tuning-ops lane, score 7). Near-misses dropped: 48936994 (1-Bit LLM in browser, 7 -- HF WebGPU space, thinner writeup + JS-gated), 48978112 (Stop Using OpenCode, 6 -- opinion 'shower thought', thin technical), 48966569 (Claude Code on Bun-in-Rust, 6 -- toolchain/runtime packaging, thin on AI substance). curl hit Cloudflare/proxy blocks on the source pages; used WebFetch to verify. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48975665,
+        48974325
+      ],
+      "ts": "2026-07-20T14:04:05Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
