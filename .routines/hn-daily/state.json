@@ -1,15 +1,13 @@
 {
-  "last_pruned_ts": "2026-07-20T14:04:05Z",
+  "last_pruned_ts": "2026-07-21T03:03:40Z",
   "published_ids": {
-    "48891184": "2026-07-13T14:08:00Z",
-    "48894630": "2026-07-14T03:03:29Z",
     "48894874": "2026-07-16T03:03:32Z",
-    "48899321": "2026-07-14T03:03:29Z",
     "48905028": "2026-07-14T14:05:20Z",
     "48905764": "2026-07-14T14:05:20Z",
     "48910545": "2026-07-15T03:05:11Z",
     "48910676": "2026-07-15T03:05:11Z",
     "48911793": "2026-07-19T03:06:04Z",
+    "48916512": "2026-07-21T03:03:40Z",
     "48918575": "2026-07-15T14:05:05Z",
     "48921077": "2026-07-16T03:03:32Z",
     "48924912": "2026-07-16T14:05:49Z",
@@ -25,7 +23,8 @@
     "48967355": "2026-07-19T14:06:21Z",
     "48971738": "2026-07-20T03:03:33Z",
     "48974325": "2026-07-20T14:04:05Z",
-    "48975665": "2026-07-20T14:04:05Z"
+    "48975665": "2026-07-20T14:04:05Z",
+    "48982535": "2026-07-21T03:03:40Z"
   },
   "runs": [
     {
@@ -1062,6 +1061,18 @@
       ],
       "ts": "2026-07-20T14:04:05Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 28,
+      "note": "On-lane evening run. 28 eligible after dedup; rest of top 30 was off-lane (airport/game sims, Jelly-UI soft-body form controls, Gaussian-splat cathedral, Shinjuku 3D, SSAO gamedev, Romania land-registry wipe, Flock/ALPR surveillance, Jellyfin governance, LED light-pollution, New Yorker Google essay). Two items cleared threshold 7, both scored 8 and fully verified from primary sources: 48982535 (Cursor 'Agent swarms and the new model economics' -- planner/worker tree decomposition, purpose-built VCS at ~1000 commits/sec, quality constant across model mixes while cost varies enormously; context-efficiency-not-parallelism thesis; direct multi-agent-orchestration/llm-ops lane) and 48916512 (Stencil 'You only need the frontier model for one single edit' -- bill is O(reads) not O(edits), /plan duplicates reading and costs 14%% MORE than solo Opus, /prewalk hands off the context trajectory not a 2K-token plan postcard for $1.46/task at ~97%% frontier quality; agentic model-routing/cost-economics lane). Near-misses dropped (cap 2): 48982681 Nativ local-model runner (7, local-inference topic fatigue), 48981206 measuring-AI-writing-on-arXiv (7, LLM-eval adjacency). AI-industry/geopolitics opinion pieces (48977128 Stratechery Chinese models, 48979269 'China open-weights winning', 48980019 Kimi K3/Anthropic economics) scored 5-6 (thin technical/contentious); math-AI counterexample items (48983382, 48973869) scored 6. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48982535,
+        48916512
+      ],
+      "ts": "2026-07-21T03:03:40Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
