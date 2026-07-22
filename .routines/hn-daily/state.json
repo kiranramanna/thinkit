@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-07-21T14:06:33Z",
+  "last_pruned_ts": "2026-07-22T03:02:56Z",
   "published_ids": {
     "48894874": "2026-07-16T03:03:32Z",
     "48910545": "2026-07-15T03:05:11Z",
@@ -24,7 +24,9 @@
     "48975665": "2026-07-20T14:04:05Z",
     "48979269": "2026-07-21T14:06:33Z",
     "48981703": "2026-07-21T14:06:33Z",
-    "48982535": "2026-07-21T03:03:40Z"
+    "48982535": "2026-07-21T03:03:40Z",
+    "48998606": "2026-07-22T03:02:56Z",
+    "48999291": "2026-07-22T03:02:56Z"
   },
   "runs": [
     {
@@ -1084,6 +1086,18 @@
       ],
       "ts": "2026-07-21T14:06:33Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 23,
+      "note": "On-lane evening run. 23 eligible after dedup; rest of top 30 was off-lane (FreeInk e-readers, Terry Tao Jacobian counterexample, castle map, coral reef, PCjs/Prolog retro, VPN/CSAM/Anthropic-settlement legal, Knuth-Plass typography). Declined the top story 48997548 (OpenAI+HuggingFace model-eval security incident, score 8, 777 upvotes): official openai.com post is JS-gated to curl AND HTTP 403 to WebFetch, so the incident's technical details are unverifiable -- won't fabricate a security claim (prefer fewer/verifiable). Published two diverse, fully-verified picks: 48998606 (Gemini 3.6 Flash / 3.5 Flash-Lite deprecate+ignore temperature/top_p/top_k, 400 on future models; prefilled model turns removed -> Interactions API; determinism via system instructions/structured outputs/thinking_level -- LLM-ops, score 7, verified via WebFetch of ai.google.dev) and 48999291 (Fireworks Kimi K3 + Fable 5 task-level oracle routing: ~1030 tasks, SWE 92.4 vs 92.6, routed 93%%, up to ~50X cheaper on long agentic loops, K3 handled 72-96%% of traffic; written with the oracle-router-vs-shippable-router caveat, score 7 -- agentic-ai/llm-ops routing lane, verified via WebFetch of fireworks.ai). Deprioritized model-release fatigue: 48993414 Gemini 3.6 Flash (overlaps the Gemini API post), 48995261 Laguna S 2.1, 48999291 kept only for its distinct routing angle. Apple PCC SoC-3 audit (48995796) dropped -- page is nav-only, audit explicitly excludes AI services, thin writability. Jack Dorsey Buzz (48995213) dropped on runtimewire.com source-reliability. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48998606,
+        48999291
+      ],
+      "ts": "2026-07-22T03:02:56Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
