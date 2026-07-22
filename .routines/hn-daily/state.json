@@ -1,9 +1,7 @@
 {
-  "last_pruned_ts": "2026-07-22T03:02:56Z",
+  "last_pruned_ts": "2026-07-22T14:03:46Z",
   "published_ids": {
     "48894874": "2026-07-16T03:03:32Z",
-    "48910545": "2026-07-15T03:05:11Z",
-    "48910676": "2026-07-15T03:05:11Z",
     "48911793": "2026-07-19T03:06:04Z",
     "48916512": "2026-07-21T03:03:40Z",
     "48918575": "2026-07-15T14:05:05Z",
@@ -25,6 +23,8 @@
     "48979269": "2026-07-21T14:06:33Z",
     "48981703": "2026-07-21T14:06:33Z",
     "48982535": "2026-07-21T03:03:40Z",
+    "48993414": "2026-07-22T14:03:46Z",
+    "48995261": "2026-07-22T14:03:46Z",
     "48998606": "2026-07-22T03:02:56Z",
     "48999291": "2026-07-22T03:02:56Z"
   },
@@ -1098,6 +1098,18 @@
       ],
       "ts": "2026-07-22T03:02:56Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 25,
+      "note": "On-lane morning run. 25 eligible after dedup; rest of top 30 off-lane (OverpAId CEO-satire, Kagi/e-reader/radio essays, Apollo-11 source, Intel High-NA EUV, AMD X3D gaming, Jacobian-conjecture math, castle map, coral reef, iCloud-CSAM & Anthropic-copyright legal). Two items cleared threshold 7, both scored 8 and fully verified from primary sources: 48995261 (Poolside Laguna S 2.1 -- 118B-A8B MoE, 1M ctx thinking/no-thinking, <9wk train-to-launch, Terminal-Bench 2.1 70.2 / SWE-Bench Multilingual 78.5 / SWE-Bench Pro 59.4, full trajectories released at trajectories.poolside.ai; agentic-ai/llm-ops/ai-infra lane, written on the active-param serving-cost + trajectory-transparency thesis) and 48993414 (Gemini 3.6 Flash / 3.5 Flash-Lite / 3.5 Flash Cyber via WebFetch -- 3.6 Flash 17%% fewer output tokens & DeepSWE 49 vs 37, Flash-Lite 350 tok/s @ $0.30/$2.50, computer-use built-in tool, Flash Cyber gov-gated vuln-finder via CodeMender multi-agent orchestration; llm-ops/agentic/enterprise lane, written on the token-economics + gated-domain-model access-split angle). DECLINED the day's biggest story 48997548 (OpenAI/Hugging Face model-eval security incident, 1374 upvotes) -- openai.com/index page is JS-gated and returns HTTP 403 to both curl and WebFetch, unverifiable from primary source; same reason skipped 49005398 (BBC 'AI went rogue cyber-attack', related secondary coverage). Also passed: 48996571 Advertise in ChatGPT (5, thin technical monetization), 48996652 Anthropic $1.5B copyright settlement (5, legal/industry contentious), 48998404 LLMs draw Mona Lisa (5, novelty eval), 48995213 Jack Dorsey Buzz (6, runtimewire.com flagged-unverifiable outlet). This is the 2nd run today; 2 posts already published in the 03Z evening run so daily total = 4 (advisory posts_per_day cap). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48995261,
+        48993414
+      ],
+      "ts": "2026-07-22T14:03:46Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
