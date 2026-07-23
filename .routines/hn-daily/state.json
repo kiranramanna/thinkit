@@ -1,10 +1,9 @@
 {
-  "last_pruned_ts": "2026-07-22T14:03:46Z",
+  "last_pruned_ts": "2026-07-23T03:03:13Z",
   "published_ids": {
     "48894874": "2026-07-16T03:03:32Z",
     "48911793": "2026-07-19T03:06:04Z",
     "48916512": "2026-07-21T03:03:40Z",
-    "48918575": "2026-07-15T14:05:05Z",
     "48921077": "2026-07-16T03:03:32Z",
     "48924912": "2026-07-16T14:05:49Z",
     "48926590": "2026-07-16T14:05:49Z",
@@ -26,7 +25,9 @@
     "48993414": "2026-07-22T14:03:46Z",
     "48995261": "2026-07-22T14:03:46Z",
     "48998606": "2026-07-22T03:02:56Z",
-    "48999291": "2026-07-22T03:02:56Z"
+    "48999291": "2026-07-22T03:02:56Z",
+    "49010129": "2026-07-23T03:03:13Z",
+    "49010782": "2026-07-23T03:03:13Z"
   },
   "runs": [
     {
@@ -1110,6 +1111,18 @@
       ],
       "ts": "2026-07-22T14:03:46Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 24,
+      "note": "On-lane evening run. 24 eligible after dedup; rest of top 30 was off-lane (Codeberg crypto ban, Dvorak obituary, Medici DNA, Safari preview, Fairphone Linux, Reddit-HTML rant, Emacs, YC email-builder launch, Bento HTML slides, AI-slop/AI-menu culture essays). Five items cleared threshold 7; cap 2. Published the two strongest, most diverse, fully-verified picks: 49010129 (Dylan Castillo 'Are AI labs pelicanmaxxing?' -- 1,008 SVGs x 7 frontier models scored by an LLM judge on an 8-animal x 6-vehicle grid, no evidence of benchmaxxing; written as an eval-validity/hold-out-set take, score 8, verified from primary source) and 49010782 (Show HN: Cactus Hybrid -- in-checkpoint confidence probe, 0.814 vs 0.549 token-entropy AUROC, 0.85 escalation threshold, Gemma 4 E2B routing 15-35%% to Gemini 3.1 Flash-Lite; written as the agentic routing/fallback + governance-dial angle, score 8, verified via WebFetch since the git proxy is repo-scoped). Near-misses dropped (cap 2): 49013995 (real-world text-to-SQL benchmark, 8 -- CACM source returned 403, unverifiable), 49010167 (GigaToken 1000x tokenization, 8 -- github blocked by repo-scoped proxy, deprioritized for verifiability + topic diversity), 49015735 (Petals home LLM, 7 -- local-model topic fatigue). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49010129,
+        49010782
+      ],
+      "ts": "2026-07-23T03:03:13Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
