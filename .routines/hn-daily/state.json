@@ -1,10 +1,8 @@
 {
-  "last_pruned_ts": "2026-07-23T03:03:13Z",
+  "last_pruned_ts": "2026-07-23T14:04:07Z",
   "published_ids": {
-    "48894874": "2026-07-16T03:03:32Z",
     "48911793": "2026-07-19T03:06:04Z",
     "48916512": "2026-07-21T03:03:40Z",
-    "48921077": "2026-07-16T03:03:32Z",
     "48924912": "2026-07-16T14:05:49Z",
     "48926590": "2026-07-16T14:05:49Z",
     "48935342": "2026-07-17T03:03:37Z",
@@ -22,11 +20,13 @@
     "48979269": "2026-07-21T14:06:33Z",
     "48981703": "2026-07-21T14:06:33Z",
     "48982535": "2026-07-21T03:03:40Z",
+    "48989006": "2026-07-23T14:04:07Z",
     "48993414": "2026-07-22T14:03:46Z",
     "48995261": "2026-07-22T14:03:46Z",
     "48998606": "2026-07-22T03:02:56Z",
     "48999291": "2026-07-22T03:02:56Z",
     "49010129": "2026-07-23T03:03:13Z",
+    "49010167": "2026-07-23T14:04:07Z",
     "49010782": "2026-07-23T03:03:13Z"
   },
   "runs": [
@@ -1123,6 +1123,18 @@
       ],
       "ts": "2026-07-23T03:03:13Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 23,
+      "note": "On-lane morning run. 23 eligible after dedup; rest of top 30 heavily off-lane (Terence Tao/ChatGPT Jacobian-conjecture math #1 at 1001, Bento HTML-slides Show HN, SIMD explainer, Bun/Zig Cruller runtime, Postgres startup guide, Emacs/LSP + ASCII-art-in-Vim editor posts, Dvorak obituary, EU Google fine, AI-slop/ugly-AI-menu culture essays, Medici DNA, Back-to-Kagi). Two items cleared threshold 7, both fully verified via WebFetch of primary sources: 48989006 (Bright Security -- ANSI escape-sequence injection in MCP servers: 0x1B bytes render invisible to humans but reach model-consumable fields; direct-fetch vs stored variants, stored crosses HTTP-write->MCP-read boundary for multi-session blast radius; three-signal DAST detection = escape byte + instruction phrase + unique trigger marker; written on the tool-output-is-untrusted / audit-log-integrity angle, score 9 -- direct agentic-ai/MCP/llm-ops-safety lane) and 49010167 (GigaToken -- ~1000x faster tokenizer, 24.53 GB/s vs HF 24.8 MB/s GPT-2 on 144-core EPYC, 1268x on M4 Max; SIMD pretokenization + pretoken-cache + minimizing Python-boundary/thread round-trips, not a new algorithm; drop-in for GPT-2/Llama BPE, no WordPiece/SentencePiece; written on the offline-preprocessing-not-online-serving bottleneck take, score 8 -- llm-ops/ai-infra lane; github source verified via WebFetch since repo-scoped git proxy blocks it, resolving the evening-run verifiability concern). Near-miss dropped (cap 2): 48917135 (used-GPU-cluster valuation, score 7, ai-infra economics -- verified but thinner AI-engineering content than the top two). Off-lane AI-industry/policy scored 5-6: 49020868 (OpenAI+Anthropic vs open-weights, Axios contentious), 49021006 (Alphabet cash burn, Reuters finance), 49015635 (Codeberg protecting FLOSS from LLMs, thin+contentious), 49010345 (Tao/ChatGPT math novelty, 6, chatgpt.com share unverifiable). This is the 2nd run today; 03Z evening published 2 so daily total = 4 (advisory posts_per_day cap). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        48989006,
+        49010167
+      ],
+      "ts": "2026-07-23T14:04:07Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
