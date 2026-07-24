@@ -1,10 +1,8 @@
 {
-  "last_pruned_ts": "2026-07-24T03:03:18Z",
+  "last_pruned_ts": "2026-07-24T14:06:11Z",
   "published_ids": {
     "48911793": "2026-07-19T03:06:04Z",
     "48916512": "2026-07-21T03:03:40Z",
-    "48935342": "2026-07-17T03:03:37Z",
-    "48940603": "2026-07-17T03:03:37Z",
     "48947717": "2026-07-18T14:05:42Z",
     "48947825": "2026-07-18T03:07:12Z",
     "48956879": "2026-07-18T14:05:42Z",
@@ -25,7 +23,9 @@
     "49010129": "2026-07-23T03:03:13Z",
     "49010782": "2026-07-23T03:03:13Z",
     "49023019": "2026-07-24T03:03:18Z",
-    "49026810": "2026-07-24T03:03:18Z"
+    "49026810": "2026-07-24T03:03:18Z",
+    "49031409": "2026-07-24T14:06:11Z",
+    "49033087": "2026-07-24T14:06:11Z"
   },
   "runs": [
     {
@@ -1133,6 +1133,18 @@
       ],
       "ts": "2026-07-24T03:03:18Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 20,
+      "note": "On-lane morning run. 20 eligible after dedup; rest of top 30 off-lane (Flux 3 image/video gen, focus/handwriting/em-dash essays, Bun/Zig fork, Patreon layoffs, Codeberg migration, Steve Jobs anecdote, film-data sites, India rocket, geopolitics). Two items cleared threshold 7, both scored 8 and fully verified from primary sources: 49031409 (Claude Cookbook -- read as a field report on production agent problems: programmatic tool calling for token/latency, tool-search-via-embeddings as an emergent RAG layer, automatic context compaction, and an in-loop grade-and-revise eval harness; agentic-ai/llm-ops/rag lane) and 49033087 (Hetzner Inference first-look -- bare-metal host stands up an OpenAI-compatible endpoint serving Qwen3.6-35B-A3B-FP8, ~153ms TTFT/~224 tok/s warm-connection snapshot, undocumented enable_thinking flag, compute-economics/make-vs-rent read; llm-ops/ai-infrastructure/industry lane). Source profanity paraphrased out per policy rule 6. Near-misses dropped (cap 2): 49034342 (alexhyett 'building an app with AI took a year', 7 -- AI-assisted-dev opinion, thinner technical) and 49032072 (chipsandcheese AMD MI455X, 7 -- AI-accelerator hardware deep-dive, ai-infra adjacency). 49023016 (founders vs Chinese open-weight AI shutoff, 5 -- AI policy + politico.com, contentious/thin technical) dropped. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49031409,
+        49033087
+      ],
+      "ts": "2026-07-24T14:06:11Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
