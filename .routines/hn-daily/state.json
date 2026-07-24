@@ -1,12 +1,8 @@
 {
-  "last_pruned_ts": "2026-07-23T03:03:13Z",
+  "last_pruned_ts": "2026-07-24T03:03:18Z",
   "published_ids": {
-    "48894874": "2026-07-16T03:03:32Z",
     "48911793": "2026-07-19T03:06:04Z",
     "48916512": "2026-07-21T03:03:40Z",
-    "48921077": "2026-07-16T03:03:32Z",
-    "48924912": "2026-07-16T14:05:49Z",
-    "48926590": "2026-07-16T14:05:49Z",
     "48935342": "2026-07-17T03:03:37Z",
     "48940603": "2026-07-17T03:03:37Z",
     "48947717": "2026-07-18T14:05:42Z",
@@ -27,7 +23,9 @@
     "48998606": "2026-07-22T03:02:56Z",
     "48999291": "2026-07-22T03:02:56Z",
     "49010129": "2026-07-23T03:03:13Z",
-    "49010782": "2026-07-23T03:03:13Z"
+    "49010782": "2026-07-23T03:03:13Z",
+    "49023019": "2026-07-24T03:03:18Z",
+    "49026810": "2026-07-24T03:03:18Z"
   },
   "runs": [
     {
@@ -1122,6 +1120,18 @@
         49010782
       ],
       "ts": "2026-07-23T03:03:13Z",
+      "window": "evening"
+    },
+    {
+      "candidates_count": 27,
+      "note": "On-lane evening run. 27 eligible after dedup; rest of top 30 was off-lane (98.css/OpenGL/WebGPU/tinyrenderer graphics tutorials, Visual 6502 & Beam Engine retro/mechanical, Neal Stephenson handwriting essay, exomoon/rare-earth science, Minecraft-worlds & DARPA F-16 hardware/defense, TheNumbers.com media, LWN obituary, Emacs/OCaml-GC/ATProto systems). Two items cleared threshold 7, both scored high and fully verified from primary sources: 49023019 (HumanLayer 'Why Software Factories Fail' -- harness engineering can't fix a model-training problem; benchmarks rise while Faros AI reports PR-review quality down and incidents/PR up ~240%; front-load alignment/context engineering is the real lever; score 9, agentic-ai/llm-ops lane, written from the raw GitHub markdown) and 49026810 (Show HN: Echo -- multi-model orchestration over open-weight models; oracle-upper-bound framing, model complementarity, per-request compute/model/fusion allocation, ~Fable-level at ~1/3 cost on the author's own eval; score 8, direct multi-agent-orchestration/llm-ops lane, written as an honest take with the single-author-benchmark and hard-to-score-agentic-tasks caveats per policy, source_url null since Show HN text -- cited author's eval writeup + hn_url). Near-misses dropped (cap 2): 49015639 (Simon Willison, OpenAI's accidental attack on Hugging Face, score 8 -- verifiable AI-infra incident, deprioritized only for cap + topic diversity), 49024620 (Launch HN Screenpipe, 7 -- record-work->agents, thinner/launch), 49023427 (Show HN OneCLI credential gateway for AI agents, 7 -- on-lane but thin). AI-policy/finance items scored ~5 (49023016 Politico open-weight-AI politics, 49024643 open-source-AI opinion, 49020999 Futurism AI-debt journalism). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49023019,
+        49026810
+      ],
+      "ts": "2026-07-24T03:03:18Z",
       "window": "evening"
     }
   ],
