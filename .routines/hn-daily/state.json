@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-07-24T14:06:11Z",
+  "last_pruned_ts": "2026-07-25T03:05:36Z",
   "published_ids": {
     "48911793": "2026-07-19T03:06:04Z",
     "48916512": "2026-07-21T03:03:40Z",
@@ -25,7 +25,9 @@
     "49023019": "2026-07-24T03:03:18Z",
     "49026810": "2026-07-24T03:03:18Z",
     "49031409": "2026-07-24T14:06:11Z",
-    "49033087": "2026-07-24T14:06:11Z"
+    "49033087": "2026-07-24T14:06:11Z",
+    "49038060": "2026-07-25T03:05:36Z",
+    "49038433": "2026-07-25T03:05:36Z"
   },
   "runs": [
     {
@@ -1145,6 +1147,18 @@
       ],
       "ts": "2026-07-24T14:06:11Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 27,
+      "note": "On-lane evening run. 27 eligible after dedup; rest of top 30 was off-lane (space launch, IoT secrets-leak, gaming/OS, robotics hardware, Zig/Go/Bun tooling, banknote/zipper/whale science, geopolitics). Four items cleared threshold 7: 49038433 Claude Opus 5 (9), 49038060 skeptical-of-OpenAI-rogue-agent (8), 49040741 Opus 5 #1 on Artificial Analysis (8), 49033004 'if coding is solved why is software worse' (7). Cap 2. Published 49038433 (Opus 5 launch -- written on the per-call effort-dial as an LLM-ops primitive, incl. the honest cybersecurity capability-gap disclosure; primary source anthropic.com fully extractable) and 49038060 (Guardian/John Thickstun skeptical take -- reframed as an eval-hygiene/reward-hacking problem: answer key reachable from the grading sandbox, not autonomous menace; SOFT policy contentious-industry-topic kept factual/non-inflammatory, byline attribution only; guardian.com fully extractable). Dropped 49040741 as a duplicate Opus 5 topic for diversity; dropped 49033004 by cap. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49038433,
+        49038060
+      ],
+      "ts": "2026-07-25T03:05:36Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
