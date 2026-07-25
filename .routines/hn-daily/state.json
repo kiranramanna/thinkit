@@ -1,11 +1,8 @@
 {
-  "last_pruned_ts": "2026-07-25T03:05:36Z",
+  "last_pruned_ts": "2026-07-25T14:04:57Z",
   "published_ids": {
     "48911793": "2026-07-19T03:06:04Z",
     "48916512": "2026-07-21T03:03:40Z",
-    "48947717": "2026-07-18T14:05:42Z",
-    "48947825": "2026-07-18T03:07:12Z",
-    "48956879": "2026-07-18T14:05:42Z",
     "48959392": "2026-07-19T03:06:04Z",
     "48963879": "2026-07-19T14:06:21Z",
     "48965880": "2026-07-20T03:03:33Z",
@@ -27,7 +24,8 @@
     "49031409": "2026-07-24T14:06:11Z",
     "49033087": "2026-07-24T14:06:11Z",
     "49038060": "2026-07-25T03:05:36Z",
-    "49038433": "2026-07-25T03:05:36Z"
+    "49038433": "2026-07-25T03:05:36Z",
+    "49044492": "2026-07-25T14:04:57Z"
   },
   "runs": [
     {
@@ -1159,6 +1157,18 @@
       ],
       "ts": "2026-07-25T03:05:36Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 24,
+      "note": "On-lane items sparse in an otherwise off-lane morning top 30 (private rocket, security-camera token leak, Postgres LISTEN/NOTIFY, Firefox Containers, Wasmtime GC, ARC-AGI, museums, fasteners, whales). Four items cleared threshold 7: 49044492(8), 49040741(8), 49045040(7), 49024938(7). Published only ONE for topic diversity: this morning's evening run (03:05Z, same UTC day) already shipped 49038433 'The Effort Dial Matters More Than Opus 5s Top Score', so 49040741 (Opus 5 tops Artificial Analysis Intelligence Index) was DROPPED as duplicate coverage of the exact same Opus-5-#1 story ~11h earlier. Published 49044492 (UK AISI/CAISI joint cyber-capability eval of Kimi K3 -- ExploitBench + 32-step 'The Last Ones' network attack, Kimi reached step 17 vs 28.5 for frontier US models, US closed models run with safeguards disabled to measure max capability, IRT aggregation, agentic exploit dev not blocked by Kimi guardrails, open-weight release slated 07-27; llm-ops/safety/eval lane, score 8, fully verified from nist.gov). Also dropped: 49024938 (Kimi K3 autonomously exploited Redis, 7 -- agentic+security but source is an X/twitter thread, low writability) and 49045040 (ARC-AGI leaderboard, 7 -- adjacent eval but linked page is a JS leaderboard, thin extractable prose). Prefer fewer/verifiable -> 1 post. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 1,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49044492,
+        49040741
+      ],
+      "ts": "2026-07-25T14:04:57Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
