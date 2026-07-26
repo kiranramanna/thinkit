@@ -1,10 +1,8 @@
 {
-  "last_pruned_ts": "2026-07-26T03:03:09Z",
+  "last_pruned_ts": "2026-07-26T14:06:24Z",
   "published_ids": {
     "48916512": "2026-07-21T03:03:40Z",
-    "48963879": "2026-07-19T14:06:21Z",
     "48965880": "2026-07-20T03:03:33Z",
-    "48967355": "2026-07-19T14:06:21Z",
     "48971738": "2026-07-20T03:03:33Z",
     "48974325": "2026-07-20T14:04:05Z",
     "48975665": "2026-07-20T14:04:05Z",
@@ -25,7 +23,9 @@
     "49038433": "2026-07-25T03:05:36Z",
     "49044492": "2026-07-25T14:04:57Z",
     "49050512": "2026-07-26T03:03:09Z",
-    "49051361": "2026-07-26T03:03:09Z"
+    "49050859": "2026-07-26T14:06:24Z",
+    "49051361": "2026-07-26T03:03:09Z",
+    "49052564": "2026-07-26T14:06:24Z"
   },
   "runs": [
     {
@@ -1181,6 +1181,18 @@
       ],
       "ts": "2026-07-26T03:03:09Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 23,
+      "note": "Lane-thin morning top 30 (Ruff/Go static analysis, GrapheneOS, systemd, ESP32 radar, meteorite/golf/clinical-trials science, drones/SpaceX/politics, shell/git/Django dev trivia). Three items cleared threshold 7, cap 2. Published the two strongest, most on-lane, fully-verified: 49050859 (Debian General Resolution vote_002 on LLM usage -- Proposal A full ban on generative-AI contributions, argued primarily on copyright provenance + quality + reviewer burnout; llm-ops/governance lane, verified from official debian.org vote page via curl) and 49052564 (Cloudflare AI traffic options -- search/agent/training bot taxonomy, content-use robots.txt extension immediate/reference/full, Forwarded-header transitive trust, Sept 15 default block on ad-monetized pages; agentic-ai/ai-infra lane, verified from blog.cloudflare.com via WebFetch). Deprioritized near-miss 49053375 (Inflect-Micro-v2, score 7 -- genuinely solid sub-10M-param VITS TTS with real UTMOS/WER/realtime benchmarks, but vocoder/TTS synthesis is more tangential to the writer's conversational-AI lane of virtual-agents/NLU than the two governance/infra picks). Tangential 5s dropped: 49052912 DeepSeek-fundraise-pause (thin+contentious industry), 49052570 Stanford AI-jobs-hype (labor economics, not technical lane). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49050859,
+        49052564
+      ],
+      "ts": "2026-07-26T14:06:24Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
