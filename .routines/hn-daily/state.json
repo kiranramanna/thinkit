@@ -1,9 +1,7 @@
 {
-  "last_pruned_ts": "2026-07-25T14:04:57Z",
+  "last_pruned_ts": "2026-07-26T03:03:09Z",
   "published_ids": {
-    "48911793": "2026-07-19T03:06:04Z",
     "48916512": "2026-07-21T03:03:40Z",
-    "48959392": "2026-07-19T03:06:04Z",
     "48963879": "2026-07-19T14:06:21Z",
     "48965880": "2026-07-20T03:03:33Z",
     "48967355": "2026-07-19T14:06:21Z",
@@ -25,7 +23,9 @@
     "49033087": "2026-07-24T14:06:11Z",
     "49038060": "2026-07-25T03:05:36Z",
     "49038433": "2026-07-25T03:05:36Z",
-    "49044492": "2026-07-25T14:04:57Z"
+    "49044492": "2026-07-25T14:04:57Z",
+    "49050512": "2026-07-26T03:03:09Z",
+    "49051361": "2026-07-26T03:03:09Z"
   },
   "runs": [
     {
@@ -1169,6 +1169,18 @@
       ],
       "ts": "2026-07-25T14:04:57Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 23,
+      "note": "On-lane evening run. 23 eligible after dedup; rest of top 30 was off-lane (sodium-ion batteries, wind-ammonia, Amazon canopy bridges, clinical-trial failure rates, transistor/dithering art, homelab multicast, weather/markdown toys, Android ADB, Radicle/Bitchat, memory-safety PL debate). Two items cleared threshold 7, both verified from primary sources: 49051361 (Anthropic 'new rules of context engineering for Claude 5' -- removed >80%% of Claude Code's system prompt with no eval regression; constraint->judgment, examples now constrain, progressive disclosure/deferred tool loading; direct agentic-ai/llm-ops/context-engineering lane, score 9, verified via WebFetch) and 49050512 (slvDev/esp32-ai -- 28.9M-param TinyStories LLM on an $8 ESP32-S3; three-tier SRAM/PSRAM/flash memory layout + Per-Layer Embeddings, 14.9MB@4-bit, ~9.5 tok/s, ~450B/token flash reads; ai-infra/llm-ops/edge-inference lane, score 7, verified from GitHub README). Near-misses dropped (cap 2): 49048034 (Open-weight AI's Kubernetes moment, 7 -- overlaps recent open/local-model topic fatigue), 49050859 (LLM usage in Debian, 6 -- community-policy, thin technical), 49052564 (Cloudflare AI traffic options, 6 -- infra/governance adjacency), 49052912 (DeepSeek fundraise/compute-gap leak, 4 -- AI-industry politics). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49051361,
+        49050512
+      ],
+      "ts": "2026-07-26T03:03:09Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
