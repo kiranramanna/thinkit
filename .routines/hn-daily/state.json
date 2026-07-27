@@ -1,9 +1,7 @@
 {
-  "last_pruned_ts": "2026-07-27T03:03:49Z",
+  "last_pruned_ts": "2026-07-27T14:04:47Z",
   "published_ids": {
     "48916512": "2026-07-21T03:03:40Z",
-    "48974325": "2026-07-20T14:04:05Z",
-    "48975665": "2026-07-20T14:04:05Z",
     "48979269": "2026-07-21T14:06:33Z",
     "48981703": "2026-07-21T14:06:33Z",
     "48982535": "2026-07-21T03:03:40Z",
@@ -24,7 +22,8 @@
     "49050859": "2026-07-26T14:06:24Z",
     "49051361": "2026-07-26T03:03:09Z",
     "49052564": "2026-07-26T14:06:24Z",
-    "49058993": "2026-07-27T03:03:49Z"
+    "49058993": "2026-07-27T03:03:49Z",
+    "49067854": "2026-07-27T14:04:47Z"
   },
   "runs": [
     {
@@ -1203,6 +1202,17 @@
       ],
       "ts": "2026-07-27T03:03:49Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 25,
+      "note": "Lane-thin morning top 30 (Postgres internals, GrapheneOS airport-search prosecution, gaming/Mario64/VLC-Unity, black-hole demo, nature/magnolias, guitar & locomotive history, htmx-vs-React, Vercel TS-to-native compiler, DIY clock, data-oriented design dominated). Only one item cleared threshold 7: 49067854 (Tom Lockwood, 'How is the Bun Rewrite in Rust going?', score 8) -- a data-driven skeptical teardown of the 65k/11-day 'Anthropic AI rewrote Bun in Rust' claim: 6 weeks post-merge still no release tag (longest gap since 2022), robobun/Claude open PRs up 1277->2475 in 18 days, ~40-90min CI per merge => ~86 days of continuous pipeline to drain backlog. Written as an LLM-ops/agentic-code-economics take (generation is cheap, review/CI/integration is the real cost), measured/non-inflammatory per policy SOFT since it's a contentious valuation-adjacent claim; primary source fully verified (author cloned the repo). Declined 49065752 (Kimi-K3, score 6): on-lane 'first open 3T model' but source is a pre-release countdown teaser (releasing in ~53min) with only marketing bullets, no weights/benchmarks to verify -- prefer fewer/verifiable. Near-misses at 5-6 dropped: 49062291 (zstd proof automation, strong systems content but no AI angle without forcing it), 49068029/49066591 (Claude Opus 5 outage status pages, thin incident timelines), 49063754 (Postgres internals), 49033522 (DX Core 4 dev-productivity). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 1,
+      "scored_above_threshold": 1,
+      "selected_ids": [
+        49067854
+      ],
+      "ts": "2026-07-27T14:04:47Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
