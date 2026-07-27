@@ -1,9 +1,7 @@
 {
-  "last_pruned_ts": "2026-07-26T14:06:24Z",
+  "last_pruned_ts": "2026-07-27T03:03:49Z",
   "published_ids": {
     "48916512": "2026-07-21T03:03:40Z",
-    "48965880": "2026-07-20T03:03:33Z",
-    "48971738": "2026-07-20T03:03:33Z",
     "48974325": "2026-07-20T14:04:05Z",
     "48975665": "2026-07-20T14:04:05Z",
     "48979269": "2026-07-21T14:06:33Z",
@@ -25,7 +23,8 @@
     "49050512": "2026-07-26T03:03:09Z",
     "49050859": "2026-07-26T14:06:24Z",
     "49051361": "2026-07-26T03:03:09Z",
-    "49052564": "2026-07-26T14:06:24Z"
+    "49052564": "2026-07-26T14:06:24Z",
+    "49058993": "2026-07-27T03:03:49Z"
   },
   "runs": [
     {
@@ -1193,6 +1192,17 @@
       ],
       "ts": "2026-07-26T14:06:24Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 28,
+      "note": "Lane-thin evening top 30 (games, science/space, essays, frontend/htmx-GameBoy, PostgreSQL-viz, Django, GrapheneOS-airport politics, code-tooling AST-grep/Go-analysis, an AI-productivity self-help essay). Only one item cleared threshold 7: 49058993 (vectoral.com 'The relay market powering token resellers and fraud', score 8) -- direct llm-ops/ai-infrastructure lane on the LLM API grey market: 'relay/transfer-station' proxies reselling frontier-model credit at ~97%% off ($3,333 Anthropic credit for ~425 RMB), a four-layer stolen-card -> account-pool -> relay supply chain running on the same open-source OpenAI-compatible gateways (one-api/new-api) teams self-host for legit multi-provider routing; written on the key-management/fraud-defense angle, SOFT policy note (geopolitically adjacent, kept factual/non-inflammatory), verified via WebFetch of the primary source. Near-misses dropped: 49060945 (How to Block Some of the Bots, ~5 adjacency AND source returned HTTP 503, unfetchable/unverifiable), 49057398 (Go static-analysis framework, 5), 49060509 (AST-grep Rust rewrite, 5), 49057877 (New AI Superpowers productivity essay, 4). Prefer fewer/verifiable -> 1 post. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 1,
+      "scored_above_threshold": 1,
+      "selected_ids": [
+        49058993
+      ],
+      "ts": "2026-07-27T03:03:49Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
