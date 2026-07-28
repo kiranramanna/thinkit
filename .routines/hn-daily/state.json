@@ -1,10 +1,8 @@
 {
-  "last_pruned_ts": "2026-07-27T14:04:47Z",
+  "last_pruned_ts": "2026-07-28T03:06:06Z",
   "published_ids": {
-    "48916512": "2026-07-21T03:03:40Z",
     "48979269": "2026-07-21T14:06:33Z",
     "48981703": "2026-07-21T14:06:33Z",
-    "48982535": "2026-07-21T03:03:40Z",
     "48993414": "2026-07-22T14:03:46Z",
     "48995261": "2026-07-22T14:03:46Z",
     "48998606": "2026-07-22T03:02:56Z",
@@ -23,7 +21,9 @@
     "49051361": "2026-07-26T03:03:09Z",
     "49052564": "2026-07-26T14:06:24Z",
     "49058993": "2026-07-27T03:03:49Z",
-    "49067854": "2026-07-27T14:04:47Z"
+    "49067854": "2026-07-27T14:04:47Z",
+    "49076057": "2026-07-28T03:06:06Z",
+    "49076391": "2026-07-28T03:06:06Z"
   },
   "runs": [
     {
@@ -1213,6 +1213,18 @@
       ],
       "ts": "2026-07-27T14:04:47Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 20,
+      "note": "On-lane evening run. 20 eligible after dedup; rest of top 30 off-lane (astronauts 'observer' effect, glue/nonstick chemistry, tetrahedral-cage ray tracing, Netflix-HR drama, WWII computer history, real-numbers philosophy, React->Htmx frontend, D conf, portable-Python packaging, Volvo/Eicher fleet exploit). Two items cleared threshold 7, both verified from primary sources: 49076391 (SlopCodeBench -- UW Madison incremental-checkpoint coding eval; Opus 5 strict-pass 24%% of 17 vs 6%% for Opus 4.8/Sonnet 5; ~29k LOC w/ complexity drift; direct llm-ops/agentic-eval lane, score 8) and 49076057 (Anthropic 'Our position on open-weights models' -- Amodei: no ban, reframes onto chip export controls + distillation crackdown + universal safety testing; enterprise-ai/model-governance lane, score 7, written as an honest operational take not promotion per policy rule 7, kept factual/non-inflammatory on the geopolitics per policy rule 6 -- SOFT flag for contentious tech-industry topic). Near-misses dropped: 49041256 RTX 2080 Ti 22GB VRAM mod (5, hardware hack w/ thin local-inference angle), 49021024 rootless containers (5, platform-security adjacency), 49073513 Google DMCA/scraping ruling (4, legal w/ training-data angle), 49045474 Go GC visualizer (4, PL internals). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49076391,
+        49076057
+      ],
+      "ts": "2026-07-28T03:06:06Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
