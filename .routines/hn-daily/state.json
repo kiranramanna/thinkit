@@ -1,8 +1,6 @@
 {
-  "last_pruned_ts": "2026-07-28T03:06:06Z",
+  "last_pruned_ts": "2026-07-28T14:07:17Z",
   "published_ids": {
-    "48979269": "2026-07-21T14:06:33Z",
-    "48981703": "2026-07-21T14:06:33Z",
     "48993414": "2026-07-22T14:03:46Z",
     "48995261": "2026-07-22T14:03:46Z",
     "48998606": "2026-07-22T03:02:56Z",
@@ -23,7 +21,9 @@
     "49058993": "2026-07-27T03:03:49Z",
     "49067854": "2026-07-27T14:04:47Z",
     "49076057": "2026-07-28T03:06:06Z",
-    "49076391": "2026-07-28T03:06:06Z"
+    "49076391": "2026-07-28T03:06:06Z",
+    "49078454": "2026-07-28T14:07:17Z",
+    "49082022": "2026-07-28T14:07:17Z"
   },
   "runs": [
     {
@@ -1225,6 +1225,18 @@
       ],
       "ts": "2026-07-28T03:06:06Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 14,
+      "note": "On-lane morning run. 14 eligible after dedup; rest of top 30 was off-lane (Japan earthquake, HIV vaccine, macOS security notes, Go GC internals, DMARC, Mondragon co-ops, astronomy-text translations, Apple vehicle-motion-cues, boiling-water biology). Three items cleared threshold 7; cap 2. Published the two strongest, most diverse, fully-verified picks: 49078454 (fermisense 'The Rise of Intelligence Ownership' -- GRPO fine-tune of a 9B open model beats every frontier config on catalog review at $0.50/1k listings, 40x-340x cheaper, same tools/images/scorer held constant; direct llm-ops/fine-tuning cost-economics lane, score 9) and 49082022 (Kimi Linear arXiv 2510.26692 -- hybrid linear attention, Kimi Delta Attention + MLA, 3B/48B, up to 75%% less KV cache and ~6x decode throughput at 1M context, open KDA kernel + vLLM impl; research/llm-ops/ai-infra lane, score 8). Dropped (cap 2): 49081644 (Google Beyond Zero enterprise AI security, score 7 -- adjacency, deprioritized for the two stronger primary-lane picks). Both posts verified from primary sources (fermisense article body + arXiv abstract). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49078454,
+        49082022
+      ],
+      "ts": "2026-07-28T14:07:17Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
