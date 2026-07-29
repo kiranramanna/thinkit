@@ -1,10 +1,8 @@
 {
-  "last_pruned_ts": "2026-07-28T14:07:17Z",
+  "last_pruned_ts": "2026-07-29T03:05:17Z",
   "published_ids": {
     "48993414": "2026-07-22T14:03:46Z",
     "48995261": "2026-07-22T14:03:46Z",
-    "48998606": "2026-07-22T03:02:56Z",
-    "48999291": "2026-07-22T03:02:56Z",
     "49010129": "2026-07-23T03:03:13Z",
     "49010782": "2026-07-23T03:03:13Z",
     "49023019": "2026-07-24T03:03:18Z",
@@ -23,7 +21,9 @@
     "49076057": "2026-07-28T03:06:06Z",
     "49076391": "2026-07-28T03:06:06Z",
     "49078454": "2026-07-28T14:07:17Z",
-    "49082022": "2026-07-28T14:07:17Z"
+    "49082022": "2026-07-28T14:07:17Z",
+    "49085698": "2026-07-29T03:05:17Z",
+    "49088058": "2026-07-29T03:05:17Z"
   },
   "runs": [
     {
@@ -1237,6 +1237,18 @@
       ],
       "ts": "2026-07-28T14:07:17Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 22,
+      "note": "On-lane evening run. 22 eligible after dedup; rest of top 30 off-lane (Half-Life on Mac OS 9, HN userscript, Substack/website advice, SBCL 2.6.7, Zig incremental-compilation internals, e-paper camera, GPS watch, Uzbek flatbreads, HIV vaccine, slow-journalism, button-vs-link UX, Norvig 'learn in 10 years'). Five items >=7; cap 2. Published the two 9s, both fully verified from primary sources and topically distinct: 49088058 (MCP 2026-07-28 spec -- stateless protocol core replaces the bidirectional stateful session so any request lands on any instance behind round-robin; header-based routing via Mcp-Method/Mcp-Name, cacheable deterministic list results keep upstream prompt caches stable, MRTR replaces always-open streams; agentic-ai/llm-ops/infra lane) and 49085698 (Sebastian Raschka's Kimi K3 architecture notes -- 2.8T scaled-up Kimi Linear, biggest open-weight model; LatentMoE + multi-head latent attention + Kimi Delta Attention as inference-efficiency swaps, attention residuals the one non-efficiency tweak (~4%% train/~2%% inference for consistent val-loss win), first frontier-scale model to drop RoPE for all-NoPE; research/ai-infra lane). Near-misses dropped (cap 2): 49089755 (OpenAI Codex Security repo, 8), 49087091 (Anthropic discovering cryptographic weaknesses with Claude, 8), 49069033 (Tarski attack on LLM truth-probes, 7 -- thin HN discussion). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49088058,
+        49085698
+      ],
+      "ts": "2026-07-29T03:05:17Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
