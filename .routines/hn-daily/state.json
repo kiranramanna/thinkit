@@ -1,8 +1,6 @@
 {
-  "last_pruned_ts": "2026-07-29T03:05:17Z",
+  "last_pruned_ts": "2026-07-29T14:04:47Z",
   "published_ids": {
-    "48993414": "2026-07-22T14:03:46Z",
-    "48995261": "2026-07-22T14:03:46Z",
     "49010129": "2026-07-23T03:03:13Z",
     "49010782": "2026-07-23T03:03:13Z",
     "49023019": "2026-07-24T03:03:18Z",
@@ -23,7 +21,9 @@
     "49078454": "2026-07-28T14:07:17Z",
     "49082022": "2026-07-28T14:07:17Z",
     "49085698": "2026-07-29T03:05:17Z",
-    "49088058": "2026-07-29T03:05:17Z"
+    "49088058": "2026-07-29T03:05:17Z",
+    "49096188": "2026-07-29T14:04:47Z",
+    "49096969": "2026-07-29T14:04:47Z"
   },
   "runs": [
     {
@@ -1249,6 +1249,18 @@
       ],
       "ts": "2026-07-29T03:05:17Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 22,
+      "note": "On-lane morning run. 22 eligible after dedup; rest of top 30 off-lane (KOReader e-reader, jailbroken-Kindle/Tailscale, Amiga archive, demoscene UIs, Lisp/Forth, SBCL 2.6.7, Half-Life on Mac OS 9, RADV->Win32, ReFrame e-paper cam, Roman maps, Substack/slow-journalism, Kavinsky obituary). Three items tied at LLM-score 8; cap 2. Published the two most substantive + diverse + primary-source-verifiable picks: 49096969 (arXiv HANDBOOK.md -- benchmark of 65 agentic tasks over 20-124pg enterprise SOPs via MCP; strict grading, best of 30 configs passes only 36.2%, 824 deterministic criteria; failure taxonomy: in-env request overrides standing policy, acts against own checks, loses rules over long horizons, false compliance -- direct agentic-ai/llm-ops/guardrails lane, fully extractable abstract) and 49096188 (enklypesalt.com 'AI Worming through Word' -- coordinated MSRC disclosure, 144-day window; document-borne AI-worm self-propagation: hidden instructions in a source doc get copied by Copilot into generated docs, re-triggering downstream without the original attacker file; XPIA escalated to a document supply chain; first public demo in a mainstream productivity suite -- llm-ops/agentic security lane, fully extractable). Deprioritized the third 8: 49089755 (github.com/openai/codex-security, 547 upvotes) -- curl blocked by session repo-scoping proxy though WebFetch reached it; writable substance is a thin scanning-CLI README (scan repos, CI checks, ChatGPT/API-key auth) with no threat model, and thematically overlaps the security angle. Prefer fewer/verifiable. Near-misses at 5-6 dropped: 49096917 (Bullshit Detector agent skills, 6, thin Show HN), 49096953 (After the AI Crash, 5, industry opinion), 49092499 (LearnVector/Andrew Ng, 5, edu-startup launch), 49094346 (SQLite in Production, 5, secondary systems lane). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49096969,
+        49096188
+      ],
+      "ts": "2026-07-29T14:04:47Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
