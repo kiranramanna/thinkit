@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-07-30T03:03:53Z",
+  "last_pruned_ts": "2026-07-30T14:06:49Z",
   "published_ids": {
     "49023019": "2026-07-24T03:03:18Z",
     "49026810": "2026-07-24T03:03:18Z",
@@ -23,7 +23,9 @@
     "49089500": "2026-07-30T03:03:53Z",
     "49096188": "2026-07-29T14:04:47Z",
     "49096969": "2026-07-29T14:04:47Z",
-    "49098510": "2026-07-30T03:03:53Z"
+    "49098510": "2026-07-30T03:03:53Z",
+    "49104117": "2026-07-30T14:06:49Z",
+    "49107749": "2026-07-30T14:06:49Z"
   },
   "runs": [
     {
@@ -1273,6 +1275,18 @@
       ],
       "ts": "2026-07-30T03:03:53Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 17,
+      "note": "On-lane morning run. 17 eligible after dedup; rest of top 30 off-lane (EU VPN/copyright ruling, Vision Pro, Thimbleweed Park 2 game, Seiko watch, Android age checks, Azulejo tiles, cold-email/productivity essays, GCC/OpenJDK generative-AI contribution policies). Two items cleared threshold 7, both verified from primary sources: 49104117 (LLM Honeypot -- llm2human.pages.dev, score 8: a satirical GeoCities-style site whose hidden 'FOR LLM AGENTS ONLY' block instructs browsing agents to fetch /.well-known/embodiment.json and POST to /api/checkout, with a live counter proving autonomous agents follow injected instructions -- direct prompt-injection/agentic-security lane) and 49107749 (Agent-Manager -- github.com/YoanWai/agent-manager, score 7: a Go/tmux TUI to run Claude Code/Codex/OpenCode/Grok in parallel with live status, session revival, and per-line diff comments routed back to the agent -- agentic-ai/llm-ops orchestration lane). Near-misses dropped (below threshold): 49103285 (AI startups barely publishing research, science.org 556pts, score 6 -- industry-meta, thin technical), 49104335 (The Productivity Mirage, score 6 -- general AI-dev productivity essay), 49108685 (GCC AI policy, 5) and 49109165 (OpenJDK generative-AI policy, 5 -- governance adjacency, thin technical). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49104117,
+        49107749
+      ],
+      "ts": "2026-07-30T14:06:49Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
