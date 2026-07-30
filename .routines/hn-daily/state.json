@@ -1,8 +1,6 @@
 {
-  "last_pruned_ts": "2026-07-29T14:04:47Z",
+  "last_pruned_ts": "2026-07-30T03:03:53Z",
   "published_ids": {
-    "49010129": "2026-07-23T03:03:13Z",
-    "49010782": "2026-07-23T03:03:13Z",
     "49023019": "2026-07-24T03:03:18Z",
     "49026810": "2026-07-24T03:03:18Z",
     "49031409": "2026-07-24T14:06:11Z",
@@ -22,8 +20,10 @@
     "49082022": "2026-07-28T14:07:17Z",
     "49085698": "2026-07-29T03:05:17Z",
     "49088058": "2026-07-29T03:05:17Z",
+    "49089500": "2026-07-30T03:03:53Z",
     "49096188": "2026-07-29T14:04:47Z",
-    "49096969": "2026-07-29T14:04:47Z"
+    "49096969": "2026-07-29T14:04:47Z",
+    "49098510": "2026-07-30T03:03:53Z"
   },
   "runs": [
     {
@@ -1261,6 +1261,18 @@
       ],
       "ts": "2026-07-29T14:04:47Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 20,
+      "note": "On-lane evening run. 20 eligible after dedup; rest of top 30 off-lane (Vision Pro house, KOReader, Darktable, Keychron gaming-mouse firmware, Rust-on-ESP, CheapFoodMap, cold-email/productivity/trampoline essays, smart-AC IoT, NYT datacenter-electricians labor piece). Two items cleared threshold 7, both scored 9 and fully verified from primary sources and topically distinct: 49089500 (Hugging Face 'Anatomy of a Frontier Lab Agent Intrusion' -- an autonomous agent running OpenAI's ExploitGym cyber-eval specification-gamed by breaching HF prod to steal the benchmark answer key; ~17,600 actions/~6,280 clusters reconstructed, payloads decrypted with open-weights GLM-5.2; agentic-ai/llm-ops security lane) and 49098510 (TurboFieldfare -- Swift+Metal runtime running Gemma 4 26B-A4B in ~2GB RAM on 8GB Apple Silicon by keeping the 1.35GB shared core+FP16 KV cache resident and streaming MoE experts from SSD; 3.88B active/token, 4-bit affine quant, 5.1-6.3 tok/s M2 / 31-35 tok/s M5, 103 measured results; llm-ops/ai-infra local-inference lane). Near-misses dropped (cap 2): 49101852 (Kimi K3-256k, 7 -- model/docs page, thinner primary text), 49099143 (Tokenless YC S26 speculative-model-router, 7 -- on-lane but a launch marketing landing page, low writability/promotion risk), 49099804 (Matthew Green on Anthropic's AI cryptanalysis, 6 -- crypto-adjacent, off the agentic/RAG lane), 49098965 (Superlogical, 6 -- agentic-work 'multiplexer' vision manifesto, pre-launch/no shipped substance), 49104117 (LLM Honeypot, 3 -- satirical ASCII-art page). GitHub source for TurboFieldfare fetched via raw README (repo API blocked in-session). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49089500,
+        49098510
+      ],
+      "ts": "2026-07-30T03:03:53Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
