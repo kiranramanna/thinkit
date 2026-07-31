@@ -1,8 +1,6 @@
 {
-  "last_pruned_ts": "2026-07-31T03:05:17Z",
+  "last_pruned_ts": "2026-07-31T14:07:10Z",
   "published_ids": {
-    "49031409": "2026-07-24T14:06:11Z",
-    "49033087": "2026-07-24T14:06:11Z",
     "49038060": "2026-07-25T03:05:36Z",
     "49038433": "2026-07-25T03:05:36Z",
     "49044492": "2026-07-25T14:04:57Z",
@@ -24,8 +22,10 @@
     "49098510": "2026-07-30T03:03:53Z",
     "49104117": "2026-07-30T14:06:49Z",
     "49107749": "2026-07-30T14:06:49Z",
+    "49111176": "2026-07-31T14:07:10Z",
     "49113059": "2026-07-31T03:05:17Z",
-    "49116922": "2026-07-31T03:05:17Z"
+    "49116922": "2026-07-31T03:05:17Z",
+    "49119559": "2026-07-31T14:07:10Z"
   },
   "runs": [
     {
@@ -1299,6 +1299,18 @@
       ],
       "ts": "2026-07-31T03:05:17Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 27,
+      "note": "On-lane morning run. 27 eligible after dedup; rest of top 30 off-lane (Gemini Robotics 2 embodied AI, GitHub stacked PRs, JEP 401 Java value objects, Krebs TV-stick malware, UEFA/FIFA sports politics, solid-state batteries, retro 6502/Minitel, culture essays). Two items published, both fully verified from primary sources: 49111176 (Thoughtworks/Fowler 'Economic Benefit of Refactoring' -- agents wrote a 150kLoC app whose Rust data-access layer ballooned to 17,155 lines; a controlled experiment re-running the same change per refactoring stage shows token cost of future changes drops, reframing refactoring as amortization not readability; score 8, agentic-ai/llm-ops lane) and 49119559 (official DeepSeek-V4-Flash release notes -- flash tier beats V4-Pro-Preview on agentic evals: Terminal Bench 2.1 82.7, DeepSWE 54.4, Responses-API-native + Codex-adapted; written with harness/reproducibility caveats, score 7). Dropped 49120299 (DeepSeek V4 Flash analysis, artificialanalysis.ai -- score 8 but JS-gated SPA returned no extractable body AND same subject as 49119559). Deprioritized 49113599 (CTGT distillation/censorship-transfer, score 8) -- solid LLM research but source wraps the finding in CCP/'American ideals' geopolitical framing (policy rule 6, inflammatory political framing); prefer cleaner/verifiable when ambiguous. Near-misses at 6: 49116721 (AI-slop peer review), 49096170 (latency percentiles dataviz), 49120097 (AI-found Chrome bugs), 49108685 (GCC AI policy). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49111176,
+        49119559
+      ],
+      "ts": "2026-07-31T14:07:10Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
