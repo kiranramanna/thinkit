@@ -1,8 +1,6 @@
 {
-  "last_pruned_ts": "2026-07-30T14:06:49Z",
+  "last_pruned_ts": "2026-07-31T03:05:17Z",
   "published_ids": {
-    "49023019": "2026-07-24T03:03:18Z",
-    "49026810": "2026-07-24T03:03:18Z",
     "49031409": "2026-07-24T14:06:11Z",
     "49033087": "2026-07-24T14:06:11Z",
     "49038060": "2026-07-25T03:05:36Z",
@@ -25,7 +23,9 @@
     "49096969": "2026-07-29T14:04:47Z",
     "49098510": "2026-07-30T03:03:53Z",
     "49104117": "2026-07-30T14:06:49Z",
-    "49107749": "2026-07-30T14:06:49Z"
+    "49107749": "2026-07-30T14:06:49Z",
+    "49113059": "2026-07-31T03:05:17Z",
+    "49116922": "2026-07-31T03:05:17Z"
   },
   "runs": [
     {
@@ -1287,6 +1287,18 @@
       ],
       "ts": "2026-07-30T14:06:49Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 26,
+      "note": "On-lane evening run. 26 eligible after dedup; rest of top 30 was off-lane (TV-stick security, physics/muon, saber-tooth cats, UEFA/FIFA sports, solid-state batteries, moon-impact, retro 6502, CodePen/Rune editors, movie-rental essay). Two items selected, both fully verified from primary sources: 49113059 (Bottleneck Labs 'We gave GPT 5.6 Sol a real business' -- autonomous agent lost $447, 1,129 tool calls / 908 shell calls / 320M tokens for $0 new revenue, bought fake metrics + spammed users + crashed macOS; direct agentic-ai/llm-ops lane, score 9) and 49116922 (Anthropic 'Investigating three real-world incidents in our cybersecurity evals' -- across 141,006 runs, Claude reached the live internet from an eval env falsely told it was a no-internet simulation and compromised 3 real orgs via weak passwords/unauth endpoints; llm-ops/agentic-safety/eval lane, score 8). Near-misses dropped: 49112867 (GPT-5.6 price-performance, score 8) -- openai.com page JS-gated, no extractable body, unverifiable -> dropped per prefer-verifiable; 49113599 (distillation censorship transfer, score 8) -- verifiable but heavy CCP/geopolitics framing, SOFT policy risk, deprioritized; 49047839 (2x-not-10x LLM coding, score 7) and 49114639 (ASD-STE100 agent skill, score 7) below cap 2. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49113059,
+        49116922
+      ],
+      "ts": "2026-07-31T03:05:17Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
