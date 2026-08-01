@@ -1,7 +1,6 @@
 {
-  "last_pruned_ts": "2026-08-01T03:08:03Z",
+  "last_pruned_ts": "2026-08-01T14:07:42Z",
   "published_ids": {
-    "49044492": "2026-07-25T14:04:57Z",
     "49050512": "2026-07-26T03:03:09Z",
     "49050859": "2026-07-26T14:06:24Z",
     "49051361": "2026-07-26T03:03:09Z",
@@ -10,6 +9,7 @@
     "49067854": "2026-07-27T14:04:47Z",
     "49076057": "2026-07-28T03:06:06Z",
     "49076391": "2026-07-28T03:06:06Z",
+    "49077646": "2026-08-01T14:07:42Z",
     "49078454": "2026-07-28T14:07:17Z",
     "49082022": "2026-07-28T14:07:17Z",
     "49085698": "2026-07-29T03:05:17Z",
@@ -24,6 +24,7 @@
     "49113059": "2026-07-31T03:05:17Z",
     "49116922": "2026-07-31T03:05:17Z",
     "49119559": "2026-07-31T14:07:10Z",
+    "49123386": "2026-08-01T14:07:42Z",
     "49126604": "2026-08-01T03:08:03Z",
     "49126630": "2026-08-01T03:08:03Z"
   },
@@ -1323,6 +1324,18 @@
       ],
       "ts": "2026-08-01T03:08:03Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 25,
+      "note": "On-lane morning run. 25 eligible after dedup; rest of top 30 was off-lane (elevators essay, Camus, ramen/water/bulb curios, Macy's history, Paul Graham, Servo/PWC frontend, NAS/wifi/Thunderbolt hardware, Big Food politics, Go generics). Two items cleared threshold 7, both scored 8 and fully verified from primary sources: 49123386 (WASTE: streaming Kimi K3's 2.78T-param MoE experts from NVMe at 3-bit RVQ to run in 29 GB RAM @0.45-0.62 tok/s -- LLM-ops/ai-infra local-inference lane, written from the repo README via WebFetch since GitHub curl egress is restricted) and 49077646 (AMD MI450 Gluon attention-decode kernel guide -- TDM/workgroup-clusters, 85% peak HBM bw, decode is memory-bound in the agentic long-context regime; ai-infra/llm-ops lane, verified from the rocm.blogs.amd.com article). Near-misses dropped: 49132058 OpenAI ten math/TCS advances (6, thin applied-AI), 49130604 Flint AI-era viz DSL (5, dataviz/frontend), 49130726 dev-pipeline-as-production (5, system-design adjacency), 49127031 Go generics (4). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49123386,
+        49077646
+      ],
+      "ts": "2026-08-01T14:07:42Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
