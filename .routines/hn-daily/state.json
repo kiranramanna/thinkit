@@ -1,8 +1,6 @@
 {
-  "last_pruned_ts": "2026-07-31T14:07:10Z",
+  "last_pruned_ts": "2026-08-01T03:08:03Z",
   "published_ids": {
-    "49038060": "2026-07-25T03:05:36Z",
-    "49038433": "2026-07-25T03:05:36Z",
     "49044492": "2026-07-25T14:04:57Z",
     "49050512": "2026-07-26T03:03:09Z",
     "49050859": "2026-07-26T14:06:24Z",
@@ -25,7 +23,9 @@
     "49111176": "2026-07-31T14:07:10Z",
     "49113059": "2026-07-31T03:05:17Z",
     "49116922": "2026-07-31T03:05:17Z",
-    "49119559": "2026-07-31T14:07:10Z"
+    "49119559": "2026-07-31T14:07:10Z",
+    "49126604": "2026-08-01T03:08:03Z",
+    "49126630": "2026-08-01T03:08:03Z"
   },
   "runs": [
     {
@@ -1311,6 +1311,18 @@
       ],
       "ts": "2026-07-31T14:07:10Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 25,
+      "note": "On-lane evening run. 25 eligible after dedup; rest of top 30 off-lane (Elevators explainer, lcamtuf 'Severance', Camus/Big Food/Red Bull essays, JPEG/Servo/Htmx frontend, Thunderbolt-Ethernet + RowHammer hardware, Golang generics proposal). Two items cleared threshold 7, both scored 8 and verified from primary sources: 49126630 (Manifest / Bruno Perez 'Everyone is building LLM routers, we deprecated ours' -- contrarian LLM-ops take: can't infer task complexity from the prompt, prefix caching 75-90% cheaper beats routing, mid-session model switches break eval/guardrail consistency; written as an honest engineering take, NOT Manifest promotion per policy rule 7) and 49126604 (yc-software/qm 'Multiplayer agent harness' -- agentic-ai/enterprise: per-scope sandboxes, agent-acts-as-user with audited credentials, Postgres persistence, graduated security postures; substantive OSS verified via WebFetch, written on the identity/audit/blast-radius angle not model-swapping). Near-misses dropped: 49124358 (Quanta 'Is AI reasoning right for the wrong reasons?', score 7 -- reputable and verifiable but lower score + more science-journalism than production, deprioritized for cap 2); 49127874 (Predictive Speculative KV Replication, score 8 on-lane but DROPPED -- jwlabs.vercel.app is a JS-gated page returning no extractable prose body, unverifiable, HN score only 32); 49123386 (Kimi K3 local inference, 7 -- GitHub README blocked by proxy scope + local-model topic fatigue); 49127306 (Tailscale/HF intrusion, 6 -- mainly network security); 49083599 (model-weights export essay, 6, thin technical). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49126630,
+        49126604
+      ],
+      "ts": "2026-08-01T03:08:03Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
