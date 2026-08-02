@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-08-02T03:06:00Z",
+  "last_pruned_ts": "2026-08-02T14:03:09Z",
   "published_ids": {
     "49050859": "2026-07-26T14:06:24Z",
     "49052564": "2026-07-26T14:06:24Z",
@@ -26,7 +26,8 @@
     "49126604": "2026-08-01T03:08:03Z",
     "49126630": "2026-08-01T03:08:03Z",
     "49135245": "2026-08-02T03:06:00Z",
-    "49139102": "2026-08-02T03:06:00Z"
+    "49139102": "2026-08-02T03:06:00Z",
+    "49141073": "2026-08-02T14:03:09Z"
   },
   "runs": [
     {
@@ -1348,6 +1349,17 @@
       ],
       "ts": "2026-08-02T03:06:00Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 22,
+      "note": "Lane-thin morning top 30 (Diataxis docs framework, Seedance 2.5 video-gen, Go 1.27, cycloidal gearbox, Android interop, retro computing, gaming hardware, deep-sea sharks, US Treasury/yen, drugs essay dominated). Only one item cleared threshold 7: 49141073 (Wafer 'Is memory the moat?' -- serving Kimi K3 2.8T-param open model on AMD MI355X at 48 tok/s/$ vs B300 33 and split-B200 7; direct LLM-ops/ai-infrastructure lane, score 8), fully verified from the primary source (rich table + KV-cache/TP16/HBM-capacity detail). Seedance 2.5 (391 upvotes) scored 5 (generative video, off the agentic/RAG/LLM-ops lane); Syncular offline SQL sync scored 5 (data-pipeline adjacency). Prefer fewer/verifiable -> 1 post. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 1,
+      "scored_above_threshold": 1,
+      "selected_ids": [
+        49141073
+      ],
+      "ts": "2026-08-02T14:03:09Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
