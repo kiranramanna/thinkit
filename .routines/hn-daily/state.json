@@ -1,9 +1,7 @@
 {
-  "last_pruned_ts": "2026-08-01T14:07:42Z",
+  "last_pruned_ts": "2026-08-02T03:06:00Z",
   "published_ids": {
-    "49050512": "2026-07-26T03:03:09Z",
     "49050859": "2026-07-26T14:06:24Z",
-    "49051361": "2026-07-26T03:03:09Z",
     "49052564": "2026-07-26T14:06:24Z",
     "49058993": "2026-07-27T03:03:49Z",
     "49067854": "2026-07-27T14:04:47Z",
@@ -26,7 +24,9 @@
     "49119559": "2026-07-31T14:07:10Z",
     "49123386": "2026-08-01T14:07:42Z",
     "49126604": "2026-08-01T03:08:03Z",
-    "49126630": "2026-08-01T03:08:03Z"
+    "49126630": "2026-08-01T03:08:03Z",
+    "49135245": "2026-08-02T03:06:00Z",
+    "49139102": "2026-08-02T03:06:00Z"
   },
   "runs": [
     {
@@ -1336,6 +1336,18 @@
       ],
       "ts": "2026-08-01T14:07:42Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 19,
+      "note": "On-lane evening run. 19 eligible after dedup; rest of top 30 off-lane (Go 1.27, Diataxis, TLS RFC 10015, Kyoto habit-formation neuroscience, Lean kernel-soundness postmortem, calculator-runs-Linux, CISA water-PLC alert, 64-bit assembly book, RSS/Google history, ripgrep musl segfault, Nyctography cipher, NetBSD 11.0, pho recipe, Glyphs 4, anime UI, Linux-on-ESP32). Two items cleared threshold 7, both verified from primary sources: 49139102 (MIT Sloan on LLM financial advice -- score 7, written on the prompt-sensitivity/eval + conversational-AI angle: same model gives different advice by gender/financial-literacy/LLM-familiarity, fails to adjust to shocks, lets portfolios drift; kept to LLM-behavior/eval observations, no personal financial advice per policy rule 3) and 49135245 (Alexi Gladstone 'Explorative Modeling' -- score 7, written on the inference-compute/LLM-ops angle: best-of-K as a third pretraining axis, 6.2x sample / 4.1x FLOP efficiency, 256x less inference compute vs diffusion on control tasks, connected to best-of-N agentic serving). Seedance 2.5 video model scored 5 (generative AI off the agentic/RAG/LLM-ops lane); Lean postmortem 4 (formal methods/PL). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49139102,
+        49135245
+      ],
+      "ts": "2026-08-02T03:06:00Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
