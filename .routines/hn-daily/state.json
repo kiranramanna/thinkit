@@ -1,9 +1,6 @@
 {
-  "last_pruned_ts": "2026-08-02T03:06:00Z",
+  "last_pruned_ts": "2026-08-03T03:05:36Z",
   "published_ids": {
-    "49050859": "2026-07-26T14:06:24Z",
-    "49052564": "2026-07-26T14:06:24Z",
-    "49058993": "2026-07-27T03:03:49Z",
     "49067854": "2026-07-27T14:04:47Z",
     "49076057": "2026-07-28T03:06:06Z",
     "49076391": "2026-07-28T03:06:06Z",
@@ -26,7 +23,9 @@
     "49126604": "2026-08-01T03:08:03Z",
     "49126630": "2026-08-01T03:08:03Z",
     "49135245": "2026-08-02T03:06:00Z",
-    "49139102": "2026-08-02T03:06:00Z"
+    "49139102": "2026-08-02T03:06:00Z",
+    "49147622": "2026-08-03T03:05:36Z",
+    "49148899": "2026-08-03T03:05:36Z"
   },
   "runs": [
     {
@@ -1347,6 +1346,18 @@
         49135245
       ],
       "ts": "2026-08-02T03:06:00Z",
+      "window": "evening"
+    },
+    {
+      "candidates_count": 25,
+      "note": "Lane-thin evening top 30 (retro OS/CP/M-386, RISC OS, TinyNES, SwiftUI, pixel-art SF map, novels/PKM/transit-design essays, F* proof lang dominated). Three items cleared threshold 7; cap 2. Published the two distinct-theme 8s, both fully verified from primary sources: 49148899 (Mu -- single Go binary exposing 67 real tools to agents over MCP; declare-once registry surfaces MCP/CLI/web/SDK, server-side identity binding from call context, credit-metered cost for model/paid-API calls; direct agentic-ai/llm-ops lane, README via WebFetch) and 49147622 (Habsburg-frog SVG benchmark -- one fixed prompt x 14 models x 3 tries/month, instruction-following + compositional spatial-reasoning probe in the pelican-on-a-bicycle lineage; direct LLM-eval lane, site fully extractable). Deprioritized 49146267 (NixOS-DGX-Spark, score 7, ai-infrastructure) for cap+topic-diversity. Dropped 49140998 (Karpathy's Pelican, 465 upvotes, score 5) -- JS-gated tweet, unverifiable/unwritable. 49122655 (BitNet LM on a 6502, score 6) and 49097961 (tools-encode-trust essay, 5) near-miss. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49148899,
+        49147622
+      ],
+      "ts": "2026-08-03T03:05:36Z",
       "window": "evening"
     }
   ],
