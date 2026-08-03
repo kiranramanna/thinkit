@@ -1,7 +1,6 @@
 {
-  "last_pruned_ts": "2026-08-03T03:05:36Z",
+  "last_pruned_ts": "2026-08-03T14:08:09Z",
   "published_ids": {
-    "49067854": "2026-07-27T14:04:47Z",
     "49076057": "2026-07-28T03:06:06Z",
     "49076391": "2026-07-28T03:06:06Z",
     "49077646": "2026-08-01T14:07:42Z",
@@ -25,7 +24,9 @@
     "49135245": "2026-08-02T03:06:00Z",
     "49139102": "2026-08-02T03:06:00Z",
     "49147622": "2026-08-03T03:05:36Z",
-    "49148899": "2026-08-03T03:05:36Z"
+    "49148899": "2026-08-03T03:05:36Z",
+    "49151933": "2026-08-03T14:08:09Z",
+    "49154332": "2026-08-03T14:08:09Z"
   },
   "runs": [
     {
@@ -1359,6 +1360,18 @@
       ],
       "ts": "2026-08-03T03:05:36Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 26,
+      "note": "On-lane morning run. 26 eligible after dedup; rest of top 30 off-lane (Rust move-trait, Jane Street Bonsai UI, SwiftUI, Octane/React, CP/M-386, 9front, SF pixel-map, PKM/note-taking, ICE-DNA/politics, fish-sauce). Two items cleared threshold 7, both fully verified from primary sources: 49154332 (JFrog 'SQLite Critical CVEs or LLM Slop?' -- LLM-generated advisories got a real 10.0 CVSS from NVD/Red Hat before verification; llm-ops/eval/governance lane, score 8) and 49151933 (gruhn.me 'Don't be a meat proxy', 1067 upvotes -- relaying LLM output verbatim as an agentic/human-in-the-loop antipattern, score 7). Dropped 49150470 (Qwen3.8-Max, score 8) -- qwen.ai/blog is a JS-gated SPA returning no extractable body via curl OR WebFetch, so its benchmark/cowork claims are unverifiable (prefer fewer/verifiable). Also >=7 but capped out: 49125065 (LocalAI own C/C++ inference engines, 86 upvotes), 49154228 (AirLLM 70B on 4GB GPU), 49154127 (Nightcrawler local AI pentesting agent). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49154332,
+        49151933
+      ],
+      "ts": "2026-08-03T14:08:09Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
