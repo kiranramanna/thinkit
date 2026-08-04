@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-08-03T14:08:09Z",
+  "last_pruned_ts": "2026-08-04T03:04:48Z",
   "published_ids": {
     "49076057": "2026-07-28T03:06:06Z",
     "49076391": "2026-07-28T03:06:06Z",
@@ -26,7 +26,9 @@
     "49147622": "2026-08-03T03:05:36Z",
     "49148899": "2026-08-03T03:05:36Z",
     "49151933": "2026-08-03T14:08:09Z",
-    "49154332": "2026-08-03T14:08:09Z"
+    "49154332": "2026-08-03T14:08:09Z",
+    "49158581": "2026-08-04T03:04:48Z",
+    "49161518": "2026-08-04T03:04:48Z"
   },
   "runs": [
     {
@@ -1372,6 +1374,18 @@
       ],
       "ts": "2026-08-03T14:08:09Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 24,
+      "note": "On-lane evening run. 24 eligible after dedup; rest of top 30 off-lane (archaeology/science, retro computing incl. Itanium XP & C-Kermit, Ask HN hiring threads, Jane Street Bonsai UI lib, ClickHouse/Pandoc/fish-sauce/COD/Dunning-Kruger). Two items published, both fully verified from primary sources: 49158581 (Cloudflare eng blog, 'Smaller, faster, safer: running Kimi and GLM at scale' -- FP8 KV cache 686K->1.37M ctx & 2192 tok/s/+41% decode/-30% cost, INT4 weights 88->52GB/GPU +55% single-conc decode but slower prefill so BF16-prefill/INT4-decode split, <0.8pt accuracy delta on GSM8K/MMLU/ARC, KV-cache integrity check -0.5..-0.8% throughput; direct llm-ops/ai-infrastructure, score 9) and 49161518 (seangoedecke 'LLMs reward expertise' -- domain expertise is the real prompt skill, Terence Tao x Jacobian-Conjecture ChatGPT example; llm-ops/agentic prompting, score 8). Deprioritized 49154228 (AirLLM 70B on 4GB GPU, score 8, verified) for topic diversity -- near-duplicate quantization/cheap-inference theme vs the Cloudflare piece. Near-misses at 7 dropped: 49153374 (retype-LLM-code/cognitive-debt opinion), 49157997 (Hoplite YC Launch HN, thin marketing). 49157930 (OpenAI 'ten advances in mathematics', ~6) 403-blocked & off core lane. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49158581,
+        49161518
+      ],
+      "ts": "2026-08-04T03:04:48Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
