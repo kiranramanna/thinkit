@@ -1,11 +1,7 @@
 {
-  "last_pruned_ts": "2026-08-04T03:04:48Z",
+  "last_pruned_ts": "2026-08-04T14:06:21Z",
   "published_ids": {
-    "49076057": "2026-07-28T03:06:06Z",
-    "49076391": "2026-07-28T03:06:06Z",
     "49077646": "2026-08-01T14:07:42Z",
-    "49078454": "2026-07-28T14:07:17Z",
-    "49082022": "2026-07-28T14:07:17Z",
     "49085698": "2026-07-29T03:05:17Z",
     "49088058": "2026-07-29T03:05:17Z",
     "49089500": "2026-07-30T03:03:53Z",
@@ -28,7 +24,9 @@
     "49151933": "2026-08-03T14:08:09Z",
     "49154332": "2026-08-03T14:08:09Z",
     "49158581": "2026-08-04T03:04:48Z",
-    "49161518": "2026-08-04T03:04:48Z"
+    "49161518": "2026-08-04T03:04:48Z",
+    "49164896": "2026-08-04T14:06:21Z",
+    "49166386": "2026-08-04T14:06:21Z"
   },
   "runs": [
     {
@@ -1386,6 +1384,18 @@
       ],
       "ts": "2026-08-04T03:04:48Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 20,
+      "note": "On-lane morning run. 20 eligible after dedup; rest of top 30 off-lane (Xbox/DRM, Bradbury short story x2, Bucky Fuller, npm Shai-Hulud supply-chain, FFmpeg 9.0, Pandoc-20yr, devtools-OSS opinion, Amazon archaeology, Nobel disease, MS-interview, Ask-HN-hiring[score 1]) or tangential (OpenAI 'ten math advances' ~6 & 403-prone, MiniMax H3 video-gen 5, AI-blog-images opinion 5). Two distinct-theme items published, both verified from primary sources via WebFetch: 49164896 (Lilian Weng 'Harness Engineering for Self-Improvement' -- harness design patterns [workflow automation, filesystem-as-memory, sub-agents], context engineering, self-improving harness via evolutionary search + joint weight optimization; direct agentic-ai/llm-ops lane, score 9) and 49166386 (DeepSeek V4 Flash 304B on a single MI300X -- full model in 192GB HBM no quant, hybrid KV 20GB fp8 GPU + 96GB CPU offload, DSpark-7 spec decode, 168 tok/s single-stream vs 542 tok/s @8 concurrent, 256K ctx, ROCm-nightly/vLLM correctness overlays; production single-GPU serving = llm-ops/ai-infrastructure lane, score 8). Deprioritized 49158333 (Swiftlet, 80B Qwen in 4.3GB on Mac/iPhone via MoE-sparsity SSD expert streaming, verified, score 8) for topic diversity -- recurring on-device-quantization theme already covered in prior runs (AirLLM etc). 49166984 (fine-tune 8B on 4GB GPU) thin at 37 upvotes, ~6. GitHub repo pages are proxy-scoped for curl; verified both via WebFetch. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49164896,
+        49166386
+      ],
+      "ts": "2026-08-04T14:06:21Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
