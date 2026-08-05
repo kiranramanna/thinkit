@@ -1,10 +1,8 @@
 {
-  "last_pruned_ts": "2026-08-05T03:05:44Z",
+  "last_pruned_ts": "2026-08-05T14:05:14Z",
   "published_ids": {
     "49077646": "2026-08-01T14:07:42Z",
     "49089500": "2026-07-30T03:03:53Z",
-    "49096188": "2026-07-29T14:04:47Z",
-    "49096969": "2026-07-29T14:04:47Z",
     "49098510": "2026-07-30T03:03:53Z",
     "49104117": "2026-07-30T14:06:49Z",
     "49107749": "2026-07-30T14:06:49Z",
@@ -15,6 +13,7 @@
     "49123386": "2026-08-01T14:07:42Z",
     "49126604": "2026-08-01T03:08:03Z",
     "49126630": "2026-08-01T03:08:03Z",
+    "49131438": "2026-08-05T14:05:14Z",
     "49135245": "2026-08-02T03:06:00Z",
     "49139102": "2026-08-02T03:06:00Z",
     "49147622": "2026-08-03T03:05:36Z",
@@ -26,7 +25,8 @@
     "49164896": "2026-08-04T14:06:21Z",
     "49166386": "2026-08-04T14:06:21Z",
     "49170915": "2026-08-05T03:05:44Z",
-    "49171268": "2026-08-05T03:05:44Z"
+    "49171268": "2026-08-05T03:05:44Z",
+    "49178608": "2026-08-05T14:05:14Z"
   },
   "runs": [
     {
@@ -1408,6 +1408,18 @@
       ],
       "ts": "2026-08-05T03:05:44Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 23,
+      "note": "On-lane morning run. 23 eligible after dedup; rest of top 30 off-lane (Wolfram memorial essay, Bradbury pdf, GPS/plane crash, center-a-div CSS, Helsinki meetup, WebKit IP leaks, DuckDB-in-Clojure, Hero of Alexandria, bubble memory). Two items cleared threshold 7, both scored 8 and fully verified from primary sources: 49131438 (Simon Willison on the 2026-07-28 Stateless MCP / MCP 2.0 spec -- single-request tool calls kill session affinity, the real horizontal-scaling win; agentic-ai/llm-ops/ai-infra lane) and 49178608 (arXiv Zero-Mem: zero-token memory operations for LLM agents -- entity-context graph + temporal hierarchy, deterministic calibration, only the final-QA reader calls an LLM, 57.6% memory-op time cut; direct agentic-memory/rag/kg/llm-ops lane). Near-misses dropped (cap 2): 49176830 Eight Myths on SWE+GenAI ACM Queue (7, production-AI opinion), 49173984 Maple-Preview ternary 20B MoE on iPhone (7, local-inference), 49181083 'LLMs Can't Jump' OpenReview (7, LLM-reasoning). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49131438,
+        49178608
+      ],
+      "ts": "2026-08-05T14:05:14Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
