@@ -120,4 +120,3 @@ Reread your output before emitting. Ask:
   linked citation? If not, cut the claim.
 - Is the ending a question, strong take, or a grounded reaction close — not
   a summary?
-```
