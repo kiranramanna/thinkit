@@ -16,7 +16,7 @@
   thinkit aesthetic. Max 6 emoji bullets per post.
 - **End** with one of: a question, a prediction, a contrarian take, an open
   problem. Never a summary or "in conclusion".
-- Reference **`source_url`** AND **`hn_url`** in the post body naturally
+- Reference **`source_url`** AND **`discussion_url`** in the post body naturally
   (not just in frontmatter).
 - Target **200-400 words** of body content (post-frontmatter).
 

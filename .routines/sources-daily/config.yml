@@ -1,0 +1,60 @@
+# sources-daily routine configuration
+# Spec: ../specs/2026-08-05-sources-daily-merged-routine-design.md
+
+# --- Selection (global, across all sources) ---
+# Minimum LLM score (1-10) for an item to be eligible for publishing
+threshold: 7
+
+# Max posts to publish in a single run (cap)
+posts_per_run: 2
+
+# Max posts to publish per day across all runs (soft global cap; advisory)
+posts_per_day: 4
+
+# Rolling dedup window — don't republish a canonical URL within this many days
+dedup_window_days: 7
+
+# --- Output formatting ---
+# Timezone for post `date:` frontmatter. Always UTC to avoid past JST bugs.
+date_timezone: "+0000"
+
+# --- LLM models ---
+# Cheaper model for scoring (all candidates in one call)
+scoring_model: "claude-haiku-4-5"
+
+# Better-voice model for writing (per-item)
+writing_model: "claude-sonnet-4-6"
+
+# --- Behavior ---
+# If true, commit even when 0 posts published (preserves audit trail)
+commit_on_zero_posts: true
+
+# If true, abort the run on the first per-item writing error
+# If false, skip the bad item and continue
+abort_on_writing_error: false
+
+# --- Sources ---
+# Per-source fetch settings. raw upvote floors are scaled to community size
+# and are expected to need tuning in the first weeks.
+sources:
+  hn:
+    enabled: true
+    fetch_limit: 30
+    min_score: 30
+  lobsters:
+    enabled: true
+    fetch_limit: 25
+    min_score: 10
+    # Items with no allowlisted tag are dropped before LLM scoring
+    tag_allowlist: [ai, ml, compsci, distributed, devops, programming]
+  hf-papers:
+    enabled: true
+    # HF daily_papers returns one day's list; no fetch_limit needed
+    min_score: 5
+
+# --- Sentiment research ---
+research:
+  enabled: true
+  # Below this many usable citations, the reaction paragraph is omitted entirely
+  min_citations: 2
+  max_citations: 5

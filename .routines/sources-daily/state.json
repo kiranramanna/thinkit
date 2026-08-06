@@ -1,0 +1,136 @@
+{
+  "last_pruned_ts": "2026-08-06T14:08:58Z",
+  "published_urls": {
+    "https://alexiglad.github.io/blog/2026/explorative_modeling": {
+      "published_at": "2026-08-02T03:06:00Z",
+      "source": "hn",
+      "source_id": "49135245"
+    },
+    "https://api-docs.deepseek.com/updates": {
+      "published_at": "2026-07-31T14:07:10Z",
+      "source": "hn",
+      "source_id": "49119559"
+    },
+    "https://arxiv.org/abs/2602.16763": {
+      "published_at": "2026-08-05T03:05:44Z",
+      "source": "hn",
+      "source_id": "49170915"
+    },
+    "https://arxiv.org/abs/2607.29377": {
+      "published_at": "2026-08-05T14:05:14Z",
+      "source": "hn",
+      "source_id": "49178608"
+    },
+    "https://blog.cloudflare.com/smaller-faster-safer-models": {
+      "published_at": "2026-08-04T03:04:48Z",
+      "source": "hn",
+      "source_id": "49158581"
+    },
+    "https://frogs.vaguespac.es/": {
+      "published_at": "2026-08-03T03:05:36Z",
+      "source": "hn",
+      "source_id": "49147622"
+    },
+    "https://github.com/micro/mu": {
+      "published_at": "2026-08-03T03:05:36Z",
+      "source": "hn",
+      "source_id": "49148899"
+    },
+    "https://github.com/ryanzhou/deepseek-v4-flash-mi300x": {
+      "published_at": "2026-08-04T14:06:21Z",
+      "source": "hn",
+      "source_id": "49166386"
+    },
+    "https://github.com/sqliteai/waste": {
+      "published_at": "2026-08-01T14:07:42Z",
+      "source": "hn",
+      "source_id": "49123386"
+    },
+    "https://github.com/yc-software/qm": {
+      "published_at": "2026-08-01T03:08:03Z",
+      "source": "hn",
+      "source_id": "49126604"
+    },
+    "https://gruhn.me/blog/2026-08-03": {
+      "published_at": "2026-08-03T14:08:09Z",
+      "source": "hn",
+      "source_id": "49151933"
+    },
+    "https://lilianweng.github.io/posts/2026-07-04-harness": {
+      "published_at": "2026-08-04T14:06:21Z",
+      "source": "hn",
+      "source_id": "49164896"
+    },
+    "https://manifest.build/blog/why-we-deprecated-our-llm-router": {
+      "published_at": "2026-08-01T03:08:03Z",
+      "source": "hn",
+      "source_id": "49126630"
+    },
+    "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html": {
+      "published_at": "2026-07-31T14:07:10Z",
+      "source": "hn",
+      "source_id": "49111176"
+    },
+    "https://mistral.ai/news/shieldstral": {
+      "published_at": "2026-08-05T03:05:44Z",
+      "source": "hn",
+      "source_id": "49171268"
+    },
+    "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions": {
+      "published_at": "2026-08-02T03:06:00Z",
+      "source": "hn",
+      "source_id": "49139102"
+    },
+    "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency": {
+      "published_at": "2026-08-06T03:03:55Z",
+      "source": "hn",
+      "source_id": "49186762"
+    },
+    "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops": {
+      "published_at": "2026-08-03T14:08:09Z",
+      "source": "hn",
+      "source_id": "49154332"
+    },
+    "https://rocm.blogs.amd.com/software-tools-optimization/gluon-attention-decode-mi450/README.html": {
+      "published_at": "2026-08-01T14:07:42Z",
+      "source": "hn",
+      "source_id": "49077646"
+    },
+    "https://scalex.dev/blog/ai-agent-permissions-stats": {
+      "published_at": "2026-08-06T14:08:58Z",
+      "source": "hn",
+      "source_id": "49195468"
+    },
+    "https://simonwillison.net/2026/Jul/31/stateless-mcp": {
+      "published_at": "2026-08-05T14:05:14Z",
+      "source": "hn",
+      "source_id": "49131438"
+    },
+    "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals": {
+      "published_at": "2026-07-31T03:05:17Z",
+      "source": "hn",
+      "source_id": "49116922"
+    },
+    "https://www.bottlenecklabs.com/blog/autonomously-run-businesses": {
+      "published_at": "2026-07-31T03:05:17Z",
+      "source": "hn",
+      "source_id": "49113059"
+    },
+    "https://www.primeintellect.ai/blog/prime-agent": {
+      "published_at": "2026-08-06T14:08:58Z",
+      "source": "hn",
+      "source_id": "49189075"
+    },
+    "https://www.promptarmor.com/resources/atlassian-rovo-exfiltrates-data": {
+      "published_at": "2026-08-06T03:03:55Z",
+      "source": "hn",
+      "source_id": "49185983"
+    },
+    "https://www.seangoedecke.com/llms-reward-expertise": {
+      "published_at": "2026-08-04T03:04:48Z",
+      "source": "hn",
+      "source_id": "49161518"
+    }
+  },
+  "runs": []
+}
