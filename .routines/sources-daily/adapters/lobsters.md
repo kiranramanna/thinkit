@@ -13,13 +13,14 @@ contains `[]` and echo a line starting with `ADAPTER_ERROR lobsters:` — never
 abort the run.
 
 ```bash
+set -o pipefail
 LOB_LIMIT=$(echo "$CONFIG" | jq -r '.sources.lobsters.fetch_limit')
 LOB_MIN=$(echo "$CONFIG" | jq -r '.sources.lobsters.min_score')
 LOB_TAGS=$(echo "$CONFIG" | jq -c '.sources.lobsters.tag_allowlist')
 
 echo "[]" > /tmp/candidates-lobsters.json
 
-if ! curl -s --max-time 20 -H "User-Agent: thinkit-routine" \
+if ! curl -sf --max-time 20 -H "User-Agent: thinkit-routine" \
     https://lobste.rs/hottest.json > /tmp/lobsters_raw.json; then
   echo "ADAPTER_ERROR lobsters: fetch failed"
 else

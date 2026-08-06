@@ -17,6 +17,7 @@ You have:
 - `gh` CLI authenticated to the user's GitHub account
 - WebSearch/WebFetch tools (required for the research step — Step 7)
 - Claude SDK available for sub-LLM calls (scoring, writing)
+- Run the fenced bash/python blocks below in ONE logical shell session — later blocks rely on variables exported by earlier ones ($CONFIG, $PROFILE, $POSTS_WRITTEN, ...).
 
 ## Step 1 — Clone the repo and cd into it
 
@@ -148,7 +149,7 @@ Build the scoring input (truncate `extra` to 500 chars to keep the call lean):
 ```bash
 SCORING_INPUT=$(jq -n \
   --arg profile "$PROFILE" \
-  --argjson candidates "$(jq '[.[] | {source, source_id, title, url, raw_score, extra: ((.extra // "") | .[0:500])}]' /tmp/eligible.json)" \
+  --argjson candidates "$(jq '[.[] | {source, source_id, title, url, raw_score, extra: ((.extra // "") | gsub("[\\u0000-\\u001f]"; " ") | .[0:500])}]' /tmp/eligible.json)" \
   '{profile: $profile, candidates: $candidates}')
 ```
 
@@ -283,6 +284,7 @@ Call the writing LLM (`writing_model` from config). System message =
 python-heredoc pattern as scoring, `max_tokens=2000`.
 
 ```bash
+  # (continuation of the Step 8 for-loop — run in the same shell as the previous block)
   # Check for refusal
   if echo "$POST_CONTENT" | head -c 50 | grep -q '"refuse"'; then
     REASON=$(echo "$POST_CONTENT" | jq -r '.reason // "unknown"')
@@ -292,7 +294,7 @@ python-heredoc pattern as scoring, `max_tokens=2000`.
 
   # Extract title from frontmatter for slug
   TITLE=$(echo "$POST_CONTENT" | sed -n '/^title:/p' | head -1 | sed 's/title:[[:space:]]*"\(.*\)"/\1/')
-  SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9 -]//g' | sed 's/  */-/g' | sed 's/^-\|-$//g')
+  SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9 -]//g' | sed 's/  */-/g' | sed -e 's/^-*//' -e 's/-*$//')
 
   FILENAME="_posts/${DATE_UTC}-${SLUG}.md"
   N=2
@@ -366,7 +368,7 @@ for p in published:
 # Prune published_urls older than the dedup window
 cutoff = datetime.now(timezone.utc) - timedelta(days=CONFIG['dedup_window_days'])
 state['published_urls'] = {
-    u: m for u, m in state['published_urls'].items()
+    u: m for u, m in state.setdefault('published_urls', {}).items()
     if datetime.fromisoformat(m['published_at'].replace('Z', '+00:00')) > cutoff
 }
 state['last_pruned_ts'] = now_iso

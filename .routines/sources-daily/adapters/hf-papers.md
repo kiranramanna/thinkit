@@ -14,11 +14,12 @@ contains `[]` and echo a line starting with `ADAPTER_ERROR hf-papers:` —
 never abort the run.
 
 ```bash
+set -o pipefail
 HF_MIN=$(echo "$CONFIG" | jq -r '.sources["hf-papers"].min_score')
 
 echo "[]" > /tmp/candidates-hf-papers.json
 
-if ! curl -s --max-time 20 "https://huggingface.co/api/daily_papers" \
+if ! curl -sf --max-time 20 "https://huggingface.co/api/daily_papers" \
     > /tmp/hf_raw.json; then
   echo "ADAPTER_ERROR hf-papers: fetch failed"
 else

@@ -42,10 +42,10 @@ source_url: <linked article or arXiv URL, or null for discussion-only posts>
 - **2-3 short paragraphs** OR **5-8 emoji bullets** — pick one format per post.
 - **Voice:** see `voice-rules.md`.
 - **Reaction paragraph (optional):** when the routine's research step
-  supplies ≥ 2 citations, the post ends with one paragraph on how the story
-  is landing across the public web, each citation linked inline. With fewer
-  than 2 citations this paragraph is omitted entirely — never characterize
-  sentiment without linked sources.
+  supplies ≥ `research.min_citations` (config; default 2) citations, the post
+  ends with one paragraph on how the story is landing across the public web,
+  each citation linked inline. With fewer than that this paragraph is
+  omitted entirely — never characterize sentiment without linked sources.
 - **Linking:** mention `source_url` and `discussion_url` at least once each
   in the body, not just in frontmatter. Markdown link format: `[anchor text](url)`.
 - **No trailing whitespace.** No trailing blank lines.

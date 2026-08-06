@@ -8,18 +8,19 @@ shell environment.
 `[]` and echo a line starting with `ADAPTER_ERROR hn:` — never abort the run.
 
 ```bash
+set -o pipefail
 HN_LIMIT=$(echo "$CONFIG" | jq -r '.sources.hn.fetch_limit')
 HN_MIN=$(echo "$CONFIG" | jq -r '.sources.hn.min_score')
 
 echo "[]" > /tmp/candidates-hn.json
 
-if ! curl -s --max-time 20 https://hacker-news.firebaseio.com/v0/topstories.json \
+if ! curl -sf --max-time 20 https://hacker-news.firebaseio.com/v0/topstories.json \
     | jq ".[0:${HN_LIMIT}]" > /tmp/hn_top_ids.json; then
   echo "ADAPTER_ERROR hn: topstories fetch failed"
 else
   echo "[]" > /tmp/hn_raw.json
   for id in $(jq -r ".[]" /tmp/hn_top_ids.json); do
-    story=$(curl -s --max-time 10 "https://hacker-news.firebaseio.com/v0/item/${id}.json")
+    story=$(curl -sf --max-time 10 "https://hacker-news.firebaseio.com/v0/item/${id}.json")
     if [ -n "$story" ] && [ "$story" != "null" ]; then
       jq --argjson s "$story" '. += [$s]' /tmp/hn_raw.json > /tmp/hn_raw.tmp \
         && mv /tmp/hn_raw.tmp /tmp/hn_raw.json

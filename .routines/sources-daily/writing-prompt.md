@@ -39,6 +39,9 @@ source_url: <item.url, or null if the item is a discussion-only post>
 ---
 ```
 
+If item.url equals item.discussion_url, the item is discussion-only — set
+source_url: null.
+
 **Controlled categories vocabulary:**
 `agentic-ai`, `rag`, `llm-ops`, `enterprise-ai`, `conversational-ai`,
 `knowledge-graphs`, `ai-infrastructure`, `research`, `industry`.
@@ -70,7 +73,7 @@ include `research`.
 
 ## Reaction paragraph ("the wider reaction")
 
-Only when `research.citations` has 2 or more entries:
+Only when `research.citations` has at least `research.min_citations` (config; default 2) entries:
 
 - One final paragraph, writer's voice, describing how the story is landing
   across the public web.
@@ -81,7 +84,7 @@ Only when `research.citations` has 2 or more entries:
 - NEVER invent sentiment, paraphrase unlisted sources, or say "the internet
   thinks" without a link.
 
-When `research.citations` has fewer than 2 entries: omit the paragraph
+When `research.citations` has fewer than `research.min_citations` entries: omit the paragraph
 entirely. Do not mention the absence of reaction.
 
 ## Voice — apply `shared/voice-rules.md` strictly
