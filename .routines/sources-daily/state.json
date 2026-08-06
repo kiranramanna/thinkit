@@ -1,100 +1,135 @@
 {
-  "last_pruned_ts": "2026-06-15T14:06:48Z",
+  "last_pruned_ts": "2026-08-06T14:08:58Z",
   "published_urls": {
-    "https://arxiv.org/abs/2605.15184": {
-      "published_at": "2026-06-10T03:04:44Z",
+    "https://alexiglad.github.io/blog/2026/explorative_modeling": {
+      "published_at": "2026-08-02T03:06:00Z",
       "source": "hn",
-      "source_id": "48460863"
+      "source_id": "49135245"
     },
-    "https://bitboard.work/": {
-      "published_at": "2026-06-13T14:04:09Z",
+    "https://api-docs.deepseek.com/updates": {
+      "published_at": "2026-07-31T14:07:10Z",
       "source": "hn",
-      "source_id": "48506545"
+      "source_id": "49119559"
     },
-    "https://cognition.ai/blog/frontier-code": {
-      "published_at": "2026-06-09T03:06:07Z",
+    "https://arxiv.org/abs/2602.16763": {
+      "published_at": "2026-08-05T03:05:44Z",
       "source": "hn",
-      "source_id": "48451723"
+      "source_id": "49170915"
     },
-    "https://github.com/DanMcInerney/architect-loop": {
-      "published_at": "2026-06-13T03:06:47Z",
+    "https://arxiv.org/abs/2607.29377": {
+      "published_at": "2026-08-05T14:05:14Z",
       "source": "hn",
-      "source_id": "48509133"
+      "source_id": "49178608"
     },
-    "https://github.com/nex-agi/Nex-N2/issues/4": {
-      "published_at": "2026-06-15T03:07:50Z",
+    "https://blog.cloudflare.com/smaller-faster-safer-models": {
+      "published_at": "2026-08-04T03:04:48Z",
       "source": "hn",
-      "source_id": "48528371"
+      "source_id": "49158581"
     },
-    "https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos": {
-      "published_at": "2026-06-13T03:06:47Z",
+    "https://frogs.vaguespac.es/": {
+      "published_at": "2026-08-03T03:05:36Z",
       "source": "hn",
-      "source_id": "48507020"
+      "source_id": "49147622"
     },
-    "https://imil.net/blog/posts/2026/rtx-5080-+-rtx-3090-setup-80+-tok-s-on-qwen-3.6-27b-q8": {
-      "published_at": "2026-06-14T03:04:24Z",
+    "https://github.com/micro/mu": {
+      "published_at": "2026-08-03T03:05:36Z",
       "source": "hn",
-      "source_id": "48515454"
+      "source_id": "49148899"
     },
-    "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian": {
-      "published_at": "2026-06-12T14:09:11Z",
+    "https://github.com/ryanzhou/deepseek-v4-flash-mi300x": {
+      "published_at": "2026-08-04T14:06:21Z",
       "source": "hn",
-      "source_id": "48500012"
+      "source_id": "49166386"
     },
-    "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps": {
-      "published_at": "2026-06-09T03:06:07Z",
+    "https://github.com/sqliteai/waste": {
+      "published_at": "2026-08-01T14:07:42Z",
       "source": "hn",
-      "source_id": "48446639"
+      "source_id": "49123386"
     },
-    "https://news.ycombinator.com/item?id=48473166": {
-      "published_at": "2026-06-10T14:09:37Z",
+    "https://github.com/yc-software/qm": {
+      "published_at": "2026-08-01T03:08:03Z",
       "source": "hn",
-      "source_id": "48473166"
+      "source_id": "49126604"
     },
-    "https://openrouter.ai/openrouter/fusion": {
-      "published_at": "2026-06-15T14:06:48Z",
+    "https://gruhn.me/blog/2026-08-03": {
+      "published_at": "2026-08-03T14:08:09Z",
       "source": "hn",
-      "source_id": "48537641"
+      "source_id": "49151933"
     },
-    "https://opensourceaimustwin.com/?share=v2": {
-      "published_at": "2026-06-13T14:04:09Z",
+    "https://lilianweng.github.io/posts/2026-07-04-harness": {
+      "published_at": "2026-08-04T14:06:21Z",
       "source": "hn",
-      "source_id": "48511908"
+      "source_id": "49164896"
     },
-    "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive": {
-      "published_at": "2026-06-12T14:09:11Z",
+    "https://manifest.build/blog/why-we-deprecated-our-llm-router": {
+      "published_at": "2026-08-01T03:08:03Z",
       "source": "hn",
-      "source_id": "48498573"
+      "source_id": "49126630"
     },
-    "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke": {
-      "published_at": "2026-06-14T03:04:24Z",
+    "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html": {
+      "published_at": "2026-07-31T14:07:10Z",
       "source": "hn",
-      "source_id": "48518969"
+      "source_id": "49111176"
     },
-    "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers": {
-      "published_at": "2026-06-10T14:09:37Z",
+    "https://mistral.ai/news/shieldstral": {
+      "published_at": "2026-08-05T03:05:44Z",
       "source": "hn",
-      "source_id": "48470248"
+      "source_id": "49171268"
     },
-    "https://www.anthropic.com/news/claude-fable-5-mythos-5": {
-      "published_at": "2026-06-10T03:04:44Z",
+    "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions": {
+      "published_at": "2026-08-02T03:06:00Z",
       "source": "hn",
-      "source_id": "48463808"
+      "source_id": "49139102"
     },
-    "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture": {
-      "published_at": "2026-06-09T14:09:48Z",
+    "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency": {
+      "published_at": "2026-08-06T03:03:55Z",
       "source": "hn",
-      "source_id": "48450142"
+      "source_id": "49186762"
     },
-    "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin?bc=HL": {
-      "published_at": "2026-06-15T14:06:48Z",
+    "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops": {
+      "published_at": "2026-08-03T14:08:09Z",
       "source": "hn",
-      "source_id": "48540126"
+      "source_id": "49154332"
     },
-    "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141": {
-      "published_at": "2026-06-15T03:07:50Z",
+    "https://rocm.blogs.amd.com/software-tools-optimization/gluon-attention-decode-mi450/README.html": {
+      "published_at": "2026-08-01T14:07:42Z",
       "source": "hn",
-      "source_id": "48532178"
+      "source_id": "49077646"
+    },
+    "https://scalex.dev/blog/ai-agent-permissions-stats": {
+      "published_at": "2026-08-06T14:08:58Z",
+      "source": "hn",
+      "source_id": "49195468"
+    },
+    "https://simonwillison.net/2026/Jul/31/stateless-mcp": {
+      "published_at": "2026-08-05T14:05:14Z",
+      "source": "hn",
+      "source_id": "49131438"
+    },
+    "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals": {
+      "published_at": "2026-07-31T03:05:17Z",
+      "source": "hn",
+      "source_id": "49116922"
+    },
+    "https://www.bottlenecklabs.com/blog/autonomously-run-businesses": {
+      "published_at": "2026-07-31T03:05:17Z",
+      "source": "hn",
+      "source_id": "49113059"
+    },
+    "https://www.primeintellect.ai/blog/prime-agent": {
+      "published_at": "2026-08-06T14:08:58Z",
+      "source": "hn",
+      "source_id": "49189075"
+    },
+    "https://www.promptarmor.com/resources/atlassian-rovo-exfiltrates-data": {
+      "published_at": "2026-08-06T03:03:55Z",
+      "source": "hn",
+      "source_id": "49185983"
+    },
+    "https://www.seangoedecke.com/llms-reward-expertise": {
+      "published_at": "2026-08-04T03:04:48Z",
+      "source": "hn",
+      "source_id": "49161518"
     }
   },
   "runs": []
