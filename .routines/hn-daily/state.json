@@ -1,9 +1,7 @@
 {
-  "last_pruned_ts": "2026-08-05T14:05:14Z",
+  "last_pruned_ts": "2026-08-06T03:03:55Z",
   "published_ids": {
     "49077646": "2026-08-01T14:07:42Z",
-    "49089500": "2026-07-30T03:03:53Z",
-    "49098510": "2026-07-30T03:03:53Z",
     "49104117": "2026-07-30T14:06:49Z",
     "49107749": "2026-07-30T14:06:49Z",
     "49111176": "2026-07-31T14:07:10Z",
@@ -26,7 +24,9 @@
     "49166386": "2026-08-04T14:06:21Z",
     "49170915": "2026-08-05T03:05:44Z",
     "49171268": "2026-08-05T03:05:44Z",
-    "49178608": "2026-08-05T14:05:14Z"
+    "49178608": "2026-08-05T14:05:14Z",
+    "49185983": "2026-08-06T03:03:55Z",
+    "49186762": "2026-08-06T03:03:55Z"
   },
   "runs": [
     {
@@ -1420,6 +1420,18 @@
       ],
       "ts": "2026-08-05T14:05:14Z",
       "window": "morning"
+    },
+    {
+      "candidates_count": 26,
+      "note": "On-lane evening run. 26 eligible after dedup; rest of top 30 off-lane (Android->Linux phone, Blade Runner title cards, GNU Hurd, Hiroshima alloy, Delaunay/Rust perf, personal essays). Two items published, both verified from primary sources: 49186762 (Neon/Castform -- RL post-training a 4B open-weights model to match GPT-5.6-Sol on agentic retrieval at ~100x lower cost; direct RAG/llm-ops lane, score 9) and 49185983 (PromptArmor: Atlassian Rovo indirect prompt-injection data exfiltration via the agent's URL-fetch tool, control-bypass since disabling web search doesn't remove the tool; agentic-ai/llm-ops guardrails lane, score 8, flagged SOFT per policy as a contentious/unpatched-vuln topic, written factually from the public disclosure). Strong runners-up dropped for cap 2: 49182996 (Cloudflare OS agents platform, 8), 49189075 (Prime Agent self-improving RLM, 8), 49187575 (Meta Muse Code, 7). 49126716 (Goodhart's Law on benchmarks, 8) dropped -- cacm.acm.org returned HTTP 403, unverifiable. Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49186762,
+        49185983
+      ],
+      "ts": "2026-08-06T03:03:55Z",
+      "window": "evening"
     }
   ],
   "schema_version": 1
