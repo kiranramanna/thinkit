@@ -243,7 +243,7 @@ For each entry in `/tmp/selected.json`:
 ```bash
 POSTS_WRITTEN=0
 PUBLISHED_ENTRIES="[]"
-for row in $(jq -c '.[]' /tmp/selected.json); do
+for row in $(jq -c '.[] | {source, source_id}' /tmp/selected.json); do
   SRC=$(echo "$row" | jq -r '.source')
   SID=$(echo "$row" | jq -r '.source_id')
   ITEM=$(jq --arg s "$SRC" --arg id "$SID" '.[] | select(.source == $s and .source_id == $id)' /tmp/eligible.json)
