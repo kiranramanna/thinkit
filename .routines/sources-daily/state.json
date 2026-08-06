@@ -1,0 +1,101 @@
+{
+  "last_pruned_ts": "2026-06-15T14:06:48Z",
+  "published_urls": {
+    "https://arxiv.org/abs/2605.15184": {
+      "published_at": "2026-06-10T03:04:44Z",
+      "source": "hn",
+      "source_id": "48460863"
+    },
+    "https://bitboard.work/": {
+      "published_at": "2026-06-13T14:04:09Z",
+      "source": "hn",
+      "source_id": "48506545"
+    },
+    "https://cognition.ai/blog/frontier-code": {
+      "published_at": "2026-06-09T03:06:07Z",
+      "source": "hn",
+      "source_id": "48451723"
+    },
+    "https://github.com/DanMcInerney/architect-loop": {
+      "published_at": "2026-06-13T03:06:47Z",
+      "source": "hn",
+      "source_id": "48509133"
+    },
+    "https://github.com/nex-agi/Nex-N2/issues/4": {
+      "published_at": "2026-06-15T03:07:50Z",
+      "source": "hn",
+      "source_id": "48528371"
+    },
+    "https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos": {
+      "published_at": "2026-06-13T03:06:47Z",
+      "source": "hn",
+      "source_id": "48507020"
+    },
+    "https://imil.net/blog/posts/2026/rtx-5080-+-rtx-3090-setup-80+-tok-s-on-qwen-3.6-27b-q8": {
+      "published_at": "2026-06-14T03:04:24Z",
+      "source": "hn",
+      "source_id": "48515454"
+    },
+    "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian": {
+      "published_at": "2026-06-12T14:09:11Z",
+      "source": "hn",
+      "source_id": "48500012"
+    },
+    "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps": {
+      "published_at": "2026-06-09T03:06:07Z",
+      "source": "hn",
+      "source_id": "48446639"
+    },
+    "https://news.ycombinator.com/item?id=48473166": {
+      "published_at": "2026-06-10T14:09:37Z",
+      "source": "hn",
+      "source_id": "48473166"
+    },
+    "https://openrouter.ai/openrouter/fusion": {
+      "published_at": "2026-06-15T14:06:48Z",
+      "source": "hn",
+      "source_id": "48537641"
+    },
+    "https://opensourceaimustwin.com/?share=v2": {
+      "published_at": "2026-06-13T14:04:09Z",
+      "source": "hn",
+      "source_id": "48511908"
+    },
+    "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive": {
+      "published_at": "2026-06-12T14:09:11Z",
+      "source": "hn",
+      "source_id": "48498573"
+    },
+    "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke": {
+      "published_at": "2026-06-14T03:04:24Z",
+      "source": "hn",
+      "source_id": "48518969"
+    },
+    "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers": {
+      "published_at": "2026-06-10T14:09:37Z",
+      "source": "hn",
+      "source_id": "48470248"
+    },
+    "https://www.anthropic.com/news/claude-fable-5-mythos-5": {
+      "published_at": "2026-06-10T03:04:44Z",
+      "source": "hn",
+      "source_id": "48463808"
+    },
+    "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture": {
+      "published_at": "2026-06-09T14:09:48Z",
+      "source": "hn",
+      "source_id": "48450142"
+    },
+    "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin?bc=HL": {
+      "published_at": "2026-06-15T14:06:48Z",
+      "source": "hn",
+      "source_id": "48540126"
+    },
+    "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141": {
+      "published_at": "2026-06-15T03:07:50Z",
+      "source": "hn",
+      "source_id": "48532178"
+    }
+  },
+  "runs": []
+}
