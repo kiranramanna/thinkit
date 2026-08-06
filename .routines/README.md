@@ -12,11 +12,11 @@ demand).
 | `lib/` | Optional shared helpers (bash/jq utilities) — most routines won't need these |
 | `specs/` | Design specs (one per major effort) |
 | `plans/` | Implementation plans (one per design spec) |
-| `<routine>/` | One folder per routine (e.g., `hn-daily/`) |
+| `<routine>/` | One folder per routine (e.g., `sources-daily/`) |
 
 ## Adding a new routine
 
-1. Create a folder `<routine-name>/` as a sibling of `hn-daily/`.
+1. Create a folder `<routine-name>/` as a sibling of `sources-daily/`.
 2. Add the standard five files: `README.md`, `trigger.md`, sub-prompts as needed, `config.yml`, `state.json`.
 3. Reference `../shared/profile.md` and `../shared/voice-rules.md` from your trigger prompt.
 4. Schedule via Claude Code remote triggers; each routine has its own schedule.
@@ -30,4 +30,5 @@ profile snapshots here.
 
 ## Active routines
 
-- `hn-daily/` — Twice-daily Hacker News curation. See `hn-daily/README.md`.
+- `sources-daily/` — Twice-daily multi-source curation (HN + Lobste.rs + HF
+  Daily Papers) with sentiment citations. See `sources-daily/README.md`.
