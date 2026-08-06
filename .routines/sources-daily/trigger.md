@@ -64,7 +64,7 @@ For each source in `hn`, `lobsters`, `hf-papers`: if
 `.routines/sources-daily/adapters/<source>.md` and execute its bash block.
 
 ```bash
-rm -f /tmp/candidates-*.json /tmp/adapter-errors.txt
+rm -f /tmp/candidates-*.json /tmp/adapter-*.txt /tmp/eligible.json /tmp/scores.json /tmp/selected.json /tmp/published_entries.json /tmp/research-*.json
 for SRC in hn lobsters hf-papers; do
   ENABLED=$(echo "$CONFIG" | jq -r --arg s "$SRC" '.sources[$s].enabled')
   if [ "$ENABLED" = "true" ]; then

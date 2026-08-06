@@ -21,8 +21,8 @@ source_url: <linked article or arXiv URL, or null for discussion-only posts>
 ### Field rules
 
 - `layout: post` — always. Don't change.
-- `title:` — quoted. Re-phrase the HN headline in the writer's voice. Don't
-  copy-paste the HN title verbatim. Don't use "Re:" or "On:" prefixes.
+- `title:` — quoted. Re-phrase the source headline in the writer's voice. Don't
+  copy-paste the source title verbatim. Don't use "Re:" or "On:" prefixes.
 - `date:` — UTC with explicit `+0000` offset. Format: `2026-05-31 13:42:18 +0000`.
 - `categories:` — YAML inline list. 2-4 tags from the controlled vocabulary:
   `agentic-ai`, `rag`, `llm-ops`, `enterprise-ai`, `conversational-ai`,
