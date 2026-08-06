@@ -1,9 +1,7 @@
 {
-  "last_pruned_ts": "2026-08-06T03:03:55Z",
+  "last_pruned_ts": "2026-08-06T14:08:58Z",
   "published_ids": {
     "49077646": "2026-08-01T14:07:42Z",
-    "49104117": "2026-07-30T14:06:49Z",
-    "49107749": "2026-07-30T14:06:49Z",
     "49111176": "2026-07-31T14:07:10Z",
     "49113059": "2026-07-31T03:05:17Z",
     "49116922": "2026-07-31T03:05:17Z",
@@ -26,7 +24,9 @@
     "49171268": "2026-08-05T03:05:44Z",
     "49178608": "2026-08-05T14:05:14Z",
     "49185983": "2026-08-06T03:03:55Z",
-    "49186762": "2026-08-06T03:03:55Z"
+    "49186762": "2026-08-06T03:03:55Z",
+    "49189075": "2026-08-06T14:08:58Z",
+    "49195468": "2026-08-06T14:08:58Z"
   },
   "runs": [
     {
@@ -1432,6 +1432,18 @@
       ],
       "ts": "2026-08-06T03:03:55Z",
       "window": "evening"
+    },
+    {
+      "candidates_count": 24,
+      "note": "On-lane morning run. 24 eligible after dedup; rest of top 30 off-lane (N64 homebrew, botany YouTube, Blade Runner title cards, Android->Linux, GNU Hurd, branchless Rust, Zed DeltaDB, DeepMind leadership change). Two items selected, both fully verified from primary sources and topically distinct: 49189075 (Prime Intellect 'Prime Agent' -- self-improving RLM harness: context-as-variable REPL + Continual Harness that lets the agent CRUD its own prompts/skills/memory/sub-agents, score 9) and 49195468 (Scale X: human-in-the-loop missed 1-in-3 threats across 40k runs, 66.3% accuracy, exfil/scope-violation categories worst -- LLM-ops/agentic safety, score 8). Near-misses dropped (cap 2): 49182996 Cloudflare OS (8, broad agents-platform launch, less distinctive), 49187575 Meta Muse Code (7), 49185389 HyperProbe YC launch (7, thin marketing landing). Scored+written inline by agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "scored_above_threshold": 2,
+      "selected_ids": [
+        49189075,
+        49195468
+      ],
+      "ts": "2026-08-06T14:08:58Z",
+      "window": "morning"
     }
   ],
   "schema_version": 1
