@@ -8,12 +8,13 @@ writing prompt produces output matching this template.
 ```yaml
 ---
 layout: post
-title: "<Title — writer's voice, NOT the HN headline verbatim>"
+title: "<Title — writer's voice, NOT the source headline verbatim>"
 date: <YYYY-MM-DD HH:MM:SS> +0000
 categories: [<2-4 tags from the controlled vocabulary>]
-hn_id: <integer HN item id>
-hn_url: https://news.ycombinator.com/item?id=<id>
-source_url: <linked URL, or null for Ask HN>
+source: <hn | lobsters | hf-papers>
+source_id: <string — HN item id / Lobste.rs short_id / arXiv id>
+discussion_url: <HN thread / Lobste.rs thread / HF paper page URL>
+source_url: <linked article or arXiv URL, or null for discussion-only posts>
 ---
 ```
 
@@ -26,18 +27,27 @@ source_url: <linked URL, or null for Ask HN>
 - `categories:` — YAML inline list. 2-4 tags from the controlled vocabulary:
   `agentic-ai`, `rag`, `llm-ops`, `enterprise-ai`, `conversational-ai`,
   `knowledge-graphs`, `ai-infrastructure`, `research`, `industry`.
-- `hn_id:` — integer, no quotes.
-- `hn_url:` — full URL.
-- `source_url:` — full URL or the literal word `null` (no quotes) if the HN
-  item has no linked URL (Ask HN posts).
+- `source:` — one of `hn`, `lobsters`, `hf-papers`. No quotes.
+- `source_id:` — quoted string (HN ids are numeric but stored as strings;
+  arXiv ids contain a dot).
+- `discussion_url:` — full URL of the community thread (HN item page,
+  Lobste.rs comments page, or HF paper page).
+- `source_url:` — full URL of the linked article / arXiv abs page, or the
+  literal word `null` (no quotes) for discussion-only posts (e.g. Ask HN).
 
 ## Body (required, after frontmatter)
 
-- **200-400 words** of body content.
+- **200-400 words** of body content; **250-500 words** when a "wider
+  reaction" paragraph is present (see below).
 - **2-3 short paragraphs** OR **5-8 emoji bullets** — pick one format per post.
 - **Voice:** see `voice-rules.md`.
-- **Linking:** mention `source_url` and `hn_url` at least once each in the body,
-  not just in frontmatter. Markdown link format: `[anchor text](url)`.
+- **Reaction paragraph (optional):** when the routine's research step
+  supplies ≥ 2 citations, the post ends with one paragraph on how the story
+  is landing across the public web, each citation linked inline. With fewer
+  than 2 citations this paragraph is omitted entirely — never characterize
+  sentiment without linked sources.
+- **Linking:** mention `source_url` and `discussion_url` at least once each
+  in the body, not just in frontmatter. Markdown link format: `[anchor text](url)`.
 - **No trailing whitespace.** No trailing blank lines.
 
 ## Filename convention
@@ -64,8 +74,9 @@ layout: post
 title: "When the Reranker Becomes the Bottleneck"
 date: 2026-05-31 13:42:18 +0000
 categories: [rag, llm-ops]
-hn_id: 39842734
-hn_url: https://news.ycombinator.com/item?id=39842734
+source: hn
+source_id: "39842734"
+discussion_url: https://news.ycombinator.com/item?id=39842734
 source_url: https://example.com/reranker-blog
 ---
 
