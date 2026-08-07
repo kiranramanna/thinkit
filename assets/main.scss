@@ -56,3 +56,41 @@
   color: var(--background-color);
   background-color: var(--base-color);
 }
+
+// Tag cloud (/tags) — size buckets scale with post count.
+.tag-cloud {
+  line-height: 2.2;
+  margin-bottom: 1.5em;
+}
+
+.tag-cloud a {
+  margin-right: 0.9em;
+}
+
+.cloud-1 { font-size: 0.9em; }
+.cloud-2 { font-size: 1.1em; }
+.cloud-3 { font-size: 1.35em; }
+.cloud-4 { font-size: 1.6em; }
+.cloud-5 { font-size: 1.9em; }
+
+.tag-count {
+  font-size: 0.8em;
+}
+
+// Per-post tag links and the /search page controls.
+.tag-line a {
+  margin-right: 0.4em;
+}
+
+#search-input {
+  width: 100%;
+  font: inherit;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  border: var(--border);
+  padding: 0.4em;
+}
+
+#search-count {
+  opacity: 0.7;
+}

@@ -4,8 +4,14 @@ baseurl: "/thinkit"
 url: "https://kiranramanna.github.io"
 # Example Site settings
 
+# Posts: date-only URLs; categories stay in frontmatter as metadata
+# (surfaced via /tags and /search, not woven into the path).
+permalink: /:year/:month/:day/:title:output_ext
+
 header_pages:
   - index.md
+  - tags.md
+  - search.md
   - kiranramanna.md
   - about.md
 
