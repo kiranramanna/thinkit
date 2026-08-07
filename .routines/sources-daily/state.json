@@ -1,15 +1,10 @@
 {
-  "last_pruned_ts": "2026-08-07T03:08:19Z",
+  "last_pruned_ts": "2026-08-07T14:07:37Z",
   "published_urls": {
     "https://alexiglad.github.io/blog/2026/explorative_modeling": {
       "published_at": "2026-08-02T03:06:00Z",
       "source": "hn",
       "source_id": "49135245"
-    },
-    "https://api-docs.deepseek.com/updates": {
-      "published_at": "2026-07-31T14:07:10Z",
-      "source": "hn",
-      "source_id": "49119559"
     },
     "https://arxiv.org/abs/2602.16763": {
       "published_at": "2026-08-05T03:05:44Z",
@@ -20,6 +15,16 @@
       "published_at": "2026-08-05T14:05:14Z",
       "source": "hn",
       "source_id": "49178608"
+    },
+    "https://arxiv.org/abs/2608.05108": {
+      "published_at": "2026-08-07T14:07:37Z",
+      "source": "hf-papers",
+      "source_id": "2608.05108"
+    },
+    "https://arxiv.org/abs/2608.06060": {
+      "published_at": "2026-08-07T14:07:37Z",
+      "source": "hf-papers",
+      "source_id": "2608.06060"
     },
     "https://arxiv.org/abs/2608.06301": {
       "published_at": "2026-08-07T03:08:19Z",
@@ -70,11 +75,6 @@
       "published_at": "2026-08-01T03:08:03Z",
       "source": "hn",
       "source_id": "49126630"
-    },
-    "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html": {
-      "published_at": "2026-07-31T14:07:10Z",
-      "source": "hn",
-      "source_id": "49111176"
     },
     "https://mistral.ai/news/shieldstral": {
       "published_at": "2026-08-05T03:05:44Z",
@@ -148,6 +148,22 @@
       ],
       "ts": "2026-08-07T03:08:19Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 63,
+      "eligible_per_source": {
+        "hf-papers": 39,
+        "hn": 23,
+        "lobsters": 1
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2608.06060",
+        "hf-papers-2608.05108"
+      ],
+      "ts": "2026-08-07T14:07:37Z",
+      "window": "morning"
     }
   ]
 }
