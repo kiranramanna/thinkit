@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-08-07T14:07:37Z",
+  "last_pruned_ts": "2026-08-08T03:04:14Z",
   "published_urls": {
     "https://alexiglad.github.io/blog/2026/explorative_modeling": {
       "published_at": "2026-08-02T03:06:00Z",
@@ -20,6 +20,11 @@
       "published_at": "2026-08-07T14:07:37Z",
       "source": "hf-papers",
       "source_id": "2608.05108"
+    },
+    "https://arxiv.org/abs/2608.05784": {
+      "published_at": "2026-08-08T03:04:14Z",
+      "source": "hf-papers",
+      "source_id": "2608.05784"
     },
     "https://arxiv.org/abs/2608.06060": {
       "published_at": "2026-08-07T14:07:37Z",
@@ -56,11 +61,6 @@
       "source": "hn",
       "source_id": "49123386"
     },
-    "https://github.com/yc-software/qm": {
-      "published_at": "2026-08-01T03:08:03Z",
-      "source": "hn",
-      "source_id": "49126604"
-    },
     "https://gruhn.me/blog/2026-08-03": {
       "published_at": "2026-08-03T14:08:09Z",
       "source": "hn",
@@ -70,11 +70,6 @@
       "published_at": "2026-08-04T14:06:21Z",
       "source": "hn",
       "source_id": "49164896"
-    },
-    "https://manifest.build/blog/why-we-deprecated-our-llm-router": {
-      "published_at": "2026-08-01T03:08:03Z",
-      "source": "hn",
-      "source_id": "49126630"
     },
     "https://mistral.ai/news/shieldstral": {
       "published_at": "2026-08-05T03:05:44Z",
@@ -115,6 +110,11 @@
       "published_at": "2026-08-07T03:08:19Z",
       "source": "hn",
       "source_id": "49202852"
+    },
+    "https://www.databricks.com/blog/managing-ai-coding-costs-scale": {
+      "published_at": "2026-08-08T03:04:14Z",
+      "source": "hn",
+      "source_id": "49214468"
     },
     "https://www.primeintellect.ai/blog/prime-agent": {
       "published_at": "2026-08-06T14:08:58Z",
@@ -164,6 +164,22 @@
       ],
       "ts": "2026-08-07T14:07:37Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 65,
+      "eligible_per_source": {
+        "hf-papers": 36,
+        "hn": 27,
+        "lobsters": 2
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2608.05784",
+        "hn-49214468"
+      ],
+      "ts": "2026-08-08T03:04:14Z",
+      "window": "evening"
     }
   ]
 }
