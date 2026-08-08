@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-08-08T03:04:14Z",
+  "last_pruned_ts": "2026-08-08T14:03:51Z",
   "published_urls": {
     "https://alexiglad.github.io/blog/2026/explorative_modeling": {
       "published_at": "2026-08-02T03:06:00Z",
@@ -16,10 +16,20 @@
       "source": "hn",
       "source_id": "49178608"
     },
+    "https://arxiv.org/abs/2608.03451": {
+      "published_at": "2026-08-08T14:03:51Z",
+      "source": "hf-papers",
+      "source_id": "2608.03451"
+    },
     "https://arxiv.org/abs/2608.05108": {
       "published_at": "2026-08-07T14:07:37Z",
       "source": "hf-papers",
       "source_id": "2608.05108"
+    },
+    "https://arxiv.org/abs/2608.05138": {
+      "published_at": "2026-08-08T14:03:51Z",
+      "source": "hf-papers",
+      "source_id": "2608.05138"
     },
     "https://arxiv.org/abs/2608.05784": {
       "published_at": "2026-08-08T03:04:14Z",
@@ -56,11 +66,6 @@
       "source": "hn",
       "source_id": "49166386"
     },
-    "https://github.com/sqliteai/waste": {
-      "published_at": "2026-08-01T14:07:42Z",
-      "source": "hn",
-      "source_id": "49123386"
-    },
     "https://gruhn.me/blog/2026-08-03": {
       "published_at": "2026-08-03T14:08:09Z",
       "source": "hn",
@@ -90,11 +95,6 @@
       "published_at": "2026-08-03T14:08:09Z",
       "source": "hn",
       "source_id": "49154332"
-    },
-    "https://rocm.blogs.amd.com/software-tools-optimization/gluon-attention-decode-mi450/README.html": {
-      "published_at": "2026-08-01T14:07:42Z",
-      "source": "hn",
-      "source_id": "49077646"
     },
     "https://scalex.dev/blog/ai-agent-permissions-stats": {
       "published_at": "2026-08-06T14:08:58Z",
@@ -180,6 +180,22 @@
       ],
       "ts": "2026-08-08T03:04:14Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 63,
+      "eligible_per_source": {
+        "hf-papers": 38,
+        "hn": 23,
+        "lobsters": 2
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2608.05138",
+        "hf-papers-2608.03451"
+      ],
+      "ts": "2026-08-08T14:03:51Z",
+      "window": "morning"
     }
   ]
 }
