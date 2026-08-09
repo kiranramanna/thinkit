@@ -1,20 +1,25 @@
 {
-  "last_pruned_ts": "2026-08-08T14:03:51Z",
+  "last_pruned_ts": "2026-08-09T03:03:44Z",
   "published_urls": {
-    "https://alexiglad.github.io/blog/2026/explorative_modeling": {
-      "published_at": "2026-08-02T03:06:00Z",
-      "source": "hn",
-      "source_id": "49135245"
-    },
     "https://arxiv.org/abs/2602.16763": {
       "published_at": "2026-08-05T03:05:44Z",
       "source": "hn",
       "source_id": "49170915"
     },
+    "https://arxiv.org/abs/2607.28609": {
+      "published_at": "2026-08-09T03:03:44Z",
+      "source": "hf-papers",
+      "source_id": "2607.28609"
+    },
     "https://arxiv.org/abs/2607.29377": {
       "published_at": "2026-08-05T14:05:14Z",
       "source": "hn",
       "source_id": "49178608"
+    },
+    "https://arxiv.org/abs/2608.03392": {
+      "published_at": "2026-08-09T03:03:44Z",
+      "source": "hf-papers",
+      "source_id": "2608.03392"
     },
     "https://arxiv.org/abs/2608.03451": {
       "published_at": "2026-08-08T14:03:51Z",
@@ -80,11 +85,6 @@
       "published_at": "2026-08-05T03:05:44Z",
       "source": "hn",
       "source_id": "49171268"
-    },
-    "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions": {
-      "published_at": "2026-08-02T03:06:00Z",
-      "source": "hn",
-      "source_id": "49139102"
     },
     "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency": {
       "published_at": "2026-08-06T03:03:55Z",
@@ -196,6 +196,23 @@
       ],
       "ts": "2026-08-08T14:03:51Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 61,
+      "eligible_per_source": {
+        "hf-papers": 38,
+        "hn": 22,
+        "lobsters": 1
+      },
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2607.28609",
+        "hf-papers-2608.03392"
+      ],
+      "ts": "2026-08-09T03:03:44Z",
+      "window": "evening"
     }
   ]
 }
