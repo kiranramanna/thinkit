@@ -2,7 +2,7 @@
 layout: post
 title: "OpenAI Deep Research"
 date: 2025-01-22
-categories: OpenAI Deep Research
+categories: [OpenAI, research]
 ---
 
 

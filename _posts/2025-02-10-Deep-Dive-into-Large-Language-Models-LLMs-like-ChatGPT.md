@@ -2,7 +2,7 @@
 layout: post
 title: "Deep Dive into Large Language Models (LLMs) like ChatGPT"
 date: 2025-01-22
-categories: OpenAI Deep Research
+categories: [OpenAI, research]
 ---
 
 

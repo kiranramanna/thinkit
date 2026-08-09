@@ -2,7 +2,7 @@
 layout: post
 title:  "Deepseek R1 - stock market impact"
 date:   2025-01-22 23:52:00 +0900
-categories: LLM deepseek
+categories: [LLM, deepseek]
 ---
 **🤯 AI Landscape SHAKEN! 🇨🇳 DeepSeek's Arrival & What It Means For Us All** 🚀
 

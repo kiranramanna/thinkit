@@ -57,21 +57,48 @@
   background-color: var(--base-color);
 }
 
-// Tag cloud (/tags) — size buckets scale with post count.
+// Tag cloud (/tags) — size and opacity both scale with post count.
+//
+// Buckets are assigned in tags.md by a geometric ladder over count/max, so the
+// eight steps below stay meaningfully spread whether the busiest tag has 20
+// posts or 2000. The top size is capped at 2.4em on purpose: this cloud is a
+// header for the post index beneath it, and larger words push that index past
+// the fold.
 .tag-cloud {
-  line-height: 2.2;
+  line-height: 1.5;
   margin-bottom: 1.5em;
 }
 
+// inline-block + vertical-align centres words of different sizes against each
+// other. Left on the baseline, a 2.4em word and a 0.85em word on the same row
+// look accidentally misaligned rather than deliberately sized.
 .tag-cloud a {
-  margin-right: 0.9em;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.25;
+  margin: 0.15em 0.7em 0.15em 0;
 }
 
-.cloud-1 { font-size: 0.9em; }
-.cloud-2 { font-size: 1.1em; }
-.cloud-3 { font-size: 1.35em; }
-.cloud-4 { font-size: 1.6em; }
-.cloud-5 { font-size: 1.9em; }
+// Hover inverts to a solid background, which reads as muddy through a partial
+// opacity — restore full strength so the hit target stays crisp.
+.tag-cloud a:hover {
+  opacity: 1;
+}
+
+// font-size is !important to survive base.scss's mobile rule, which sets
+// `* { font-size: 12px !important }` under max-device-width: 500px. A universal
+// !important beats any normal declaration regardless of specificity, so without
+// this the whole cloud collapses to one size on phones — as it silently did
+// before. Between two !important rules specificity decides again, and .cloud-N
+// (0,1,0) outranks * (0,0,0).
+.cloud-1 { font-size: 0.85em !important; opacity: 0.55; }
+.cloud-2 { font-size: 0.95em !important; opacity: 0.62; }
+.cloud-3 { font-size: 1.1em  !important; opacity: 0.70; }
+.cloud-4 { font-size: 1.3em  !important; opacity: 0.78; }
+.cloud-5 { font-size: 1.55em !important; opacity: 0.86; }
+.cloud-6 { font-size: 1.85em !important; opacity: 0.93; }
+.cloud-7 { font-size: 2.1em  !important; opacity: 1; }
+.cloud-8 { font-size: 2.4em  !important; opacity: 1; }
 
 .tag-count {
   font-size: 0.8em;
