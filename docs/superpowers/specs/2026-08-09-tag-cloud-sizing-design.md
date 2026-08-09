@@ -85,6 +85,19 @@ using inherited colour so it survives the light/dark toggle. Every word carries
 `title="N posts"` — size alone is a poor signal for anyone who cannot compare
 areas — and the floor stays at `0.85em` so nothing becomes unreadable.
 
+## Panel
+
+The cloud sits in a bordered panel rather than flowing as loose text. The
+border is the theme's own `--border` — the same dashed stroke that rules the
+nav and the footer — so the panel reads as native to the theme instead of an
+addition to it.
+
+Words are centred inside. That is what separates a cloud from a bordered
+paragraph: left-aligned mixed sizes read as ragged prose, centred ones read as
+a composition. A caption closes the panel with `N tags · N posts · sized by
+post count`, which states the encoding rather than leaving a reader to infer
+it from hovering.
+
 ## Mobile (found during verification)
 
 `_sass/base.scss:21` carries an upstream rule:

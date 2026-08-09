@@ -33,6 +33,7 @@ permalink: /tags/
 {%- else -%}{%- assign bucket = 1 -%}{%- endif -%}
 <a class="cloud-{{ bucket }}" href="#{{ cat[0] | slugify }}" title="{{ count }} post{% unless count == 1 %}s{% endunless %}">{{ cat[0] }}</a>
 {% endfor %}
+<p class="tag-cloud-caption">{{ site.categories.size }} tags &middot; {{ site.posts.size }} posts &middot; sized by post count</p>
 </div>
 
 {% comment %}
