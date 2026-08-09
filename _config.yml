@@ -22,6 +22,26 @@ footer: 'follow me on <a href="https://www.linkedin.com/in/kiranramanna/">linked
 #style: light # dark (default) or light
 #listen_for_clients_preferred_style: true # true or false (default)
 
+# docs/ holds design specs, not site content. They quote Liquid in fenced code
+# blocks, and anything Jekyll renders will execute that Liquid rather than show
+# it — a spec quoting `divided_by: max` failed the Pages build with a division
+# by zero, because `max` is only defined inside tags.md. Excluding the folder
+# keeps specs readable on GitHub without them becoming templates.
+#
+# Listing exclude at all replaces Jekyll's defaults, so the standard entries are
+# repeated here.
+exclude:
+  - docs/
+  - Gemfile
+  - Gemfile.lock
+  - gemfiles/
+  - node_modules/
+  - vendor/
+  - Containerfile
+  - docker-compose.yml
+  - jekyll-theme-console.gemspec
+  - LICENSE.txt
+
 plugins:
   - jekyll-seo-tag
 
