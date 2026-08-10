@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-08-10T03:07:32Z",
+  "last_pruned_ts": "2026-08-10T14:07:02Z",
   "published_urls": {
     "https://arxiv.org/abs/2602.16763": {
       "published_at": "2026-08-05T03:05:44Z",
@@ -61,6 +61,11 @@
       "source": "hf-papers",
       "source_id": "2608.06060"
     },
+    "https://arxiv.org/abs/2608.06197": {
+      "published_at": "2026-08-10T14:07:02Z",
+      "source": "hf-papers",
+      "source_id": "2608.06197"
+    },
     "https://arxiv.org/abs/2608.06301": {
       "published_at": "2026-08-07T03:08:19Z",
       "source": "hf-papers",
@@ -75,11 +80,6 @@
       "published_at": "2026-08-04T14:06:21Z",
       "source": "hn",
       "source_id": "49166386"
-    },
-    "https://gruhn.me/blog/2026-08-03": {
-      "published_at": "2026-08-03T14:08:09Z",
-      "source": "hn",
-      "source_id": "49151933"
     },
     "https://lilianweng.github.io/posts/2026-07-04-harness": {
       "published_at": "2026-08-04T14:06:21Z",
@@ -101,11 +101,6 @@
       "source": "hn",
       "source_id": "49233448"
     },
-    "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops": {
-      "published_at": "2026-08-03T14:08:09Z",
-      "source": "hn",
-      "source_id": "49154332"
-    },
     "https://scalex.dev/blog/ai-agent-permissions-stats": {
       "published_at": "2026-08-06T14:08:58Z",
       "source": "hn",
@@ -125,6 +120,11 @@
       "published_at": "2026-08-08T03:04:14Z",
       "source": "hn",
       "source_id": "49214468"
+    },
+    "https://www.docker.com/products/docker-sandboxes": {
+      "published_at": "2026-08-10T14:07:02Z",
+      "source": "hn",
+      "source_id": "49239751"
     },
     "https://www.primeintellect.ai/blog/prime-agent": {
       "published_at": "2026-08-06T14:08:58Z",
@@ -257,6 +257,21 @@
       ],
       "ts": "2026-08-10T03:07:32Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 57,
+      "eligible_per_source": {
+        "hf-papers": 31,
+        "hn": 26
+      },
+      "posts_written": 2,
+      "selected": [
+        "hn-49239751",
+        "hf-papers-2608.06197"
+      ],
+      "ts": "2026-08-10T14:07:02Z",
+      "window": "morning"
     }
   ]
 }
