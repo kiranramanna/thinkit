@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-08-09T14:04:18Z",
+  "last_pruned_ts": "2026-08-10T03:07:32Z",
   "published_urls": {
     "https://arxiv.org/abs/2602.16763": {
       "published_at": "2026-08-05T03:05:44Z",
@@ -25,6 +25,11 @@
       "published_at": "2026-08-08T14:03:51Z",
       "source": "hf-papers",
       "source_id": "2608.03451"
+    },
+    "https://arxiv.org/abs/2608.03764": {
+      "published_at": "2026-08-10T03:07:32Z",
+      "source": "hf-papers",
+      "source_id": "2608.03764"
     },
     "https://arxiv.org/abs/2608.05102": {
       "published_at": "2026-08-09T14:04:18Z",
@@ -66,16 +71,6 @@
       "source": "hn",
       "source_id": "49158581"
     },
-    "https://frogs.vaguespac.es/": {
-      "published_at": "2026-08-03T03:05:36Z",
-      "source": "hn",
-      "source_id": "49147622"
-    },
-    "https://github.com/micro/mu": {
-      "published_at": "2026-08-03T03:05:36Z",
-      "source": "hn",
-      "source_id": "49148899"
-    },
     "https://github.com/ryanzhou/deepseek-v4-flash-mi300x": {
       "published_at": "2026-08-04T14:06:21Z",
       "source": "hn",
@@ -100,6 +95,11 @@
       "published_at": "2026-08-06T03:03:55Z",
       "source": "hn",
       "source_id": "49186762"
+    },
+    "https://openchamber.dev/": {
+      "published_at": "2026-08-10T03:07:32Z",
+      "source": "hn",
+      "source_id": "49233448"
     },
     "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops": {
       "published_at": "2026-08-03T14:08:09Z",
@@ -240,6 +240,23 @@
       ],
       "ts": "2026-08-09T14:04:18Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 54,
+      "eligible_per_source": {
+        "hf-papers": 28,
+        "hn": 24,
+        "lobsters": 2
+      },
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2608.03764",
+        "hn-49233448"
+      ],
+      "ts": "2026-08-10T03:07:32Z",
+      "window": "evening"
     }
   ]
 }
