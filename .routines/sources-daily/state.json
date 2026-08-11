@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-08-10T14:07:02Z",
+  "last_pruned_ts": "2026-08-11T03:04:56Z",
   "published_urls": {
     "https://arxiv.org/abs/2602.16763": {
       "published_at": "2026-08-05T03:05:44Z",
@@ -71,10 +71,10 @@
       "source": "hf-papers",
       "source_id": "2608.06301"
     },
-    "https://blog.cloudflare.com/smaller-faster-safer-models": {
-      "published_at": "2026-08-04T03:04:48Z",
-      "source": "hn",
-      "source_id": "49158581"
+    "https://arxiv.org/abs/2608.09802": {
+      "published_at": "2026-08-11T03:04:56Z",
+      "source": "hf-papers",
+      "source_id": "2608.09802"
     },
     "https://github.com/ryanzhou/deepseek-v4-flash-mi300x": {
       "published_at": "2026-08-04T14:06:21Z",
@@ -100,6 +100,11 @@
       "published_at": "2026-08-10T03:07:32Z",
       "source": "hn",
       "source_id": "49233448"
+    },
+    "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model": {
+      "published_at": "2026-08-11T03:04:56Z",
+      "source": "hn",
+      "source_id": "49241679"
     },
     "https://scalex.dev/blog/ai-agent-permissions-stats": {
       "published_at": "2026-08-06T14:08:58Z",
@@ -135,11 +140,6 @@
       "published_at": "2026-08-06T03:03:55Z",
       "source": "hn",
       "source_id": "49185983"
-    },
-    "https://www.seangoedecke.com/llms-reward-expertise": {
-      "published_at": "2026-08-04T03:04:48Z",
-      "source": "hn",
-      "source_id": "49161518"
     }
   },
   "runs": [
@@ -272,6 +272,23 @@
       ],
       "ts": "2026-08-10T14:07:02Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 58,
+      "eligible_per_source": {
+        "hf-papers": 31,
+        "hn": 26,
+        "lobsters": 1
+      },
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2608.09802",
+        "hn-49241679"
+      ],
+      "ts": "2026-08-11T03:04:56Z",
+      "window": "evening"
     }
   ]
 }
