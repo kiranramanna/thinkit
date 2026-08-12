@@ -1,20 +1,10 @@
 {
-  "last_pruned_ts": "2026-08-11T14:05:46Z",
+  "last_pruned_ts": "2026-08-12T14:05:55Z",
   "published_urls": {
-    "https://arxiv.org/abs/2602.16763": {
-      "published_at": "2026-08-05T03:05:44Z",
-      "source": "hn",
-      "source_id": "49170915"
-    },
     "https://arxiv.org/abs/2607.28609": {
       "published_at": "2026-08-09T03:03:44Z",
       "source": "hf-papers",
       "source_id": "2607.28609"
-    },
-    "https://arxiv.org/abs/2607.29377": {
-      "published_at": "2026-08-05T14:05:14Z",
-      "source": "hn",
-      "source_id": "49178608"
     },
     "https://arxiv.org/abs/2608.03392": {
       "published_at": "2026-08-09T03:03:44Z",
@@ -76,15 +66,15 @@
       "source": "hf-papers",
       "source_id": "2608.07346"
     },
+    "https://arxiv.org/abs/2608.08097": {
+      "published_at": "2026-08-12T14:05:55Z",
+      "source": "hf-papers",
+      "source_id": "2608.08097"
+    },
     "https://arxiv.org/abs/2608.09802": {
       "published_at": "2026-08-11T03:04:56Z",
       "source": "hf-papers",
       "source_id": "2608.09802"
-    },
-    "https://mistral.ai/news/shieldstral": {
-      "published_at": "2026-08-05T03:05:44Z",
-      "source": "hn",
-      "source_id": "49171268"
     },
     "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency": {
       "published_at": "2026-08-06T03:03:55Z",
@@ -106,10 +96,10 @@
       "source": "hn",
       "source_id": "49195468"
     },
-    "https://simonwillison.net/2026/Jul/31/stateless-mcp": {
-      "published_at": "2026-08-05T14:05:14Z",
+    "https://stolen-thoughts.com/": {
+      "published_at": "2026-08-12T14:05:55Z",
       "source": "hn",
-      "source_id": "49131438"
+      "source_id": "49257876"
     },
     "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content": {
       "published_at": "2026-08-11T14:05:46Z",
@@ -303,6 +293,22 @@
         "hn-49250109"
       ],
       "ts": "2026-08-11T14:05:46Z",
+      "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 65,
+      "eligible_per_source": {
+        "hf-papers": 39,
+        "hn": 26
+      },
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2608.08097",
+        "hn-49257876"
+      ],
+      "ts": "2026-08-12T14:05:55Z",
       "window": "morning"
     }
   ]
