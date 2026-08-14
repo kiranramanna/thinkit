@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-08-13T14:06:19Z",
+  "last_pruned_ts": "2026-08-14T03:04:10Z",
   "published_urls": {
     "https://arxiv.org/abs/2607.28609": {
       "published_at": "2026-08-09T03:03:44Z",
@@ -61,15 +61,15 @@
       "source": "hf-papers",
       "source_id": "2608.06197"
     },
-    "https://arxiv.org/abs/2608.06301": {
-      "published_at": "2026-08-07T03:08:19Z",
-      "source": "hf-papers",
-      "source_id": "2608.06301"
-    },
     "https://arxiv.org/abs/2608.07346": {
       "published_at": "2026-08-11T14:05:46Z",
       "source": "hf-papers",
       "source_id": "2608.07346"
+    },
+    "https://arxiv.org/abs/2608.07458": {
+      "published_at": "2026-08-14T03:04:10Z",
+      "source": "hf-papers",
+      "source_id": "2608.07458"
     },
     "https://arxiv.org/abs/2608.08097": {
       "published_at": "2026-08-12T14:05:55Z",
@@ -96,6 +96,11 @@
       "source": "hf-papers",
       "source_id": "2608.11878"
     },
+    "https://deepseek.com/harness/en": {
+      "published_at": "2026-08-14T03:04:10Z",
+      "source": "hn",
+      "source_id": "49285244"
+    },
     "https://openchamber.dev/": {
       "published_at": "2026-08-10T03:07:32Z",
       "source": "hn",
@@ -115,11 +120,6 @@
       "published_at": "2026-08-11T14:05:46Z",
       "source": "hn",
       "source_id": "49250109"
-    },
-    "https://www.aleksagordic.com/blog/vllm": {
-      "published_at": "2026-08-07T03:08:19Z",
-      "source": "hn",
-      "source_id": "49202852"
     },
     "https://www.databricks.com/blog/managing-ai-coding-costs-scale": {
       "published_at": "2026-08-08T03:04:14Z",
@@ -344,6 +344,22 @@
       ],
       "ts": "2026-08-13T14:06:19Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 59,
+      "eligible_per_source": {
+        "hf-papers": 32,
+        "hn": 26,
+        "lobsters": 1
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2608.07458",
+        "hn-49285244"
+      ],
+      "ts": "2026-08-14T03:04:10Z",
+      "window": "evening"
     }
   ]
 }
