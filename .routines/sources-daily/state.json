@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-08-17T18:28:52Z",
+  "last_pruned_ts": "2026-08-18T03:08:53Z",
   "published_urls": {
     "https://arxiv.org/abs/2608.05604": {
       "published_at": "2026-08-13T14:06:19Z",
@@ -31,11 +31,6 @@
       "source": "hf-papers",
       "source_id": "2608.08389"
     },
-    "https://arxiv.org/abs/2608.09802": {
-      "published_at": "2026-08-11T03:04:56Z",
-      "source": "hf-papers",
-      "source_id": "2608.09802"
-    },
     "https://arxiv.org/abs/2608.10636": {
       "published_at": "2026-08-13T03:04:03Z",
       "source": "hf-papers",
@@ -56,20 +51,25 @@
       "source": "hf-papers",
       "source_id": "2608.13560"
     },
+    "https://arxiv.org/abs/2608.13900": {
+      "published_at": "2026-08-18T03:08:53Z",
+      "source": "hf-papers",
+      "source_id": "2608.13900"
+    },
     "https://deepseek.com/harness/en": {
       "published_at": "2026-08-14T03:04:10Z",
       "source": "hn",
       "source_id": "49285244"
     },
+    "https://engineering.myhoai.com/posts/a-simple-fix-for-llm-tail-latency": {
+      "published_at": "2026-08-18T03:08:53Z",
+      "source": "hn",
+      "source_id": "49295179"
+    },
     "https://huggingface.co/Qwen/Qwen3.8-27B-FP8": {
       "published_at": "2026-08-15T03:03:20Z",
       "source": "hn",
       "source_id": "49299605"
-    },
-    "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model": {
-      "published_at": "2026-08-11T03:04:56Z",
-      "source": "hn",
-      "source_id": "49241679"
     },
     "https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications": {
       "published_at": "2026-08-14T14:05:56Z",
@@ -370,6 +370,22 @@
       ],
       "ts": "2026-08-17T18:28:52Z",
       "window": "manual"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 63,
+      "eligible_per_source": {
+        "hf-papers": 34,
+        "hn": 26,
+        "lobsters": 3
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2608.13900",
+        "hn-49295179"
+      ],
+      "ts": "2026-08-18T03:08:53Z",
+      "window": "evening"
     }
   ]
 }
