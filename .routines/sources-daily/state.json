@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-08-18T14:08:51Z",
+  "last_pruned_ts": "2026-08-19T03:08:20Z",
   "published_urls": {
     "https://arxiv.org/abs/2608.05604": {
       "published_at": "2026-08-13T14:06:19Z",
@@ -56,6 +56,11 @@
       "source": "hf-papers",
       "source_id": "2608.14905"
     },
+    "https://arxiv.org/abs/2608.15089": {
+      "published_at": "2026-08-19T03:08:20Z",
+      "source": "hf-papers",
+      "source_id": "2608.15089"
+    },
     "https://arxiv.org/abs/2608.16391": {
       "published_at": "2026-08-18T14:08:51Z",
       "source": "hf-papers",
@@ -70,6 +75,11 @@
       "published_at": "2026-08-18T03:08:53Z",
       "source": "hn",
       "source_id": "49295179"
+    },
+    "https://github.com/RyanCodrai/turbovec": {
+      "published_at": "2026-08-19T03:08:20Z",
+      "source": "hn",
+      "source_id": "49349898"
     },
     "https://huggingface.co/Qwen/Qwen3.8-27B-FP8": {
       "published_at": "2026-08-15T03:03:20Z",
@@ -403,6 +413,23 @@
       ],
       "ts": "2026-08-18T14:08:51Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 48,
+      "eligible_per_source": {
+        "hf-papers": 23,
+        "hn": 23,
+        "lobsters": 2
+      },
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2608.15089",
+        "hn-49349898"
+      ],
+      "ts": "2026-08-19T03:08:20Z",
+      "window": "evening"
     }
   ]
 }
