@@ -1,11 +1,6 @@
 {
-  "last_pruned_ts": "2026-08-20T03:03:23Z",
+  "last_pruned_ts": "2026-08-20T14:03:31Z",
   "published_urls": {
-    "https://arxiv.org/abs/2608.05604": {
-      "published_at": "2026-08-13T14:06:19Z",
-      "source": "hf-papers",
-      "source_id": "2608.05604"
-    },
     "https://arxiv.org/abs/2608.06867": {
       "published_at": "2026-08-14T14:05:56Z",
       "source": "hf-papers",
@@ -15,11 +10,6 @@
       "published_at": "2026-08-14T03:04:10Z",
       "source": "hf-papers",
       "source_id": "2608.07458"
-    },
-    "https://arxiv.org/abs/2608.11878": {
-      "published_at": "2026-08-13T14:06:19Z",
-      "source": "hf-papers",
-      "source_id": "2608.11878"
     },
     "https://arxiv.org/abs/2608.13417": {
       "published_at": "2026-08-17T18:28:52Z",
@@ -70,6 +60,11 @@
       "published_at": "2026-08-20T03:03:23Z",
       "source": "hf-papers",
       "source_id": "2608.17597"
+    },
+    "https://arxiv.org/abs/2608.18171": {
+      "published_at": "2026-08-20T14:03:31Z",
+      "source": "hf-papers",
+      "source_id": "2608.18171"
     },
     "https://deepseek.com/harness/en": {
       "published_at": "2026-08-14T03:04:10Z",
@@ -464,6 +459,23 @@
       ],
       "ts": "2026-08-20T03:03:23Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 58,
+      "eligible_per_source": {
+        "hf-papers": 34,
+        "hn": 22,
+        "lobsters": 2
+      },
+      "notes": "Scored above threshold(7): hf-papers-2608.18171(8), hf-papers-2608.16393(8), plus five 7s. Algorithm selected the two 8s; deselected hf-papers-2608.16393 (DeepSeek harness indirect-prompt-injection assessment) before writing to avoid thematic duplication with same-day post hf-papers-2608.17597 'Your Agent Harness Is the Real Attack Surface'. Research found no story-specific public citations for the published paper (fresh arXiv); reaction paragraph omitted as designed. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 1,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2608.18171"
+      ],
+      "ts": "2026-08-20T14:03:31Z",
+      "window": "morning"
     }
   ]
 }
