@@ -1,11 +1,6 @@
 {
-  "last_pruned_ts": "2026-08-21T03:04:09Z",
+  "last_pruned_ts": "2026-08-21T14:05:09Z",
   "published_urls": {
-    "https://arxiv.org/abs/2608.06867": {
-      "published_at": "2026-08-14T14:05:56Z",
-      "source": "hf-papers",
-      "source_id": "2608.06867"
-    },
     "https://arxiv.org/abs/2608.13417": {
       "published_at": "2026-08-17T18:28:52Z",
       "source": "hf-papers",
@@ -61,6 +56,11 @@
       "source": "hf-papers",
       "source_id": "2608.18171"
     },
+    "https://arxiv.org/abs/2608.19758": {
+      "published_at": "2026-08-21T14:05:09Z",
+      "source": "hf-papers",
+      "source_id": "2608.19758"
+    },
     "https://arxiv.org/abs/2608.20202": {
       "published_at": "2026-08-21T03:04:09Z",
       "source": "hf-papers",
@@ -76,6 +76,11 @@
       "source": "hn",
       "source_id": "49349898"
     },
+    "https://github.com/vivekhaldar/seed": {
+      "published_at": "2026-08-21T14:05:09Z",
+      "source": "hn",
+      "source_id": "49384113"
+    },
     "https://github.com/zachahn/vomit": {
       "published_at": "2026-08-21T03:04:09Z",
       "source": "hn",
@@ -85,11 +90,6 @@
       "published_at": "2026-08-15T03:03:20Z",
       "source": "hn",
       "source_id": "49299605"
-    },
-    "https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications": {
-      "published_at": "2026-08-14T14:05:56Z",
-      "source": "hn",
-      "source_id": "49249523"
     },
     "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug": {
       "published_at": "2026-08-17T18:28:52Z",
@@ -494,6 +494,23 @@
       ],
       "ts": "2026-08-21T03:04:09Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 48,
+      "eligible_per_source": {
+        "hf-papers": 27,
+        "hn": 21
+      },
+      "notes": "Scored above threshold(7): hf-papers-2608.19758(8) FlashPrefill V2, hf-papers-2608.13120(8) SkillEvo, hn-49384113(8) Seed, plus hf-papers-2608.18933(7). Algorithm picked the highest-scoring pair with the source-diversity tie-break: hf-papers-2608.19758 (long-context prefill serving) then hn-49384113 (self-modifying agent harness) over the tied hf 8, giving one hf + one hn and two distinct themes. Research: no story-specific public citations survived for either item (FlashPrefill V2 is a 2-day-old arXiv paper; Seed's only near-matches were different projects/login-walled), below min_citations=2, so both posts omit the reaction paragraph as designed. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2608.19758",
+        "hn-49384113"
+      ],
+      "ts": "2026-08-21T14:05:09Z",
+      "window": "morning"
     }
   ]
 }
