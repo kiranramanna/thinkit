@@ -1,15 +1,10 @@
 {
-  "last_pruned_ts": "2026-08-20T14:03:31Z",
+  "last_pruned_ts": "2026-08-21T03:04:09Z",
   "published_urls": {
     "https://arxiv.org/abs/2608.06867": {
       "published_at": "2026-08-14T14:05:56Z",
       "source": "hf-papers",
       "source_id": "2608.06867"
-    },
-    "https://arxiv.org/abs/2608.07458": {
-      "published_at": "2026-08-14T03:04:10Z",
-      "source": "hf-papers",
-      "source_id": "2608.07458"
     },
     "https://arxiv.org/abs/2608.13417": {
       "published_at": "2026-08-17T18:28:52Z",
@@ -66,10 +61,10 @@
       "source": "hf-papers",
       "source_id": "2608.18171"
     },
-    "https://deepseek.com/harness/en": {
-      "published_at": "2026-08-14T03:04:10Z",
-      "source": "hn",
-      "source_id": "49285244"
+    "https://arxiv.org/abs/2608.20202": {
+      "published_at": "2026-08-21T03:04:09Z",
+      "source": "hf-papers",
+      "source_id": "2608.20202"
     },
     "https://engineering.myhoai.com/posts/a-simple-fix-for-llm-tail-latency": {
       "published_at": "2026-08-18T03:08:53Z",
@@ -80,6 +75,11 @@
       "published_at": "2026-08-19T03:08:20Z",
       "source": "hn",
       "source_id": "49349898"
+    },
+    "https://github.com/zachahn/vomit": {
+      "published_at": "2026-08-21T03:04:09Z",
+      "source": "hn",
+      "source_id": "49375996"
     },
     "https://huggingface.co/Qwen/Qwen3.8-27B-FP8": {
       "published_at": "2026-08-15T03:03:20Z",
@@ -476,6 +476,24 @@
       ],
       "ts": "2026-08-20T14:03:31Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 56,
+      "eligible_per_source": {
+        "hf-papers": 29,
+        "hn": 25,
+        "lobsters": 2
+      },
+      "notes": "Scored above threshold(7): hf-papers-2608.20202(8) plus six 7s (five hf-papers agent/harness papers + hn-49375996). Algorithm picked the lone 8 (MemTrapBench), then the source-diversity tie-break took hn-49375996 (Vomit) over the tied hf-papers 7s. Research: no story-specific public citations survived for either item (fresh arXiv paper; Vomit had only one usable third-party thread, below min_citations=2), so both posts omit the reaction paragraph as designed. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2608.20202",
+        "hn-49375996"
+      ],
+      "ts": "2026-08-21T03:04:09Z",
+      "window": "evening"
     }
   ]
 }
