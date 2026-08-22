@@ -1,6 +1,11 @@
 {
-  "last_pruned_ts": "2026-08-22T03:03:36Z",
+  "last_pruned_ts": "2026-08-22T14:03:46Z",
   "published_urls": {
+    "https://arxiv.org/abs/2608.08466": {
+      "published_at": "2026-08-22T14:03:46Z",
+      "source": "hf-papers",
+      "source_id": "2608.08466"
+    },
     "https://arxiv.org/abs/2608.12875": {
       "published_at": "2026-08-22T03:03:36Z",
       "source": "hf-papers",
@@ -10,6 +15,11 @@
       "published_at": "2026-08-17T18:28:52Z",
       "source": "hf-papers",
       "source_id": "2608.13417"
+    },
+    "https://arxiv.org/abs/2608.13547": {
+      "published_at": "2026-08-22T14:03:46Z",
+      "source": "hf-papers",
+      "source_id": "2608.13547"
     },
     "https://arxiv.org/abs/2608.13900": {
       "published_at": "2026-08-18T03:08:53Z",
@@ -527,6 +537,22 @@
       ],
       "ts": "2026-08-22T03:03:36Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 65,
+      "eligible_per_source": {
+        "hf-papers": 37,
+        "hn": 26,
+        "lobsters": 2
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2608.13547",
+        "hf-papers-2608.08466"
+      ],
+      "ts": "2026-08-22T14:03:46Z",
+      "window": "morning"
     }
   ]
 }
