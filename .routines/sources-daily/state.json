@@ -1,15 +1,15 @@
 {
-  "last_pruned_ts": "2026-08-21T14:05:09Z",
+  "last_pruned_ts": "2026-08-22T03:03:36Z",
   "published_urls": {
+    "https://arxiv.org/abs/2608.12875": {
+      "published_at": "2026-08-22T03:03:36Z",
+      "source": "hf-papers",
+      "source_id": "2608.12875"
+    },
     "https://arxiv.org/abs/2608.13417": {
       "published_at": "2026-08-17T18:28:52Z",
       "source": "hf-papers",
       "source_id": "2608.13417"
-    },
-    "https://arxiv.org/abs/2608.13560": {
-      "published_at": "2026-08-15T03:03:20Z",
-      "source": "hf-papers",
-      "source_id": "2608.13560"
     },
     "https://arxiv.org/abs/2608.13900": {
       "published_at": "2026-08-18T03:08:53Z",
@@ -61,6 +61,11 @@
       "source": "hf-papers",
       "source_id": "2608.19758"
     },
+    "https://arxiv.org/abs/2608.19861": {
+      "published_at": "2026-08-22T03:03:36Z",
+      "source": "hf-papers",
+      "source_id": "2608.19861"
+    },
     "https://arxiv.org/abs/2608.20202": {
       "published_at": "2026-08-21T03:04:09Z",
       "source": "hf-papers",
@@ -85,11 +90,6 @@
       "published_at": "2026-08-21T03:04:09Z",
       "source": "hn",
       "source_id": "49375996"
-    },
-    "https://huggingface.co/Qwen/Qwen3.8-27B-FP8": {
-      "published_at": "2026-08-15T03:03:20Z",
-      "source": "hn",
-      "source_id": "49299605"
     },
     "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug": {
       "published_at": "2026-08-17T18:28:52Z",
@@ -511,6 +511,22 @@
       ],
       "ts": "2026-08-21T14:05:09Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 64,
+      "eligible_per_source": {
+        "hf-papers": 38,
+        "hn": 24,
+        "lobsters": 2
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2608.19861",
+        "hf-papers-2608.12875"
+      ],
+      "ts": "2026-08-22T03:03:36Z",
+      "window": "evening"
     }
   ]
 }
