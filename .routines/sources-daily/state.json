@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-08-23T03:03:17Z",
+  "last_pruned_ts": "2026-08-23T14:03:00Z",
   "published_urls": {
     "https://arxiv.org/abs/2608.08466": {
       "published_at": "2026-08-22T14:03:46Z",
@@ -76,6 +76,11 @@
       "source": "hf-papers",
       "source_id": "2608.19758"
     },
+    "https://arxiv.org/abs/2608.19799": {
+      "published_at": "2026-08-23T14:03:00Z",
+      "source": "hf-papers",
+      "source_id": "2608.19799"
+    },
     "https://arxiv.org/abs/2608.19861": {
       "published_at": "2026-08-22T03:03:36Z",
       "source": "hf-papers",
@@ -85,6 +90,11 @@
       "published_at": "2026-08-21T03:04:09Z",
       "source": "hf-papers",
       "source_id": "2608.20202"
+    },
+    "https://arxiv.org/abs/2608.20281": {
+      "published_at": "2026-08-23T14:03:00Z",
+      "source": "hf-papers",
+      "source_id": "2608.20281"
     },
     "https://blog.modelcontextprotocol.io/posts/mcp-roadmap": {
       "published_at": "2026-08-23T03:03:17Z",
@@ -581,6 +591,24 @@
       ],
       "ts": "2026-08-23T03:03:17Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 63,
+      "eligible_per_source": {
+        "hf-papers": 34,
+        "hn": 28,
+        "lobsters": 1
+      },
+      "notes": "Scored above threshold(7): two 8s (hf-papers-2608.19799 SWE-bench Science, hf-papers-2608.20281 IAR retrieval-free internalization) and nine 7s (all hf-papers). No HN/lobsters item scored >=7 this run. Selection took both 8s; source-diversity tie-break was inert (all candidates above threshold were hf-papers), giving two topically distinct posts: coding-agent eval vs. RAG-alternative internalization. written_today was 2 (evening run), so cap=min(2,4-2)=2 held at the soft daily budget. Research: both are ~4-day-old arXiv papers with no story-specific public reaction (only arXiv pages / authors' own repo / unrelated same-topic papers), below min_citations=2, so both posts omit the reaction paragraph as designed. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2608.19799",
+        "hf-papers-2608.20281"
+      ],
+      "ts": "2026-08-23T14:03:00Z",
+      "window": "morning"
     }
   ]
 }
