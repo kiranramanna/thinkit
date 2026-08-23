@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-08-22T14:03:46Z",
+  "last_pruned_ts": "2026-08-23T03:03:17Z",
   "published_urls": {
     "https://arxiv.org/abs/2608.08466": {
       "published_at": "2026-08-22T14:03:46Z",
@@ -66,6 +66,11 @@
       "source": "hf-papers",
       "source_id": "2608.18171"
     },
+    "https://arxiv.org/abs/2608.18852": {
+      "published_at": "2026-08-23T03:03:17Z",
+      "source": "hf-papers",
+      "source_id": "2608.18852"
+    },
     "https://arxiv.org/abs/2608.19758": {
       "published_at": "2026-08-21T14:05:09Z",
       "source": "hf-papers",
@@ -80,6 +85,11 @@
       "published_at": "2026-08-21T03:04:09Z",
       "source": "hf-papers",
       "source_id": "2608.20202"
+    },
+    "https://blog.modelcontextprotocol.io/posts/mcp-roadmap": {
+      "published_at": "2026-08-23T03:03:17Z",
+      "source": "hn",
+      "source_id": "49399591"
     },
     "https://engineering.myhoai.com/posts/a-simple-fix-for-llm-tail-latency": {
       "published_at": "2026-08-18T03:08:53Z",
@@ -553,6 +563,24 @@
       ],
       "ts": "2026-08-22T14:03:46Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 63,
+      "eligible_per_source": {
+        "hf-papers": 35,
+        "hn": 26,
+        "lobsters": 2
+      },
+      "notes": "Scored above threshold(7): hf-papers-2608.18852(9) SkillGate, plus four 8s (hf-papers-2608.19799 SWE-bench Science, hf-papers-2608.13120 SkillEvo, hf-papers-2608.20281 IAR retrieval-free internalization, hn-49399591 New MCP Roadmap) and thirteen 7s. Algorithm took the lone 9 (SkillGate), then the source-diversity tie-break picked hn-49399591 (New MCP Roadmap) over the tied hf 8s, giving one hf-paper + one hn and two distinct angles (agent skill-selection RL vs. tool-protocol standards). Research: SkillGate is a fresh, unindexed arXiv paper with no public reaction (below min_citations=2) so it omits the reaction paragraph as designed; the MCP roadmap had three usable third-party citations (Obot+, GetKnit+, The Register mixed) so that post carries a reaction paragraph. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2608.18852",
+        "hn-49399591"
+      ],
+      "ts": "2026-08-23T03:03:17Z",
+      "window": "evening"
     }
   ]
 }
