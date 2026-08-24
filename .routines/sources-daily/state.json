@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-08-23T14:03:00Z",
+  "last_pruned_ts": "2026-08-24T03:10:45Z",
   "published_urls": {
     "https://arxiv.org/abs/2608.08466": {
       "published_at": "2026-08-22T14:03:46Z",
@@ -10,6 +10,11 @@
       "published_at": "2026-08-22T03:03:36Z",
       "source": "hf-papers",
       "source_id": "2608.12875"
+    },
+    "https://arxiv.org/abs/2608.13120": {
+      "published_at": "2026-08-24T03:10:45Z",
+      "source": "hf-papers",
+      "source_id": "2608.13120"
     },
     "https://arxiv.org/abs/2608.13417": {
       "published_at": "2026-08-17T18:28:52Z",
@@ -105,6 +110,11 @@
       "published_at": "2026-08-18T03:08:53Z",
       "source": "hn",
       "source_id": "49295179"
+    },
+    "https://fabiensanglard.net/agent.md/index.html": {
+      "published_at": "2026-08-24T03:10:45Z",
+      "source": "hn",
+      "source_id": "49410932"
     },
     "https://github.com/RyanCodrai/turbovec": {
       "published_at": "2026-08-19T03:08:20Z",
@@ -609,6 +619,24 @@
       ],
       "ts": "2026-08-23T14:03:00Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 58,
+      "eligible_per_source": {
+        "hf-papers": 29,
+        "hn": 26,
+        "lobsters": 3
+      },
+      "notes": "Scored above threshold(7): one 8 (hf-papers-2608.13120 SkillEvo \u2014 self-renewing skill evolution from multi-turn interaction) and eight 7s across all three sources (hf-papers: 2608.18027 CoE, 2608.19854 Repo0, 2608.18580 FACET, 2608.19880 EnvHarness, 2608.18565 SemaPLC; hn: 49410932 agent.md, 49409092 What is a Harness; lobsters: jzr2ey AI reliability incidents). Distribution: 1@8, 8@7, 10@6, 3@5, 5@4, 14@3, 13@2, 4@1. Algorithm took SkillEvo (the lone 8), then the source-diversity tie-break at score 7 picked hn-49410932 (agent.md) as the first non-hf-papers entry \u2014 giving one hf-paper + one hn with two distinct angles (agent-skill evolution research vs. a practitioner's agent-instruction file). Research: SkillEvo is an unindexed arXiv paper with no story-specific public reaction, so it omits the reaction paragraph as designed; agent.md has topic-level commentary (Josh Mock, Kun Chen, Lobsters thread) but none of it is coverage of THIS specific post per the strict spec rule, so it also omits the reaction paragraph. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2608.13120",
+        "hn-49410932"
+      ],
+      "ts": "2026-08-24T03:10:45Z",
+      "window": "evening"
     }
   ]
 }
