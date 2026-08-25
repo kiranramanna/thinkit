@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-08-25T03:04:03Z",
+  "last_pruned_ts": "2026-08-25T14:04:22Z",
   "published_urls": {
     "https://arxiv.org/abs/2607.21596": {
       "published_at": "2026-08-25T03:04:03Z",
@@ -31,11 +31,6 @@
       "source": "hf-papers",
       "source_id": "2608.14036"
     },
-    "https://arxiv.org/abs/2608.14905": {
-      "published_at": "2026-08-18T14:08:51Z",
-      "source": "hf-papers",
-      "source_id": "2608.14905"
-    },
     "https://arxiv.org/abs/2608.15008": {
       "published_at": "2026-08-19T14:07:06Z",
       "source": "hf-papers",
@@ -51,11 +46,6 @@
       "source": "hf-papers",
       "source_id": "2608.16002"
     },
-    "https://arxiv.org/abs/2608.16391": {
-      "published_at": "2026-08-18T14:08:51Z",
-      "source": "hf-papers",
-      "source_id": "2608.16391"
-    },
     "https://arxiv.org/abs/2608.17597": {
       "published_at": "2026-08-20T03:03:23Z",
       "source": "hf-papers",
@@ -70,6 +60,11 @@
       "published_at": "2026-08-23T03:03:17Z",
       "source": "hf-papers",
       "source_id": "2608.18852"
+    },
+    "https://arxiv.org/abs/2608.19741": {
+      "published_at": "2026-08-25T14:04:22Z",
+      "source": "hf-papers",
+      "source_id": "2608.19741"
     },
     "https://arxiv.org/abs/2608.19758": {
       "published_at": "2026-08-21T14:05:09Z",
@@ -95,6 +90,11 @@
       "published_at": "2026-08-23T14:03:00Z",
       "source": "hf-papers",
       "source_id": "2608.20281"
+    },
+    "https://arxiv.org/abs/2608.20634": {
+      "published_at": "2026-08-25T14:04:22Z",
+      "source": "hf-papers",
+      "source_id": "2608.20634"
     },
     "https://arxiv.org/abs/2608.21156": {
       "published_at": "2026-08-24T14:06:44Z",
@@ -671,6 +671,24 @@
       ],
       "ts": "2026-08-25T03:04:03Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 60,
+      "eligible_per_source": {
+        "hf-papers": 31,
+        "hn": 27,
+        "lobsters": 2
+      },
+      "notes": "Scored above threshold(7): two 8s (hf-papers-2608.19741 Thinkingbox \u2014 sandbox+benchmark for stateful business-workflow agents; hf-papers-2608.23552 Prime Agent \u2014 self-improving RLM harness) and two 7s (hf-papers-2608.20169 Task-CoEvolve harness optimization; hf-papers-2608.20634 AgentMercury verifiable business-environment synthesis). No hn/lobsters item scored >=7 (top non-paper: Qwen 3.8-Flash-Next release page and RL-ing-Qwen-to-paint, both 6 on thin/tangential content). Distribution: 2@8, 2@7, 8@6, 5@5, 8@4, 10@3, 19@2, 6@1. Algorithm would take both 8s, but Prime Agent (2608.23552) and Task-CoEvolve (2608.20169) were editorially deselected as near-duplicates of the saturated self-improving-harness / skill-evolution theme carried by the last several runs (incl. today's evening posts 2608.23283 'harness not the model' and 2607.21596 FlowEvo 'skill bank', plus 2608.13120 SkillEvo and the 08-22 'harness learns, model frozen'). Kept the distinct 8 (Thinkingbox: agent RELIABILITY/eval on stateful business tasks) and promoted the distinct 7 (AgentMercury: verifiable ENVIRONMENT synthesis) \u2014 two enterprise-agent posts on different facets (measuring reliability vs manufacturing training environments), breaking the harness stream. written_today was 2 (evening run), so cap=min(2,4-2)=2 held at the soft daily budget. Research: Thinkingbox had two usable third-party citations covering THIS paper (Pebblous mixed/constructive, Crypto Briefing negative; both cite 65.36% pass@1 vs 25.25% pass^20), so that post carries a reaction paragraph; AgentMercury is a fresh arXiv paper with no story-specific public reaction (below min_citations=2), so it omits the reaction paragraph as designed. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2608.19741",
+        "hf-papers-2608.20634"
+      ],
+      "ts": "2026-08-25T14:04:22Z",
+      "window": "morning"
     }
   ]
 }
