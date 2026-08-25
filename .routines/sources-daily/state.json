@@ -1,6 +1,11 @@
 {
-  "last_pruned_ts": "2026-08-24T14:06:44Z",
+  "last_pruned_ts": "2026-08-25T03:04:03Z",
   "published_urls": {
+    "https://arxiv.org/abs/2607.21596": {
+      "published_at": "2026-08-25T03:04:03Z",
+      "source": "hf-papers",
+      "source_id": "2607.21596"
+    },
     "https://arxiv.org/abs/2608.08466": {
       "published_at": "2026-08-22T14:03:46Z",
       "source": "hf-papers",
@@ -16,20 +21,10 @@
       "source": "hf-papers",
       "source_id": "2608.13120"
     },
-    "https://arxiv.org/abs/2608.13417": {
-      "published_at": "2026-08-17T18:28:52Z",
-      "source": "hf-papers",
-      "source_id": "2608.13417"
-    },
     "https://arxiv.org/abs/2608.13547": {
       "published_at": "2026-08-22T14:03:46Z",
       "source": "hf-papers",
       "source_id": "2608.13547"
-    },
-    "https://arxiv.org/abs/2608.13900": {
-      "published_at": "2026-08-18T03:08:53Z",
-      "source": "hf-papers",
-      "source_id": "2608.13900"
     },
     "https://arxiv.org/abs/2608.14036": {
       "published_at": "2026-08-19T14:07:06Z",
@@ -106,15 +101,15 @@
       "source": "hf-papers",
       "source_id": "2608.21156"
     },
+    "https://arxiv.org/abs/2608.23283": {
+      "published_at": "2026-08-25T03:04:03Z",
+      "source": "hf-papers",
+      "source_id": "2608.23283"
+    },
     "https://blog.modelcontextprotocol.io/posts/mcp-roadmap": {
       "published_at": "2026-08-23T03:03:17Z",
       "source": "hn",
       "source_id": "49399591"
-    },
-    "https://engineering.myhoai.com/posts/a-simple-fix-for-llm-tail-latency": {
-      "published_at": "2026-08-18T03:08:53Z",
-      "source": "hn",
-      "source_id": "49295179"
     },
     "https://fabiensanglard.net/agent.md/index.html": {
       "published_at": "2026-08-24T03:10:45Z",
@@ -140,11 +135,6 @@
       "published_at": "2026-08-24T14:06:44Z",
       "source": "lobsters",
       "source_id": "jzr2ey"
-    },
-    "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug": {
-      "published_at": "2026-08-17T18:28:52Z",
-      "source": "hn",
-      "source_id": "49331423"
     }
   },
   "runs": [
@@ -665,6 +655,22 @@
       ],
       "ts": "2026-08-24T14:06:44Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 60,
+      "eligible_per_source": {
+        "hf-papers": 33,
+        "hn": 26,
+        "lobsters": 1
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2608.23283",
+        "hf-papers-2607.21596"
+      ],
+      "ts": "2026-08-25T03:04:03Z",
+      "window": "evening"
     }
   ]
 }
