@@ -1,6 +1,11 @@
 {
-  "last_pruned_ts": "2026-08-25T14:04:22Z",
+  "last_pruned_ts": "2026-08-26T03:02:57Z",
   "published_urls": {
+    "https://arxiv.org/abs/2606.13610": {
+      "published_at": "2026-08-26T03:02:57Z",
+      "source": "hf-papers",
+      "source_id": "2606.13610"
+    },
     "https://arxiv.org/abs/2607.21596": {
       "published_at": "2026-08-25T03:04:03Z",
       "source": "hf-papers",
@@ -36,10 +41,10 @@
       "source": "hf-papers",
       "source_id": "2608.15008"
     },
-    "https://arxiv.org/abs/2608.15089": {
-      "published_at": "2026-08-19T03:08:20Z",
+    "https://arxiv.org/abs/2608.15242": {
+      "published_at": "2026-08-26T03:02:57Z",
       "source": "hf-papers",
-      "source_id": "2608.15089"
+      "source_id": "2608.15242"
     },
     "https://arxiv.org/abs/2608.16002": {
       "published_at": "2026-08-20T03:03:23Z",
@@ -115,11 +120,6 @@
       "published_at": "2026-08-24T03:10:45Z",
       "source": "hn",
       "source_id": "49410932"
-    },
-    "https://github.com/RyanCodrai/turbovec": {
-      "published_at": "2026-08-19T03:08:20Z",
-      "source": "hn",
-      "source_id": "49349898"
     },
     "https://github.com/vivekhaldar/seed": {
       "published_at": "2026-08-21T14:05:09Z",
@@ -689,6 +689,23 @@
       ],
       "ts": "2026-08-25T14:04:22Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 56,
+      "eligible_per_source": {
+        "hf-papers": 30,
+        "hn": 26
+      },
+      "notes": "Scored above threshold(7): six 8s (hf-papers 2608.23041 AutoSaddler harness-optimization, 2608.24876 Recuris recursive harness memory, 2608.15242 LongRCA Bench agent-failure root-cause, 2606.13610 One-Polluted-Page/FORGE RAG pollution, 2608.22872 multi-hop-RAG-vs-ASR robustness, 2608.23552 Prime Agent self-improving harness) and five 7s (2608.23200 LongWoF-Bench, 2608.17906 AutoResearch, 2608.22817 Industrial-Instruction enterprise RAG, 2608.23035 MobilePA-Bench, 2608.20169 Task-CoEvolve). No hn/lobsters item scored >=7 (top non-paper: hn-49434378 OpenAI Jalapeno silicon at 6); lobsters returned 0 candidates (no allowlisted tag hot). Distribution: 6@8, 5@7, 4@6, 4@5, 5@4, 8@3, 17@2, 7@1. The mechanical algorithm would take AutoSaddler + Recuris (the first two 8s), but both are agent-HARNESS papers -- near-duplicates of each other and of the self-improving-harness / skill-evolution theme the last ~10 runs have already saturated (per prior run notes). Editorially deselected both and, since all six 8s are hf-papers (source-diversity tie-break inert), promoted the two most topically-distinct 8s in the writer's primary lane: 2606.13610 (RAG retrieval poisoning / GEO pollution -- fresh RAG+guardrails angle) and 2608.15242 (LongRCA agent-failure root-cause / LLM-ops observability). written_today was 0, so cap=min(2,4-0)=2. Research: FORGE (2606.13610) is a June-2026 paper with two independent readable citations covering THIS study (TechXplore negative, Fast Company mixed/cautionary), so that post carries a reaction paragraph; LongRCA (2608.15242) is a fresh Aug arXiv paper with only its own leaderboard site and different same-topic papers surfacing (below min_citations=2), so it omits the reaction paragraph as designed. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2606.13610",
+        "hf-papers-2608.15242"
+      ],
+      "ts": "2026-08-26T03:02:57Z",
+      "window": "evening"
     }
   ]
 }
