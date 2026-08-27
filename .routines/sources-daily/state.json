@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-08-27T03:03:26Z",
+  "last_pruned_ts": "2026-08-27T14:08:31Z",
   "published_urls": {
     "https://arxiv.org/abs/2606.13610": {
       "published_at": "2026-08-26T03:02:57Z",
@@ -35,11 +35,6 @@
       "published_at": "2026-08-26T03:02:57Z",
       "source": "hf-papers",
       "source_id": "2608.15242"
-    },
-    "https://arxiv.org/abs/2608.18171": {
-      "published_at": "2026-08-20T14:03:31Z",
-      "source": "hf-papers",
-      "source_id": "2608.18171"
     },
     "https://arxiv.org/abs/2608.18852": {
       "published_at": "2026-08-23T03:03:17Z",
@@ -105,6 +100,16 @@
       "published_at": "2026-08-25T03:04:03Z",
       "source": "hf-papers",
       "source_id": "2608.23283"
+    },
+    "https://arxiv.org/abs/2608.24358": {
+      "published_at": "2026-08-27T14:08:31Z",
+      "source": "hf-papers",
+      "source_id": "2608.24358"
+    },
+    "https://arxiv.org/abs/2608.26005": {
+      "published_at": "2026-08-27T14:08:31Z",
+      "source": "hf-papers",
+      "source_id": "2608.26005"
     },
     "https://blog.modelcontextprotocol.io/posts/mcp-roadmap": {
       "published_at": "2026-08-23T03:03:17Z",
@@ -738,6 +743,24 @@
       ],
       "ts": "2026-08-27T03:03:26Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 52,
+      "eligible_per_source": {
+        "hf-papers": 33,
+        "hn": 17,
+        "lobsters": 2
+      },
+      "notes": "Scored above threshold(7): four 8s (hf-papers 2608.24358 Handoff-Tax model-escalation cost/quality, 2608.26005 VoiceMem conversational-AI streaming memory, 2608.25593 JIT-Agent harness-evolution, 2608.24569 constraint-weakening agent-workflow state preservation) and five 7s (2608.23564 SWE-Refactor-Bench, 2608.24099 AnTrap GUI-agent robustness, 2608.23918 MARS multi-specialist RAG relay, 2608.23740 AgentRoom CRDT multi-agent coding, hn-49452346 'The Harness Is the Thing'). Distribution: 4@8,5@7,2@6,6@5,6@4,8@3,18@2,3@1. Mechanical greedy on the four 8s (all hf-papers, source-diversity tie-break inert) yields the first two in eligible order: 2608.24358 + 2608.26005 -- which is also the editorial pick: two distinct primary lanes (agentic routing/cost-ops + conversational-AI memory), deliberately avoiding 2608.25593 (harness-evolution theme saturated over the last ~10 runs, AutoSaddler 2608.23041 selected just yesterday) and the overlapping agentic-reliability angle of 2608.24569. written_today was 2 (03:03Z evening run), so cap=min(2,4-2)=2. Research: both are fresh Aug-2026 arXiv preprints; WebSearch surfaced only same-topic material (excluded by the research prompt), so both posts omit the reaction paragraph as designed (below min_citations=2). Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2608.24358",
+        "hf-papers-2608.26005"
+      ],
+      "ts": "2026-08-27T14:08:31Z",
+      "window": "morning"
     }
   ]
 }
