@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-08-28T03:07:31Z",
+  "last_pruned_ts": "2026-08-28T14:09:42Z",
   "published_urls": {
     "https://arxiv.org/abs/2606.13610": {
       "published_at": "2026-08-26T03:02:57Z",
@@ -46,11 +46,6 @@
       "source": "hf-papers",
       "source_id": "2608.19741"
     },
-    "https://arxiv.org/abs/2608.19758": {
-      "published_at": "2026-08-21T14:05:09Z",
-      "source": "hf-papers",
-      "source_id": "2608.19758"
-    },
     "https://arxiv.org/abs/2608.19799": {
       "published_at": "2026-08-23T14:03:00Z",
       "source": "hf-papers",
@@ -96,10 +91,20 @@
       "source": "hf-papers",
       "source_id": "2608.23283"
     },
+    "https://arxiv.org/abs/2608.23564": {
+      "published_at": "2026-08-28T14:09:42Z",
+      "source": "hf-papers",
+      "source_id": "2608.23564"
+    },
     "https://arxiv.org/abs/2608.24358": {
       "published_at": "2026-08-28T03:07:31Z",
       "source": "hf-papers",
       "source_id": "2608.24358"
+    },
+    "https://arxiv.org/abs/2608.27260": {
+      "published_at": "2026-08-28T14:09:42Z",
+      "source": "hf-papers",
+      "source_id": "2608.27260"
     },
     "https://blog.modelcontextprotocol.io/posts/mcp-roadmap": {
       "published_at": "2026-08-23T03:03:17Z",
@@ -115,11 +120,6 @@
       "published_at": "2026-08-24T03:10:45Z",
       "source": "hn",
       "source_id": "49410932"
-    },
-    "https://github.com/vivekhaldar/seed": {
-      "published_at": "2026-08-21T14:05:09Z",
-      "source": "hn",
-      "source_id": "49384113"
     },
     "https://surfingcomplexity.blog/2026/08/22/wild-ai-related-reliability-incidents-are-coming": {
       "published_at": "2026-08-24T14:06:44Z",
@@ -749,6 +749,23 @@
       ],
       "ts": "2026-08-28T03:07:31Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 52,
+      "eligible_per_source": {
+        "hf-papers": 34,
+        "hn": 18
+      },
+      "notes": "Scored above threshold(7): two 8s (hf-papers-2608.27260 'What Makes Good Agentic Data?' ACE-lens data-generation framework; hf-papers-2608.23564 SWE Refactor Bench whole-repo migration eval) and five 7s (hf-papers-2608.26530 PILOT, 2608.27454 WikiSkill, 2608.26005 VoiceMem, 2608.25593 JIT-Agent, 2608.24979 FrontierChallenge). No hn/lobsters item scored >=7 (top non-paper: hn-49468083 Cloudflare DNS-cache optimization and hn-49468818 Gemini-3.5-Transcribe, both 6); lobsters returned 1 candidate this run, merged/below threshold. Distribution: 2@8, 5@7, 7@6, 6@5, 8@4, 9@3, 12@2, 3@1. Algorithm took both 8s (source-diversity tie-break inert -- both hf-papers). Both 8s are already topically distinct (agentic training-DATA generation vs coding-agent migration EVAL) and both break from the self-improving-harness / skill-evolution theme that has saturated the last ~15 runs (PILOT/JIT-Agent/WikiSkill 7s were deliberately passed over for that reason), so no editorial deselection was needed. written_today was 2 (evening run), so cap=min(2,4-2)=2 held at the soft daily budget. Research: agentic-data (2608.27260) is a fresh unindexed arXiv paper with no story-specific public reaction; SWE Refactor Bench (2608.23564) had exactly one firmly-confirmed readable citation (StartupHub.ai, critical/negative on agent migration ability) -- The New Stack's body was behind a newsletter wall and its headline was ambiguous with SWE-Bench ProMax, ai-crunch returned HTTP 403, and no Reddit/HN thread on THIS paper surfaced -- so with 1<min_citations(2) both posts omit the reaction paragraph as designed. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2608.27260",
+        "hf-papers-2608.23564"
+      ],
+      "ts": "2026-08-28T14:09:42Z",
+      "window": "morning"
     }
   ]
 }
