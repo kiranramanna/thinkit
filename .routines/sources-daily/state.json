@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-08-28T14:09:42Z",
+  "last_pruned_ts": "2026-08-29T03:08:25Z",
   "published_urls": {
     "https://arxiv.org/abs/2606.13610": {
       "published_at": "2026-08-26T03:02:57Z",
@@ -15,11 +15,6 @@
       "published_at": "2026-08-22T14:03:46Z",
       "source": "hf-papers",
       "source_id": "2608.08466"
-    },
-    "https://arxiv.org/abs/2608.12875": {
-      "published_at": "2026-08-22T03:03:36Z",
-      "source": "hf-papers",
-      "source_id": "2608.12875"
     },
     "https://arxiv.org/abs/2608.13120": {
       "published_at": "2026-08-24T03:10:45Z",
@@ -50,11 +45,6 @@
       "published_at": "2026-08-23T14:03:00Z",
       "source": "hf-papers",
       "source_id": "2608.19799"
-    },
-    "https://arxiv.org/abs/2608.19861": {
-      "published_at": "2026-08-22T03:03:36Z",
-      "source": "hf-papers",
-      "source_id": "2608.19861"
     },
     "https://arxiv.org/abs/2608.20281": {
       "published_at": "2026-08-23T14:03:00Z",
@@ -100,6 +90,16 @@
       "published_at": "2026-08-28T03:07:31Z",
       "source": "hf-papers",
       "source_id": "2608.24358"
+    },
+    "https://arxiv.org/abs/2608.25500": {
+      "published_at": "2026-08-29T03:08:25Z",
+      "source": "hf-papers",
+      "source_id": "2608.25500"
+    },
+    "https://arxiv.org/abs/2608.26005": {
+      "published_at": "2026-08-29T03:08:25Z",
+      "source": "hf-papers",
+      "source_id": "2608.26005"
     },
     "https://arxiv.org/abs/2608.27260": {
       "published_at": "2026-08-28T14:09:42Z",
@@ -766,6 +766,24 @@
       ],
       "ts": "2026-08-28T14:09:42Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 57,
+      "eligible_per_source": {
+        "hf-papers": 31,
+        "hn": 24,
+        "lobsters": 2
+      },
+      "notes": "Scored 57 eligible (hf-papers 31, hn 24, lobsters 2) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution 2@8, 5@7, 5@6, 4@5, 7@4, 14@3, 14@2, 6@1. Above threshold(7): CaSKG-2608.25500 (8, agent skill-graph retrieval / RAG+KG) and JIT-Agent-2608.25593 (8, just-in-time harness synthesis); five 7s: VoiceMem-2608.26005 (conversational streaming memory), AnTrap-2608.24099 (GUI-agent runtime robustness), PILOT-2608.26530 and WikiSkill-2608.27454 (self-improvement/skill-evolution), and hn-49481455 (multi-agent math discovery, thin candidate). Mechanical pick was both 8s (CaSKG + JIT-Agent). Applied editorial deselection of JIT-Agent: it is squarely in the agent-harness-evolution / self-improving-agent theme published 3x in the last four days (08-27 'When Harness Design Becomes an Offline Learning Problem', plus 08-28 agent-data / agent-escalation cluster), so it would near-duplicate recent posts -- same reasoning prior runs documented for JIT-Agent/PILOT/WikiSkill. Kept CaSKG (top score, distinct RAG/KG edge-calibration angle) and promoted the highest-quality topically-distinct 7, VoiceMem (conversational-AI + streaming memory, a primary lane not covered since 08-26; raw upvotes 163). Both selected are hf-papers (source-diversity tie-break inert; no hn/lobsters item scored >=7 except the thin hn-49481455 link). Research: both are 3-day-old arXiv papers with no story-specific public reaction (searches returned only arXiv mirrors and unrelated content), so with 0<min_citations(2) both posts omit the reaction paragraph as designed. written_today was 0, cap=min(2,4-0)=2.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2608.25500",
+        "hf-papers-2608.26005"
+      ],
+      "ts": "2026-08-29T03:08:25Z",
+      "window": "evening"
     }
   ]
 }
