@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-08-29T03:08:25Z",
+  "last_pruned_ts": "2026-08-29T14:12:07Z",
   "published_urls": {
     "https://arxiv.org/abs/2606.13610": {
       "published_at": "2026-08-26T03:02:57Z",
@@ -11,20 +11,10 @@
       "source": "hf-papers",
       "source_id": "2607.21596"
     },
-    "https://arxiv.org/abs/2608.08466": {
-      "published_at": "2026-08-22T14:03:46Z",
-      "source": "hf-papers",
-      "source_id": "2608.08466"
-    },
     "https://arxiv.org/abs/2608.13120": {
       "published_at": "2026-08-24T03:10:45Z",
       "source": "hf-papers",
       "source_id": "2608.13120"
-    },
-    "https://arxiv.org/abs/2608.13547": {
-      "published_at": "2026-08-22T14:03:46Z",
-      "source": "hf-papers",
-      "source_id": "2608.13547"
     },
     "https://arxiv.org/abs/2608.15242": {
       "published_at": "2026-08-26T03:02:57Z",
@@ -86,6 +76,11 @@
       "source": "hf-papers",
       "source_id": "2608.23564"
     },
+    "https://arxiv.org/abs/2608.24099": {
+      "published_at": "2026-08-29T14:12:07Z",
+      "source": "hf-papers",
+      "source_id": "2608.24099"
+    },
     "https://arxiv.org/abs/2608.24358": {
       "published_at": "2026-08-28T03:07:31Z",
       "source": "hf-papers",
@@ -120,6 +115,11 @@
       "published_at": "2026-08-24T03:10:45Z",
       "source": "hn",
       "source_id": "49410932"
+    },
+    "https://huggingface.co/zai-org/GLM-5.3": {
+      "published_at": "2026-08-29T14:12:07Z",
+      "source": "hn",
+      "source_id": "49479878"
     },
     "https://surfingcomplexity.blog/2026/08/22/wild-ai-related-reliability-incidents-are-coming": {
       "published_at": "2026-08-24T14:06:44Z",
@@ -784,6 +784,24 @@
       ],
       "ts": "2026-08-29T03:08:25Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 63,
+      "eligible_per_source": {
+        "hf-papers": 33,
+        "hn": 27,
+        "lobsters": 3
+      },
+      "notes": "Scored 63 eligible (hf-papers 33, hn 27, lobsters 3) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 2@8, 4@7, 5@6, 4@5, 6@4, 16@3, 15@2, 11@1. Above threshold(7): PILOT-2608.26530 (8) and JIT-Agent-2608.25593 (8), both squarely in the self-improving-agent / harness-evolution cluster; plus four 7s: TaoLive-harness-2608.15763 and WikiSkill-2608.27454 (also harness/skill-evolution cluster), AnTrap-2608.24099 (GUI-agent runtime robustness, distinct reliability angle), and hn-49479878 GLM-5.3 open-weight (distinct model-release theme). Mechanical top-2 would have been both 8s, but that cluster has been published 6-8x in the last 5 days (08-25 training-worlds/harness/skill-bank, 08-26 agent-step-debug, 08-27 harness-offline-learning, 08-28 agent-data/escalation, 08-29 evening skill-graph edges) and JIT-Agent was already explicitly deselected in the 08-29 evening run for the same reason. Applied the same editorial theme-dedup: deselected all four saturated-cluster items and promoted the two topically-distinct 7s. Selected GLM-5.3 (hn; open-weight deployment/governance angle; source diversity) and AnTrap (hf-papers; separates environment-learnable vs reasoning-bottlenecked agent failures). Research: GLM-5.3 had rich public reaction -> 3 usable citations (Emergent skeptical on vendor benchmarks, Kingy AI on 8-GPU self-host reality, r/LocalLLaMA roundup mixed) so its post carries the reaction paragraph; AnTrap is a 3-day-old arXiv paper with no story-specific public commentary (searches surfaced only different related papers) -> 0 citations, reaction paragraph omitted as designed. written_today before this run = 2 (08-29 evening), cap = min(posts_per_run 2, posts_per_day 4 - 2) = 2. Both posts written.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hn-49479878",
+        "hf-papers-2608.24099"
+      ],
+      "ts": "2026-08-29T14:12:07Z",
+      "window": "morning"
     }
   ]
 }
