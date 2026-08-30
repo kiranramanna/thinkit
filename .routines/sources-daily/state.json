@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-08-30T03:04:06Z",
+  "last_pruned_ts": "2026-08-30T14:07:54Z",
   "published_urls": {
     "https://arxiv.org/abs/2606.13610": {
       "published_at": "2026-08-26T03:02:57Z",
@@ -25,16 +25,6 @@
       "published_at": "2026-08-25T14:04:22Z",
       "source": "hf-papers",
       "source_id": "2608.19741"
-    },
-    "https://arxiv.org/abs/2608.19799": {
-      "published_at": "2026-08-23T14:03:00Z",
-      "source": "hf-papers",
-      "source_id": "2608.19799"
-    },
-    "https://arxiv.org/abs/2608.20281": {
-      "published_at": "2026-08-23T14:03:00Z",
-      "source": "hf-papers",
-      "source_id": "2608.20281"
     },
     "https://arxiv.org/abs/2608.20634": {
       "published_at": "2026-08-25T14:04:22Z",
@@ -86,10 +76,20 @@
       "source": "hf-papers",
       "source_id": "2608.25500"
     },
+    "https://arxiv.org/abs/2608.25593": {
+      "published_at": "2026-08-30T14:07:54Z",
+      "source": "hf-papers",
+      "source_id": "2608.25593"
+    },
     "https://arxiv.org/abs/2608.26005": {
       "published_at": "2026-08-29T03:08:25Z",
       "source": "hf-papers",
       "source_id": "2608.26005"
+    },
+    "https://arxiv.org/abs/2608.26530": {
+      "published_at": "2026-08-30T14:07:54Z",
+      "source": "hf-papers",
+      "source_id": "2608.26530"
     },
     "https://arxiv.org/abs/2608.27260": {
       "published_at": "2026-08-28T14:09:42Z",
@@ -820,6 +820,23 @@
       ],
       "ts": "2026-08-30T03:04:06Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 59,
+      "eligible_per_source": {
+        "hf-papers": 31,
+        "hn": 26,
+        "lobsters": 2
+      },
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2608.26530",
+        "hf-papers-2608.25593"
+      ],
+      "ts": "2026-08-30T14:07:54Z",
+      "window": "morning"
     }
   ]
 }
