@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-08-30T03:04:06Z",
+  "last_pruned_ts": "2026-08-31T03:03:25Z",
   "published_urls": {
     "https://arxiv.org/abs/2606.13610": {
       "published_at": "2026-08-26T03:02:57Z",
@@ -25,16 +25,6 @@
       "published_at": "2026-08-25T14:04:22Z",
       "source": "hf-papers",
       "source_id": "2608.19741"
-    },
-    "https://arxiv.org/abs/2608.19799": {
-      "published_at": "2026-08-23T14:03:00Z",
-      "source": "hf-papers",
-      "source_id": "2608.19799"
-    },
-    "https://arxiv.org/abs/2608.20281": {
-      "published_at": "2026-08-23T14:03:00Z",
-      "source": "hf-papers",
-      "source_id": "2608.20281"
     },
     "https://arxiv.org/abs/2608.20634": {
       "published_at": "2026-08-25T14:04:22Z",
@@ -91,6 +81,11 @@
       "source": "hf-papers",
       "source_id": "2608.26005"
     },
+    "https://arxiv.org/abs/2608.26530": {
+      "published_at": "2026-08-31T03:03:25Z",
+      "source": "hf-papers",
+      "source_id": "2608.26530"
+    },
     "https://arxiv.org/abs/2608.27260": {
       "published_at": "2026-08-28T14:09:42Z",
       "source": "hf-papers",
@@ -100,6 +95,11 @@
       "published_at": "2026-08-30T03:04:06Z",
       "source": "hf-papers",
       "source_id": "2608.27455"
+    },
+    "https://arxiv.org/abs/2608.28476": {
+      "published_at": "2026-08-31T03:03:25Z",
+      "source": "hf-papers",
+      "source_id": "2608.28476"
     },
     "https://calv.info/small-models-have-arrived": {
       "published_at": "2026-08-28T03:07:31Z",
@@ -819,6 +819,23 @@
         "hf-papers-2608.27455"
       ],
       "ts": "2026-08-30T03:04:06Z",
+      "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 49,
+      "eligible_per_source": {
+        "hf-papers": 26,
+        "hn": 22,
+        "lobsters": 1
+      },
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2608.28476",
+        "hf-papers-2608.26530"
+      ],
+      "ts": "2026-08-31T03:03:25Z",
       "window": "evening"
     }
   ]
