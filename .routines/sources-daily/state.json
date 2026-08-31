@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-08-31T03:03:25Z",
+  "last_pruned_ts": "2026-08-31T14:05:20Z",
   "published_urls": {
     "https://arxiv.org/abs/2606.13610": {
       "published_at": "2026-08-26T03:02:57Z",
@@ -10,11 +10,6 @@
       "published_at": "2026-08-25T03:04:03Z",
       "source": "hf-papers",
       "source_id": "2607.21596"
-    },
-    "https://arxiv.org/abs/2608.13120": {
-      "published_at": "2026-08-24T03:10:45Z",
-      "source": "hf-papers",
-      "source_id": "2608.13120"
     },
     "https://arxiv.org/abs/2608.15242": {
       "published_at": "2026-08-26T03:02:57Z",
@@ -30,11 +25,6 @@
       "published_at": "2026-08-25T14:04:22Z",
       "source": "hf-papers",
       "source_id": "2608.20634"
-    },
-    "https://arxiv.org/abs/2608.21156": {
-      "published_at": "2026-08-24T14:06:44Z",
-      "source": "hf-papers",
-      "source_id": "2608.21156"
     },
     "https://arxiv.org/abs/2608.21500": {
       "published_at": "2026-08-27T03:03:26Z",
@@ -96,6 +86,11 @@
       "source": "hf-papers",
       "source_id": "2608.27455"
     },
+    "https://arxiv.org/abs/2608.28281": {
+      "published_at": "2026-08-31T14:05:20Z",
+      "source": "hf-papers",
+      "source_id": "2608.28281"
+    },
     "https://arxiv.org/abs/2608.28476": {
       "published_at": "2026-08-31T03:03:25Z",
       "source": "hf-papers",
@@ -111,20 +106,15 @@
       "source": "hn",
       "source_id": "49492584"
     },
-    "https://fabiensanglard.net/agent.md/index.html": {
-      "published_at": "2026-08-24T03:10:45Z",
+    "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode": {
+      "published_at": "2026-08-31T14:05:20Z",
       "source": "hn",
-      "source_id": "49410932"
+      "source_id": "49506819"
     },
     "https://huggingface.co/zai-org/GLM-5.3": {
       "published_at": "2026-08-29T14:12:07Z",
       "source": "hn",
       "source_id": "49479878"
-    },
-    "https://surfingcomplexity.blog/2026/08/22/wild-ai-related-reliability-incidents-are-coming": {
-      "published_at": "2026-08-24T14:06:44Z",
-      "source": "lobsters",
-      "source_id": "jzr2ey"
     },
     "https://www.lighthousenewsletter.com/p/rag-is-simpler-than-you-think": {
       "published_at": "2026-08-26T14:04:27Z",
@@ -837,6 +827,22 @@
       ],
       "ts": "2026-08-31T03:03:25Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 56,
+      "eligible_per_source": {
+        "hf-papers": 34,
+        "hn": 20,
+        "lobsters": 2
+      },
+      "posts_written": 2,
+      "selected": [
+        "hn-49506819",
+        "hf-papers-2608.28281"
+      ],
+      "ts": "2026-08-31T14:05:20Z",
+      "window": "morning"
     }
   ]
 }
