@@ -1,15 +1,10 @@
 {
-  "last_pruned_ts": "2026-08-31T14:05:20Z",
+  "last_pruned_ts": "2026-09-01T03:09:20Z",
   "published_urls": {
     "https://arxiv.org/abs/2606.13610": {
       "published_at": "2026-08-26T03:02:57Z",
       "source": "hf-papers",
       "source_id": "2606.13610"
-    },
-    "https://arxiv.org/abs/2607.21596": {
-      "published_at": "2026-08-25T03:04:03Z",
-      "source": "hf-papers",
-      "source_id": "2607.21596"
     },
     "https://arxiv.org/abs/2608.15242": {
       "published_at": "2026-08-26T03:02:57Z",
@@ -41,11 +36,6 @@
       "source": "hf-papers",
       "source_id": "2608.23041"
     },
-    "https://arxiv.org/abs/2608.23283": {
-      "published_at": "2026-08-25T03:04:03Z",
-      "source": "hf-papers",
-      "source_id": "2608.23283"
-    },
     "https://arxiv.org/abs/2608.23564": {
       "published_at": "2026-08-28T14:09:42Z",
       "source": "hf-papers",
@@ -60,6 +50,11 @@
       "published_at": "2026-08-28T03:07:31Z",
       "source": "hf-papers",
       "source_id": "2608.24358"
+    },
+    "https://arxiv.org/abs/2608.24777": {
+      "published_at": "2026-09-01T03:09:20Z",
+      "source": "hf-papers",
+      "source_id": "2608.24777"
     },
     "https://arxiv.org/abs/2608.25500": {
       "published_at": "2026-08-29T03:08:25Z",
@@ -115,6 +110,11 @@
       "published_at": "2026-08-29T14:12:07Z",
       "source": "hn",
       "source_id": "49479878"
+    },
+    "https://usealmanac.com/": {
+      "published_at": "2026-09-01T03:09:20Z",
+      "source": "hn",
+      "source_id": "49511007"
     },
     "https://www.lighthousenewsletter.com/p/rag-is-simpler-than-you-think": {
       "published_at": "2026-08-26T14:04:27Z",
@@ -843,6 +843,24 @@
       ],
       "ts": "2026-08-31T14:05:20Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 55,
+      "eligible_per_source": {
+        "hf-papers": 30,
+        "hn": 22,
+        "lobsters": 3
+      },
+      "notes": "Scored 55 eligible (hf-papers 30, hn 22, lobsters 3) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 4@8, 6@7, 2@6, 6@5, 5@4, 10@3, 17@2, 5@1. Above threshold(7): four 8s -- EvoUndo-2608.28363 (agent-harness self-evolution recoverability), DART-SD-2608.18524 (multi-turn tool-calling agent self-distillation), StarHarness-2608.24804 (enterprise agent-harness evolution), and StepGuard-2608.24777 (step-level agent tool guardrails); plus six 7s (AgenticArtifactCreation-2608.28122, EASEL-2608.25417, J-Zero-2608.26582, ElephantBench-2608.28478, TaoLive/HAT-2608.15763, and hn-49511007 Almanac enterprise-RAG agent). Mechanical top-2 was EvoUndo + DART-SD (both hf-papers). Applied the established editorial theme-dedup: EvoUndo and StarHarness are squarely the agent-harness self-evolution / skill-evolution cluster that the last ~12 runs have deliberately deselected (PILOT/JIT-Agent/WikiSkill/TaoLive etc.), so EvoUndo was dropped. Kept StepGuard (top-score 8, a distinct LLM-ops SAFETY/guardrails lane, not the saturated cluster) and, via the source-diversity tie-break, promoted the only non-hf item >=7 -- hn-49511007 Almanac (enterprise RAG over company knowledge / connectors / context engineering) -- breaking the all-papers stream and giving two distinct primary lanes (agent tool-call guardrails vs enterprise RAG). Research: StepGuard is a fresh arXiv paper with no story-specific public reaction (searches surfaced only same-topic DIFFERENT papers: ToolSafe, StepShield, WebGuard) -> 0 citations; Almanac had exactly one usable independent commentary (PromptZone, mixed stance) -- Product Hunt/YC/X/LinkedIn are the company's own launch surfaces or login-walled and CB Insights is an auto-generated SEO compare page -> 1 < min_citations(2). Both posts omit the reaction paragraph as designed. written_today before this run = 0, cap = min(posts_per_run 2, posts_per_day 4 - 0) = 2. Both posts written.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2608.24777",
+        "hn-49511007"
+      ],
+      "ts": "2026-09-01T03:09:20Z",
+      "window": "evening"
     }
   ]
 }
