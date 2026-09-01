@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-01T03:09:20Z",
+  "last_pruned_ts": "2026-09-01T14:03:17Z",
   "published_urls": {
     "https://arxiv.org/abs/2606.13610": {
       "published_at": "2026-08-26T03:02:57Z",
@@ -10,16 +10,6 @@
       "published_at": "2026-08-26T03:02:57Z",
       "source": "hf-papers",
       "source_id": "2608.15242"
-    },
-    "https://arxiv.org/abs/2608.19741": {
-      "published_at": "2026-08-25T14:04:22Z",
-      "source": "hf-papers",
-      "source_id": "2608.19741"
-    },
-    "https://arxiv.org/abs/2608.20634": {
-      "published_at": "2026-08-25T14:04:22Z",
-      "source": "hf-papers",
-      "source_id": "2608.20634"
     },
     "https://arxiv.org/abs/2608.21500": {
       "published_at": "2026-08-27T03:03:26Z",
@@ -91,6 +81,11 @@
       "source": "hf-papers",
       "source_id": "2608.28476"
     },
+    "https://arxiv.org/abs/2608.29464": {
+      "published_at": "2026-09-01T14:03:17Z",
+      "source": "hf-papers",
+      "source_id": "2608.29464"
+    },
     "https://calv.info/small-models-have-arrived": {
       "published_at": "2026-08-28T03:07:31Z",
       "source": "hn",
@@ -110,6 +105,11 @@
       "published_at": "2026-08-29T14:12:07Z",
       "source": "hn",
       "source_id": "49479878"
+    },
+    "https://mvakde.github.io/blog/44-on-arc-1": {
+      "published_at": "2026-09-01T14:03:17Z",
+      "source": "hn",
+      "source_id": "49519939"
     },
     "https://usealmanac.com/": {
       "published_at": "2026-09-01T03:09:20Z",
@@ -861,6 +861,24 @@
       ],
       "ts": "2026-09-01T03:09:20Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 60,
+      "eligible_per_source": {
+        "hf-papers": 30,
+        "hn": 27,
+        "lobsters": 3
+      },
+      "notes": "Scored 60 eligible (hf-papers 30, hn 27, lobsters 3) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 1@9, 3@8, 5@7, 5@6, 6@5, 8@4, 5@3, 15@2, 12@1. Above threshold(7): CAST-2608.30147 (9, critique-aware training for reliable long-horizon tool-calling agents), plus three 8s (FACE-Eval-2608.29464 CoT-monitoring faithfulness via tool returns, EvoUndo-2608.28363 recoverability-constrained harness self-evolution, DART-SD-2608.18524 self-distillation for multi-turn tool-calling) and five 7s (PRISK-2608.28833 personalization side-effects, AutoSciRub-2608.31076 eval-first research agents, SWA-2608.28444 sliding-window beats linear attention, AgenticArtifact-2608.28122 survey, hn-49519939 ARC-AGI-in-67-cents). Mechanical top-2 was CAST + FACE-Eval. Applied editorial theme-dedup: deselected CAST because it is a tool-call-safety/reliability near-duplicate of THIS MORNING already-live post StepGuard-2608.24777 (The Guardrail That Runs Before the Tool Fires, 09-01 evening) -- both are stop-the-agents-bad-tool-action posts and running them ~11h apart reads as tool-safety fatigue; also deselected EvoUndo and DART-SD as the saturated self-evolution / self-distillation cluster that the last ~12 runs have repeatedly deselected. Kept FACE-Eval (8, distinct CoT-monitoring / observability angle not covered recently) and, via the source-diversity tie-break at score 7, promoted hn-49519939 (ARC-AGI-in-67-cents: reasoning cost-efficiency + eval-integrity angle) -- balancing the day to 2 hf + 2 hn and giving two clearly distinct lanes (reasoning-trace observability vs. cheap-reasoning eval hygiene) with zero overlap with today live StepGuard/Almanac. written_today before this run = 2 (09-01 evening), cap = min(posts_per_run 2, posts_per_day 4 - 2) = 2. Research: FACE-Eval and CAST are fresh unindexed arXiv papers with no story-specific public reaction (searches surfaced only same-topic DIFFERENT papers); ARC-AGI post had only the authors own site/GitHub/login-walled LinkedIn, the excluded HN thread, and a Substack about a DIFFERENT ARC approach -- all below min_citations(2), so both published posts omit the reaction paragraph as designed. Both posts written.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2608.29464",
+        "hn-49519939"
+      ],
+      "ts": "2026-09-01T14:03:17Z",
+      "window": "morning"
     }
   ]
 }
