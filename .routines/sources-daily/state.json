@@ -1,16 +1,6 @@
 {
-  "last_pruned_ts": "2026-09-01T14:03:17Z",
+  "last_pruned_ts": "2026-09-02T03:03:48Z",
   "published_urls": {
-    "https://arxiv.org/abs/2606.13610": {
-      "published_at": "2026-08-26T03:02:57Z",
-      "source": "hf-papers",
-      "source_id": "2606.13610"
-    },
-    "https://arxiv.org/abs/2608.15242": {
-      "published_at": "2026-08-26T03:02:57Z",
-      "source": "hf-papers",
-      "source_id": "2608.15242"
-    },
     "https://arxiv.org/abs/2608.21500": {
       "published_at": "2026-08-27T03:03:26Z",
       "source": "hf-papers",
@@ -85,6 +75,16 @@
       "published_at": "2026-09-01T14:03:17Z",
       "source": "hf-papers",
       "source_id": "2608.29464"
+    },
+    "https://arxiv.org/abs/2608.30147": {
+      "published_at": "2026-09-02T03:03:48Z",
+      "source": "hf-papers",
+      "source_id": "2608.30147"
+    },
+    "https://arxiv.org/abs/2608.30468": {
+      "published_at": "2026-09-02T03:03:48Z",
+      "source": "hf-papers",
+      "source_id": "2608.30468"
     },
     "https://calv.info/small-models-have-arrived": {
       "published_at": "2026-08-28T03:07:31Z",
@@ -879,6 +879,22 @@
       ],
       "ts": "2026-09-01T14:03:17Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 52,
+      "eligible_per_source": {
+        "hf-papers": 28,
+        "hn": 23,
+        "lobsters": 1
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2608.30147",
+        "hf-papers-2608.30468"
+      ],
+      "ts": "2026-09-02T03:03:48Z",
+      "window": "evening"
     }
   ]
 }
