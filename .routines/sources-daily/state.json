@@ -1,15 +1,10 @@
 {
-  "last_pruned_ts": "2026-09-02T03:03:48Z",
+  "last_pruned_ts": "2026-09-02T14:06:43Z",
   "published_urls": {
     "https://arxiv.org/abs/2608.21500": {
       "published_at": "2026-08-27T03:03:26Z",
       "source": "hf-papers",
       "source_id": "2608.21500"
-    },
-    "https://arxiv.org/abs/2608.22872": {
-      "published_at": "2026-08-26T14:04:27Z",
-      "source": "hf-papers",
-      "source_id": "2608.22872"
     },
     "https://arxiv.org/abs/2608.23041": {
       "published_at": "2026-08-27T03:03:26Z",
@@ -86,6 +81,16 @@
       "source": "hf-papers",
       "source_id": "2608.30468"
     },
+    "https://arxiv.org/abs/2609.00621": {
+      "published_at": "2026-09-02T14:06:43Z",
+      "source": "hf-papers",
+      "source_id": "2609.00621"
+    },
+    "https://arxiv.org/abs/2609.01572": {
+      "published_at": "2026-09-02T14:06:43Z",
+      "source": "hf-papers",
+      "source_id": "2609.01572"
+    },
     "https://calv.info/small-models-have-arrived": {
       "published_at": "2026-08-28T03:07:31Z",
       "source": "hn",
@@ -115,11 +120,6 @@
       "published_at": "2026-09-01T03:09:20Z",
       "source": "hn",
       "source_id": "49511007"
-    },
-    "https://www.lighthousenewsletter.com/p/rag-is-simpler-than-you-think": {
-      "published_at": "2026-08-26T14:04:27Z",
-      "source": "hn",
-      "source_id": "49445727"
     }
   },
   "runs": [
@@ -895,6 +895,22 @@
       ],
       "ts": "2026-09-02T03:03:48Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 48,
+      "eligible_per_source": {
+        "hf-papers": 32,
+        "hn": 13,
+        "lobsters": 3
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2609.01572",
+        "hf-papers-2609.00621"
+      ],
+      "ts": "2026-09-02T14:06:43Z",
+      "window": "morning"
     }
   ]
 }
