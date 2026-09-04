@@ -1,15 +1,10 @@
 {
-  "last_pruned_ts": "2026-09-04T03:03:33Z",
+  "last_pruned_ts": "2026-09-04T14:05:53Z",
   "published_urls": {
     "https://armature.tech/blog/which-tools-coding-agents-install": {
       "published_at": "2026-09-04T03:03:33Z",
       "source": "hn",
       "source_id": "49557206"
-    },
-    "https://arxiv.org/abs/2608.23564": {
-      "published_at": "2026-08-28T14:09:42Z",
-      "source": "hf-papers",
-      "source_id": "2608.23564"
     },
     "https://arxiv.org/abs/2608.24099": {
       "published_at": "2026-08-29T14:12:07Z",
@@ -40,11 +35,6 @@
       "published_at": "2026-09-03T03:08:54Z",
       "source": "hf-papers",
       "source_id": "2608.26623"
-    },
-    "https://arxiv.org/abs/2608.27260": {
-      "published_at": "2026-08-28T14:09:42Z",
-      "source": "hf-papers",
-      "source_id": "2608.27260"
     },
     "https://arxiv.org/abs/2608.27455": {
       "published_at": "2026-08-30T03:04:06Z",
@@ -91,6 +81,11 @@
       "source": "hf-papers",
       "source_id": "2609.00638"
     },
+    "https://arxiv.org/abs/2609.01437": {
+      "published_at": "2026-09-04T14:05:53Z",
+      "source": "hf-papers",
+      "source_id": "2609.01437"
+    },
     "https://arxiv.org/abs/2609.01572": {
       "published_at": "2026-09-02T14:06:43Z",
       "source": "hf-papers",
@@ -105,6 +100,11 @@
       "published_at": "2026-09-03T14:09:38Z",
       "source": "hf-papers",
       "source_id": "2609.02783"
+    },
+    "https://arxiv.org/abs/2609.03430": {
+      "published_at": "2026-09-04T14:05:53Z",
+      "source": "hf-papers",
+      "source_id": "2609.03430"
     },
     "https://coldtake.dev/blog/domain-driven-agents": {
       "published_at": "2026-08-30T03:04:06Z",
@@ -968,6 +968,22 @@
       ],
       "ts": "2026-09-04T03:03:33Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 55,
+      "eligible_per_source": {
+        "hf-papers": 31,
+        "hn": 22,
+        "lobsters": 2
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2609.03430",
+        "hf-papers-2609.01437"
+      ],
+      "ts": "2026-09-04T14:05:53Z",
+      "window": "morning"
     }
   ]
 }
