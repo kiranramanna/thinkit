@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-04T14:05:53Z",
+  "last_pruned_ts": "2026-09-05T03:09:00Z",
   "published_urls": {
     "https://armature.tech/blog/which-tools-coding-agents-install": {
       "published_at": "2026-09-04T03:03:33Z",
@@ -15,16 +15,6 @@
       "published_at": "2026-09-01T03:09:20Z",
       "source": "hf-papers",
       "source_id": "2608.24777"
-    },
-    "https://arxiv.org/abs/2608.25500": {
-      "published_at": "2026-08-29T03:08:25Z",
-      "source": "hf-papers",
-      "source_id": "2608.25500"
-    },
-    "https://arxiv.org/abs/2608.26005": {
-      "published_at": "2026-08-29T03:08:25Z",
-      "source": "hf-papers",
-      "source_id": "2608.26005"
     },
     "https://arxiv.org/abs/2608.26530": {
       "published_at": "2026-08-31T03:03:25Z",
@@ -66,6 +56,11 @@
       "source": "hf-papers",
       "source_id": "2608.30147"
     },
+    "https://arxiv.org/abs/2608.30391": {
+      "published_at": "2026-09-05T03:09:00Z",
+      "source": "hf-papers",
+      "source_id": "2608.30391"
+    },
     "https://arxiv.org/abs/2608.30468": {
       "published_at": "2026-09-02T03:03:48Z",
       "source": "hf-papers",
@@ -85,6 +80,11 @@
       "published_at": "2026-09-04T14:05:53Z",
       "source": "hf-papers",
       "source_id": "2609.01437"
+    },
+    "https://arxiv.org/abs/2609.01507": {
+      "published_at": "2026-09-05T03:09:00Z",
+      "source": "hf-papers",
+      "source_id": "2609.01507"
     },
     "https://arxiv.org/abs/2609.01572": {
       "published_at": "2026-09-02T14:06:43Z",
@@ -984,6 +984,23 @@
       ],
       "ts": "2026-09-04T14:05:53Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 63,
+      "eligible_per_source": {
+        "hf-papers": 38,
+        "hn": 23,
+        "lobsters": 2
+      },
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2608.30391",
+        "hf-papers-2609.01507"
+      ],
+      "ts": "2026-09-05T03:09:00Z",
+      "window": "evening"
     }
   ]
 }
