@@ -1,15 +1,10 @@
 {
-  "last_pruned_ts": "2026-09-05T14:03:56Z",
+  "last_pruned_ts": "2026-09-06T03:03:20Z",
   "published_urls": {
     "https://armature.tech/blog/which-tools-coding-agents-install": {
       "published_at": "2026-09-04T03:03:33Z",
       "source": "hn",
       "source_id": "49557206"
-    },
-    "https://arxiv.org/abs/2608.24099": {
-      "published_at": "2026-08-29T14:12:07Z",
-      "source": "hf-papers",
-      "source_id": "2608.24099"
     },
     "https://arxiv.org/abs/2608.24777": {
       "published_at": "2026-09-01T03:09:20Z",
@@ -25,11 +20,6 @@
       "published_at": "2026-09-03T03:08:54Z",
       "source": "hf-papers",
       "source_id": "2608.26623"
-    },
-    "https://arxiv.org/abs/2608.27455": {
-      "published_at": "2026-08-30T03:04:06Z",
-      "source": "hf-papers",
-      "source_id": "2608.27455"
     },
     "https://arxiv.org/abs/2608.27831": {
       "published_at": "2026-09-04T03:03:33Z",
@@ -111,20 +101,20 @@
       "source": "hf-papers",
       "source_id": "2609.04094"
     },
-    "https://coldtake.dev/blog/domain-driven-agents": {
-      "published_at": "2026-08-30T03:04:06Z",
+    "https://arxiv.org/abs/2609.04199": {
+      "published_at": "2026-09-06T03:03:20Z",
+      "source": "hf-papers",
+      "source_id": "2609.04199"
+    },
+    "https://collusion.wiki/": {
+      "published_at": "2026-09-06T03:03:20Z",
       "source": "hn",
-      "source_id": "49492584"
+      "source_id": "49563355"
     },
     "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode": {
       "published_at": "2026-08-31T14:05:20Z",
       "source": "hn",
       "source_id": "49506819"
-    },
-    "https://huggingface.co/zai-org/GLM-5.3": {
-      "published_at": "2026-08-29T14:12:07Z",
-      "source": "hn",
-      "source_id": "49479878"
     },
     "https://mvakde.github.io/blog/44-on-arc-1": {
       "published_at": "2026-09-01T14:03:17Z",
@@ -1027,6 +1017,22 @@
       ],
       "ts": "2026-09-05T14:03:56Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 62,
+      "eligible_per_source": {
+        "hf-papers": 35,
+        "hn": 26,
+        "lobsters": 1
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2609.04199",
+        "hn-49563355"
+      ],
+      "ts": "2026-09-06T03:03:20Z",
+      "window": "evening"
     }
   ]
 }
