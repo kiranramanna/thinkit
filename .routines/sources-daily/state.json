@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-06T03:03:20Z",
+  "last_pruned_ts": "2026-09-06T14:09:40Z",
   "published_urls": {
     "https://armature.tech/blog/which-tools-coding-agents-install": {
       "published_at": "2026-09-04T03:03:33Z",
@@ -91,6 +91,11 @@
       "source": "hf-papers",
       "source_id": "2609.02783"
     },
+    "https://arxiv.org/abs/2609.03293": {
+      "published_at": "2026-09-06T14:09:40Z",
+      "source": "hf-papers",
+      "source_id": "2609.03293"
+    },
     "https://arxiv.org/abs/2609.03430": {
       "published_at": "2026-09-04T14:05:53Z",
       "source": "hf-papers",
@@ -100,6 +105,11 @@
       "published_at": "2026-09-05T14:03:56Z",
       "source": "hf-papers",
       "source_id": "2609.04094"
+    },
+    "https://arxiv.org/abs/2609.04148": {
+      "published_at": "2026-09-06T14:09:40Z",
+      "source": "hf-papers",
+      "source_id": "2609.04148"
     },
     "https://arxiv.org/abs/2609.04199": {
       "published_at": "2026-09-06T03:03:20Z",
@@ -1033,6 +1043,23 @@
       ],
       "ts": "2026-09-06T03:03:20Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 57,
+      "eligible_per_source": {
+        "hf-papers": 34,
+        "hn": 21,
+        "lobsters": 2
+      },
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.03293",
+        "hf-papers-2609.04148"
+      ],
+      "ts": "2026-09-06T14:09:40Z",
+      "window": "morning"
     }
   ]
 }
