@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-07T03:09:28Z",
+  "last_pruned_ts": "2026-09-07T14:09:16Z",
   "published_urls": {
     "https://armature.tech/blog/which-tools-coding-agents-install": {
       "published_at": "2026-09-04T03:03:33Z",
@@ -26,11 +26,6 @@
       "source": "hf-papers",
       "source_id": "2608.27831"
     },
-    "https://arxiv.org/abs/2608.28281": {
-      "published_at": "2026-08-31T14:05:20Z",
-      "source": "hf-papers",
-      "source_id": "2608.28281"
-    },
     "https://arxiv.org/abs/2608.29464": {
       "published_at": "2026-09-01T14:03:17Z",
       "source": "hf-papers",
@@ -50,6 +45,11 @@
       "published_at": "2026-09-02T03:03:48Z",
       "source": "hf-papers",
       "source_id": "2608.30468"
+    },
+    "https://arxiv.org/abs/2609.00581": {
+      "published_at": "2026-09-07T14:09:16Z",
+      "source": "hf-papers",
+      "source_id": "2609.00581"
     },
     "https://arxiv.org/abs/2609.00621": {
       "published_at": "2026-09-02T14:06:43Z",
@@ -80,6 +80,11 @@
       "published_at": "2026-09-03T14:09:38Z",
       "source": "hf-papers",
       "source_id": "2609.01865"
+    },
+    "https://arxiv.org/abs/2609.02750": {
+      "published_at": "2026-09-07T14:09:16Z",
+      "source": "hf-papers",
+      "source_id": "2609.02750"
     },
     "https://arxiv.org/abs/2609.02783": {
       "published_at": "2026-09-03T14:09:38Z",
@@ -120,11 +125,6 @@
       "published_at": "2026-09-06T03:03:20Z",
       "source": "hn",
       "source_id": "49563355"
-    },
-    "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode": {
-      "published_at": "2026-08-31T14:05:20Z",
-      "source": "hn",
-      "source_id": "49506819"
     },
     "https://mvakde.github.io/blog/44-on-arc-1": {
       "published_at": "2026-09-01T14:03:17Z",
@@ -1078,6 +1078,23 @@
       ],
       "ts": "2026-09-07T03:09:28Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 58,
+      "eligible_per_source": {
+        "hf-papers": 33,
+        "hn": 25
+      },
+      "notes": "Scored 58 eligible (hf-papers 32, hn 26, lobsters 0 \u2014 lobsters returned no allowlisted-tag items this run, not an error) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 2@8, 7@7, 4@6, 3@5, 9@4, 6@3, 26@2, 1@1. Above threshold(7): two 8s \u2014 Bilevel Coordinated Reflection-2609.02750 (game-theoretic multi-agent orchestration + the impossibility result that transcript-only reflection gates can't improve uniformly) and Enoki-2609.00581 (multi-level hallucination detection via one OpenIE representation, LLM/encoder/rule-based regimes); plus seven 7s (hf-papers 2608.26730 conditional experience transfer, 2609.04083 CORE reranker-distillation, 2609.04128 environment evolution for terminal agents, 2609.04098 NVFP4 4-bit quant; hn-49596054 speculative decoding in vLLM on AMD, hn-49589914 Ask HN managing skills files, hn-49594008 Engrim SQLite memory engine for AI CLIs). Algorithm took the top-2 by score; source-diversity tie-break was inert (both 8s are hf-papers). No editorial deselection needed: the two 8s are already topically distinct primary lanes (multi-agent orchestration/agentic-AI vs factuality guardrails/LLM-ops-RAG) and neither is in the saturated self-improving-harness / skill-evolution cluster that recent runs have repeatedly deselected. written_today before this run = 2 (09-07 evening), so cap = min(posts_per_run 2, posts_per_day 4 - 2) = 2. Research: both are days-old unindexed arXiv papers with no story-specific public reaction (searches surfaced only arXiv/HF mirrors and different same-topic papers), below min_citations(2), so both posts omit the reaction paragraph as designed. Both posts written.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.02750",
+        "hf-papers-2609.00581"
+      ],
+      "ts": "2026-09-07T14:09:16Z",
+      "window": "morning"
     }
   ]
 }
