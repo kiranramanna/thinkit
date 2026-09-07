@@ -1,20 +1,20 @@
 {
-  "last_pruned_ts": "2026-09-06T14:09:40Z",
+  "last_pruned_ts": "2026-09-07T03:09:28Z",
   "published_urls": {
     "https://armature.tech/blog/which-tools-coding-agents-install": {
       "published_at": "2026-09-04T03:03:33Z",
       "source": "hn",
       "source_id": "49557206"
     },
+    "https://arxiv.org/abs/2505.12540": {
+      "published_at": "2026-09-07T03:09:28Z",
+      "source": "hn",
+      "source_id": "49590595"
+    },
     "https://arxiv.org/abs/2608.24777": {
       "published_at": "2026-09-01T03:09:20Z",
       "source": "hf-papers",
       "source_id": "2608.24777"
-    },
-    "https://arxiv.org/abs/2608.26530": {
-      "published_at": "2026-08-31T03:03:25Z",
-      "source": "hf-papers",
-      "source_id": "2608.26530"
     },
     "https://arxiv.org/abs/2608.26623": {
       "published_at": "2026-09-03T03:08:54Z",
@@ -30,11 +30,6 @@
       "published_at": "2026-08-31T14:05:20Z",
       "source": "hf-papers",
       "source_id": "2608.28281"
-    },
-    "https://arxiv.org/abs/2608.28476": {
-      "published_at": "2026-08-31T03:03:25Z",
-      "source": "hf-papers",
-      "source_id": "2608.28476"
     },
     "https://arxiv.org/abs/2608.29464": {
       "published_at": "2026-09-01T14:03:17Z",
@@ -115,6 +110,11 @@
       "published_at": "2026-09-06T03:03:20Z",
       "source": "hf-papers",
       "source_id": "2609.04199"
+    },
+    "https://arxiv.org/abs/2609.04304": {
+      "published_at": "2026-09-07T03:09:28Z",
+      "source": "hf-papers",
+      "source_id": "2609.04304"
     },
     "https://collusion.wiki/": {
       "published_at": "2026-09-06T03:03:20Z",
@@ -1060,6 +1060,24 @@
       ],
       "ts": "2026-09-06T14:09:40Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 51,
+      "eligible_per_source": {
+        "hf-papers": 26,
+        "hn": 24,
+        "lobsters": 1
+      },
+      "notes": "Scored 51 eligible (hf-papers 36, hn 14, lobsters 1) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 1@8, 7@7, 2@6, 7@5, 2@4, 5@3, 19@2, 8@1. Above threshold(7): Iris-2609.04304 (8, agentic multi-hop search-agent training + entity-graph data pipeline + eval) and seven 7s (hn-49590595 Universal Geometry of Embeddings/vec2vec; lobsters-1glwxo Ironies of Automation; hf-papers 2609.04083 CORE reranker-distillation, 2608.26730 conditional experience transfer, 2609.04128 environment evolution for terminal agents, 2609.04098 4-bit NVFP4 quant, 2609.00196 WHALE harness-weight optimization). Algorithm took the lone 8 (Iris), then the source-diversity tie-break at score 7 picked hn-49590595 (embeddings) as the first non-hf entry -- one hf-paper + one hn, two distinct lanes (agentic-search eval-discipline vs. embedding/vector-store security). Deliberately avoided lobsters-1glwxo (Ironies of Automation) as a near-duplicate of the 09-05 'engineers lose touch with their systems' post. Research: Iris is a days-old unindexed arXiv paper with no story-specific public reaction (searches surfaced only same-topic different papers) -> 0 citations, reaction paragraph omitted as designed; the embeddings paper (resurfaced May-2025 vec2vec) had 3 usable third-party citations (Ian Barber blog mixed, LanceDB GitHub discussion concerned/negative, kidukkang blog mixed) all converging on 'compelling result, security wake-up call for embedding stores', so that post carries a reaction paragraph. written_today before this run = 0, cap = min(posts_per_run 2, posts_per_day 4 - 0) = 2. Both posts written.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.04304",
+        "hn-49590595"
+      ],
+      "ts": "2026-09-07T03:09:28Z",
+      "window": "evening"
     }
   ]
 }
