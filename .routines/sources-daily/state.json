@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-08T03:03:44Z",
+  "last_pruned_ts": "2026-09-08T14:04:54Z",
   "published_urls": {
     "https://armature.tech/blog/which-tools-coding-agents-install": {
       "published_at": "2026-09-04T03:03:33Z",
@@ -20,11 +20,6 @@
       "published_at": "2026-09-04T03:03:33Z",
       "source": "hf-papers",
       "source_id": "2608.27831"
-    },
-    "https://arxiv.org/abs/2608.29464": {
-      "published_at": "2026-09-01T14:03:17Z",
-      "source": "hf-papers",
-      "source_id": "2608.29464"
     },
     "https://arxiv.org/abs/2608.30147": {
       "published_at": "2026-09-02T03:03:48Z",
@@ -121,6 +116,11 @@
       "source": "hf-papers",
       "source_id": "2609.04304"
     },
+    "https://arxiv.org/abs/2609.04611": {
+      "published_at": "2026-09-08T14:04:54Z",
+      "source": "hf-papers",
+      "source_id": "2609.04611"
+    },
     "https://arxiv.org/abs/2609.05258": {
       "published_at": "2026-09-08T03:03:44Z",
       "source": "hf-papers",
@@ -131,10 +131,10 @@
       "source": "hn",
       "source_id": "49563355"
     },
-    "https://mvakde.github.io/blog/44-on-arc-1": {
-      "published_at": "2026-09-01T14:03:17Z",
+    "https://danluu.com/agentic-testing": {
+      "published_at": "2026-09-08T14:04:54Z",
       "source": "hn",
-      "source_id": "49519939"
+      "source_id": "49605246"
     },
     "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems": {
       "published_at": "2026-09-05T14:03:56Z",
@@ -1113,6 +1113,22 @@
       ],
       "ts": "2026-09-08T03:03:44Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 58,
+      "eligible_per_source": {
+        "hf-papers": 30,
+        "hn": 25,
+        "lobsters": 3
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2609.04611",
+        "hn-49605246"
+      ],
+      "ts": "2026-09-08T14:04:54Z",
+      "window": "morning"
     }
   ]
 }
