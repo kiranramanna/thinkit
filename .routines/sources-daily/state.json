@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-07T14:09:16Z",
+  "last_pruned_ts": "2026-09-08T03:03:44Z",
   "published_urls": {
     "https://armature.tech/blog/which-tools-coding-agents-install": {
       "published_at": "2026-09-04T03:03:33Z",
@@ -10,11 +10,6 @@
       "published_at": "2026-09-07T03:09:28Z",
       "source": "hn",
       "source_id": "49590595"
-    },
-    "https://arxiv.org/abs/2608.24777": {
-      "published_at": "2026-09-01T03:09:20Z",
-      "source": "hf-papers",
-      "source_id": "2608.24777"
     },
     "https://arxiv.org/abs/2608.26623": {
       "published_at": "2026-09-03T03:08:54Z",
@@ -45,6 +40,11 @@
       "published_at": "2026-09-02T03:03:48Z",
       "source": "hf-papers",
       "source_id": "2608.30468"
+    },
+    "https://arxiv.org/abs/2609.00365": {
+      "published_at": "2026-09-08T03:03:44Z",
+      "source": "hf-papers",
+      "source_id": "2609.00365"
     },
     "https://arxiv.org/abs/2609.00581": {
       "published_at": "2026-09-07T14:09:16Z",
@@ -121,6 +121,11 @@
       "source": "hf-papers",
       "source_id": "2609.04304"
     },
+    "https://arxiv.org/abs/2609.05258": {
+      "published_at": "2026-09-08T03:03:44Z",
+      "source": "hf-papers",
+      "source_id": "2609.05258"
+    },
     "https://collusion.wiki/": {
       "published_at": "2026-09-06T03:03:20Z",
       "source": "hn",
@@ -130,11 +135,6 @@
       "published_at": "2026-09-01T14:03:17Z",
       "source": "hn",
       "source_id": "49519939"
-    },
-    "https://usealmanac.com/": {
-      "published_at": "2026-09-01T03:09:20Z",
-      "source": "hn",
-      "source_id": "49511007"
     },
     "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems": {
       "published_at": "2026-09-05T14:03:56Z",
@@ -1095,6 +1095,24 @@
       ],
       "ts": "2026-09-07T14:09:16Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 55,
+      "eligible_per_source": {
+        "hf-papers": 28,
+        "hn": 26,
+        "lobsters": 1
+      },
+      "notes": "Scored 55 eligible (hf-papers 28, hn 26, lobsters 1) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 1@8, 5@7, 3@6, 4@5, 3@4, 11@3, 26@2, 2@1. Above threshold(7): one 8 -- Dr. Claw-2609.00365 (open-source workspace wrapping coding-agent executors with a task graph, persistent state objects, reusable skill library, auditable HITL; eval holds the executor fixed to isolate the orchestration layer) -- and five 7s (hf-papers 2609.05258 Ask-Before-You-Optimize / OR-Clarify pre-formulation clarification, 2609.04523 MaxKernel multi-agent TPU kernel gen, 2609.04173 Last Translation Benchmark eval-metric reliability, 2608.26730 conditional experience transfer; lobsters-1glwxo Ironies of Automation). Algorithm took the lone 8 (Dr. Claw), then picked the top 7 in the tier for the second slot. Editorial deselection matching prior runs: excluded lobsters-1glwxo (Ironies of Automation) as a near-duplicate of the 09-05 'engineers lose touch with their systems' post (also deliberately avoided 09-07 evening), and hf-papers-2608.26730 (conditional experience transfer) as part of the self-improving-harness cluster that 09-06/09-07 runs already covered. Selected two distinct lanes: Dr. Claw (agent orchestration/auditability + eval design) and Ask-Before-You-Optimize (agent clarification / silent-assumption avoidance -- conversational + agentic). No hn or lobsters item cleared threshold this run (top hn: 49589190 Dataflow Model Revisited @6, 49558685 Simple Is Not Small @5), so both posts are hf-papers -- consistent with prior all-paper runs. written_today before this run = 0, cap = min(posts_per_run 2, posts_per_day 4 - 0) = 2. Research: both are days-old (Sep 2026) unindexed arXiv papers; sweeps surfaced only arXiv/HF mirrors, the OpenLAIR repo, and unrelated same-name/same-topic hits (Inspector Gadget 'Dr. Claw', other 'Clawbot' products, different OR-formulation papers) -> 0 usable citations each, below min_citations(2), so both posts omit the reaction paragraph as designed. Both posts written (273 and 267 body words).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.00365",
+        "hf-papers-2609.05258"
+      ],
+      "ts": "2026-09-08T03:03:44Z",
+      "window": "evening"
     }
   ]
 }
