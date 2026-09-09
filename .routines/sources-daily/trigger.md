@@ -342,6 +342,7 @@ export INTERESTS_PROMPT=$(cat .routines/sources-daily/interests-prompt.md)
 if [ "$POSTS_WRITTEN" -eq 0 ]; then
   echo "interests: skipped (no posts written this run)"
   echo '[]' > /tmp/interest_clusters.json
+  echo '{"status":"skipped-no-posts","created":[],"updated":[],"skipped":[]}' > /tmp/interests_result.json
 else
 python3 - <<'PYEOF'
 import json, os, glob, re, yaml
@@ -586,7 +587,8 @@ for c in sorted(clusters, key=lambda x: -float(x.get('confidence', 0))):
         entries=block, sentinel=SENTINEL))
     created.append(f'{slug} ({len(entries)})')
 
-json.dump({'created': created, 'updated': updated, 'skipped': skipped},
+json.dump({'status': 'ran', 'created': created, 'updated': updated,
+           'skipped': skipped},
           open('/tmp/interests_result.json', 'w'), indent=2)
 print(f'interests: created {created}, updated {updated}, skipped {len(skipped)}')
 for s in skipped:
@@ -633,7 +635,8 @@ for c in eligible:
     per_source[c['source']] = per_source.get(c['source'], 0) + 1
 
 interests = tmp_json('/tmp/interests_result.json',
-                     {"created": [], "updated": [], "skipped": []})
+                     {"status": "did-not-run", "created": [], "updated": [],
+                      "skipped": []})
 
 run = {
     "ts": now_iso,
@@ -644,10 +647,15 @@ run = {
     "posts_written": len(published),
     "adapter_errors": adapter_errors,
 }
-# Only carry the interests key when something actually happened, so a run log
-# read at a glance still shows the days a story was picked up.
-if interests['created'] or interests['updated']:
-    run['interests'] = {k: v for k, v in interests.items() if v and k != 'skipped'}
+# Always record the outcome. The right answer most days is that no story
+# qualified, so "ran and found nothing" has to be distinguishable from "never
+# executed" — otherwise a silently broken step looks exactly like a quiet one.
+run['interests'] = {
+    'status': interests.get('status', 'did-not-run'),
+    'created': interests['created'],
+    'updated': interests['updated'],
+    'rejected': len(interests['skipped']),
+}
 state.setdefault('runs', []).append(run)
 
 for p in published:
