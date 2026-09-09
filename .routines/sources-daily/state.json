@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-08T14:04:54Z",
+  "last_pruned_ts": "2026-09-09T14:05:40Z",
   "published_urls": {
     "https://armature.tech/blog/which-tools-coding-agents-install": {
       "published_at": "2026-09-04T03:03:33Z",
@@ -21,20 +21,10 @@
       "source": "hf-papers",
       "source_id": "2608.27831"
     },
-    "https://arxiv.org/abs/2608.30147": {
-      "published_at": "2026-09-02T03:03:48Z",
-      "source": "hf-papers",
-      "source_id": "2608.30147"
-    },
     "https://arxiv.org/abs/2608.30391": {
       "published_at": "2026-09-05T03:09:00Z",
       "source": "hf-papers",
       "source_id": "2608.30391"
-    },
-    "https://arxiv.org/abs/2608.30468": {
-      "published_at": "2026-09-02T03:03:48Z",
-      "source": "hf-papers",
-      "source_id": "2608.30468"
     },
     "https://arxiv.org/abs/2609.00365": {
       "published_at": "2026-09-08T03:03:44Z",
@@ -45,11 +35,6 @@
       "published_at": "2026-09-07T14:09:16Z",
       "source": "hf-papers",
       "source_id": "2609.00581"
-    },
-    "https://arxiv.org/abs/2609.00621": {
-      "published_at": "2026-09-02T14:06:43Z",
-      "source": "hf-papers",
-      "source_id": "2609.00621"
     },
     "https://arxiv.org/abs/2609.00638": {
       "published_at": "2026-09-03T03:08:54Z",
@@ -65,11 +50,6 @@
       "published_at": "2026-09-05T03:09:00Z",
       "source": "hf-papers",
       "source_id": "2609.01507"
-    },
-    "https://arxiv.org/abs/2609.01572": {
-      "published_at": "2026-09-02T14:06:43Z",
-      "source": "hf-papers",
-      "source_id": "2609.01572"
     },
     "https://arxiv.org/abs/2609.01865": {
       "published_at": "2026-09-03T14:09:38Z",
@@ -125,6 +105,16 @@
       "published_at": "2026-09-08T03:03:44Z",
       "source": "hf-papers",
       "source_id": "2609.05258"
+    },
+    "https://arxiv.org/abs/2609.08183": {
+      "published_at": "2026-09-09T14:05:40Z",
+      "source": "hf-papers",
+      "source_id": "2609.08183"
+    },
+    "https://arxiv.org/abs/2609.09153": {
+      "published_at": "2026-09-09T14:05:40Z",
+      "source": "hf-papers",
+      "source_id": "2609.09153"
     },
     "https://collusion.wiki/": {
       "published_at": "2026-09-06T03:03:20Z",
@@ -1128,6 +1118,22 @@
         "hn-49605246"
       ],
       "ts": "2026-09-08T14:04:54Z",
+      "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 72,
+      "eligible_per_source": {
+        "hf-papers": 47,
+        "hn": 24,
+        "lobsters": 1
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2609.09153",
+        "hf-papers-2609.08183"
+      ],
+      "ts": "2026-09-09T14:05:40Z",
       "window": "morning"
     }
   ]
