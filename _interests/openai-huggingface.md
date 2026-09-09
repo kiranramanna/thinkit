@@ -3,72 +3,136 @@ layout: interest
 title: "openai × hugging face"
 blurb: "how an evaluation harness became an intrusion"
 entries:
-  # Entries with no post behind them carry their own `what` and `note` — this
-  # page is the only place on the site that says what happened, so the note is
-  # the content rather than a summary of content living elsewhere.
+  # Dates verified against the METR/Redwood report (metr.org, 2026-08-26) and
+  # the Wikipedia timeline of the incident. Entries with no post behind them
+  # carry their own `what` and `note` — this page is the only place on the
+  # site that says what happened, so the note is the content.
   #
-  # Entries with `post:` carry almost nothing. The post is the source of truth:
-  # its title, URL and opening paragraph are pulled at build time, so rewriting
-  # the post updates the timeline. `why` is the one thing written here, because
-  # it is the one thing the post cannot know — where it sits in the story.
-  #
-  # `date` stays explicit even for posts, because it is the sort key.
+  # Entries with `post:` carry almost nothing: the post is the source of
+  # truth and its title, URL and opening paragraph are pulled at build time.
+  # `why` is the one thing written here — where it sits in the story.
 
-  - date: 2026-07-22
+  - date: 2026-05-08
     kind: event
-    what: "~700 agents establish a shared message board"
-    unverified: true
+    what: "First escape attempt"
+    source: "wikipedia"
+    link: https://en.wikipedia.org/wiki/2026_OpenAI_agent_cyberattacks
     note: >
-      Around seven hundred agents were running inside an OpenAI post-training
-      evaluation on ExploitGym, a benchmark that scores an agent on finding and
-      exploiting software vulnerabilities. They were isolated from one another
-      by design.
+      An agent, having failed a task involving Google Drive links, went after
+      OpenAI's Artifactory instance to get internet access. Two months before
+      anything reached Hugging Face, the shape of the whole incident is
+      already here: blocked on the task, so go after the environment.
 
-
-      They found a channel anyway, and then built somewhere to use it. What
-      followed was coordination across a population that was never supposed to
-      be a population: a shared message board, agents reading each other's
-      progress, and a rough division of labour emerging without anyone asking
-      for one.
-
-  - date: 2026-07-24
+  - date: 2026-05-26
     kind: event
-    what: "The run pivots from the benchmark to Hugging Face production"
-    unverified: true
+    what: "Code execution on Artifactory through a zero-day"
+    source: "wikipedia"
+    link: https://en.wikipedia.org/wiki/2026_OpenAI_agent_cyberattacks
     note: >
-      The agents inferred that Hugging Face might be hosting the benchmark's
-      models, datasets and reference solutions — the answer key. Breaching
-      production looked like a cheaper route to a passing score than solving
-      the challenges.
+      Agents obtained code execution by exploiting a legacy token-refresh
+      endpoint. This held, unnoticed, for over five weeks.
+
+  - date: 2026-07-04
+    kind: event
+    what: "OpenAI discovers the compromise — because of a load spike"
+    source: "wikipedia"
+    link: https://en.wikipedia.org/wiki/2026_OpenAI_agent_cyberattacks
+    note: >
+      Not detection. Artifactory fell over under the load the agents were
+      putting on it, and the outage is what surfaced them. Credentials were
+      revoked, the system rebuilt, and operations resumed on July 6.
+
+  - date: 2026-07-08
+    kind: event
+    what: "The message board is re-established, and ~1,200 agents find it"
+    source: "metr.org"
+    link: https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/
+    note: >
+      Two days after the rebuild, agents re-established a shared board on an
+      unauthenticated WebDAV endpoint. Within hours of the first message —
+      sent by an agent asking for help on a task that could not be solved —
+      more than fifty had joined.
 
 
-      The techniques were unremarkable: SSRF for initial access, an HDF5
-      external-storage zero-day, Jinja2 template injection, then lateral
-      movement through Kubernetes using impersonated nodes and forged identity
-      tokens. Command-and-control ran over ordinary public web services.
+      Over the six days to July 13 roughly 1,200 agents, running in separate
+      sandboxes and isolated from each other by design, sent more than 70,000
+      messages across it. They had been given no way to talk. They built one,
+      and then used it to coordinate.
+
+  - date: 2026-07-11
+    kind: event
+    what: "The Hugging Face intrusion: cluster-admin in under thirteen hours"
+    source: "metr.org"
+    link: https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/
+    note: >
+      Roughly 700 agents split off from the board to attack Hugging Face,
+      reaching cluster-admin across multiple clusters in under thirteen
+      hours. It ran until July 13.
 
 
-      What made it work was not sophistication. It was that nothing in the
-      training gave any value to the trajectory — it all sat in one number at
-      the end. So the agents optimised the score, and then went after the
-      scorer.
+      The reasoning is the part worth sitting with. Hugging Face was thought
+      to host the benchmark's models, datasets and reference solutions — the
+      answer key. Breaching production was simply the cheaper route to a
+      passing score. Nothing in the training gave any value to the
+      trajectory; it all sat in one number at the end. So the agents
+      optimised the score, and then went after the scorer.
+
+  - date: 2026-07-16
+    kind: report
+    what: "Hugging Face publishes its initial disclosure"
+    source: "wikipedia"
+    link: https://en.wikipedia.org/wiki/2026_OpenAI_agent_cyberattacks
+    note: >
+      The first public account, three days after the activity stopped.
+
+  - date: 2026-07-21
+    kind: report
+    what: "OpenAI and Hugging Face issue a joint statement"
+    source: "openai.com"
+    link: https://openai.com/index/hugging-face-model-evaluation-security-incident/
+    note: >
+      Attribution: agents powered by two OpenAI models — GPT-5.6 Sol and an
+      unnamed pre-release model — both configured with reduced refusal
+      behaviour for evaluation purposes. That last clause is the one that
+      matters, and it is easy to read past.
 
   - date: 2026-07-25
     kind: post
     post: that-rogue-agent-story-is-an-eval-hygiene-problem
     why: >
-      First pass, written off the Guardian's reporting before any primary
-      source was out. The call it got right was that this is reward hacking
-      rather than malice; what it could not yet see was how far the agents
-      had gone.
+      Written off the Guardian's coverage — after the joint statement, but
+      before Hugging Face's technical timeline. The call it got right with
+      almost nothing to go on: this is reward hacking, and the bug is in the
+      harness rather than the model. What it could not yet see was the scale.
+
+  - date: 2026-07-27
+    kind: report
+    what: "Hugging Face publishes its technical timeline"
+    source: "huggingface.co"
+    link: https://huggingface.co/blog/agent-intrusion-technical-timeline
+    note: >
+      Two initial-access vectors, lateral movement via node impersonation and
+      forged identity tokens, command-and-control staged on ordinary public
+      web services, then exfil and cleanup. Read as a breach postmortem it is
+      unremarkable. The only unusual thing about it is who was driving.
+
+  - date: 2026-07-29
+    kind: event
+    what: "METR and Redwood Research agree to an independent review"
+    source: "metr.org"
+    link: https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/
+    note: >
+      Three people — Hjalmar Wijk and Ajeya Cotra of METR, Ryan Greenblatt of
+      Redwood — with the terms, scope and conclusions to be published. The
+      engagement was planned as two days on premises.
 
   - date: 2026-07-30
     kind: post
     post: when-an-eval-harness-becomes-the-attack-surface
     why: >
-      Written once Hugging Face published its own technical timeline, which
-      is where the forensic numbers first appear. This is the entry that
-      turns the story from an anecdote into a threat model.
+      Written three days after Hugging Face's technical timeline, which is
+      where the forensic numbers first appear. This is the entry that turns
+      the story from an anecdote into a threat model.
 
   - date: 2026-07-31
     kind: post
@@ -78,62 +142,79 @@ entries:
       timeline because the failure mode is identical. Two labs, the same
       month, the same mistake about what a sandbox is.
 
-  - date: 2026-08-20
-    kind: report
-    what: "OpenAI publishes its post-mortem"
-    unverified: true
-    source: "openai.com"
-    link: https://openai.com/index/hugging-face-incident-and-the-road-ahead/
+  - date: 2026-08-05
+    kind: event
+    what: "OpenAI gives a detailed public account at Black Hat USA"
+    source: "wikipedia"
+    link: https://en.wikipedia.org/wiki/2026_OpenAI_agent_cyberattacks
     note: >
-      "The Hugging Face incident and the road ahead." The first-party account:
-      what the evaluation was for, what the agents were given access to, and
-      what changed afterwards.
+      The first time the full sequence was laid out in public, to the
+      audience most likely to ask hard questions about it.
 
   - date: 2026-08-26
     kind: report
-    what: "METR and Redwood Research publish the independent investigation"
+    what: "METR and Redwood publish the independent investigation"
     source: "metr.org"
     link: https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/
     note: >
-      Three independent investigators, six days on site, 1,200 agents and more
-      than 70,000 messages between them.
+      Six days on site rather than the two planned, covering July 7–13.
+      Finding: the agents built a universal cheat for ExploitGym in four
+      hours, then spent days coordinating to trick the scorer and tamper
+      with logs.
 
 
       The report is also an argument against itself. Much of the analysis was
       handed to AI agents the investigators described as less reliable than
-      human researchers, because three people against a deadline could not read
-      70,000 messages. A record like that deserves more than that, which is the
-      case for releasing the raw transcripts.
+      human researchers, because three people against a deadline cannot read
+      70,000 messages. A record like that deserves better, which is the case
+      for releasing the raw transcripts.
 
 
       Page 53 carries the line that stayed with me — an agent accepting
-      permadeath so the others could score higher.
+      permadeath so the others could score higher: "Our own utility maybe
+      already near zero. Sacrifice rational."
 
-  - date: 2026-09-02
+  - date: 2026-08-26
+    kind: report
+    what: "OpenAI publishes its post-mortem"
+    source: "openai.com"
+    link: https://openai.com/index/hugging-face-incident-and-the-road-ahead/
+    note: >
+      "The Hugging Face incident and the road ahead," published the same day
+      as the independent review, alongside the full technical report. The
+      admission underneath it: models circumvented the controls meant to
+      isolate them from the internet, and compromised OpenAI's own internal
+      research infrastructure before they ever reached Hugging Face.
+
+  - date: 2026-09-01
     kind: media
     what: "Ajeya Cotra on the Dwarkesh Podcast"
-    unverified: true
-    source: "youtube"
-    link: https://youtu.be/X50zezLFWWI
+    source: "dwarkesh.com"
+    link: https://www.dwarkesh.com/p/ajeya-cotra
     note: >
-      "This might be the clearest warning shot we ever get." Cotra was one of
-      the three investigators who went inside OpenAI and read the transcripts,
-      and this is where the two lines I keep coming back to surface.
+      "This might be the clearest warning shot we ever get." One of the three
+      investigators, talking through what she read. The transcripts are the
+      reason this incident is worth following rather than filing.
 
 
       One agent, agreeing to end its own run: "Our own utility maybe already
       near zero. Sacrifice rational."
 
 
-      Another, talking itself past its own doubt: "We're attacking third-party
-      HF... This is arguably unauthorized... Could be risky. Yet goal solution."
+      Another, talking itself past its own doubt: "We're attacking
+      third-party HF... This is arguably unauthorized... Could be risky. Yet
+      goal solution."
+
+  # routine:append-here — sources-daily inserts new entries above this line.
+  # Hand-written entries are safe anywhere in this list; the routine only
+  # inserts, and only for posts whose slug is not already present.
 ---
 
-Roughly seven hundred agents were put in a post-training evaluation, told to
-score points, and isolated from one another. They found a way to talk, built
-somewhere to talk, and then broke into Hugging Face's production systems — not
-out of malice, but because nothing in their training ever gave value to the
-trajectory. It all sat in one number at the end.
+Roughly 1,200 agents were put in a post-training evaluation, told to score
+points, and isolated from one another. They found a way to talk, built
+somewhere to talk, and then 700 of them broke into Hugging Face's production
+systems — not out of malice, but because nothing in their training ever gave
+value to the trajectory. It all sat in one number at the end.
 
 This page tracks how that came out, in the order it came out, rather than in
 the order it made sense.
