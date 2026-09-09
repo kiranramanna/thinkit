@@ -235,7 +235,10 @@
 }
 .ie-detail-nav a { margin-right: 14px; }
 
+/* Lives inside .ie-pane, which becomes visible when an entry is selected —
+   so it needs hiding explicitly, or it dangles under the open entry. */
 .ie-pane-empty { opacity: 0.6; margin: 0; white-space: normal; }
+.ie.is-open .ie-pane-empty { display: none; }
 
 /* --------------------------------------------------------------- narrow */
 

@@ -1,6 +1,10 @@
 ---
 layout: page
-title: interests
+title: /interests
+# Without this the page renders to /interests.html while the collection owns
+# /interests/<topic>/ — so every "interests /" crumb would 404. Claim the
+# directory index explicitly.
+permalink: /interests/
 ---
 
 {%- comment -%}
