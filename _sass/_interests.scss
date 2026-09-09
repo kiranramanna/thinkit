@@ -87,6 +87,9 @@
   display: block;
   opacity: 0.6;
 }
+/* The summary line below the table carries its own top rule, so the last
+   row's bottom border would sit a few pixels above it as a doubled line. */
+.ie-index tr:last-child td { border-bottom: none; }
 .ie-bar {
   letter-spacing: 1px;
   white-space: nowrap;
