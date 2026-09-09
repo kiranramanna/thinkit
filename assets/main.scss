@@ -8,6 +8,7 @@
 @import "hacker";
 @include theme();
 @import "base";
+@import "interests";
 
 // Brighter theme — opt-in via the header toggle, which sets
 // <html data-theme="light">. Default (no attribute) stays hacker green.

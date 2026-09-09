@@ -1,0 +1,119 @@
+---
+layout: default
+---
+{%- comment -%}
+  Topic page for one special interest.
+
+  Two states, both driven from the same markup:
+
+    at rest   the timeline runs full width and every detail panel is hidden
+    selected  the timeline narrows to a left column and the chosen entry's
+              panel shows on the right, the way a mail client shows a message
+
+  The panels are all rendered into the page up front, so selecting one is a
+  class toggle rather than a fetch — which keeps it working under the site's
+  `script-src 'self'` CSP and under `baseurl`, and keeps every entry in the
+  HTML for search engines and for readers with JavaScript off. Without JS the
+  `:target` rule alone still opens a panel; assets/interests.js only adds the
+  side-by-side layout, the close button and back/forward support.
+{%- endcomment -%}
+
+{%- assign entries = page.entries | sort: 'date' -%}
+{%- assign entry_count = entries | size -%}
+{%- assign first_entry = entries | first -%}
+{%- assign last_entry = entries | last -%}
+
+{%- assign now_s = site.time | date: '%s' | plus: 0 -%}
+{%- assign last_s = last_entry.date | date: '%s' | plus: 0 -%}
+{%- assign age_days = now_s | minus: last_s | divided_by: 86400 -%}
+{%- if age_days < 30 -%}
+  {%- assign state = 'live' -%}
+{%- elsif age_days < 90 -%}
+  {%- assign state = 'warm' -%}
+{%- else -%}
+  {%- assign state = 'cold' -%}
+{%- endif -%}
+
+<p class="ie-crumb"><a href="{{ '/interests/' | relative_url }}">interests</a> /</p>
+
+<h1 class="ie-title">
+  {{ page.title | upcase }}
+  <span class="ie-badge ie-badge--{{ state }}">{{ state | upcase }}</span>
+</h1>
+{%- if page.blurb %}<p class="ie-blurb">{{ page.blurb }}</p>{% endif %}
+
+<p class="ie-meta">
+  {{ entry_count }} entries ·
+  {{ first_entry.date | date: "%Y-%m-%d" }} &rarr; {{ last_entry.date | date: "%Y-%m-%d" }} ·
+  last entry {{ age_days }}d ago
+</p>
+
+{%- if content and content != '' %}
+<div class="ie-intro">{{ content }}</div>
+{% endif %}
+
+<div class="ie" id="ie">
+
+  <div class="ie-list">
+    {%- assign shown_year = '' -%}
+    {%- for e in entries -%}
+      {%- assign year = e.date | date: "%Y" -%}
+      {%- if year != shown_year %}
+        <p class="ie-year">{{ year }}</p>
+        {%- assign shown_year = year -%}
+      {% endif -%}
+
+      <a class="ie-row{% if e.kind == 'post' %} ie-row--mine{% endif %}"
+         href="#e-{{ forloop.index }}"
+         id="r-{{ forloop.index }}"
+         data-entry="{{ forloop.index }}">
+        <span class="ie-row-date">{{ e.date | date: "%b %d" | upcase }}</span>
+        <span class="ie-row-rail" aria-hidden="true"></span>
+        <span class="ie-row-body">
+          <span class="ie-kind">{{ e.kind | upcase }}</span>
+          <span class="ie-what">{{ e.what }}</span>
+          {%- if e.unverified %} <span class="ie-flag">[date unverified]</span>{% endif -%}
+          {%- if e.note %}<span class="ie-row-note">{{ e.note | strip_newlines | truncate: 150 }}</span>{% endif -%}
+        </span>
+      </a>
+    {%- endfor -%}
+  </div>
+
+  <div class="ie-pane" id="ie-pane">
+    {%- for e in entries -%}
+    <article class="ie-detail" id="e-{{ forloop.index }}" data-entry="{{ forloop.index }}">
+      <div class="ie-detail-bar">
+        <span class="ie-kind">{{ e.kind | upcase }}</span>
+        <span class="ie-detail-date">{{ e.date | date: "%Y-%m-%d" }}</span>
+        <a class="ie-close" href="#ie" data-close aria-label="Close this entry">[ x ]</a>
+      </div>
+
+      <h2 class="ie-detail-title">{{ e.what }}</h2>
+
+      {%- if e.unverified %}
+      <p class="ie-flag">Date unverified — not yet confirmed against a primary source.</p>
+      {% endif -%}
+
+      {%- if e.note %}<p class="ie-detail-note">{{ e.note }}</p>{% endif -%}
+
+      {%- if e.link %}
+      <p class="ie-detail-src">
+        <a href="{% if e.link contains '://' %}{{ e.link }}{% else %}{{ e.link }}{% endif %}">
+          {%- if e.kind == 'post' -%}read the post{%- else -%}open on {{ e.source | default: 'source' }}{%- endif -%}
+        </a>
+      </p>
+      {% endif -%}
+
+      <p class="ie-detail-nav">
+        {%- if forloop.first == false %}<a href="#e-{{ forloop.index0 }}" data-step>&larr; earlier</a>{% endif -%}
+        {%- if forloop.last == false %} <a href="#e-{{ forloop.index | plus: 1 }}" data-step>later &rarr;</a>{% endif -%}
+      </p>
+    </article>
+    {%- endfor -%}
+
+    <p class="ie-pane-empty">Select an entry to read it here.</p>
+  </div>
+
+</div>
+
+<script src="{{ '/assets/interests.js' | relative_url }}"></script>
