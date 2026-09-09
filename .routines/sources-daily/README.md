@@ -28,8 +28,12 @@ Replaces the retired `hn-daily` routine (see git history and
    sweep (news, Substack, Reddit, Bluesky/Mastodon) producing 0-5 stance
    citations. Fewer than 2 citations → no reaction paragraph.
 6. **Write**: one LLM call per item produces a complete Jekyll post.
-7. **Record**: append run to `state.json`, register published URLs, prune.
-8. **Commit + push**: single commit per run, pushed to `origin master`.
+7. **Interests**: if the run wrote posts, one LLM call checks whether three
+   or more posts are following a single story. If so it opens a timeline for
+   it under `_interests/`, or adds to one that already exists. Skipped
+   entirely on a zero-post run.
+8. **Record**: append run to `state.json`, register published URLs, prune.
+9. **Commit + push**: single commit per run, pushed to `origin master`.
 
 ## Files
 
@@ -40,6 +44,9 @@ Replaces the retired `hn-daily` routine (see git history and
 - `research-prompt.md` — sub-prompt for step 5 (run by the orchestrator
   itself; needs WebSearch).
 - `writing-prompt.md` — sub-prompt for step 6.
+- `interests-prompt.md` — sub-prompt for step 7. Its whole job is telling a
+  *story* (one incident followed over time) from a *topic* (posts that merely
+  share a tag); the second is not an interest and must be rejected.
 - `config.yml` — tunables (thresholds, caps, per-source floors, research).
 - `state.json` — run log + 7-day dedup window of published canonical URLs.
 
@@ -55,7 +62,12 @@ Replaces the retired `hn-daily` routine (see git history and
 | Reaction paragraph on/off | `config.yml` → `research.enabled` |
 | Citation floor/cap | `config.yml` → `research.min_citations` / `max_citations` |
 | Dedup window (days) | `config.yml` → `dedup_window_days` |
-| LLM models | `config.yml` → `scoring_model`, `writing_model` |
+| Interests on/off | `config.yml` → `interests.enabled` |
+| Posts needed for a story | `config.yml` → `interests.min_posts` |
+| How far back to cluster | `config.yml` → `interests.lookback_days` |
+| Strictness of the story test | `config.yml` → `interests.min_confidence` |
+| New interests per run | `config.yml` → `interests.max_new_per_run` |
+| LLM models | `config.yml` → `scoring_model`, `writing_model`, `interests_model` |
 | Voice / tone | `../shared/voice-rules.md` |
 | Profile / topics | `../shared/profile.md` |
 | Categories taxonomy | `../shared/post-template.md` |

@@ -52,6 +52,28 @@ sources:
     # HF daily_papers returns one day's list; no fetch_limit needed
     min_score: 5
 
+# --- Special interests ---
+# When several posts turn out to be following one story, that story gets a
+# timeline page under `_interests/`. Only runs when a run wrote posts, and
+# only acts on a cluster containing at least one of them.
+interests:
+  enabled: true
+  # A story needs this many posts before it earns a page. Fewer is coincidence.
+  min_posts: 3
+  # How far back to look for related posts when clustering.
+  lookback_days: 120
+  # The model's own confidence that a cluster is one story, not one topic.
+  min_confidence: 0.7
+  # Posts sent to the clustering call. The window is ranked against this run's
+  # posts (shared source host, shared category, shared title terms) and cut to
+  # this many — the blog publishes fast enough that the raw window is ~350.
+  max_candidates: 60
+  # New interests created per run. Extending existing ones is not capped —
+  # that is just an entry landing in a story already being tracked.
+  max_new_per_run: 1
+  # Clustering is one call over a compact post list; a cheap model is enough.
+  interests_model: "claude-haiku-4-5"
+
 # --- Sentiment research ---
 research:
   enabled: true
