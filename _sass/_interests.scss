@@ -251,3 +251,37 @@
     overflow-y: visible;
   }
 }
+
+/* -------------------------------------------- topic: pulled post content */
+
+/* The post's own opening paragraph, pulled at build time. Marked off so it
+   reads as quoted from the post rather than written for the timeline — the
+   `why` line above it is the timeline's own writing, and the two should not
+   look like one voice. */
+.ie-excerpt {
+  margin: 12px 0 0;
+  padding-left: 12px;
+  border-left: dashed 1px currentColor;
+  max-width: 68ch;
+}
+.ie-excerpt p {
+  white-space: normal;
+  margin: 0 0 10px;
+  opacity: 0.78;
+}
+.ie-excerpt p:last-child { margin-bottom: 0; }
+
+/* markdownify wraps notes in <p>, which picks up base.scss's pre-wrap and
+   bottom margin; reset both so a multi-paragraph note sets like prose. */
+.ie-detail-note p {
+  white-space: normal;
+  margin: 0 0 12px;
+  max-width: 68ch;
+}
+.ie-detail-note p:last-child { margin-bottom: 0; }
+
+.ie-detail-also {
+  margin: 14px 0 0;
+  white-space: normal;
+  opacity: 0.75;
+}

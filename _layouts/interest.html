@@ -10,6 +10,21 @@ layout: default
     selected  the timeline narrows to a left column and the chosen entry's
               panel shows on the right, the way a mail client shows a message
 
+  Where an entry's content lives depends on the entry:
+
+    `post:`   the post is the source of truth. Its title, URL and opening
+              paragraph are pulled at build time, so rewriting the post
+              updates this page. The entry supplies only `why` — where the
+              post sits in this story, which is the one thing the post
+              cannot know about itself.
+
+    anything  no post exists behind it, so this page is the only place on
+    else      the site that says what happened. `what` and `note` carry it.
+
+  A post may appear in several interests; nothing here is exclusive, and each
+  interest writes its own `why`. Where that happens the detail panel links
+  across, so the connection is navigable rather than just true.
+
   The panels are all rendered into the page up front, so selecting one is a
   class toggle rather than a fetch — which keeps it working under the site's
   `script-src 'self'` CSP and under `baseurl`, and keeps every entry in the
@@ -57,6 +72,20 @@ layout: default
   <div class="ie-list">
     {%- assign shown_year = '' -%}
     {%- for e in entries -%}
+
+      {%- comment -%} Resolve the entry against its post, if it has one. {%- endcomment -%}
+      {%- assign p = false -%}
+      {%- if e.post -%}
+        {%- assign p = site.posts | where: 'slug', e.post | first -%}
+      {%- endif -%}
+      {%- if p -%}
+        {%- assign e_title = p.title -%}
+        {%- assign e_summary = e.why | default: p.excerpt -%}
+      {%- else -%}
+        {%- assign e_title = e.what -%}
+        {%- assign e_summary = e.note -%}
+      {%- endif -%}
+
       {%- assign year = e.date | date: "%Y" -%}
       {%- if year != shown_year %}
         <p class="ie-year">{{ year }}</p>
@@ -71,9 +100,10 @@ layout: default
         <span class="ie-row-rail" aria-hidden="true"></span>
         <span class="ie-row-body">
           <span class="ie-kind">{{ e.kind | upcase }}</span>
-          <span class="ie-what">{{ e.what }}</span>
+          <span class="ie-what">{{ e_title }}</span>
+          {%- if e.post and p == false %} <span class="ie-flag">[post not found: {{ e.post }}]</span>{% endif -%}
           {%- if e.unverified %} <span class="ie-flag">[date unverified]</span>{% endif -%}
-          {%- if e.note %}<span class="ie-row-note">{{ e.note | strip_newlines | truncate: 150 }}</span>{% endif -%}
+          {%- if e_summary %}<span class="ie-row-note">{{ e_summary | strip_html | strip_newlines | truncate: 150 }}</span>{% endif -%}
         </span>
       </a>
     {%- endfor -%}
@@ -81,6 +111,12 @@ layout: default
 
   <div class="ie-pane" id="ie-pane">
     {%- for e in entries -%}
+
+      {%- assign p = false -%}
+      {%- if e.post -%}
+        {%- assign p = site.posts | where: 'slug', e.post | first -%}
+      {%- endif -%}
+
     <article class="ie-detail" id="e-{{ forloop.index }}" data-entry="{{ forloop.index }}">
       <div class="ie-detail-bar">
         <span class="ie-kind">{{ e.kind | upcase }}</span>
@@ -88,25 +124,56 @@ layout: default
         <a class="ie-close" href="#ie" data-close aria-label="Close this entry">[ x ]</a>
       </div>
 
-      <h2 class="ie-detail-title">{{ e.what }}</h2>
+      <h2 class="ie-detail-title">{% if p %}{{ p.title }}{% else %}{{ e.what }}{% endif %}</h2>
+
+      {%- comment -%}
+        A renamed or deleted post would otherwise blank the entry silently, so
+        say so on the page rather than failing quietly at build time.
+      {%- endcomment -%}
+      {%- if e.post and p == false %}
+      <p class="ie-flag">No post found with slug <code>{{ e.post }}</code> — it may have been renamed.</p>
+      {% endif -%}
 
       {%- if e.unverified %}
       <p class="ie-flag">Date unverified — not yet confirmed against a primary source.</p>
       {% endif -%}
 
-      {%- if e.note %}<p class="ie-detail-note">{{ e.note }}</p>{% endif -%}
+      {%- comment -%} `why` is this timeline's own writing: the connection. {%- endcomment -%}
+      {%- if e.why %}<p class="ie-detail-note">{{ e.why }}</p>{% endif -%}
 
-      {%- if e.link %}
-      <p class="ie-detail-src">
-        <a href="{% if e.link contains '://' %}{{ e.link }}{% else %}{{ e.link }}{% endif %}">
-          {%- if e.kind == 'post' -%}read the post{%- else -%}open on {{ e.source | default: 'source' }}{%- endif -%}
-        </a>
-      </p>
-      {% endif -%}
+      {%- if p -%}
+        {%- comment -%} The post's own opening, pulled live from the post. {%- endcomment -%}
+        <div class="ie-excerpt">{{ p.excerpt }}</div>
+        <p class="ie-detail-src"><a href="{{ p.url | relative_url }}">read the post &rarr;</a></p>
+      {%- else -%}
+        {%- if e.note %}<div class="ie-detail-note">{{ e.note | markdownify }}</div>{% endif -%}
+        {%- if e.link %}
+        <p class="ie-detail-src">
+          <a href="{{ e.link }}">open on {{ e.source | default: 'source' }} &rarr;</a>
+        </p>
+        {% endif -%}
+      {%- endif -%}
+
+      {%- comment -%}
+        The same post can sit in more than one interest, meaning something
+        different in each. Where it does, link across.
+      {%- endcomment -%}
+      {%- if e.post -%}
+        {%- assign cross = '' -%}
+        {%- for other in site.interests -%}
+          {%- if other.url != page.url and other.entries -%}
+            {%- assign hit = other.entries | where: 'post', e.post | first -%}
+            {%- if hit -%}{%- assign cross = cross | append: '<a href="' | append: other.url | append: '">' | append: other.title | append: '</a> ' -%}{%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+        {%- if cross != '' %}
+        <p class="ie-detail-also">also tracked in: {{ cross }}</p>
+        {% endif -%}
+      {%- endif -%}
 
       <p class="ie-detail-nav">
         {%- if forloop.first == false %}<a href="#e-{{ forloop.index0 }}" data-step>&larr; earlier</a>{% endif -%}
-        {%- if forloop.last == false %} <a href="#e-{{ forloop.index | plus: 1 }}" data-step>later &rarr;</a>{% endif -%}
+        {%- if forloop.last == false %}<a href="#e-{{ forloop.index | plus: 1 }}" data-step>later &rarr;</a>{% endif -%}
       </p>
     </article>
     {%- endfor -%}
