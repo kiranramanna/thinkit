@@ -12,8 +12,16 @@ header_pages:
   - index.md
   - tags.md
   - search.md
+  - interests.md
   - kiranramanna.md
   - about.md
+
+# Special interests: one document per topic, entries in its front matter.
+# `output: true` is what gives each one a page at /interests/<name>/.
+collections:
+  interests:
+    output: true
+    permalink: /interests/:name/
 
 #footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 style: hacker

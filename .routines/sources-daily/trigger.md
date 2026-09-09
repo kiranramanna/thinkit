@@ -3,12 +3,13 @@
 You are running as a Claude Code remote trigger. Your job: fetch candidate
 stories from Hacker News, Lobste.rs, and Hugging Face Daily Papers; dedup
 across sources; score them against the writer's profile in one LLM call;
-research public sentiment for the selected items; and publish 0-2 posts per
-run to `kiranramanna/thinkit/_posts/`.
+research public sentiment for the selected items; publish 0-2 posts per run
+to `kiranramanna/thinkit/_posts/`; and, when several posts turn out to be
+following one story, open or extend a timeline for it in `_interests/`.
 
-Sub-prompts: `scoring-prompt.md`, `research-prompt.md`, `writing-prompt.md`.
-Per-source fetch logic: `adapters/hn.md`, `adapters/lobsters.md`,
-`adapters/hf-papers.md`.
+Sub-prompts: `scoring-prompt.md`, `research-prompt.md`, `writing-prompt.md`,
+`interests-prompt.md`. Per-source fetch logic: `adapters/hn.md`,
+`adapters/lobsters.md`, `adapters/hf-papers.md`.
 
 ## Setup
 
@@ -307,14 +308,296 @@ python-heredoc pattern as scoring, `max_tokens=2000`.
   echo "Wrote: $FILENAME"
   POSTS_WRITTEN=$((POSTS_WRITTEN + 1))
   NORM=$(echo "$ITEM" | jq -r '.norm_url')
-  PUBLISHED_ENTRIES=$(echo "$PUBLISHED_ENTRIES" | jq --arg u "$NORM" --arg s "$SRC" --arg id "$SID" \
-    '. += [{norm_url: $u, source: $s, source_id: $id}]')
+  # POST_SLUG is the filename slug, which is how _interests/ references a post.
+  POST_SLUG=$(basename "$FILENAME" .md | sed 's/^[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}-//')
+  PUBLISHED_ENTRIES=$(echo "$PUBLISHED_ENTRIES" | jq --arg u "$NORM" --arg s "$SRC" --arg id "$SID" --arg slug "$POST_SLUG" \
+    '. += [{norm_url: $u, source: $s, source_id: $id, slug: $slug}]')
 done
 echo "$PUBLISHED_ENTRIES" > /tmp/published_entries.json
 ```
 
 Per-item writing errors follow `abort_on_writing_error: false` — skip the
 item, continue the loop.
+
+## Step 8.5 — Detect running stories and update interests
+
+Some posts are not one-offs: they are the same story picked up again as new
+information arrives. When three or more posts turn out to be following one
+story, that story becomes a **special interest** — a timeline page under
+`_interests/` showing how it came out, in order.
+
+Only runs when this run actually wrote posts, and only proposes a cluster that
+contains at least one of them. An old cluster with no new development is not
+news, and re-proposing it every run would burn a call twice a day forever.
+
+Skip this whole step if `.interests.enabled` is false in `$CONFIG`, or if
+`POSTS_WRITTEN` is 0.
+
+### 8.5a — Build the clustering input
+
+```bash
+export POSTS_WRITTEN
+export INTERESTS_PROMPT=$(cat .routines/sources-daily/interests-prompt.md)
+
+if [ "$POSTS_WRITTEN" -eq 0 ]; then
+  echo "interests: skipped (no posts written this run)"
+  echo '[]' > /tmp/interest_clusters.json
+else
+python3 - <<'PYEOF'
+import json, os, glob, re, yaml
+from datetime import datetime, timedelta, timezone
+from urllib.parse import urlsplit
+
+CONFIG = json.loads(os.environ['CONFIG'])
+IC = CONFIG.get('interests') or {}
+if not IC.get('enabled', True):
+    json.dump({}, open('/tmp/interests_input.json', 'w'))
+    print('interests: disabled in config')
+    raise SystemExit(0)
+
+lookback = IC.get('lookback_days', 120)
+cutoff = (datetime.now(timezone.utc) - timedelta(days=lookback)).date()
+
+FM = re.compile(r'\A---\s*\n(.*?)\n---\s*\n(.*)\Z', re.S)
+
+def parse(path):
+    """Split a Jekyll file into (front matter dict, body). None if malformed."""
+    try:
+        m = FM.match(open(path, encoding='utf-8').read())
+        if not m:
+            return None, None
+        return yaml.safe_load(m.group(1)) or {}, m.group(2)
+    except Exception as e:
+        print(f'skip {path}: {e}')
+        return None, None
+
+# --- posts in the lookback window -------------------------------------------
+posts = []
+for path in sorted(glob.glob('_posts/*.md')):
+    name = os.path.basename(path)
+    m = re.match(r'(\d{4}-\d{2}-\d{2})-(.+)\.md$', name)
+    if not m:
+        continue
+    date_s, slug = m.group(1), m.group(2)
+    if datetime.strptime(date_s, '%Y-%m-%d').date() < cutoff:
+        continue
+    fm, body = parse(path)
+    if fm is None:
+        continue
+    # First real paragraph, enough for the model to tell stories apart.
+    opening = ''
+    for para in (body or '').split('\n\n'):
+        para = ' '.join(para.split())
+        if len(para) > 40:
+            opening = para[:250]
+            break
+    cats = fm.get('categories') or []
+    if isinstance(cats, str):
+        cats = [cats]
+    src = fm.get('source_url') or ''
+    posts.append({
+        'slug': slug,
+        'date': date_s,
+        'title': fm.get('title', ''),
+        'categories': cats,
+        'source_host': urlsplit(src).netloc.lower() if src else '',
+        'opening': opening,
+    })
+
+# --- interests that already exist -------------------------------------------
+existing = []
+for path in sorted(glob.glob('_interests/*.md')):
+    fm, _ = parse(path)
+    if fm is None:
+        continue
+    slugs = [e.get('post') for e in (fm.get('entries') or []) if e.get('post')]
+    existing.append({
+        'slug': os.path.splitext(os.path.basename(path))[0],
+        'title': fm.get('title', ''),
+        'blurb': fm.get('blurb', ''),
+        'posts': slugs,
+    })
+
+new_slugs = json.load(open('/tmp/published_entries.json')) if os.path.exists('/tmp/published_entries.json') else []
+new_slugs = [p['slug'] for p in new_slugs if p.get('slug')]
+
+# --- prefilter -------------------------------------------------------------
+# The blog publishes several posts a day, so a 120-day window is ~350 posts:
+# too many tokens to send twice daily, and too much noise for the model to
+# find a real story in. Rank the window against this run's posts and send only
+# the plausible neighbours. This is a cheap recall filter, not a judgement —
+# deciding what is actually one story is still the model's job.
+STOP = {'that', 'this', 'with', 'from', 'your', 'what', 'when', 'they', 'their',
+        'about', 'into', 'more', 'than', 'have', 'been', 'were', 'will', 'just',
+        'most', 'some', 'make', 'makes', 'made', 'does', 'over', 'only', 'still'}
+
+def terms(p):
+    return {w for w in re.findall(r'[a-z]{5,}', p['title'].lower()) if w not in STOP}
+
+by_slug = {p['slug']: p for p in posts}
+seeds = [by_slug[s] for s in new_slugs if s in by_slug]
+tracked = {s for i in existing for s in i['posts']}
+
+if seeds:
+    seed_cats = set().union(*(set(p['categories']) for p in seeds))
+    seed_hosts = {p['source_host'] for p in seeds if p['source_host']}
+    seed_terms = set().union(*(terms(p) for p in seeds))
+
+    def relevance(p):
+        if p['slug'] in new_slugs:
+            return 10_000                      # always send this run's posts
+        if p['slug'] in tracked:
+            return 5_000                       # and anything already in a story
+        score = 0
+        if p['source_host'] and p['source_host'] in seed_hosts:
+            score += 3
+        score += 2 * len(seed_cats & set(p['categories']))
+        score += len(seed_terms & terms(p))
+        return score
+
+    ranked = sorted(posts, key=lambda p: (-relevance(p), p['date']))
+    cap = IC.get('max_candidates', 60)
+    posts = [p for p in ranked[:cap] if relevance(p) > 0]
+
+payload = {'new_slugs': new_slugs, 'existing_interests': existing, 'posts': posts}
+json.dump(payload, open('/tmp/interests_input.json', 'w'), indent=2)
+print(f'interests: {len(posts)} candidates after prefilter, {len(existing)} existing, '
+      f'{len(new_slugs)} new this run, '
+      f'~{len(json.dumps(payload)) // 4} tokens')
+PYEOF
+fi
+```
+
+### 8.5b — One LLM call to find the stories
+
+Call the LLM with `interests_model` from config. System message =
+`INTERESTS_PROMPT`; user message = the contents of `/tmp/interests_input.json`.
+Same python-heredoc pattern as scoring, `max_tokens=4000`. Write the reply to
+`/tmp/interest_clusters.json`.
+
+Validate: JSON array; each entry has `slug` matching `^[a-z0-9-]+$`, `title`,
+`blurb`, numeric `confidence`, and a `posts` array of `{post, why}`. On a
+validation failure, retry once with `"You MUST output strict JSON only."`
+appended to the system message. If it fails twice, write `[]` and carry on —
+a missed interest is not worth failing a publishing run over.
+
+### 8.5c — Apply: create or extend interest files
+
+```bash
+python3 - <<'PYEOF'
+import json, os, re, glob, textwrap, yaml
+
+CONFIG = json.loads(os.environ['CONFIG'])
+IC = CONFIG.get('interests') or {}
+min_posts = IC.get('min_posts', 3)
+min_conf = IC.get('min_confidence', 0.7)
+max_new = IC.get('max_new_per_run', 1)
+
+try:
+    clusters = json.load(open('/tmp/interest_clusters.json'))
+except Exception:
+    clusters = []
+
+try:
+    new_slugs = {p['slug'] for p in json.load(open('/tmp/published_entries.json')) if p.get('slug')}
+except Exception:
+    new_slugs = set()
+
+# Every post's date, so an entry's sort key comes from the filename rather
+# than from anything the model had to get right.
+post_dates = {}
+for path in glob.glob('_posts/*.md'):
+    m = re.match(r'(\d{4}-\d{2}-\d{2})-(.+)\.md$', os.path.basename(path))
+    if m:
+        post_dates[m.group(2)] = m.group(1)
+
+SENTINEL = '# routine:append-here'
+FM = re.compile(r'\A---\s*\n(.*?)\n---\s*\n', re.S)
+
+def render(slug, why):
+    """One `- post:` entry, wrapped to sit comfortably in the file."""
+    why = ' '.join((why or '').split())
+    lines = textwrap.wrap(why, 66) or ['(no note)']
+    body = '\n'.join('      ' + l for l in lines)
+    return (f'  - date: {post_dates[slug]}\n'
+            f'    kind: post\n'
+            f'    post: {slug}\n'
+            f'    why: >\n{body}\n\n')
+
+TEMPLATE = '''---
+layout: interest
+title: "{title}"
+blurb: "{blurb}"
+entries:
+{entries}  {sentinel} — sources-daily inserts new entries above this line.
+  # Hand-written entries are safe anywhere in this list; the routine only
+  # inserts, and only for posts whose slug is not already present.
+---
+'''
+
+created, updated, skipped = [], [], []
+
+for c in sorted(clusters, key=lambda x: -float(x.get('confidence', 0))):
+    slug = c.get('slug', '')
+    if not re.match(r'^[a-z0-9-]+$', slug):
+        skipped.append(f'{slug or "?"}: bad slug'); continue
+    if float(c.get('confidence', 0)) < min_conf:
+        skipped.append(f'{slug}: confidence {c.get("confidence")} < {min_conf}'); continue
+
+    entries = [e for e in (c.get('posts') or [])
+               if e.get('post') in post_dates]
+    if len(entries) < min_posts:
+        skipped.append(f'{slug}: {len(entries)} known posts < {min_posts}'); continue
+    if not any(e['post'] in new_slugs for e in entries):
+        skipped.append(f'{slug}: no post from this run'); continue
+
+    path = f'_interests/{slug}.md'
+
+    if os.path.exists(path):
+        text = open(path, encoding='utf-8').read()
+        m = FM.match(text)
+        have = set()
+        if m:
+            fm = yaml.safe_load(m.group(1)) or {}
+            have = {e.get('post') for e in (fm.get('entries') or []) if e.get('post')}
+        # Only ever insert. Anything already present — including entries a
+        # human edited — is left exactly as it is.
+        add = [e for e in entries if e['post'] not in have]
+        if not add:
+            skipped.append(f'{slug}: nothing new to add'); continue
+        if SENTINEL not in text:
+            skipped.append(f'{slug}: no {SENTINEL} marker, refusing to edit'); continue
+        block = ''.join(render(e['post'], e.get('why')) for e in
+                        sorted(add, key=lambda e: post_dates[e['post']]))
+        line = next(l for l in text.splitlines() if SENTINEL in l)
+        open(path, 'w', encoding='utf-8').write(text.replace(line, block + line, 1))
+        updated.append(f'{slug} (+{len(add)})')
+        continue
+
+    if len(created) >= max_new:
+        skipped.append(f'{slug}: new-interest cap ({max_new}) reached'); continue
+
+    block = ''.join(render(e['post'], e.get('why')) for e in
+                    sorted(entries, key=lambda e: post_dates[e['post']]))
+    os.makedirs('_interests', exist_ok=True)
+    open(path, 'w', encoding='utf-8').write(TEMPLATE.format(
+        title=str(c.get('title', slug)).replace('"', "'"),
+        blurb=str(c.get('blurb', '')).replace('"', "'"),
+        entries=block, sentinel=SENTINEL))
+    created.append(f'{slug} ({len(entries)})')
+
+json.dump({'created': created, 'updated': updated, 'skipped': skipped},
+          open('/tmp/interests_result.json', 'w'), indent=2)
+print(f'interests: created {created}, updated {updated}, skipped {len(skipped)}')
+for s in skipped:
+    print(f'  - {s}')
+PYEOF
+```
+
+Interests only ever gain entries from the routine. Nothing is rewritten and
+nothing is deleted, so a note you edit by hand survives every future run — and
+an interest file without the `# routine:append-here` marker is left alone
+entirely.
 
 ## Step 9 — Update state.json
 
@@ -349,7 +632,10 @@ per_source = {}
 for c in eligible:
     per_source[c['source']] = per_source.get(c['source'], 0) + 1
 
-state.setdefault('runs', []).append({
+interests = tmp_json('/tmp/interests_result.json',
+                     {"created": [], "updated": [], "skipped": []})
+
+run = {
     "ts": now_iso,
     "window": "$WINDOW",
     "eligible_count": len(eligible),
@@ -357,7 +643,12 @@ state.setdefault('runs', []).append({
     "selected": [f"{s['source']}-{s['source_id']}" for s in selected],
     "posts_written": len(published),
     "adapter_errors": adapter_errors,
-})
+}
+# Only carry the interests key when something actually happened, so a run log
+# read at a glance still shows the days a story was picked up.
+if interests['created'] or interests['updated']:
+    run['interests'] = {k: v for k, v in interests.items() if v and k != 'skipped'}
+state.setdefault('runs', []).append(run)
 
 for p in published:
     state.setdefault('published_urls', {})[p['norm_url']] = {
@@ -384,12 +675,21 @@ entry as well.
 ## Step 10 — Commit and push
 
 ```bash
-git add _posts/ .routines/sources-daily/state.json
+git add _posts/ _interests/ .routines/sources-daily/state.json
+
+IE_NOTE=""
+if [ -f /tmp/interests_result.json ]; then
+  IE_C=$(jq -r '.created | length' /tmp/interests_result.json)
+  IE_U=$(jq -r '.updated | length' /tmp/interests_result.json)
+  if [ "$IE_C" -gt 0 ] || [ "$IE_U" -gt 0 ]; then
+    IE_NOTE=", interests +${IE_C}/~${IE_U}"
+  fi
+fi
 
 if [ "$POSTS_WRITTEN" -eq 0 ]; then
   MSG="sources-daily: 0 posts — ${DATE_UTC} ${WINDOW} (no matches above threshold)"
 else
-  MSG="sources-daily: ${POSTS_WRITTEN} post(s) — ${DATE_UTC} ${WINDOW}"
+  MSG="sources-daily: ${POSTS_WRITTEN} post(s)${IE_NOTE} — ${DATE_UTC} ${WINDOW}"
 fi
 
 git commit -m "$MSG" || echo "Nothing to commit"
