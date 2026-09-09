@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-08T14:04:54Z",
+  "last_pruned_ts": "2026-09-09T03:09:23Z",
   "published_urls": {
     "https://armature.tech/blog/which-tools-coding-agents-install": {
       "published_at": "2026-09-04T03:03:33Z",
@@ -21,20 +21,10 @@
       "source": "hf-papers",
       "source_id": "2608.27831"
     },
-    "https://arxiv.org/abs/2608.30147": {
-      "published_at": "2026-09-02T03:03:48Z",
-      "source": "hf-papers",
-      "source_id": "2608.30147"
-    },
     "https://arxiv.org/abs/2608.30391": {
       "published_at": "2026-09-05T03:09:00Z",
       "source": "hf-papers",
       "source_id": "2608.30391"
-    },
-    "https://arxiv.org/abs/2608.30468": {
-      "published_at": "2026-09-02T03:03:48Z",
-      "source": "hf-papers",
-      "source_id": "2608.30468"
     },
     "https://arxiv.org/abs/2609.00365": {
       "published_at": "2026-09-08T03:03:44Z",
@@ -96,6 +86,11 @@
       "source": "hf-papers",
       "source_id": "2609.03430"
     },
+    "https://arxiv.org/abs/2609.04061": {
+      "published_at": "2026-09-09T03:09:23Z",
+      "source": "hf-papers",
+      "source_id": "2609.04061"
+    },
     "https://arxiv.org/abs/2609.04094": {
       "published_at": "2026-09-05T14:03:56Z",
       "source": "hf-papers",
@@ -135,6 +130,11 @@
       "published_at": "2026-09-08T14:04:54Z",
       "source": "hn",
       "source_id": "49605246"
+    },
+    "https://quesma.com/blog/qwen38-27b-quantizations-benchmarked": {
+      "published_at": "2026-09-09T03:09:23Z",
+      "source": "hn",
+      "source_id": "49611128"
     },
     "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems": {
       "published_at": "2026-09-05T14:03:56Z",
@@ -1129,6 +1129,22 @@
       ],
       "ts": "2026-09-08T14:04:54Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 55,
+      "eligible_per_source": {
+        "hf-papers": 29,
+        "hn": 24,
+        "lobsters": 2
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2609.04061",
+        "hn-49611128"
+      ],
+      "ts": "2026-09-09T03:09:23Z",
+      "window": "evening"
     }
   ]
 }
