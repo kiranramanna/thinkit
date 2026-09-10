@@ -6,12 +6,30 @@ layout: default
 {% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
 
 {%- if site.posts.size > 0 -%}
-  <ul>
-    {%- for post in site.posts -%}
-    <li>
-      {%- assign date_format = "%Y-%m-%d" -%}
-      [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-    </li>
-    {%- endfor -%}
-  </ul>
+  {%- comment -%}
+    The post list doubles as the search results container.
+
+    Jekyll renders the full list server-side, so every post is in the HTML for
+    crawlers and for readers with JavaScript off. assets/search.js then
+    re-renders the same list from search.json and filters it as you type.
+    Both paths emit identical markup — `[ date ] <a>title</a>` — so the
+    handover is invisible.
+
+    No autofocus here, unlike the standalone /search/ page: stealing focus on
+    the landing page scrolls the viewport on mobile before anyone has read
+    anything.
+  {%- endcomment -%}
+  <div id="search-app" data-index="{{ '/search.json' | relative_url }}">
+    <input type="search" id="search-input" placeholder="type to filter posts... (or tag:llm-ops)" autocomplete="off" />
+    <p id="search-count"></p>
+    <ul id="search-results">
+      {%- for post in site.posts -%}
+      <li>
+        {%- assign date_format = "%Y-%m-%d" -%}
+        [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+  <script src="{{ '/assets/search.js' | relative_url }}"></script>
 {%- endif -%}

@@ -8,10 +8,12 @@ url: "https://kiranramanna.github.io"
 # (surfaced via /tags and /search, not woven into the path).
 permalink: /:year/:month/:day/:title:output_ext
 
+# search.md is deliberately absent: the search box lives on the home page, so
+# a separate nav entry for it was one more thing to click for no extra reach.
+# The page still builds at /search/ for anyone holding that link.
 header_pages:
   - index.md
   - tags.md
-  - search.md
   - interests.md
   - kiranramanna.md
   - about.md
