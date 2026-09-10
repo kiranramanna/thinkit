@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-09T14:05:40Z",
+  "last_pruned_ts": "2026-09-10T03:03:51Z",
   "published_urls": {
     "https://armature.tech/blog/which-tools-coding-agents-install": {
       "published_at": "2026-09-04T03:03:33Z",
@@ -11,15 +11,15 @@
       "source": "hn",
       "source_id": "49590595"
     },
-    "https://arxiv.org/abs/2608.26623": {
-      "published_at": "2026-09-03T03:08:54Z",
-      "source": "hf-papers",
-      "source_id": "2608.26623"
-    },
     "https://arxiv.org/abs/2608.27831": {
       "published_at": "2026-09-04T03:03:33Z",
       "source": "hf-papers",
       "source_id": "2608.27831"
+    },
+    "https://arxiv.org/abs/2608.29109": {
+      "published_at": "2026-09-10T03:03:51Z",
+      "source": "hf-papers",
+      "source_id": "2608.29109"
     },
     "https://arxiv.org/abs/2608.30391": {
       "published_at": "2026-09-05T03:09:00Z",
@@ -35,11 +35,6 @@
       "published_at": "2026-09-07T14:09:16Z",
       "source": "hf-papers",
       "source_id": "2609.00581"
-    },
-    "https://arxiv.org/abs/2609.00638": {
-      "published_at": "2026-09-03T03:08:54Z",
-      "source": "hf-papers",
-      "source_id": "2609.00638"
     },
     "https://arxiv.org/abs/2609.01437": {
       "published_at": "2026-09-04T14:05:53Z",
@@ -125,6 +120,11 @@
       "published_at": "2026-09-08T14:04:54Z",
       "source": "hn",
       "source_id": "49605246"
+    },
+    "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and": {
+      "published_at": "2026-09-10T03:03:51Z",
+      "source": "hn",
+      "source_id": "49627370"
     },
     "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems": {
       "published_at": "2026-09-05T14:03:56Z",
@@ -1135,6 +1135,30 @@
       ],
       "ts": "2026-09-09T14:05:40Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 59,
+      "eligible_per_source": {
+        "hf-papers": 35,
+        "hn": 23,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 59 eligible (hf-papers 35, hn 23, lobsters 1) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 4@7, 3@6, 8@5, 5@4, 11@3, 14@2, 14@1. Above threshold(7): hf-papers-2608.29109 (Recognition-Refusal Misalignment, LLM abstention/guardrail geometry), hf-papers-2609.04971 (BeaconKV KV-cache compression), hf-papers-2609.08404 (environments-as-scaffold self-evolving agents), hn-49627370 (Raschka on GPT-6 Astra / looped transformers / hidden reasoning). All four tied at 7; algorithm took the first (Recognition-Refusal, hf) then the source-diversity tie-break picked the hn item (GPT-6 Astra) for slot 2 -- one paper + one hn, two distinct lanes (abstention/guardrail interpretability vs. recurrent-depth architecture + hype epistemics). Deliberately left the KV-cache/serving-efficiency 6-7s (BeaconKV, speculative decoding) which the recent KV-cache posts already saturate. written_today before this run = 0, cap = min(posts_per_run 2, posts_per_day 4 - 0) = 2. Research: the arXiv paper (2608.29109) is days-old and unindexed -- sweeps surfaced only arXiv mirrors and different same-topic abstention papers (AbstentionBench, Abstain-R1), 0 usable story-specific citations, reaction paragraph omitted as designed; the GPT-6 Astra piece had 3 usable third-party citations (The Memo/lifearchitect positive, Kingy AI skeptical, AI/TLDR echoing Raschka) with a genuine hype-vs-skepticism split, so that post carries a reaction paragraph. Interests: ran, no cluster proposed -- neither new post is the 3rd+ installment of an existing running story, and the only dense enough cluster (KV-cache serving) contains no post from this run. Both posts written (273 and 306 body words).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2608.29109",
+        "hn-49627370"
+      ],
+      "ts": "2026-09-10T03:03:51Z",
+      "window": "evening"
     }
   ]
 }
