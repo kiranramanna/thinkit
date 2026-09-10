@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-10T03:03:51Z",
+  "last_pruned_ts": "2026-09-10T14:05:11Z",
   "published_urls": {
     "https://armature.tech/blog/which-tools-coding-agents-install": {
       "published_at": "2026-09-04T03:03:33Z",
@@ -46,20 +46,10 @@
       "source": "hf-papers",
       "source_id": "2609.01507"
     },
-    "https://arxiv.org/abs/2609.01865": {
-      "published_at": "2026-09-03T14:09:38Z",
-      "source": "hf-papers",
-      "source_id": "2609.01865"
-    },
     "https://arxiv.org/abs/2609.02750": {
       "published_at": "2026-09-07T14:09:16Z",
       "source": "hf-papers",
       "source_id": "2609.02750"
-    },
-    "https://arxiv.org/abs/2609.02783": {
-      "published_at": "2026-09-03T14:09:38Z",
-      "source": "hf-papers",
-      "source_id": "2609.02783"
     },
     "https://arxiv.org/abs/2609.03293": {
       "published_at": "2026-09-06T14:09:40Z",
@@ -101,10 +91,20 @@
       "source": "hf-papers",
       "source_id": "2609.05258"
     },
+    "https://arxiv.org/abs/2609.08149": {
+      "published_at": "2026-09-10T14:05:11Z",
+      "source": "hf-papers",
+      "source_id": "2609.08149"
+    },
     "https://arxiv.org/abs/2609.08183": {
       "published_at": "2026-09-09T14:05:40Z",
       "source": "hf-papers",
       "source_id": "2609.08183"
+    },
+    "https://arxiv.org/abs/2609.08572": {
+      "published_at": "2026-09-10T14:05:11Z",
+      "source": "hf-papers",
+      "source_id": "2609.08572"
     },
     "https://arxiv.org/abs/2609.09153": {
       "published_at": "2026-09-09T14:05:40Z",
@@ -1159,6 +1159,29 @@
       ],
       "ts": "2026-09-10T03:03:51Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 55,
+      "eligible_per_source": {
+        "hf-papers": 29,
+        "hn": 26
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 55 eligible (hf-papers 29, hn 26, lobsters 0 \u2014 lobsters returned no allowlisted-tag items this run, not an error) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 2@8, 1@7, 6@6, 7@5, 7@4, 11@3, 11@2, 10@1. Above threshold(7): two 8s \u2014 AgentGrad-2609.08572 (intervention-guided prompt optimization for multi-agent systems: sequential-intervention credit assignment + semantic textual-gradient abstraction, 2.5x faster) and SWE-Bench Pro Verified-2609.08149 (benchmark reliability: closes reward-hacking/gold-leak channels and refines flawed tasks, showing prior SWE-Bench Pro scores overestimated agents) \u2014 plus one 7 (DCP-2609.09219, auditing AI research agents with executable recovery tests). Algorithm took the top-2 by score; source-diversity tie-break was inert (both 8s are hf-papers; no hn/lobsters item cleared threshold \u2014 top non-paper items were DeepSeek V4.1 Flash, Samsung zHBM, and Desert Ant Labs on-device models, all 6 on thin announcement links). No editorial deselection needed: the two 8s are already distinct primary lanes (agentic prompt-optimization / credit assignment vs coding-agent eval integrity / contamination) and neither is in the saturated self-improving-harness / skill-evolution cluster recent runs have repeatedly deselected. written_today before this run = 2 (09-10 evening), so cap = min(posts_per_run 2, posts_per_day 4 - 2) = 2. Research: both are days-old (Sep 2026) unindexed arXiv papers with no story-specific public reaction \u2014 sweeps surfaced only arXiv/HF mirrors and different same-topic papers (MAS-PromptBench, MASPO, MAPRO for AgentGrad; UTBoost, BenchJack, the original SWE-Bench Pro for the verified benchmark) \u2014 0 usable citations each, below min_citations(2), so both posts omit the reaction paragraph as designed. Interests: ran, no cluster proposed \u2014 neither new post extends the two existing stories (model-context-protocol, openai-huggingface), and neither is the 3rd+ installment of a specific unfolding story (they would only cluster by shared topic with the large agent-eval pile, which the prompt rejects). Both posts written (303 and 285 body words).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.08572",
+        "hf-papers-2609.08149"
+      ],
+      "ts": "2026-09-10T14:05:11Z",
+      "window": "morning"
     }
   ]
 }
