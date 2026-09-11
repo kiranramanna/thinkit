@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-11T03:03:04Z",
+  "last_pruned_ts": "2026-09-11T14:05:10Z",
   "published_urls": {
     "https://arxiv.org/abs/2505.12540": {
       "published_at": "2026-09-07T03:09:28Z",
@@ -26,11 +26,6 @@
       "source": "hf-papers",
       "source_id": "2609.00581"
     },
-    "https://arxiv.org/abs/2609.01437": {
-      "published_at": "2026-09-04T14:05:53Z",
-      "source": "hf-papers",
-      "source_id": "2609.01437"
-    },
     "https://arxiv.org/abs/2609.01507": {
       "published_at": "2026-09-05T03:09:00Z",
       "source": "hf-papers",
@@ -45,11 +40,6 @@
       "published_at": "2026-09-06T14:09:40Z",
       "source": "hf-papers",
       "source_id": "2609.03293"
-    },
-    "https://arxiv.org/abs/2609.03430": {
-      "published_at": "2026-09-04T14:05:53Z",
-      "source": "hf-papers",
-      "source_id": "2609.03430"
     },
     "https://arxiv.org/abs/2609.04094": {
       "published_at": "2026-09-05T14:03:56Z",
@@ -85,6 +75,11 @@
       "published_at": "2026-09-11T03:03:04Z",
       "source": "hf-papers",
       "source_id": "2609.05463"
+    },
+    "https://arxiv.org/abs/2609.06702": {
+      "published_at": "2026-09-11T14:05:10Z",
+      "source": "hf-papers",
+      "source_id": "2609.06702"
     },
     "https://arxiv.org/abs/2609.08149": {
       "published_at": "2026-09-10T14:05:11Z",
@@ -125,6 +120,11 @@
       "published_at": "2026-09-10T03:03:51Z",
       "source": "hn",
       "source_id": "49627370"
+    },
+    "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper": {
+      "published_at": "2026-09-11T14:05:10Z",
+      "source": "hn",
+      "source_id": "49656471"
     },
     "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems": {
       "published_at": "2026-09-05T14:03:56Z",
@@ -1206,6 +1206,30 @@
       ],
       "ts": "2026-09-11T03:03:04Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 51,
+      "eligible_per_source": {
+        "hf-papers": 29,
+        "hn": 21,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 51 eligible (hf-papers 29, hn 21, lobsters 1) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 3@8, 5@7, 3@6, 4@5, 10@4, 11@3, 11@2, 4@1. Above threshold(7): three 8s (EvoSafeHarness-2609.05903 agent safety-harness synthesis, PARSER-2609.06702 long-context RAG agents, SchemeArena-2609.08126 agent-scheming eval) and five 7s (T1-2609.11042 terminal-agent RL, WMRL-2608.12564 world-model RL for research agents, DCP-2609.09219 AI-research-agent auditing, Phi-Bench-2609.10226 LLM-infra engineering eval, hn-49656471 RTK token-cost benchmark). Mechanical top-2 with the source-diversity tie-break would be EvoSafeHarness + SchemeArena, but both are the agent-safety/harness cluster the last ~15 runs and recent posts (refusal/back-channel/auditability) have saturated. Applied the established editorial theme-dedup: deselected both safety 8s, kept the top non-safety 8 (PARSER, RAG long-context, writers primary lane), and via the source-diversity tie-break promoted the only non-hf item >=7 (RTK, LLM-ops cost benchmarking) -- one hf + one hn, two distinct lanes, and no overlap with todays live posts (RAG-latency cache, orchestration-as-API). written_today before this run = 2 (09-11 evening), cap = min(posts_per_run 2, posts_per_day 4 - 2) = 2. Research: PARSER is a fresh (Sep 6) unindexed arXiv paper with no story-specific public reaction; for RTK the only third-party coverage (JetBrains benchmark, TechTimes) predates this Quesma post and the rest are same-topic promo -- the spec excludes anything older than the story and mere same-topic, leaving <min_citations(2) -- so both posts omit the reaction paragraph as designed. Interests: ran, no cluster qualified (both new posts sit in broad topics -- long-context/context-engineering and token-cost accounting -- not one developing story; neither belongs to the existing MCP or OpenAI\u00d7HuggingFace stories).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.06702",
+        "hn-49656471"
+      ],
+      "ts": "2026-09-11T14:05:10Z",
+      "window": "morning"
     }
   ]
 }
