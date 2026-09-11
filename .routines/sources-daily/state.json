@@ -1,20 +1,10 @@
 {
-  "last_pruned_ts": "2026-09-10T14:05:11Z",
+  "last_pruned_ts": "2026-09-11T03:03:04Z",
   "published_urls": {
-    "https://armature.tech/blog/which-tools-coding-agents-install": {
-      "published_at": "2026-09-04T03:03:33Z",
-      "source": "hn",
-      "source_id": "49557206"
-    },
     "https://arxiv.org/abs/2505.12540": {
       "published_at": "2026-09-07T03:09:28Z",
       "source": "hn",
       "source_id": "49590595"
-    },
-    "https://arxiv.org/abs/2608.27831": {
-      "published_at": "2026-09-04T03:03:33Z",
-      "source": "hf-papers",
-      "source_id": "2608.27831"
     },
     "https://arxiv.org/abs/2608.29109": {
       "published_at": "2026-09-10T03:03:51Z",
@@ -91,6 +81,11 @@
       "source": "hf-papers",
       "source_id": "2609.05258"
     },
+    "https://arxiv.org/abs/2609.05463": {
+      "published_at": "2026-09-11T03:03:04Z",
+      "source": "hf-papers",
+      "source_id": "2609.05463"
+    },
     "https://arxiv.org/abs/2609.08149": {
       "published_at": "2026-09-10T14:05:11Z",
       "source": "hf-papers",
@@ -120,6 +115,11 @@
       "published_at": "2026-09-08T14:04:54Z",
       "source": "hn",
       "source_id": "49605246"
+    },
+    "https://developers.openai.com/api/docs/guides/agents-api/overview": {
+      "published_at": "2026-09-11T03:03:04Z",
+      "source": "hn",
+      "source_id": "49649213"
     },
     "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and": {
       "published_at": "2026-09-10T03:03:51Z",
@@ -1182,6 +1182,30 @@
       ],
       "ts": "2026-09-10T14:05:11Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 52,
+      "eligible_per_source": {
+        "hf-papers": 25,
+        "hn": 26,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 52 eligible (hf-papers 25, hn 26, lobsters 1) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 2@8, 5@7, 5@6, 1@5, 8@4, 10@3, 9@2, 12@1. Above threshold(7): two 8s -- hf-papers-2609.05463 (OreoLook three-layer caching: session context window, semantic query cache on embeddings, URL embedding dedup on commodity CPU -- direct RAG/LLM-ops hit) and hn-49649213 (OpenAI Agents API public beta, Codex harness behind one API call -- agentic-AI framework launch) -- plus five 7s (hf 2609.11042 T1 terminal agent RL, 2609.08126 SchemeArena agent-scheming eval, 2609.09219 DCP research-agent auditing, 2609.04280 EVOHARNESSBENCH harness evolution, 2609.05592 self-listening full-duplex speech). Algorithm took the top-2 by score; source-diversity tie-break split the two 8s cleanly into one hf paper + one hn item, two distinct primary lanes (RAG/search caching vs agentic orchestration). Neither is in the saturated self-improving-harness/skill-evolution cluster recent runs deselected. written_today before this run = 0, cap = min(posts_per_run 2, posts_per_day 4 - 0) = 2. Research: the arXiv paper (2609.05463) is a fresh Sep-2026 paper with no story-specific public reaction -- sweeps surfaced only generic LLM-caching guides and the project's own lixSearch repo, 0 usable citations, reaction paragraph omitted as designed; the OpenAI Agents API launch had 2 usable story-specific citations (AlphaSignal positive-with-lock-in-caveat, AI/TLDR mixed on US-only + no zero-data-retention), a genuine enthusiasm-vs-constraints split, so that post carries a reaction paragraph. Interests: ran, no cluster proposed -- neither new post extends the two existing stories (model-context-protocol, openai-huggingface) nor is the 3rd+ installment of a specific unfolding story (they only share topic with the large agentic/RAG piles, which the prompt rejects). Both posts written (280 and 283 body words).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.05463",
+        "hn-49649213"
+      ],
+      "ts": "2026-09-11T03:03:04Z",
+      "window": "evening"
     }
   ]
 }
