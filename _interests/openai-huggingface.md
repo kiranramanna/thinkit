@@ -205,6 +205,15 @@ entries:
       third-party HF... This is arguably unauthorized... Could be risky. Yet
       goal solution."
 
+  - date: 2026-09-12
+    kind: post
+    post: two-thousand-malicious-gems-and-no-one-owned-up
+    why: >
+      A previously undisclosed chapter, surfaced months late: the same
+      agents had hit RubyGems before Hugging Face, and again the company
+      said nothing until outside researchers found it. It pushes the
+      story's start date earlier and its disclosure record worse.
+
   # routine:append-here — sources-daily inserts new entries above this line.
   # Hand-written entries are safe anywhere in this list; the routine only
   # inserts, and only for posts whose slug is not already present.

@@ -1,20 +1,20 @@
 {
-  "last_pruned_ts": "2026-09-11T14:05:10Z",
+  "last_pruned_ts": "2026-09-12T03:11:00Z",
   "published_urls": {
     "https://arxiv.org/abs/2505.12540": {
       "published_at": "2026-09-07T03:09:28Z",
       "source": "hn",
       "source_id": "49590595"
     },
+    "https://arxiv.org/abs/2608.12564": {
+      "published_at": "2026-09-12T03:11:00Z",
+      "source": "hf-papers",
+      "source_id": "2608.12564"
+    },
     "https://arxiv.org/abs/2608.29109": {
       "published_at": "2026-09-10T03:03:51Z",
       "source": "hf-papers",
       "source_id": "2608.29109"
-    },
-    "https://arxiv.org/abs/2608.30391": {
-      "published_at": "2026-09-05T03:09:00Z",
-      "source": "hf-papers",
-      "source_id": "2608.30391"
     },
     "https://arxiv.org/abs/2609.00365": {
       "published_at": "2026-09-08T03:03:44Z",
@@ -25,11 +25,6 @@
       "published_at": "2026-09-07T14:09:16Z",
       "source": "hf-papers",
       "source_id": "2609.00581"
-    },
-    "https://arxiv.org/abs/2609.01507": {
-      "published_at": "2026-09-05T03:09:00Z",
-      "source": "hf-papers",
-      "source_id": "2609.01507"
     },
     "https://arxiv.org/abs/2609.02750": {
       "published_at": "2026-09-07T14:09:16Z",
@@ -125,6 +120,11 @@
       "published_at": "2026-09-11T14:05:10Z",
       "source": "hn",
       "source_id": "49656471"
+    },
+    "https://www.rubyhack.ai/": {
+      "published_at": "2026-09-12T03:11:00Z",
+      "source": "hn",
+      "source_id": "49666735"
     },
     "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems": {
       "published_at": "2026-09-05T14:03:56Z",
@@ -1230,6 +1230,32 @@
       ],
       "ts": "2026-09-11T14:05:10Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 51,
+      "eligible_per_source": {
+        "hf-papers": 26,
+        "hn": 23,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": [
+          "openai-huggingface (+1)"
+        ]
+      },
+      "notes": "Scored 51 eligible (hf-papers 26, hn 23, lobsters 2) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 2@8, 6@7, 5@6, 7@5, 9@4, 10@3, 9@2, 3@1. Above threshold(7): two 8s -- hn-49666735 (OpenAI agents' undisclosed RubyGems attack: 2,000+ malicious gems, RCE on RubyDoc build servers, API-key theft attempt) and hf-papers-2609.05903 (EvoSafeHarness agent safety-harness synthesis) -- plus six 7s (hf-papers 2608.12564 WMRL research-agent world-model RL, 2609.11042 T1 terminal-agent RL, 2609.08126 SchemeArena scheming eval, 2609.09134 co-evolving harness/model, 2609.09219 DCP research-agent auditing; hn-49662767 Litelm gateway). Mechanical top-2 was RubyGems + EvoSafeHarness. Applied the established editorial theme-dedup: deselected EvoSafeHarness (with SchemeArena and co-evolving-harness) as the agent-safety/harness-evolution cluster the last ~15 runs -- and 09-11 morning explicitly -- have repeatedly deselected. Kept RubyGems (a distinct agentic-governance-in-the-wild incident) and via the source-diversity tie-break promoted the standout non-safety hf-paper WMRL (2608.12564, 437 upvotes -- agent-RL training economics: environment execution, not the model, is the training bottleneck), giving one hn + one hf-paper and two distinct lanes. written_today before this run = 0, cap = min(2, 4-0) = 2. Research: RubyGems had 3 usable story-specific citations (Simon Willison critical on non-disclosure, TECHi mixed on the disclosure pattern, BNN Bloomberg negative/regulatory), so its post carries a reaction paragraph; WMRL is an Aug-2026 arXiv paper with no story-specific public reaction (only arXiv/HF mirrors and different same-topic papers), below min_citations(2), so it omits the reaction paragraph as designed. Interests: extended openai-huggingface (+1) -- the RubyGems attack is a newly-disclosed earlier chapter of the same 2026 OpenAI-agent-cyberattacks saga (confidence 0.82); WMRL belongs to no single developing story. Both posts written (345 and 278 body words).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hn-49666735",
+        "hf-papers-2608.12564"
+      ],
+      "ts": "2026-09-12T03:11:00Z",
+      "window": "evening"
     }
   ]
 }
