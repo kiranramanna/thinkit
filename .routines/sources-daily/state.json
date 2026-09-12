@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-12T03:11:00Z",
+  "last_pruned_ts": "2026-09-12T14:03:38Z",
   "published_urls": {
     "https://arxiv.org/abs/2505.12540": {
       "published_at": "2026-09-07T03:09:28Z",
@@ -35,11 +35,6 @@
       "published_at": "2026-09-06T14:09:40Z",
       "source": "hf-papers",
       "source_id": "2609.03293"
-    },
-    "https://arxiv.org/abs/2609.04094": {
-      "published_at": "2026-09-05T14:03:56Z",
-      "source": "hf-papers",
-      "source_id": "2609.04094"
     },
     "https://arxiv.org/abs/2609.04148": {
       "published_at": "2026-09-06T14:09:40Z",
@@ -96,6 +91,16 @@
       "source": "hf-papers",
       "source_id": "2609.09153"
     },
+    "https://arxiv.org/abs/2609.11042": {
+      "published_at": "2026-09-12T14:03:38Z",
+      "source": "hf-papers",
+      "source_id": "2609.11042"
+    },
+    "https://arxiv.org/abs/2609.11808": {
+      "published_at": "2026-09-12T14:03:38Z",
+      "source": "hf-papers",
+      "source_id": "2609.11808"
+    },
     "https://collusion.wiki/": {
       "published_at": "2026-09-06T03:03:20Z",
       "source": "hn",
@@ -125,11 +130,6 @@
       "published_at": "2026-09-12T03:11:00Z",
       "source": "hn",
       "source_id": "49666735"
-    },
-    "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems": {
-      "published_at": "2026-09-05T14:03:56Z",
-      "source": "hn",
-      "source_id": "49574167"
     }
   },
   "runs": [
@@ -1256,6 +1256,30 @@
       ],
       "ts": "2026-09-12T03:11:00Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 66,
+      "eligible_per_source": {
+        "hf-papers": 41,
+        "hn": 23,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 66 eligible (hf-papers 46, hn 24, lobsters 2 -> merged/deduped 72->66) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 4@8, 4@7, 5@6, 10@5, 13@4, 8@3, 16@2, 6@1. Above threshold(7): four 8s -- 2609.10745 (entity linking via KG structural metrics + reasoning-retrieval), 2609.11808 (GLIE storage-efficient late-interaction visual retrieval), 2609.05903 (EvoSafeHarness agent safety-harness synthesis), 2609.11042 (T1 terminal-agent RL); four 7s -- 2609.08126 (SchemeArena agent-scheming stress test), 2609.09134 (co-evolving harness+finetune), 2609.09219 (Discovery Certification for auditing research agents), hn-49662767 (LiteLM LLM-ops gateway). Mechanical top-2 was 2609.10745 + 2609.11808 (both retrieval/RAG). Applied editorial theme-dedup: deselected 2609.10745 to avoid two retrieval papers in one run, and promoted the distinct 8 T1-2609.11042 (long-horizon terminal-agent RL) over EvoSafeHarness-2609.05903 which is the saturated agent-harness-self-evolution cluster the last ~15 runs have repeatedly deselected. Result: one RAG/retrieval-infra post + one agentic-AI post, two distinct lanes. Research: both are fresh 3-day-old arXiv papers with no story-specific public reaction (WebSearch surfaced only the papers themselves + different same-topic work / newsletters covering other papers), below min_citations(2), so both posts omit the reaction paragraph as designed. Interests: ran, [] -- neither new post extends an existing story (MCP, openai x huggingface) and neither continues a specific unfolding story (related priors are same-topic different-paper, and below min_posts 3). written_today before this run = 2 (09-12 evening), cap = min(posts_per_run 2, posts_per_day 4 - 2) = 2. Both posts written.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.11808",
+        "hf-papers-2609.11042"
+      ],
+      "ts": "2026-09-12T14:03:38Z",
+      "window": "morning"
     }
   ]
 }
