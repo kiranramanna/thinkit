@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-13T03:04:21Z",
+  "last_pruned_ts": "2026-09-13T14:03:58Z",
   "published_urls": {
     "https://arxiv.org/abs/2505.12540": {
       "published_at": "2026-09-07T03:09:28Z",
@@ -30,16 +30,6 @@
       "published_at": "2026-09-07T14:09:16Z",
       "source": "hf-papers",
       "source_id": "2609.02750"
-    },
-    "https://arxiv.org/abs/2609.03293": {
-      "published_at": "2026-09-06T14:09:40Z",
-      "source": "hf-papers",
-      "source_id": "2609.03293"
-    },
-    "https://arxiv.org/abs/2609.04148": {
-      "published_at": "2026-09-06T14:09:40Z",
-      "source": "hf-papers",
-      "source_id": "2609.04148"
     },
     "https://arxiv.org/abs/2609.04304": {
       "published_at": "2026-09-07T03:09:28Z",
@@ -86,6 +76,11 @@
       "source": "hf-papers",
       "source_id": "2609.09153"
     },
+    "https://arxiv.org/abs/2609.10016": {
+      "published_at": "2026-09-13T14:03:58Z",
+      "source": "hf-papers",
+      "source_id": "2609.10016"
+    },
     "https://arxiv.org/abs/2609.10745": {
       "published_at": "2026-09-13T03:04:21Z",
       "source": "hf-papers",
@@ -130,6 +125,11 @@
       "published_at": "2026-09-12T03:11:00Z",
       "source": "hn",
       "source_id": "49666735"
+    },
+    "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating": {
+      "published_at": "2026-09-13T14:03:58Z",
+      "source": "hn",
+      "source_id": "49678969"
     }
   },
   "runs": [
@@ -1304,6 +1304,30 @@
       ],
       "ts": "2026-09-13T03:04:21Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 61,
+      "eligible_per_source": {
+        "hf-papers": 38,
+        "hn": 21,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 61 eligible (hf-papers 38, hn 21, lobsters 2) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 2@8, 4@7, 2@6, 10@5, 11@4, 11@3, 13@2, 8@1. Above threshold(7): two 8s -- hf-papers-2609.05903 (EvoSafeHarness, deployment-specific agent safety-harness synthesis) and hn-49678969 (Bengio, \"Why are AI agents lying, cheating and coordinating?\") -- plus four 7s: hf-papers-2609.10016 (MetroLLM-Bench, LMs as transit-kiosk tool-calling policy layer), 2609.08126 (SchemeArena scheming stress test), 2609.09134 (co-evolving harness + fine-tuning), 2609.09219 (Discovery Certification for auditing research agents). Mechanical top-2 with the source-diversity tie-break was EvoSafeHarness + hn-49678969. Applied the established editorial theme-dedup: deselected EvoSafeHarness (with SchemeArena, co-evolving-harness, DCP) as the agent-safety/harness-self-evolution cluster the last ~15 runs -- and 09-11 morning, 09-12 evening, 09-13 evening explicitly -- have repeatedly deselected. Kept hn-49678969 (top score, source-diverse, a broad public agent-behavior/reliability piece distinct from the narrow harness-synthesis papers) and promoted the top topically-distinct non-cluster 7, MetroLLM-Bench-2609.10016 (tool-calling/conversational-agent eval in a real multi-domain kiosk setting). Result: one hn + one hf, two distinct primary lanes (emergent agent misbehavior/reliability vs right-sizing agents against a deterministic baseline). written_today before this run = 2 (09-13 evening), so cap = min(posts_per_run 2, posts_per_day 4 - 2) = 2. Research: the Bengio piece had 3 usable story-specific citations (The Neuron mixed/pushback, byteiota mixed/validation, TechPlanet cautionary) with a genuine \"mechanism accepted, alarm-volume disputed\" split, so that post carries a reaction paragraph; MetroLLM-Bench is a fresh Sep-2026 arXiv paper with no story-specific public reaction (sweeps surfaced only arXiv/HF/PapersWithCode mirrors and the unrelated TransitGPT paper), below min_citations(2), so it omits the reaction paragraph as designed. Interests: ran, [] -- the Bengio post is a general mechanism essay that cites the OpenAI-HF incident as one example among several, not a new development in that specific incident, so extending the tightly-scoped openai-huggingface timeline with it would broaden it from an incident record into misalignment commentary (the prompt rejects clustering by shared topic); MetroLLM-Bench belongs to no developing story. Both posts written (337 and 312 body words).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hn-49678969",
+        "hf-papers-2609.10016"
+      ],
+      "ts": "2026-09-13T14:03:58Z",
+      "window": "morning"
     }
   ]
 }
