@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-12T14:03:38Z",
+  "last_pruned_ts": "2026-09-13T03:04:21Z",
   "published_urls": {
     "https://arxiv.org/abs/2505.12540": {
       "published_at": "2026-09-07T03:09:28Z",
@@ -40,11 +40,6 @@
       "published_at": "2026-09-06T14:09:40Z",
       "source": "hf-papers",
       "source_id": "2609.04148"
-    },
-    "https://arxiv.org/abs/2609.04199": {
-      "published_at": "2026-09-06T03:03:20Z",
-      "source": "hf-papers",
-      "source_id": "2609.04199"
     },
     "https://arxiv.org/abs/2609.04304": {
       "published_at": "2026-09-07T03:09:28Z",
@@ -91,6 +86,11 @@
       "source": "hf-papers",
       "source_id": "2609.09153"
     },
+    "https://arxiv.org/abs/2609.10745": {
+      "published_at": "2026-09-13T03:04:21Z",
+      "source": "hf-papers",
+      "source_id": "2609.10745"
+    },
     "https://arxiv.org/abs/2609.11042": {
       "published_at": "2026-09-12T14:03:38Z",
       "source": "hf-papers",
@@ -100,11 +100,6 @@
       "published_at": "2026-09-12T14:03:38Z",
       "source": "hf-papers",
       "source_id": "2609.11808"
-    },
-    "https://collusion.wiki/": {
-      "published_at": "2026-09-06T03:03:20Z",
-      "source": "hn",
-      "source_id": "49563355"
     },
     "https://danluu.com/agentic-testing": {
       "published_at": "2026-09-08T14:04:54Z",
@@ -125,6 +120,11 @@
       "published_at": "2026-09-11T14:05:10Z",
       "source": "hn",
       "source_id": "49656471"
+    },
+    "https://withspecific.com/benchmarks/real-swe": {
+      "published_at": "2026-09-13T03:04:21Z",
+      "source": "hn",
+      "source_id": "49676820"
     },
     "https://www.rubyhack.ai/": {
       "published_at": "2026-09-12T03:11:00Z",
@@ -1280,6 +1280,30 @@
       ],
       "ts": "2026-09-12T14:03:38Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 62,
+      "eligible_per_source": {
+        "hf-papers": 39,
+        "hn": 21,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 62 eligible (hf-papers 39, hn 21, lobsters 2) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 3@8, 4@7, 3@6, 7@5, 7@4, 15@3, 17@2, 6@1. Above threshold(7): three 8s -- 2609.10745 (Think Before You Link: KG-structural-rarity + training-free reason+retrieve entity linking), EvoSafeHarness-2609.05903 (agent safety-harness self-evolution), and hn-49676820 (Real-SWE: coding-agent benchmark on private enterprise codebases) -- plus four 7s (MetroLLM-Bench-2609.10016 tool-calling-agent eval, SchemeArena-2609.08126 agent-scheming eval, Co-Evolving-Harnesses-2609.09134, DCP-2609.09219 research-agent auditing). Mechanical top-2 by score with the source-diversity tie-break selected 2609.10745 (hf) + hn-49676820: the tie-break naturally picked the hn 8 over EvoSafeHarness, which is squarely the agent-safety/harness-self-evolution cluster the last ~15 runs (and 09-11/09-12 explicitly) have repeatedly deselected -- so no manual deselection was needed. Result: one hf-paper + one hn, two distinct primary lanes (KG-enhanced entity-linking/retrieval grounding vs enterprise coding-agent eval/contamination). written_today before this run = 0, cap = min(posts_per_run 2, posts_per_day 4 - 0) = 2. Research: 2609.10745 is a days-old EMNLP-2026 arXiv paper with no story-specific public reaction (sweeps surfaced only the arXiv page, the authors neulab GitHub repo, and Papers with Code); Real-SWE surfaced only its own benchmark page, the excluded HN thread, an RSS-aggregator mirror, and DIFFERENT benchmarks (SWE-Bench Pro, SWE-PolyBench) -- both below min_citations(2), so both posts omit the reaction paragraph as designed. Interests: ran, [] -- neither new post extends an existing story (model-context-protocol, openai-huggingface) nor is the 3rd+ installment of one unfolding story; the related priors are same-topic-different-benchmark (coding-agent eval) / same-topic-different-paper (RAG grounding), which the interests prompt rejects as topics. Both posts written (291 and 294 body words).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.10745",
+        "hn-49676820"
+      ],
+      "ts": "2026-09-13T03:04:21Z",
+      "window": "evening"
     }
   ]
 }
