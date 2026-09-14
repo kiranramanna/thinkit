@@ -1,11 +1,6 @@
 {
-  "last_pruned_ts": "2026-09-13T14:03:58Z",
+  "last_pruned_ts": "2026-09-14T03:05:49Z",
   "published_urls": {
-    "https://arxiv.org/abs/2505.12540": {
-      "published_at": "2026-09-07T03:09:28Z",
-      "source": "hn",
-      "source_id": "49590595"
-    },
     "https://arxiv.org/abs/2608.12564": {
       "published_at": "2026-09-12T03:11:00Z",
       "source": "hf-papers",
@@ -31,11 +26,6 @@
       "source": "hf-papers",
       "source_id": "2609.02750"
     },
-    "https://arxiv.org/abs/2609.04304": {
-      "published_at": "2026-09-07T03:09:28Z",
-      "source": "hf-papers",
-      "source_id": "2609.04304"
-    },
     "https://arxiv.org/abs/2609.04611": {
       "published_at": "2026-09-08T14:04:54Z",
       "source": "hf-papers",
@@ -50,6 +40,11 @@
       "published_at": "2026-09-11T03:03:04Z",
       "source": "hf-papers",
       "source_id": "2609.05463"
+    },
+    "https://arxiv.org/abs/2609.05903": {
+      "published_at": "2026-09-14T03:05:49Z",
+      "source": "hf-papers",
+      "source_id": "2609.05903"
     },
     "https://arxiv.org/abs/2609.06702": {
       "published_at": "2026-09-11T14:05:10Z",
@@ -80,6 +75,11 @@
       "published_at": "2026-09-13T14:03:58Z",
       "source": "hf-papers",
       "source_id": "2609.10016"
+    },
+    "https://arxiv.org/abs/2609.10060": {
+      "published_at": "2026-09-14T03:05:49Z",
+      "source": "hf-papers",
+      "source_id": "2609.10060"
     },
     "https://arxiv.org/abs/2609.10745": {
       "published_at": "2026-09-13T03:04:21Z",
@@ -1328,6 +1328,30 @@
       ],
       "ts": "2026-09-13T14:03:58Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 61,
+      "eligible_per_source": {
+        "hf-papers": 37,
+        "hn": 21,
+        "lobsters": 3
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 61 eligible (hf-papers 37, hn 21, lobsters 3) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 2@8, 3@7, 5@6, 9@5, 5@4, 19@3, 17@2, 1@1. Above threshold(7): EvoSafeHarness-2609.05903(8, safety-harness synthesis for frozen agents) and SchemeArena-2609.08126(8, benchmark stress-testing agent scheming); plus three 7s: COBRA-Skills-2609.11682 (agent skill-evolution), Reference-Based Bias Detection-2609.10060 (LLM-ops bias governance via hidden states), and hn-49684393 (frontier-model alignment-eval status). Mechanical top-2 was both 8s (both hf-papers, source-diversity tie-break inert), but both are agent-SAFETY papers and SchemeArena (scheming/deception eval) near-duplicates the 09-13 evening post 'your-agent-cheats-because-the-reward-told-it-to' (agent misbehavior). Applied the established editorial theme-dedup: deselected SchemeArena, kept EvoSafeHarness (top upvotes 59, distinct production guardrails/enforcement lane, no recent overlap), and promoted the topically-distinct 7 Reference-Based Bias Detection over the safety-themed alignment-evals(7) and the saturated skill-evolution COBRA-Skills(7) -- giving two distinct LLM-ops lanes (security-harness enforcement vs bias/fairness governance). Research: both are fresh Sept-2026 arXiv papers with no story-specific public reaction (searches surfaced only the arXiv/HF pages, SEO aggregators, and different same-topic papers), below min_citations(2), so both posts omit the reaction paragraph as designed. Interests: ran, no cluster -- the two new posts are a fresh safety-harness paper and a standalone bias-audit method, neither continues an unfolding single story (agent-safety/LLM-ops is a topic, not a story) nor belongs to the existing MCP/openai-huggingface interests. written_today before this run = 0, cap = min(posts_per_run 2, posts_per_day 4 - 0) = 2. Both posts written.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.05903",
+        "hf-papers-2609.10060"
+      ],
+      "ts": "2026-09-14T03:05:49Z",
+      "window": "evening"
     }
   ]
 }
