@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-14T03:05:49Z",
+  "last_pruned_ts": "2026-09-14T14:09:51Z",
   "published_urls": {
     "https://arxiv.org/abs/2608.12564": {
       "published_at": "2026-09-12T03:11:00Z",
@@ -15,16 +15,6 @@
       "published_at": "2026-09-08T03:03:44Z",
       "source": "hf-papers",
       "source_id": "2609.00365"
-    },
-    "https://arxiv.org/abs/2609.00581": {
-      "published_at": "2026-09-07T14:09:16Z",
-      "source": "hf-papers",
-      "source_id": "2609.00581"
-    },
-    "https://arxiv.org/abs/2609.02750": {
-      "published_at": "2026-09-07T14:09:16Z",
-      "source": "hf-papers",
-      "source_id": "2609.02750"
     },
     "https://arxiv.org/abs/2609.04611": {
       "published_at": "2026-09-08T14:04:54Z",
@@ -91,6 +81,11 @@
       "source": "hf-papers",
       "source_id": "2609.11042"
     },
+    "https://arxiv.org/abs/2609.11682": {
+      "published_at": "2026-09-14T14:09:51Z",
+      "source": "hf-papers",
+      "source_id": "2609.11682"
+    },
     "https://arxiv.org/abs/2609.11808": {
       "published_at": "2026-09-12T14:03:38Z",
       "source": "hf-papers",
@@ -100,6 +95,11 @@
       "published_at": "2026-09-08T14:04:54Z",
       "source": "hn",
       "source_id": "49605246"
+    },
+    "https://danluu.com/exercise-7": {
+      "published_at": "2026-09-14T14:09:51Z",
+      "source": "hn",
+      "source_id": "49655621"
     },
     "https://developers.openai.com/api/docs/guides/agents-api/overview": {
       "published_at": "2026-09-11T03:03:04Z",
@@ -1352,6 +1352,28 @@
       ],
       "ts": "2026-09-14T03:05:49Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 62,
+      "eligible_per_source": {
+        "hf-papers": 33,
+        "hn": 24,
+        "lobsters": 5
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2609.11682",
+        "hn-49655621"
+      ],
+      "ts": "2026-09-14T14:09:51Z",
+      "window": "morning"
     }
   ]
 }
