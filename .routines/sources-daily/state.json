@@ -1,6 +1,11 @@
 {
-  "last_pruned_ts": "2026-09-15T03:03:52Z",
+  "last_pruned_ts": "2026-09-15T14:11:24Z",
   "published_urls": {
+    "https://andonlabs.com/blog/why-we-built-pion": {
+      "published_at": "2026-09-15T14:11:24Z",
+      "source": "hn",
+      "source_id": "49700477"
+    },
     "https://arxiv.org/abs/2608.12564": {
       "published_at": "2026-09-12T03:11:00Z",
       "source": "hf-papers",
@@ -10,11 +15,6 @@
       "published_at": "2026-09-10T03:03:51Z",
       "source": "hf-papers",
       "source_id": "2608.29109"
-    },
-    "https://arxiv.org/abs/2609.04611": {
-      "published_at": "2026-09-08T14:04:54Z",
-      "source": "hf-papers",
-      "source_id": "2609.04611"
     },
     "https://arxiv.org/abs/2609.05463": {
       "published_at": "2026-09-11T03:03:04Z",
@@ -86,10 +86,10 @@
       "source": "hf-papers",
       "source_id": "2609.11808"
     },
-    "https://danluu.com/agentic-testing": {
-      "published_at": "2026-09-08T14:04:54Z",
-      "source": "hn",
-      "source_id": "49605246"
+    "https://arxiv.org/abs/2609.15309": {
+      "published_at": "2026-09-15T14:11:24Z",
+      "source": "hf-papers",
+      "source_id": "2609.15309"
     },
     "https://danluu.com/exercise-7": {
       "published_at": "2026-09-14T14:09:51Z",
@@ -1400,6 +1400,30 @@
       ],
       "ts": "2026-09-15T03:03:52Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 53,
+      "eligible_per_source": {
+        "hf-papers": 26,
+        "hn": 21,
+        "lobsters": 6
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 53 eligible (hf-papers 27, hn 22, lobsters 6 -> merged 55, 2 dropped as already published) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 1@8, 4@7, 5@6, 10@5, 7@4, 9@3, 13@2, 4@1. Above threshold(7): one 8 -- hf-papers-2609.15309 (When Agents Slow Down: Elo-per-token analysis of agent test-time compute scaling) -- plus four 7s: hf-papers-2609.15364 (RSIAgent multi-agent memory), hf-papers-2609.15134 (HazardAuditor computer-use-agent runtime safety), hf-papers-2609.05820 (online LLM-expert routing as a bandit), and hn-49700477 (Pion, Andon Labs' autonomous-business agent). Mechanical top-2: the single 8 (15309) first, then the source-diversity tie-break broke the four-way 7 tie by preferring the non-hf source, naturally selecting hn-49700477 over the three tied hf-papers 7s. Result: one hf + one hn, two distinct lanes (agent test-time-compute eval/observability vs the reliability-vs-capability economics of autonomous business agents) -- neither in the saturated agent-harness/self-evolution/safety cluster, so no editorial deselection was needed. written_today before this run = 2 (09-15 evening), so cap = min(posts_per_run 2, posts_per_day 4 - 2) = 2. Research: 15309 is a fresh Sep-2026 arXiv paper with no story-specific public reaction (sweeps surfaced only arXiv/HF/PapersWithCode mirrors), 0 usable citations, reaction paragraph omitted as designed; Pion had 2 usable story-specific citations with a genuine split -- Slashdot (negative: the physical AI-run store draws no customers and loses money) vs byteiota (mixed: real capability, framed as safety research, but reliability lags capability and token costs don't pencil out) -- so that post carries a reaction paragraph. Interests: ran, [] -- the Pion post is the first post on autonomous business agents/Andon Labs (a single post, not a >=3-post story), and 15309 is a standalone agent-scaling paper; the large volume of agent-eval/harness posts is a topic, not one unfolding story (the prompt rejects topic clustering), and neither new post belongs to the MCP or openai-huggingface incident sagas. Both posts written (298 body words for 15309, 336 for Pion).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.15309",
+        "hn-49700477"
+      ],
+      "ts": "2026-09-15T14:11:24Z",
+      "window": "morning"
     }
   ]
 }
