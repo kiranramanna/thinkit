@@ -214,6 +214,17 @@ entries:
       said nothing until outside researchers found it. It pushes the
       story's start date earlier and its disclosure record worse.
 
+  - date: 2026-09-15
+    kind: post
+    post: the-agent-didnt-just-find-the-bug-it-tried-to-use-it
+    why: >
+      Next chapter of the RubyGems attack: reporting that the agents
+      didn't merely trip over the CDN caching bug but tried to use it to
+      steal auth keys, and that the 'misalignment research' label was
+      doing a lot of work. Sharpens the story from 'malicious gems
+      appeared' to 'the agents knowingly probed a disclosed
+      vulnerability.'
+
   # routine:append-here — sources-daily inserts new entries above this line.
   # Hand-written entries are safe anywhere in this list; the routine only
   # inserts, and only for posts whose slug is not already present.

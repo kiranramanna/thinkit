@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-14T14:09:51Z",
+  "last_pruned_ts": "2026-09-15T03:03:52Z",
   "published_urls": {
     "https://arxiv.org/abs/2608.12564": {
       "published_at": "2026-09-12T03:11:00Z",
@@ -11,25 +11,20 @@
       "source": "hf-papers",
       "source_id": "2608.29109"
     },
-    "https://arxiv.org/abs/2609.00365": {
-      "published_at": "2026-09-08T03:03:44Z",
-      "source": "hf-papers",
-      "source_id": "2609.00365"
-    },
     "https://arxiv.org/abs/2609.04611": {
       "published_at": "2026-09-08T14:04:54Z",
       "source": "hf-papers",
       "source_id": "2609.04611"
     },
-    "https://arxiv.org/abs/2609.05258": {
-      "published_at": "2026-09-08T03:03:44Z",
-      "source": "hf-papers",
-      "source_id": "2609.05258"
-    },
     "https://arxiv.org/abs/2609.05463": {
       "published_at": "2026-09-11T03:03:04Z",
       "source": "hf-papers",
       "source_id": "2609.05463"
+    },
+    "https://arxiv.org/abs/2609.05824": {
+      "published_at": "2026-09-15T03:03:52Z",
+      "source": "hf-papers",
+      "source_id": "2609.05824"
     },
     "https://arxiv.org/abs/2609.05903": {
       "published_at": "2026-09-14T03:05:49Z",
@@ -115,6 +110,11 @@
       "published_at": "2026-09-11T14:05:10Z",
       "source": "hn",
       "source_id": "49656471"
+    },
+    "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive": {
+      "published_at": "2026-09-15T03:03:52Z",
+      "source": "hn",
+      "source_id": "49695876"
     },
     "https://withspecific.com/benchmarks/real-swe": {
       "published_at": "2026-09-13T03:04:21Z",
@@ -1374,6 +1374,32 @@
       ],
       "ts": "2026-09-14T14:09:51Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 64,
+      "eligible_per_source": {
+        "hf-papers": 30,
+        "hn": 27,
+        "lobsters": 7
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": [
+          "openai-huggingface (+1)"
+        ]
+      },
+      "notes": "Scored 64 eligible (hf-papers 30, hn 27, lobsters 7) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 3@8, 6@7, 3@6, 13@5, 11@4, 14@3, 8@2, 6@1. Above threshold(7): three 8s -- DSR-2609.05824 (diversity-aware DPP reranking for agent skill/tool routing), Benchmark Radar-2609.11115 (living search engine over AI eval benchmarks), and hn-49695876 (OpenAI bots knew about / tried to exploit the RubyGems caching vulnerability); plus six 7s (DataFlex-RL-2609.06107 RLVR data-policy eval, online-LLM-expert-routing-2609.05820, SAS-2609.13141 attention sparsification, hn-49699648 why research agents dont overfit, hn-49697014 Opus->Ollama preprompt migration, hn-49703003 cheap-model code review). Mechanical top-2 by score with the source-diversity tie-break selected DSR (hf) + RubyGems (hn): the tie-break naturally dropped the third 8 Benchmark Radar (also hf) to avoid two hf-papers, giving one hf + one hn and two distinct lanes (RAG/agentic reranking vs an agentic-security-governance incident) -- neither in the saturated agent-harness-self-evolution/safety cluster, so no manual deselection was needed. written_today before this run = 0, cap = min(posts_per_run 2, posts_per_day 4 - 0) = 2. Research: DSR is a fresh Sep-2026 arXiv paper with no story-specific public reaction (sweeps surfaced only arXiv/PapersWithCode/Pith mirrors and unrelated DPP papers), 0 usable citations, reaction paragraph omitted as designed; the RubyGems follow-up had 3 usable story-specific citations (The Register negative, The Hacker News negative, kenashe.ai mixed/pragmatic) with a genuine split (critical security press vs an org-escalation-process reframe), so that post carries a reaction paragraph. Interests: extended openai-huggingface (+1, confidence 0.82) -- the RubyGems \"bots knew about the caching vuln\" post is the next chapter of the same OpenAI-agent incident saga the 09-12 RubyGems post opened; DSR belongs to no single unfolding story (skill routing is a topic angle, not one developing story). Both posts written (DSR 334 body words, RubyGems 393).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.05824",
+        "hn-49695876"
+      ],
+      "ts": "2026-09-15T03:03:52Z",
+      "window": "evening"
     }
   ]
 }
