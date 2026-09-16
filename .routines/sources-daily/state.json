@@ -1,10 +1,15 @@
 {
-  "last_pruned_ts": "2026-09-16T03:11:40Z",
+  "last_pruned_ts": "2026-09-16T14:09:07Z",
   "published_urls": {
     "https://andonlabs.com/blog/why-we-built-pion": {
       "published_at": "2026-09-15T14:11:24Z",
       "source": "hn",
       "source_id": "49700477"
+    },
+    "https://arxiv.org/abs/2511.07885": {
+      "published_at": "2026-09-16T14:09:07Z",
+      "source": "hn",
+      "source_id": "49694035"
     },
     "https://arxiv.org/abs/2608.12564": {
       "published_at": "2026-09-12T03:11:00Z",
@@ -41,20 +46,10 @@
       "source": "hf-papers",
       "source_id": "2609.08149"
     },
-    "https://arxiv.org/abs/2609.08183": {
-      "published_at": "2026-09-09T14:05:40Z",
-      "source": "hf-papers",
-      "source_id": "2609.08183"
-    },
     "https://arxiv.org/abs/2609.08572": {
       "published_at": "2026-09-10T14:05:11Z",
       "source": "hf-papers",
       "source_id": "2609.08572"
-    },
-    "https://arxiv.org/abs/2609.09153": {
-      "published_at": "2026-09-09T14:05:40Z",
-      "source": "hf-papers",
-      "source_id": "2609.09153"
     },
     "https://arxiv.org/abs/2609.10016": {
       "published_at": "2026-09-13T14:03:58Z",
@@ -90,6 +85,11 @@
       "published_at": "2026-09-16T03:11:40Z",
       "source": "hf-papers",
       "source_id": "2609.15029"
+    },
+    "https://arxiv.org/abs/2609.15134": {
+      "published_at": "2026-09-16T14:09:07Z",
+      "source": "hf-papers",
+      "source_id": "2609.15134"
     },
     "https://arxiv.org/abs/2609.15309": {
       "published_at": "2026-09-15T14:11:24Z",
@@ -1458,6 +1458,28 @@
       ],
       "ts": "2026-09-16T03:11:40Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 57,
+      "eligible_per_source": {
+        "hf-papers": 31,
+        "hn": 24,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2609.15134",
+        "hn-49694035"
+      ],
+      "ts": "2026-09-16T14:09:07Z",
+      "window": "morning"
     }
   ]
 }
