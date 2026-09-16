@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-15T14:11:24Z",
+  "last_pruned_ts": "2026-09-16T03:11:40Z",
   "published_urls": {
     "https://andonlabs.com/blog/why-we-built-pion": {
       "published_at": "2026-09-15T14:11:24Z",
@@ -86,10 +86,20 @@
       "source": "hf-papers",
       "source_id": "2609.11808"
     },
+    "https://arxiv.org/abs/2609.15029": {
+      "published_at": "2026-09-16T03:11:40Z",
+      "source": "hf-papers",
+      "source_id": "2609.15029"
+    },
     "https://arxiv.org/abs/2609.15309": {
       "published_at": "2026-09-15T14:11:24Z",
       "source": "hf-papers",
       "source_id": "2609.15309"
+    },
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking": {
+      "published_at": "2026-09-16T03:11:40Z",
+      "source": "hn",
+      "source_id": "49715947"
     },
     "https://danluu.com/exercise-7": {
       "published_at": "2026-09-14T14:09:51Z",
@@ -1424,6 +1434,30 @@
       ],
       "ts": "2026-09-15T14:11:24Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 55,
+      "eligible_per_source": {
+        "hf-papers": 29,
+        "hn": 22,
+        "lobsters": 4
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 55 eligible (hf-papers 29, hn 22, lobsters 4; raw 56 cross-source merged to 56, 1 dropped as already published) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 7@7, 9@6, 6@5, 7@4, 11@3, 11@2, 4@1 (deliberately no 8+ this run -- a wide, selective spread per the rubric). Above threshold(7): seven 7s -- hf-papers-2609.15364 (RSIAgent multi-agent recursive self-improvement/memory), hf-papers-2609.15134 (HazardAuditor computer-use agent runtime safety guard), hf-papers-2609.15029 (Pick Your Poison, poison-SET selection swings LLM backdoor success 3%-80%), hf-papers-2609.11977 (Occamy cost-efficient co-work agent model), hn-49715947 (Gemini 3.8 Live + Extended Thinking, reasoning while speaking), hn-49716476 (Baseten prod-GitHub PAT takeover), hn-49713894 (Pizza Bot agentic inbox w/ human approval). Mechanical top-2 with source-diversity tie-break = RSIAgent(hf) + Gemini(hn). Applied the established editorial theme-dedup: the last two weeks are saturated with agent self-improvement/harness/eval posts (Terminal Agents That Learn, Agent Skills Eval, One Safety Harness, Your Agent Cheats, etc.), and RSIAgent (recursive self-improvement + agent memory) lands squarely in that cluster -- so deselected RSIAgent and promoted the topically-distinct Pick Your Poison (LLM training-data poisoning/backdoor security, an uncovered lane) to pair with Gemini. Result: two fully distinct lanes (LLM data-security research vs a frontier live/voice model), one hf + one hn; HazardAuditor was also skipped as the saturated safety-harness cluster (near-dupe of 09-14 'One Safety Harness'). written_today before this run = 0, cap = min(posts_per_run 2, posts_per_day 4 - 0) = 2. Research: Pick Your Poison is a fresh Sep-2026 arXiv paper with no story-specific public reaction (sweeps surfaced only arXiv/HF/PapersWithCode mirrors and unrelated backdoor papers), 0 usable citations, reaction paragraph omitted as designed; Gemini 3.8 Live had 3 usable citations with a real spread -- MarkTechPost (positive, flags hosted-only/no self-host), OfficeChai (positive but notes the head-to-head wins are Google's own framing), Thurrott (neutral press-release summary) -- so that post carries a reaction paragraph closing on the trend. Interests: ran, [] -- neither new post is a >=3-post single unfolding story (LLM security and voice models are topics, not stories; the poisoning paper is standalone and the Gemini post is the blog's first voice-model-release post), and neither belongs to the MCP or openai-huggingface incident sagas. Both posts written (283 body words for Pick Your Poison, 308 for Gemini).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.15029",
+        "hn-49715947"
+      ],
+      "ts": "2026-09-16T03:11:40Z",
+      "window": "evening"
     }
   ]
 }
