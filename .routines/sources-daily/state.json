@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-16T14:09:07Z",
+  "last_pruned_ts": "2026-09-17T03:08:28Z",
   "published_urls": {
     "https://andonlabs.com/blog/why-we-built-pion": {
       "published_at": "2026-09-15T14:11:24Z",
@@ -15,11 +15,6 @@
       "published_at": "2026-09-12T03:11:00Z",
       "source": "hf-papers",
       "source_id": "2608.12564"
-    },
-    "https://arxiv.org/abs/2608.29109": {
-      "published_at": "2026-09-10T03:03:51Z",
-      "source": "hf-papers",
-      "source_id": "2608.29109"
     },
     "https://arxiv.org/abs/2609.05463": {
       "published_at": "2026-09-11T03:03:04Z",
@@ -40,6 +35,11 @@
       "published_at": "2026-09-11T14:05:10Z",
       "source": "hf-papers",
       "source_id": "2609.06702"
+    },
+    "https://arxiv.org/abs/2609.06986": {
+      "published_at": "2026-09-17T03:08:28Z",
+      "source": "hf-papers",
+      "source_id": "2609.06986"
     },
     "https://arxiv.org/abs/2609.08149": {
       "published_at": "2026-09-10T14:05:11Z",
@@ -111,10 +111,10 @@
       "source": "hn",
       "source_id": "49649213"
     },
-    "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and": {
-      "published_at": "2026-09-10T03:03:51Z",
+    "https://harnesstax.github.io/": {
+      "published_at": "2026-09-17T03:08:28Z",
       "source": "hn",
-      "source_id": "49627370"
+      "source_id": "49733726"
     },
     "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper": {
       "published_at": "2026-09-11T14:05:10Z",
@@ -1480,6 +1480,29 @@
       ],
       "ts": "2026-09-16T14:09:07Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 50,
+      "eligible_per_source": {
+        "hf-papers": 26,
+        "hn": 24
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 50 eligible (hf-papers 26, hn 24, lobsters 0; raw 53 cross-source merged to 52, 2 dropped as already published) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 2@8, 10@7, 5@6, 6@5, 10@4, 9@3, 5@2, 3@1. Above threshold(7): two 8s -- StepAudio-3-Realtime-2609.14005 (realtime duplex audio-LM, think-while-speaking) and hn-49733726 HarnessTax (empirical: across 21 model-harness pairs on SWE-bench Lite + Terminal-Bench 2.0, harness choice barely moves coding-agent success rate but changes cost up to 5x; Claude Code initial context >10x Pi's) -- plus ten 7s (ScienceIDE, ProgramDistill, ModularRSI, Mind2Dialogue, continual-learning-memorization-2609.06986, Orthrus-speculative-decoding-reproduction, RSIAgent; hn 4B-query-plans, OpenSpec, Dream-RSI). Mechanical top-2 with source-diversity tie-break = StepAudio(hf) + HarnessTax(hn). Applied editorial theme-dedup: deselected StepAudio 3 Realtime as a near-duplicate of the 09-16 evening post 'When a Voice Agent Can Think Without Going Silent' (Gemini 3.8 Live) -- both center on think-while-speaking / reasoning without going silent, so back-to-back would repeat the concept. Kept HarnessTax (joint-top HN score, distinct empirical harness-cost measurement angle, source diversity) and promoted the topically-distinct continual-learning-memorization paper (a 7; highest paper engagement at raw 290; long-horizon memorization / catastrophic-forgetting, a memory lane not covered in weeks), giving one hn + one hf and two fully distinct lanes (coding-agent harness economics vs internalized long-horizon memory). written_today before this run = 0, cap = min(posts_per_run 2, posts_per_day 4 - 0) = 2. Research: both fresh with 0 usable story-specific citations -- HarnessTax is ~1 day old (only story-specific hits are its own page, the excluded HN thread, and auto-generated GitHub AI-digest aggregators; the Portkey/futureagi 'harness tax' posts predate the study by months and do not cite it, so excluded as same-topic-and-older), and the memorization paper (submitted 2026-09-07) surfaced only arXiv/alphaXiv/HF mirrors and unrelated same-topic memory papers -- so both posts omit the reaction paragraph as designed. Interests: ran, [] -- neither new post extends the MCP or openai-huggingface sagas, and neither forms a new >=3-post single unfolding story (the agent-harness and agent-memory themes are topics with many same-tag posts, read in any order, not one developing story, which the prompt rejects). Both posts written (275 body words for HarnessTax, 289 for the memorization paper).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hn-49733726",
+        "hf-papers-2609.06986"
+      ],
+      "ts": "2026-09-17T03:08:28Z",
+      "window": "evening"
     }
   ]
 }
