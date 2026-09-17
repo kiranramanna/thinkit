@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-17T03:08:28Z",
+  "last_pruned_ts": "2026-09-17T14:04:50Z",
   "published_urls": {
     "https://andonlabs.com/blog/why-we-built-pion": {
       "published_at": "2026-09-15T14:11:24Z",
@@ -41,16 +41,6 @@
       "source": "hf-papers",
       "source_id": "2609.06986"
     },
-    "https://arxiv.org/abs/2609.08149": {
-      "published_at": "2026-09-10T14:05:11Z",
-      "source": "hf-papers",
-      "source_id": "2609.08149"
-    },
-    "https://arxiv.org/abs/2609.08572": {
-      "published_at": "2026-09-10T14:05:11Z",
-      "source": "hf-papers",
-      "source_id": "2609.08572"
-    },
     "https://arxiv.org/abs/2609.10016": {
       "published_at": "2026-09-13T14:03:58Z",
       "source": "hf-papers",
@@ -81,6 +71,11 @@
       "source": "hf-papers",
       "source_id": "2609.11808"
     },
+    "https://arxiv.org/abs/2609.14005": {
+      "published_at": "2026-09-17T14:04:50Z",
+      "source": "hf-papers",
+      "source_id": "2609.14005"
+    },
     "https://arxiv.org/abs/2609.15029": {
       "published_at": "2026-09-16T03:11:40Z",
       "source": "hf-papers",
@@ -95,6 +90,11 @@
       "published_at": "2026-09-15T14:11:24Z",
       "source": "hf-papers",
       "source_id": "2609.15309"
+    },
+    "https://arxiv.org/abs/2609.17708": {
+      "published_at": "2026-09-17T14:04:50Z",
+      "source": "hf-papers",
+      "source_id": "2609.17708"
     },
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking": {
       "published_at": "2026-09-16T03:11:40Z",
@@ -1503,6 +1503,30 @@
       ],
       "ts": "2026-09-17T03:08:28Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 60,
+      "eligible_per_source": {
+        "hf-papers": 32,
+        "hn": 27,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 60 eligible (hf-papers 32, hn 27, lobsters 1) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 2@8, 11@7, 6@6, 9@5, 6@4, 16@3, 7@2, 3@1. Above threshold(7): two 8s -- XConf-2609.17708 (experiential confidence estimation for agents; LLM-ops calibration for escalate/retry/abstain) and StepAudio3-Realtime-2609.14005 (full-duplex conversational/voice agent, Think-While-Speaking) -- plus eleven 7s (hf-papers: 2609.18063 MoE-from-SSD serving, 2609.15938 HypoEvolve multi-agent, 2609.18094 Agora git-shared-memory, 2609.18805 ProgramDistill coding-agent bench, 2609.14857 ModularRSI, 2609.15972 Mind2Dialogue; hn: 49731285 4B-vs-Postgres query planner, 49738766 Manticore vector-search chunking, 49737922 GLM inference infra, 49732931 ternary-LLM 1.58-bit, 49734264 OpenSpec). Algorithm took both 8s; source-diversity tie-break inert (no hn/lobsters item scored >=7... they did, but both 8s outrank them). The two 8s are already topically distinct (agent confidence/LLM-ops vs conversational voice AI) and both break from the self-improving-harness / RSI cluster that has saturated the last ~20 runs (2609.14857 ModularRSI, 2609.13406 Generalized Agent Iteration, 2609.11873 Last-AI-Built-by-Humans, 2609.17523 ScienceBuddy were passed over for that reason), so no editorial deselection was needed. written_today before this run = 2 (09-17 evening), cap = min(posts_per_run 2, posts_per_day 4 - 2) = 2. Research: both are 3-day-old arXiv papers with no story-specific public reaction (searches surfaced only arXiv/HF/PapersWithCode pages, the authors' own GitHub repo, a bot news-aggregator, and articles about DIFFERENT StepAudio models) -> below min_citations(2), so both posts omit the reaction paragraph as designed. Interests: clustering ran over 60 prefiltered candidates + 2 existing interests; neither new post joins a genuine running story (no prior confidence-estimation or realtime-voice story exists, and neither extends the MCP or OpenAI-HF interests) so nothing was created or updated. Writing performed inline by the orchestrator agent. Both posts written.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.17708",
+        "hf-papers-2609.14005"
+      ],
+      "ts": "2026-09-17T14:04:50Z",
+      "window": "morning"
     }
   ]
 }
