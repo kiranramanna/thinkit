@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-18T03:03:42Z",
+  "last_pruned_ts": "2026-09-18T14:04:46Z",
   "published_urls": {
     "https://andonlabs.com/blog/why-we-built-pion": {
       "published_at": "2026-09-15T14:11:24Z",
@@ -25,11 +25,6 @@
       "published_at": "2026-09-14T03:05:49Z",
       "source": "hf-papers",
       "source_id": "2609.05903"
-    },
-    "https://arxiv.org/abs/2609.06702": {
-      "published_at": "2026-09-11T14:05:10Z",
-      "source": "hf-papers",
-      "source_id": "2609.06702"
     },
     "https://arxiv.org/abs/2609.06986": {
       "published_at": "2026-09-17T03:08:28Z",
@@ -101,6 +96,16 @@
       "source": "hf-papers",
       "source_id": "2609.18063"
     },
+    "https://arxiv.org/abs/2609.18779": {
+      "published_at": "2026-09-18T14:04:46Z",
+      "source": "hf-papers",
+      "source_id": "2609.18779"
+    },
+    "https://arxiv.org/abs/2609.20804": {
+      "published_at": "2026-09-18T14:04:46Z",
+      "source": "hn",
+      "source_id": "49753878"
+    },
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking": {
       "published_at": "2026-09-16T03:11:40Z",
       "source": "hn",
@@ -115,11 +120,6 @@
       "published_at": "2026-09-17T03:08:28Z",
       "source": "hn",
       "source_id": "49733726"
-    },
-    "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper": {
-      "published_at": "2026-09-11T14:05:10Z",
-      "source": "hn",
-      "source_id": "49656471"
     },
     "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive": {
       "published_at": "2026-09-15T03:03:52Z",
@@ -1551,6 +1551,29 @@
       ],
       "ts": "2026-09-18T03:03:42Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 58,
+      "eligible_per_source": {
+        "hf-papers": 31,
+        "hn": 26,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hn-49753878",
+        "hf-papers-2609.18779"
+      ],
+      "ts": "2026-09-18T14:04:46Z",
+      "window": "morning"
     }
   ]
 }
