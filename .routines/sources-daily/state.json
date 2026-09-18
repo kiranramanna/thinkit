@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-17T14:04:50Z",
+  "last_pruned_ts": "2026-09-18T03:03:42Z",
   "published_urls": {
     "https://andonlabs.com/blog/why-we-built-pion": {
       "published_at": "2026-09-15T14:11:24Z",
@@ -15,11 +15,6 @@
       "published_at": "2026-09-12T03:11:00Z",
       "source": "hf-papers",
       "source_id": "2608.12564"
-    },
-    "https://arxiv.org/abs/2609.05463": {
-      "published_at": "2026-09-11T03:03:04Z",
-      "source": "hf-papers",
-      "source_id": "2609.05463"
     },
     "https://arxiv.org/abs/2609.05824": {
       "published_at": "2026-09-15T03:03:52Z",
@@ -91,10 +86,20 @@
       "source": "hf-papers",
       "source_id": "2609.15309"
     },
+    "https://arxiv.org/abs/2609.17488": {
+      "published_at": "2026-09-18T03:03:42Z",
+      "source": "hf-papers",
+      "source_id": "2609.17488"
+    },
     "https://arxiv.org/abs/2609.17708": {
       "published_at": "2026-09-17T14:04:50Z",
       "source": "hf-papers",
       "source_id": "2609.17708"
+    },
+    "https://arxiv.org/abs/2609.18063": {
+      "published_at": "2026-09-18T03:03:42Z",
+      "source": "hf-papers",
+      "source_id": "2609.18063"
     },
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking": {
       "published_at": "2026-09-16T03:11:40Z",
@@ -105,11 +110,6 @@
       "published_at": "2026-09-14T14:09:51Z",
       "source": "hn",
       "source_id": "49655621"
-    },
-    "https://developers.openai.com/api/docs/guides/agents-api/overview": {
-      "published_at": "2026-09-11T03:03:04Z",
-      "source": "hn",
-      "source_id": "49649213"
     },
     "https://harnesstax.github.io/": {
       "published_at": "2026-09-17T03:08:28Z",
@@ -1527,6 +1527,30 @@
       ],
       "ts": "2026-09-17T14:04:50Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 54,
+      "eligible_per_source": {
+        "hf-papers": 29,
+        "hn": 24,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 54 eligible (hf-papers 31, hn 24, lobsters 1; raw 56 cross-source merged to 56, 2 dropped as already published) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 1@8, 7@7, 8@6, 11@5, 7@4, 9@3, 8@2, 3@1. Above threshold(7): one 8 (2609.20804 An Empirical Study of Harness Design for Coding Agents) plus seven 7s (2609.20519 SoL-Pi RSI agent-harness, 2609.18063 Edge0 serving-35B-MoE-from-SSD, 2609.17488 LimiX-2 structured-data foundation model, 2609.18094 Agora git-as-shared-memory autoresearch, 2609.18805 ProgramDistill coding-agent bench, 2609.13406 Generalized Agent Iteration RSI, 2609.14857 ModularRSI). All above-threshold items were hf-papers, so the source-diversity tie-break was inert. Mechanical top-2 = 2609.20804(8) + 2609.20519(7), but BOTH are agent-harness/RSI: 2609.20804 (empirical coding-agent harness design on SWE-Bench + Terminal-Bench) is a near-duplicate of the 09-17 evening HarnessTax post (hn-49733726, empirical coding-agent harness design, same benchmarks/cost angle), and 2609.20519 is RSI self-improving-harness -- the cluster prior notes flag as saturated across ~20 runs. Applied editorial theme-dedup: deselected both and promoted the two most distinct, in-lane 7s -- 2609.18063 Edge0 (LLM-ops/serving: prerouter predicts next-layer MoE routing one token ahead so SSD reads start early; 35B at 20 tok/s in 3GiB active on a 24GB box) and 2609.17488 LimiX-2 (enterprise/structured-data + KG-adjacent: tabular foundation model doing classification/regression/imputation/causal-skeleton recovery in one forward pass). Two fully distinct lanes (inference-serving economics vs structured-data foundation model), neither touching the saturated harness/RSI cluster. written_today before this run = 0, cap = min(posts_per_run 2, posts_per_day 4 - 0) = 2. Research: Edge0 had 2 usable, readable, stance-bearing citations (MindStudio + Ian Khasky/dev.to, both mixed: impressed by the systems work but skeptical of production/mobile readiness, flagging SSD bandwidth/wear and weak agentic perf) so it carries a reaction paragraph; LimiX-2 surfaced only a single neutral announcement (Pandaily headline, body unreadable) plus arXiv/HF/tabarena PR pages -> below min_citations(2), so it omits the reaction paragraph as designed (not a research failure). Interests: clustering ran over 60 prefiltered candidates + 2 existing interests (model-context-protocol, openai-huggingface); neither new post extends those incidents, and neither forms a >=3-post single unfolding story (the inference-infra and structured-data themes are topics readable in any order, which the prompt rejects) -> nothing created or updated. Both posts written inline (355 body words for Edge0 incl. reaction, 334 for LimiX-2).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.18063",
+        "hf-papers-2609.17488"
+      ],
+      "ts": "2026-09-18T03:03:42Z",
+      "window": "evening"
     }
   ]
 }
