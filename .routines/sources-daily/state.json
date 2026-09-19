@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-19T03:03:54Z",
+  "last_pruned_ts": "2026-09-19T14:03:58Z",
   "published_urls": {
     "https://andonlabs.com/blog/why-we-built-pion": {
       "published_at": "2026-09-15T14:11:24Z",
@@ -46,20 +46,10 @@
       "source": "hf-papers",
       "source_id": "2609.10745"
     },
-    "https://arxiv.org/abs/2609.11042": {
-      "published_at": "2026-09-12T14:03:38Z",
-      "source": "hf-papers",
-      "source_id": "2609.11042"
-    },
     "https://arxiv.org/abs/2609.11682": {
       "published_at": "2026-09-14T14:09:51Z",
       "source": "hf-papers",
       "source_id": "2609.11682"
-    },
-    "https://arxiv.org/abs/2609.11808": {
-      "published_at": "2026-09-12T14:03:38Z",
-      "source": "hf-papers",
-      "source_id": "2609.11808"
     },
     "https://arxiv.org/abs/2609.14005": {
       "published_at": "2026-09-17T14:04:50Z",
@@ -96,6 +86,11 @@
       "source": "hf-papers",
       "source_id": "2609.18063"
     },
+    "https://arxiv.org/abs/2609.18605": {
+      "published_at": "2026-09-19T14:03:58Z",
+      "source": "hf-papers",
+      "source_id": "2609.18605"
+    },
     "https://arxiv.org/abs/2609.18779": {
       "published_at": "2026-09-18T14:04:46Z",
       "source": "hf-papers",
@@ -105,6 +100,11 @@
       "published_at": "2026-09-19T03:03:54Z",
       "source": "hf-papers",
       "source_id": "2609.19656"
+    },
+    "https://arxiv.org/abs/2609.19969": {
+      "published_at": "2026-09-19T14:03:58Z",
+      "source": "hf-papers",
+      "source_id": "2609.19969"
     },
     "https://arxiv.org/abs/2609.20804": {
       "published_at": "2026-09-18T14:04:46Z",
@@ -1598,6 +1598,30 @@
       ],
       "ts": "2026-09-19T03:03:54Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 66,
+      "eligible_per_source": {
+        "hf-papers": 40,
+        "hn": 24,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 66 eligible (hf-papers 40, hn 24, lobsters 2) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 1@9, 1@8, 7@7, 9@6, 4@5, 9@4, 13@3, 14@2, 8@1. Above threshold(7): PACT-2609.18605 (9, enterprise LLM-agent compliance/rule-following-under-pressure eval) and DeepSeek-V4.1-Flash-2609.19969 (8, KV-cache compression for long-context agentic serving); seven 7s were all agentic-harness/skill-evolution/coding-agent-eval/multi-agent papers (EvoSkill-GUI, SoL-Pi, Agora, ScienceIDE, HypoEvolve, ProgramDistill, RiskChainBench). No hn/lobsters item scored >=7 (top non-paper: How to Write with an LLM, OpenAI-Jalapeno-chip, Cactus-Needle-3, all 6). Algorithm took the lone 9 then the lone 8; source-diversity tie-break inert (both hf-papers, no ties at top). Kept the mechanical pick: the two 8/9 items are strongly in-lane and topically distinct (governance/compliance eval vs inference-serving economics), and both outrank the heavily-saturated agent-harness 7-cluster, so no editorial deselection was needed. DeepSeek KV-cache was checked against the 09-18 Edge0 memory-wall post and kept as a distinct lever (KV-cache footprint at datacenter scale vs MoE weight residency/SSD offload for edge). written_today before this run = 2 (09-19 evening), cap = min(posts_per_run 2, posts_per_day 4 - 2) = 2. Research: DeepSeek-V4.1-Flash had rich public reaction -> 3 usable citations (Context Studios positive, KDnuggets mixed/skeptical on raw capability, MindStudio neutral explainer) so its post carries the reaction paragraph; PACT is a fresh arXiv paper whose only hits are its own artifacts/aggregators (arXiv, trace-ai-labs repo+leaderboard, paperswithcode, alphaXiv) with no independent commentary (below min_citations=2), so it omits the reaction paragraph as designed. Interests: no cluster met the 3-post single-story bar including a post from this run; neither new post extends the existing MCP or openai-huggingface interests. Both posts written.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.18605",
+        "hf-papers-2609.19969"
+      ],
+      "ts": "2026-09-19T14:03:58Z",
+      "window": "morning"
     }
   ]
 }
