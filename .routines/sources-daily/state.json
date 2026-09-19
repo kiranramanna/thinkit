@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-18T14:04:46Z",
+  "last_pruned_ts": "2026-09-19T03:03:54Z",
   "published_urls": {
     "https://andonlabs.com/blog/why-we-built-pion": {
       "published_at": "2026-09-15T14:11:24Z",
@@ -11,10 +11,10 @@
       "source": "hn",
       "source_id": "49694035"
     },
-    "https://arxiv.org/abs/2608.12564": {
-      "published_at": "2026-09-12T03:11:00Z",
-      "source": "hf-papers",
-      "source_id": "2608.12564"
+    "https://arxiv.org/abs/2609.02852": {
+      "published_at": "2026-09-19T03:03:54Z",
+      "source": "hn",
+      "source_id": "49758689"
     },
     "https://arxiv.org/abs/2609.05824": {
       "published_at": "2026-09-15T03:03:52Z",
@@ -101,6 +101,11 @@
       "source": "hf-papers",
       "source_id": "2609.18779"
     },
+    "https://arxiv.org/abs/2609.19656": {
+      "published_at": "2026-09-19T03:03:54Z",
+      "source": "hf-papers",
+      "source_id": "2609.19656"
+    },
     "https://arxiv.org/abs/2609.20804": {
       "published_at": "2026-09-18T14:04:46Z",
       "source": "hn",
@@ -130,11 +135,6 @@
       "published_at": "2026-09-13T03:04:21Z",
       "source": "hn",
       "source_id": "49676820"
-    },
-    "https://www.rubyhack.ai/": {
-      "published_at": "2026-09-12T03:11:00Z",
-      "source": "hn",
-      "source_id": "49666735"
     },
     "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating": {
       "published_at": "2026-09-13T14:03:58Z",
@@ -1574,6 +1574,30 @@
       ],
       "ts": "2026-09-18T14:04:46Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 57,
+      "eligible_per_source": {
+        "hf-papers": 32,
+        "hn": 23,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 57 eligible (hf-papers 32, hn 23, lobsters 2; raw 62 cross-source merged to 62, 5 dropped as already published) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 3@8, 8@7, 5@6, 10@5, 5@4, 5@3, 13@2, 8@1. Above threshold(7): three 8s -- hf 2609.19656 (Self-Evolving Search Index, RAG: index self-diagnoses retrieval misses + Query Simulator), hf 2609.19969 (DeepSeek-V4.1-Flash KV-cache compression, LLM-ops/infra), hn-49758689 (Linguistic Illegibility for LLM Security, LLM-ops/safety) -- plus eight 7s (hf: 2609.17653 GUI skill evolution, 2609.20519 SoL-Pi RSI harness, 2609.15938 HypoEvolve multi-agent, 2609.18094 Agora git-shared-memory, 2609.18805 ProgramDistill coding-agent bench; hn: 49748553 Cactus Needle tiny tool-calling models, 49758615 Cache-to-Cache LLM comms, 49760187 AGENTS.md standard). cap = min(posts_per_run 2, posts_per_day 4 - written_today 0) = 2. Greedy top-2 with source-diversity tie-break took 2609.19656 (first hf 8) then, on the 8-way tie, promoted the hn 8 (hn-49758689) over the second hf 8 (2609.19969 DeepSeek KV-cache), giving a source-diverse pair. Both selected items are in the writer's primary lane (RAG; LLM-ops/security) and neither is in the RSI/self-improving-harness cluster that has saturated recent runs, so no editorial deselection was needed. Research: both are 2-3-day-old arXiv papers; searches surfaced only arXiv/HTML mirrors, Papers-with-Code, an auto-summary aggregator (Pith Review), bot HN digests (agents-radar), and unrelated same-topic papers -- zero stance-bearing independent commentary -> below min_citations(2), so both posts omit the reaction paragraph as designed (not a research failure). Interests: clustering ran over 60 prefiltered candidates + 2 existing interests (model-context-protocol, openai-huggingface); the security post is topic-adjacent to the openai-huggingface intrusion story but is a general research argument, not a new development in that specific incident, and the RAG-index post sits in a broad retrieval/memory topic readable in any order -- neither forms or extends a single unfolding >=3-post story, so nothing created or updated. Writing performed inline by the orchestrator agent (297 body words for Self-Evolving Search Index, 305 for Linguistic Illegibility). Both posts written.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.19656",
+        "hn-49758689"
+      ],
+      "ts": "2026-09-19T03:03:54Z",
+      "window": "evening"
     }
   ]
 }
