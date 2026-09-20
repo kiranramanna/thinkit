@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-19T14:03:58Z",
+  "last_pruned_ts": "2026-09-20T03:03:55Z",
   "published_urls": {
     "https://andonlabs.com/blog/why-we-built-pion": {
       "published_at": "2026-09-15T14:11:24Z",
@@ -41,11 +41,6 @@
       "source": "hf-papers",
       "source_id": "2609.10060"
     },
-    "https://arxiv.org/abs/2609.10745": {
-      "published_at": "2026-09-13T03:04:21Z",
-      "source": "hf-papers",
-      "source_id": "2609.10745"
-    },
     "https://arxiv.org/abs/2609.11682": {
       "published_at": "2026-09-14T14:09:51Z",
       "source": "hf-papers",
@@ -70,6 +65,11 @@
       "published_at": "2026-09-15T14:11:24Z",
       "source": "hf-papers",
       "source_id": "2609.15309"
+    },
+    "https://arxiv.org/abs/2609.16900": {
+      "published_at": "2026-09-20T03:03:55Z",
+      "source": "hf-papers",
+      "source_id": "2609.16900"
     },
     "https://arxiv.org/abs/2609.17488": {
       "published_at": "2026-09-18T03:03:42Z",
@@ -121,6 +121,11 @@
       "source": "hn",
       "source_id": "49655621"
     },
+    "https://github.com/trycua/cua": {
+      "published_at": "2026-09-20T03:03:55Z",
+      "source": "hn",
+      "source_id": "49767564"
+    },
     "https://harnesstax.github.io/": {
       "published_at": "2026-09-17T03:08:28Z",
       "source": "hn",
@@ -130,11 +135,6 @@
       "published_at": "2026-09-15T03:03:52Z",
       "source": "hn",
       "source_id": "49695876"
-    },
-    "https://withspecific.com/benchmarks/real-swe": {
-      "published_at": "2026-09-13T03:04:21Z",
-      "source": "hn",
-      "source_id": "49676820"
     },
     "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating": {
       "published_at": "2026-09-13T14:03:58Z",
@@ -1622,6 +1622,30 @@
       ],
       "ts": "2026-09-19T14:03:58Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 63,
+      "eligible_per_source": {
+        "hf-papers": 38,
+        "hn": 21,
+        "lobsters": 4
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 63 eligible (hf-papers 38, hn 21, lobsters 4; raw 71 cross-source merged to 71, 8 dropped as already published) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 1@8, 9@7, 8@6, 10@5, 9@4, 9@3, 8@2, 9@1. Above threshold(7): hn-49767564 CUA-S1 (8, small \"System One\" specialist model for computer-use decisions / routing) plus nine 7s (hf: 2609.19499 test-time-scaling energy, 2609.19671 When2Think adaptive reasoning-length, 2609.17653 GUI skill-evolution, 2609.16900 RiskChainBench abuse-restoration+web-investigation, 2609.20519 SoL-Pi harness RSI, 2609.18094 Agora git-shared-memory autoresearch, 2609.19134 ScienceIDE agent-envs, 2609.18805 ProgramDistill coding-agent eval; hn: 49766611 Tin Postgres full-text search). cap = min(posts_per_run 2, posts_per_day 4 - written_today 0) = 2. Greedy took the lone 8 (CUA-S1, hn). For the second slot the source-diversity tie-break at 7 prefers a non-hn item; among hf 7s the saturated agent-harness/RSI/skill-evolution/coding-agent cluster (2609.17653, 2609.20519, 2609.18094, 2609.19134, 2609.18805) was editorially deselected as it has been published ~20 runs running. Of the distinct remainder (2609.19499, 2609.19671, 2609.16900) picked RiskChainBench (2609.16900): most distinct from CUA-S1 (avoids the compute-efficiency overlap the other two share with it) and concrete LLM-ops/safety EVAL substance. Two distinct lanes, one hn + one hf. Research: CUA-S1 surfaced only one usable independent citation (aiposthub.com deep-dive, positive) -- the HN thread is the discussion_url, X posts are login-walled, GitHub/HF are the project's own artifacts, and the dev.to Cua piece covers the broader project not this release -- so with 1<min_citations(2) it omits the reaction paragraph; RiskChainBench is a fresh (2026-09-18) arXiv preprint whose only hits are arXiv/HF/PapersWithCode/Pith auto-summary and bot GitHub aggregators (no stance-bearing commentary), so it also omits the reaction paragraph as designed. Interests: clustering ran over 60 prefiltered candidates + 2 existing interests (model-context-protocol, openai-huggingface); neither new post extends those, and neither forms a new >=3-post single unfolding story (specialist-model routing and abuse-detection eval are broad topics readable in any order, which the prompt rejects) -> nothing created or updated. Both posts written inline (271 body words for CUA-S1, 269 for RiskChainBench).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hn-49767564",
+        "hf-papers-2609.16900"
+      ],
+      "ts": "2026-09-20T03:03:55Z",
+      "window": "evening"
     }
   ]
 }
