@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-20T03:03:55Z",
+  "last_pruned_ts": "2026-09-20T14:03:57Z",
   "published_urls": {
     "https://andonlabs.com/blog/why-we-built-pion": {
       "published_at": "2026-09-15T14:11:24Z",
@@ -30,11 +30,6 @@
       "published_at": "2026-09-17T03:08:28Z",
       "source": "hf-papers",
       "source_id": "2609.06986"
-    },
-    "https://arxiv.org/abs/2609.10016": {
-      "published_at": "2026-09-13T14:03:58Z",
-      "source": "hf-papers",
-      "source_id": "2609.10016"
     },
     "https://arxiv.org/abs/2609.10060": {
       "published_at": "2026-09-14T03:05:49Z",
@@ -76,6 +71,11 @@
       "source": "hf-papers",
       "source_id": "2609.17488"
     },
+    "https://arxiv.org/abs/2609.17653": {
+      "published_at": "2026-09-20T14:03:57Z",
+      "source": "hf-papers",
+      "source_id": "2609.17653"
+    },
     "https://arxiv.org/abs/2609.17708": {
       "published_at": "2026-09-17T14:04:50Z",
       "source": "hf-papers",
@@ -85,6 +85,11 @@
       "published_at": "2026-09-18T03:03:42Z",
       "source": "hf-papers",
       "source_id": "2609.18063"
+    },
+    "https://arxiv.org/abs/2609.18094": {
+      "published_at": "2026-09-20T14:03:57Z",
+      "source": "hf-papers",
+      "source_id": "2609.18094"
     },
     "https://arxiv.org/abs/2609.18605": {
       "published_at": "2026-09-19T14:03:58Z",
@@ -135,11 +140,6 @@
       "published_at": "2026-09-15T03:03:52Z",
       "source": "hn",
       "source_id": "49695876"
-    },
-    "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating": {
-      "published_at": "2026-09-13T14:03:58Z",
-      "source": "hn",
-      "source_id": "49678969"
     }
   },
   "runs": [
@@ -1646,6 +1646,28 @@
       ],
       "ts": "2026-09-20T03:03:55Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 64,
+      "eligible_per_source": {
+        "hf-papers": 37,
+        "hn": 23,
+        "lobsters": 4
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2609.17653",
+        "hf-papers-2609.18094"
+      ],
+      "ts": "2026-09-20T14:03:57Z",
+      "window": "morning"
     }
   ]
 }
