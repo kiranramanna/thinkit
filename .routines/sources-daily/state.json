@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-21T03:08:41Z",
+  "last_pruned_ts": "2026-09-21T14:05:03Z",
   "published_urls": {
     "https://agentexecutor.io/": {
       "published_at": "2026-09-21T03:08:41Z",
@@ -30,11 +30,6 @@
       "published_at": "2026-09-17T03:08:28Z",
       "source": "hf-papers",
       "source_id": "2609.06986"
-    },
-    "https://arxiv.org/abs/2609.11682": {
-      "published_at": "2026-09-14T14:09:51Z",
-      "source": "hf-papers",
-      "source_id": "2609.11682"
     },
     "https://arxiv.org/abs/2609.14005": {
       "published_at": "2026-09-17T14:04:50Z",
@@ -116,15 +111,15 @@
       "source": "hn",
       "source_id": "49753878"
     },
+    "https://arxiv.org/abs/2609.20942": {
+      "published_at": "2026-09-21T14:05:03Z",
+      "source": "hf-papers",
+      "source_id": "2609.20942"
+    },
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking": {
       "published_at": "2026-09-16T03:11:40Z",
       "source": "hn",
       "source_id": "49715947"
-    },
-    "https://danluu.com/exercise-7": {
-      "published_at": "2026-09-14T14:09:51Z",
-      "source": "hn",
-      "source_id": "49655621"
     },
     "https://github.com/trycua/cua": {
       "published_at": "2026-09-20T03:03:55Z",
@@ -135,6 +130,11 @@
       "published_at": "2026-09-17T03:08:28Z",
       "source": "hn",
       "source_id": "49733726"
+    },
+    "https://maharship.com/blog/why-mcp-was-always-a-bad-idea": {
+      "published_at": "2026-09-21T14:05:03Z",
+      "source": "hn",
+      "source_id": "49779329"
     },
     "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive": {
       "published_at": "2026-09-15T03:03:52Z",
@@ -1692,6 +1692,28 @@
       ],
       "ts": "2026-09-21T03:08:41Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 60,
+      "eligible_per_source": {
+        "hf-papers": 28,
+        "hn": 27,
+        "lobsters": 5
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2609.20942",
+        "hn-49779329"
+      ],
+      "ts": "2026-09-21T14:05:03Z",
+      "window": "morning"
     }
   ]
 }
