@@ -1,6 +1,11 @@
 {
-  "last_pruned_ts": "2026-09-20T14:03:57Z",
+  "last_pruned_ts": "2026-09-21T03:08:41Z",
   "published_urls": {
+    "https://agentexecutor.io/": {
+      "published_at": "2026-09-21T03:08:41Z",
+      "source": "hn",
+      "source_id": "49780797"
+    },
     "https://andonlabs.com/blog/why-we-built-pion": {
       "published_at": "2026-09-15T14:11:24Z",
       "source": "hn",
@@ -21,20 +26,10 @@
       "source": "hf-papers",
       "source_id": "2609.05824"
     },
-    "https://arxiv.org/abs/2609.05903": {
-      "published_at": "2026-09-14T03:05:49Z",
-      "source": "hf-papers",
-      "source_id": "2609.05903"
-    },
     "https://arxiv.org/abs/2609.06986": {
       "published_at": "2026-09-17T03:08:28Z",
       "source": "hf-papers",
       "source_id": "2609.06986"
-    },
-    "https://arxiv.org/abs/2609.10060": {
-      "published_at": "2026-09-14T03:05:49Z",
-      "source": "hf-papers",
-      "source_id": "2609.10060"
     },
     "https://arxiv.org/abs/2609.11682": {
       "published_at": "2026-09-14T14:09:51Z",
@@ -70,6 +65,11 @@
       "published_at": "2026-09-18T03:03:42Z",
       "source": "hf-papers",
       "source_id": "2609.17488"
+    },
+    "https://arxiv.org/abs/2609.17496": {
+      "published_at": "2026-09-21T03:08:41Z",
+      "source": "hf-papers",
+      "source_id": "2609.17496"
     },
     "https://arxiv.org/abs/2609.17653": {
       "published_at": "2026-09-20T14:03:57Z",
@@ -1668,6 +1668,30 @@
       ],
       "ts": "2026-09-20T14:03:57Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 62,
+      "eligible_per_source": {
+        "hf-papers": 31,
+        "hn": 26,
+        "lobsters": 5
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "SDK/API key unavailable in env; scoring, writing, and interests-clustering performed inline by the orchestrator agent per trigger.md. Score distribution: 1@9, 6@7, 7@6, 13@5, 11@4, 8@3, 7@2, 9@1. Above threshold(7): hn-49780797 Google AX agentic orchestrator (9), hn-49779329 'why MCP was a bad idea' (7), hf 2609.20519 SoL-Pi agent harness (7, deprioritized as repeat-covered), hf 2609.19671 When2Think length control (7), hf 2609.19499 test-time-scaling energy (7), hf 2609.17496 Fuse social-reasoning eval (7), hf 2609.15938 HypoEvolve multi-agent (7). cap=min(2, 4-0)=2. Greedy took the lone 9 (Google AX, hn); source-diversity tie-break at 7 preferred a non-hn item -> Fuse (2609.17496, hf), a conversational-AI eval distinct in lane from the orchestrator post (avoids re-covering the saturated agent-harness/RSI cluster). Research: Google AX had 3 usable citations (InfoWorld mixed, Techzine neutral, Open Source For You positive) -> reaction paragraph included; Fuse had only 1 usable citation (kenashe.ai; pith.science/paperswithcode are auto-summaries, no reddit/substack commentary on this specific paper) < min_citations(2) -> reaction paragraph omitted as designed. Interests: clustering ran over 60 prefiltered candidates + 2 existing interests (model-context-protocol, openai-huggingface); neither new post extends those incidents, and neither forms a new >=3-post single unfolding story (agent infrastructure and conversational eval are broad topics readable in any order, which the prompt rejects) -> nothing created or updated. Both posts written inline (329 body words for Google AX incl. reaction, 304 for Fuse).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hn-49780797",
+        "hf-papers-2609.17496"
+      ],
+      "ts": "2026-09-21T03:08:41Z",
+      "window": "evening"
     }
   ]
 }
