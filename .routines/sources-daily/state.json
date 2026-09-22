@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-21T14:05:03Z",
+  "last_pruned_ts": "2026-09-22T03:03:16Z",
   "published_urls": {
     "https://agentexecutor.io/": {
       "published_at": "2026-09-21T03:08:41Z",
@@ -20,11 +20,6 @@
       "published_at": "2026-09-19T03:03:54Z",
       "source": "hn",
       "source_id": "49758689"
-    },
-    "https://arxiv.org/abs/2609.05824": {
-      "published_at": "2026-09-15T03:03:52Z",
-      "source": "hf-papers",
-      "source_id": "2609.05824"
     },
     "https://arxiv.org/abs/2609.06986": {
       "published_at": "2026-09-17T03:08:28Z",
@@ -50,6 +45,11 @@
       "published_at": "2026-09-15T14:11:24Z",
       "source": "hf-papers",
       "source_id": "2609.15309"
+    },
+    "https://arxiv.org/abs/2609.15779": {
+      "published_at": "2026-09-22T03:03:16Z",
+      "source": "hf-papers",
+      "source_id": "2609.15779"
     },
     "https://arxiv.org/abs/2609.16900": {
       "published_at": "2026-09-20T03:03:55Z",
@@ -131,15 +131,15 @@
       "source": "hn",
       "source_id": "49733726"
     },
+    "https://linear.app/now/ci-bottleneck-reworked": {
+      "published_at": "2026-09-22T03:03:16Z",
+      "source": "hn",
+      "source_id": "49792067"
+    },
     "https://maharship.com/blog/why-mcp-was-always-a-bad-idea": {
       "published_at": "2026-09-21T14:05:03Z",
       "source": "hn",
       "source_id": "49779329"
-    },
-    "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive": {
-      "published_at": "2026-09-15T03:03:52Z",
-      "source": "hn",
-      "source_id": "49695876"
     }
   },
   "runs": [
@@ -1714,6 +1714,30 @@
       ],
       "ts": "2026-09-21T14:05:03Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 58,
+      "eligible_per_source": {
+        "hf-papers": 30,
+        "hn": 24,
+        "lobsters": 4
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "SDK/API key unavailable in env; scoring, writing, and interests-clustering performed inline by the orchestrator agent per trigger.md. Adapters: hn 24, lobsters 4, hf-papers 36 (no adapter errors); raw 64 cross-source merged to 64, 6 dropped as already published -> 58 eligible. Score distribution: 2@8, 8@7, 8@6, 11@5, 12@4, 4@3, 7@2, 6@1. Above threshold(7): hf-papers-2609.20886 BI-Agent/BI-Bench (8, enterprise BI automation+bench), hf-papers-2609.15779 EvoOntology (8, self-evolving KG/ontology MCP layer for data agents), plus eight 7s (hf-papers 2609.23377 category-aware SWE-agent RL, 2609.22039 Gricea CAI platform, 2609.22068 CodeMidas agentic-coding RL envs, 2609.21749 GraphSkillEvo, 2609.05571 Code2Skill, 2609.22083 MintAct visual agent, 2609.19499 test-time-scaling energy; hn-49792067 Linear CI-bottleneck). cap=min(posts_per_run 2, posts_per_day 4 - written_today 0)=2. Mechanical greedy picked both 8s (both hf-papers; source-diversity tie-break inert). Editorial deselection: dropped BI-Agent (2609.20886) as thematically proximate to EvoOntology -- both are 'LLM agents over enterprise/heterogeneous structured data' -- and promoted the top distinct-source 7, hn-49792067 (Linear's CI rework for AI-generated code, an LLM-ops/engineering-velocity angle), giving one hf-paper (KG/RAG/agentic) + one hn (llm-ops) with two distinct lanes and sources. Research: EvoOntology is a fresh arXiv paper with only arXiv/PwC/GitHub mirrors surfacing (0 usable third-party citations); the Linear story had exactly one independent piece covering THIS story (runtimewire, constructive) -- other hits (megaport, dev.to, larridin) were same-topic essays not about this post, and daily.dev was a re-host -- so with 1<min_citations(2) both posts omit the reaction paragraph as designed. Interests: ran, no cluster qualified (EvoOntology's MCP mention is a transport detail, not a development in the model-context-protocol story; neither new post forms a 3-post specific running story).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.15779",
+        "hn-49792067"
+      ],
+      "ts": "2026-09-22T03:03:16Z",
+      "window": "evening"
     }
   ]
 }
