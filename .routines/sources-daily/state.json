@@ -1,15 +1,10 @@
 {
-  "last_pruned_ts": "2026-09-22T03:03:16Z",
+  "last_pruned_ts": "2026-09-22T14:08:53Z",
   "published_urls": {
     "https://agentexecutor.io/": {
       "published_at": "2026-09-21T03:08:41Z",
       "source": "hn",
       "source_id": "49780797"
-    },
-    "https://andonlabs.com/blog/why-we-built-pion": {
-      "published_at": "2026-09-15T14:11:24Z",
-      "source": "hn",
-      "source_id": "49700477"
     },
     "https://arxiv.org/abs/2511.07885": {
       "published_at": "2026-09-16T14:09:07Z",
@@ -40,11 +35,6 @@
       "published_at": "2026-09-16T14:09:07Z",
       "source": "hf-papers",
       "source_id": "2609.15134"
-    },
-    "https://arxiv.org/abs/2609.15309": {
-      "published_at": "2026-09-15T14:11:24Z",
-      "source": "hf-papers",
-      "source_id": "2609.15309"
     },
     "https://arxiv.org/abs/2609.15779": {
       "published_at": "2026-09-22T03:03:16Z",
@@ -115,6 +105,16 @@
       "published_at": "2026-09-21T14:05:03Z",
       "source": "hf-papers",
       "source_id": "2609.20942"
+    },
+    "https://arxiv.org/abs/2609.23986": {
+      "published_at": "2026-09-22T14:08:53Z",
+      "source": "hf-papers",
+      "source_id": "2609.23986"
+    },
+    "https://arxiv.org/abs/2609.24220": {
+      "published_at": "2026-09-22T14:08:53Z",
+      "source": "hf-papers",
+      "source_id": "2609.24220"
     },
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking": {
       "published_at": "2026-09-16T03:11:40Z",
@@ -1738,6 +1738,30 @@
       ],
       "ts": "2026-09-22T03:03:16Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 62,
+      "eligible_per_source": {
+        "hf-papers": 32,
+        "hn": 26,
+        "lobsters": 4
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 62 eligible (hf-papers 32, hn 26, lobsters 4) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 1@9, 3@8, 6@7, 2@6, 10@5, 10@4, 7@3, 16@2, 7@1. Above threshold(7): D-RAC-2609.24220(9, retrieval-aware enterprise document chunking) and three 8s (Harness-Zero-2609.24974 harness distillation, Jev-Mem-2609.23986 System-One agentic memory, RRSI-2609.24972 recursive self-improvement of harnesses), plus six 7s (SWE expert training 2609.23377, BI-Agent 2609.20886, Gricea CAI 2609.22039, CodeMidas 2609.22068, GraphSkillEvo 2609.21749, Code2Skill 2609.05571). No hn/lobsters item scored >=7 (top non-paper: MiMo v2.6 release hn-49792730 at 6), so the source-diversity tie-break was inert. Mechanical pick was D-RAC + Harness-Zero. Applied editorial deselection of Harness-Zero AND RRSI: both are agent-harness self-improvement papers -- the theme saturated across the last ~2 weeks of posts (09-18 harness-as-systems-problem, 09-20 GUI-skills-that-rewrite-themselves = RSI, plus the long documented harness/skill-evolution stream). Kept the distinct top score D-RAC (enterprise RAG document ingestion) and promoted the distinct 8 Jev-Mem (agentic memory + latency: keeping the autoregressive LLM off the memory critical path) -- two primary-lane posts on unrelated facets. written_today was 2 (evening run already published), so cap=min(2,4-2)=2 held at the soft daily budget. Research: both are fresh Sept-2026 arXiv papers -- D-RAC surfaced only arXiv/aggregator/same-topic papers (no third-party coverage); Jev-Mem had exactly one usable third-party citation (AI Weekly, positive) -- both below min_citations(2), so both posts omit the reaction paragraph as designed. Interests: no running story qualified (both new posts are distinct research items, not chapters of one unfolding story), empty cluster set.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.24220",
+        "hf-papers-2609.23986"
+      ],
+      "ts": "2026-09-22T14:08:53Z",
+      "window": "morning"
     }
   ]
 }
