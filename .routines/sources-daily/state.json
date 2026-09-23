@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-23T03:14:03Z",
+  "last_pruned_ts": "2026-09-23T14:07:59Z",
   "published_urls": {
     "https://agentexecutor.io/": {
       "published_at": "2026-09-21T03:08:41Z",
@@ -11,11 +11,6 @@
       "source": "hn",
       "source_id": "49804316"
     },
-    "https://arxiv.org/abs/2511.07885": {
-      "published_at": "2026-09-16T14:09:07Z",
-      "source": "hn",
-      "source_id": "49694035"
-    },
     "https://arxiv.org/abs/2609.02852": {
       "published_at": "2026-09-19T03:03:54Z",
       "source": "hn",
@@ -26,15 +21,15 @@
       "source": "hf-papers",
       "source_id": "2609.06986"
     },
+    "https://arxiv.org/abs/2609.13814": {
+      "published_at": "2026-09-23T14:07:59Z",
+      "source": "hf-papers",
+      "source_id": "2609.13814"
+    },
     "https://arxiv.org/abs/2609.14005": {
       "published_at": "2026-09-17T14:04:50Z",
       "source": "hf-papers",
       "source_id": "2609.14005"
-    },
-    "https://arxiv.org/abs/2609.15134": {
-      "published_at": "2026-09-16T14:09:07Z",
-      "source": "hf-papers",
-      "source_id": "2609.15134"
     },
     "https://arxiv.org/abs/2609.15779": {
       "published_at": "2026-09-22T03:03:16Z",
@@ -120,6 +115,11 @@
       "published_at": "2026-09-22T14:08:53Z",
       "source": "hf-papers",
       "source_id": "2609.24220"
+    },
+    "https://arxiv.org/abs/2609.26781": {
+      "published_at": "2026-09-23T14:07:59Z",
+      "source": "hf-papers",
+      "source_id": "2609.26781"
     },
     "https://github.com/trycua/cua": {
       "published_at": "2026-09-20T03:03:55Z",
@@ -1786,6 +1786,30 @@
       ],
       "ts": "2026-09-23T03:14:03Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 54,
+      "eligible_per_source": {
+        "hf-papers": 31,
+        "hn": 22,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "SDK/API key unavailable in env; scoring, writing, and interests-clustering performed inline by the orchestrator agent per trigger.md. Adapters: hn 23, lobsters 1, hf-papers 33 (no adapter errors); raw 57 cross-source merged to 57, 3 dropped as already published -> 54 eligible. Score distribution: 3@8, 8@7, 8@6, 2@5, 12@4, 8@3, 12@2, 1@1. Above threshold(7): three 8s (hf-papers 2609.26781 Agensh decentralized multi-agent orchestration to 1024 agents, 2609.25804 Taste-Bench agent long-horizon decision eval, 2609.13814 Realtime-Venus full-duplex conversational system) and eight 7s (hf-papers 2609.24967 emergent agent collusion, 2609.25165 Ovis omni-modal embeddings, 2609.26457 AIDE^2 recursive self-improvement, 2609.23989 ACLArena agent continual learning, 2609.06052 SkillSpec agent-skill correctness, 2609.22255 Deep Persona role-play agents, 2609.24974 Harness-Zero harness distillation; hn-49814947 Claude Code AGENTS.md telemetry). cap=min(posts_per_run 2, posts_per_day 4 - written_today 2)=2. Mechanical greedy took two of the three 8s (Agensh + Taste-Bench, both hf-papers; source-diversity tie-break inert). Editorial deselection: dropped Taste-Bench (agent-eval) as the eval lane is saturated across recent posts (09-21 LLM-judges, 09-21 conversational eval) and promoted the equally-top-scored (8) Realtime-Venus, giving one conversational-AI system + one multi-agent-orchestration paper across two distinct fresh lanes; no score sacrificed (all three were 8s). No hn/lobsters item scored above the 7s, so a same-source pair was unavoidable at the top. Research: both are 2-day-old arXiv papers; sweeps surfaced only arXiv/HF/GitHub/PapersWithCode mirrors and unrelated generic multi-agent essays (Realtime-Venus had a YouTube demo and a login-walled FB/Substack mention, neither verifiable) -> 0 usable third-party citations each, below min_citations(2), so both posts omit the reaction paragraph as designed. Interests: clustering ran over 60 prefiltered candidates + 2 existing interests (model-context-protocol, openai-huggingface); neither new post extends those, and neither forms a new >=3-post single unfolding story (conversational-AI system and multi-agent orchestration are broad topics readable in any order, which the prompt rejects) -> nothing created or updated. Both posts written inline (262 body words Realtime-Venus, 273 Agensh).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.13814",
+        "hf-papers-2609.26781"
+      ],
+      "ts": "2026-09-23T14:07:59Z",
+      "window": "morning"
     }
   ]
 }
