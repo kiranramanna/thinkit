@@ -1,10 +1,15 @@
 {
-  "last_pruned_ts": "2026-09-22T14:08:53Z",
+  "last_pruned_ts": "2026-09-23T03:14:03Z",
   "published_urls": {
     "https://agentexecutor.io/": {
       "published_at": "2026-09-21T03:08:41Z",
       "source": "hn",
       "source_id": "49780797"
+    },
+    "https://artificialanalysis.ai/models/claude-opus-5-5": {
+      "published_at": "2026-09-23T03:14:03Z",
+      "source": "hn",
+      "source_id": "49804316"
     },
     "https://arxiv.org/abs/2511.07885": {
       "published_at": "2026-09-16T14:09:07Z",
@@ -25,11 +30,6 @@
       "published_at": "2026-09-17T14:04:50Z",
       "source": "hf-papers",
       "source_id": "2609.14005"
-    },
-    "https://arxiv.org/abs/2609.15029": {
-      "published_at": "2026-09-16T03:11:40Z",
-      "source": "hf-papers",
-      "source_id": "2609.15029"
     },
     "https://arxiv.org/abs/2609.15134": {
       "published_at": "2026-09-16T14:09:07Z",
@@ -101,6 +101,11 @@
       "source": "hn",
       "source_id": "49753878"
     },
+    "https://arxiv.org/abs/2609.20886": {
+      "published_at": "2026-09-23T03:14:03Z",
+      "source": "hf-papers",
+      "source_id": "2609.20886"
+    },
     "https://arxiv.org/abs/2609.20942": {
       "published_at": "2026-09-21T14:05:03Z",
       "source": "hf-papers",
@@ -115,11 +120,6 @@
       "published_at": "2026-09-22T14:08:53Z",
       "source": "hf-papers",
       "source_id": "2609.24220"
-    },
-    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking": {
-      "published_at": "2026-09-16T03:11:40Z",
-      "source": "hn",
-      "source_id": "49715947"
     },
     "https://github.com/trycua/cua": {
       "published_at": "2026-09-20T03:03:55Z",
@@ -1762,6 +1762,30 @@
       ],
       "ts": "2026-09-22T14:08:53Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 60,
+      "eligible_per_source": {
+        "hf-papers": 31,
+        "hn": 28,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "SDK/API key unavailable in env; scoring, writing, and interests-clustering performed inline by the orchestrator agent per trigger.md. Adapters: hn 28, lobsters 1, hf-papers 33 (no adapter errors); raw 62 cross-source merged to 62, 2 dropped as already published -> 60 eligible. Score distribution: 3@8, 4@7, 12@6, 5@5, 5@4, 8@3, 16@2, 7@1. Above threshold(7): three 8s (hf-papers-2609.24974 Harness-Zero harness distillation, hf-papers-2609.24972 RRSI regularized recursive self-improvement of harnesses, hf-papers-2609.20886 BI-Agent/BI-Bench end-to-end business-intelligence automation) and four 7s (hf-papers-2609.13814 Realtime-Venus full-duplex dialogue, hf-papers-2609.23377 category-aware SWE-agent expert training, hf-papers-2609.22039 Gricea conversational-AI research platform, hn-49804316 Claude Opus 5.5 intelligence/perf/price analysis). cap=min(posts_per_run 2, posts_per_day 4 - written_today 0)=2. Mechanical greedy picked both harness papers (Harness-Zero + RRSI, both hf-papers; source-diversity tie-break inert). Editorial deselection: dropped BOTH Harness-Zero and RRSI as agent-harness self-improvement papers -- the exact theme flagged saturated and deselected on 09-22 morning (these same two papers reappeared today), to avoid back-to-back duplication of the ~2-week harness/RSI/skill-evolution stream. Kept the distinct 8 BI-Agent (enterprise-AI structured-data agents) and used the source-diversity tie-break to promote the top non-hf 7, hn-49804316 (industry/model-eval), giving one hf-paper + one hn and two distinct lanes/sources. Research: BI-Agent had only one third-party piece on THIS paper (AI Weekly) -- other hits were arXiv/GitHub/aggregators or different BI-agent essays -- below min_citations(2), so its post omits the reaction paragraph as designed; Claude Opus 5.5 had rich reaction -> 3 usable citations (Digital Trends positive on price/perf, CodeRabbit mixed on code-review token cost, Sonar mixed on bug-density/concurrency), so that post carries a reaction paragraph. Interests: clustering ran over 60 prefiltered candidates + 2 existing interests (model-context-protocol, openai-huggingface); neither new post extends those and neither forms a new >=3-post single unfolding story (enterprise BI automation and a model-release cost analysis are standalone items readable in any order), so nothing created or updated. Both posts written inline (260 body words BI-Agent, 297 Opus 5.5 incl. reaction).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.20886",
+        "hn-49804316"
+      ],
+      "ts": "2026-09-23T03:14:03Z",
+      "window": "evening"
     }
   ]
 }
