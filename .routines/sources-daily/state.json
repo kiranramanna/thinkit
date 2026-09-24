@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-23T14:07:59Z",
+  "last_pruned_ts": "2026-09-24T03:07:46Z",
   "published_urls": {
     "https://agentexecutor.io/": {
       "published_at": "2026-09-21T03:08:41Z",
@@ -15,11 +15,6 @@
       "published_at": "2026-09-19T03:03:54Z",
       "source": "hn",
       "source_id": "49758689"
-    },
-    "https://arxiv.org/abs/2609.06986": {
-      "published_at": "2026-09-17T03:08:28Z",
-      "source": "hf-papers",
-      "source_id": "2609.06986"
     },
     "https://arxiv.org/abs/2609.13814": {
       "published_at": "2026-09-23T14:07:59Z",
@@ -116,6 +111,11 @@
       "source": "hf-papers",
       "source_id": "2609.24220"
     },
+    "https://arxiv.org/abs/2609.26550": {
+      "published_at": "2026-09-24T03:07:46Z",
+      "source": "hf-papers",
+      "source_id": "2609.26550"
+    },
     "https://arxiv.org/abs/2609.26781": {
       "published_at": "2026-09-23T14:07:59Z",
       "source": "hf-papers",
@@ -126,10 +126,10 @@
       "source": "hn",
       "source_id": "49767564"
     },
-    "https://harnesstax.github.io/": {
-      "published_at": "2026-09-17T03:08:28Z",
+    "https://huggingface.co/apple/LensVLM-9B": {
+      "published_at": "2026-09-24T03:07:46Z",
       "source": "hn",
-      "source_id": "49733726"
+      "source_id": "49820496"
     },
     "https://linear.app/now/ci-bottleneck-reworked": {
       "published_at": "2026-09-22T03:03:16Z",
@@ -1810,6 +1810,29 @@
       ],
       "ts": "2026-09-23T14:07:59Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 49,
+      "eligible_per_source": {
+        "hf-papers": 26,
+        "hn": 22,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.26550",
+        "hn-49820496"
+      ],
+      "ts": "2026-09-24T03:07:46Z",
+      "window": "evening"
     }
   ]
 }
