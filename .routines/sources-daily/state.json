@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-25T03:08:10Z",
+  "last_pruned_ts": "2026-09-25T14:09:30Z",
   "published_urls": {
     "https://agentexecutor.io/": {
       "published_at": "2026-09-21T03:08:41Z",
@@ -51,11 +51,6 @@
       "source": "hf-papers",
       "source_id": "2609.18605"
     },
-    "https://arxiv.org/abs/2609.18779": {
-      "published_at": "2026-09-18T14:04:46Z",
-      "source": "hf-papers",
-      "source_id": "2609.18779"
-    },
     "https://arxiv.org/abs/2609.19656": {
       "published_at": "2026-09-19T03:03:54Z",
       "source": "hf-papers",
@@ -65,11 +60,6 @@
       "published_at": "2026-09-19T14:03:58Z",
       "source": "hf-papers",
       "source_id": "2609.19969"
-    },
-    "https://arxiv.org/abs/2609.20804": {
-      "published_at": "2026-09-18T14:04:46Z",
-      "source": "hn",
-      "source_id": "49753878"
     },
     "https://arxiv.org/abs/2609.20886": {
       "published_at": "2026-09-23T03:14:03Z",
@@ -110,6 +100,16 @@
       "published_at": "2026-09-25T03:08:10Z",
       "source": "hf-papers",
       "source_id": "2609.27891"
+    },
+    "https://arxiv.org/abs/2609.29444": {
+      "published_at": "2026-09-25T14:09:30Z",
+      "source": "hf-papers",
+      "source_id": "2609.29444"
+    },
+    "https://github.com/devdotfast/whiteboard": {
+      "published_at": "2026-09-25T14:09:30Z",
+      "source": "hn",
+      "source_id": "49833867"
     },
     "https://github.com/trycua/cua": {
       "published_at": "2026-09-20T03:03:55Z",
@@ -1847,6 +1847,30 @@
       ],
       "ts": "2026-09-25T03:08:10Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 53,
+      "eligible_per_source": {
+        "hf-papers": 26,
+        "hn": 26,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "SDK/API key unavailable in env; scoring, writing, research, and interests-clustering performed inline by the orchestrator agent per trigger.md. Adapters: hn 26, lobsters 1, hf-papers 28 (no adapter errors); raw 55 cross-source merged to 55, 2 dropped as already published -> 53 eligible. Score distribution: 2@8, 2@7, 7@6, 5@5, 5@4, 14@3, 10@2, 8@1. Above threshold(7): two 8s (hf-papers-2609.29444 IterSynth role-decoupled deep-search agents, hf-papers-2609.27334 Just-in-Time task-adaptive agent memory) and two 7s (hf-papers-2609.28416 Agent-Editing world model / task-state contamination, hn-49833867 Whiteboard open-source IDE for human+agent software design). cap=min(posts_per_run 2, posts_per_day 4 - written_today 2)=2. Mechanical greedy took both 8s (IterSynth + Just-in-Time, both hf-papers; source-diversity tie-break inert as no non-hf item scored 8). Editorial deselection: dropped Just-in-Time Memory (27334) because agent-memory is 4x-saturated across the last 5 days (09-20 agent-swarm shared memory, 09-22 memory-critical-path, 09-25 group-chats/SpeakerMem memory), and promoted the next distinct item Whiteboard (7, hn) for source + lane diversity after a paper-heavy, memory-heavy week -> one agentic-RAG deep-search paper + one human-agent code-review/industry take across two distinct lanes and two sources. One score point traded (8->7) for diversity and to avoid a fourth consecutive memory post; both remain above threshold. Research: IterSynth is a 2-day-old arXiv paper whose sweep surfaced only arXiv/HF/PapersWithCode/GitHub mirrors and a daily-papers digest (no third-party commentary); Whiteboard sweep surfaced the project's own site/repo forks, SEO-spam reposts, the makers' own YouTube demo, and a neutral automated release digest (no stance-bearing third-party coverage) -> 0 usable citations each, below min_citations(2), so both posts omit the reaction paragraph as designed. Interests: clustering ran over 60 prefiltered candidates + 2 existing interests (model-context-protocol, openai-huggingface); neither new post extends those, and neither forms a new >=3-post single unfolding story (agentic deep-search context management and human-agent code review are broad topics readable in any order, which the prompt rejects) -> nothing created or updated. Both posts written inline (301 body words IterSynth, 268 Whiteboard).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.29444",
+        "hn-49833867"
+      ],
+      "ts": "2026-09-25T14:09:30Z",
+      "window": "morning"
     }
   ]
 }
