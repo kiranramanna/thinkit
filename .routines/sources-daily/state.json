@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-24T03:07:46Z",
+  "last_pruned_ts": "2026-09-25T03:08:10Z",
   "published_urls": {
     "https://agentexecutor.io/": {
       "published_at": "2026-09-21T03:08:41Z",
@@ -21,11 +21,6 @@
       "source": "hf-papers",
       "source_id": "2609.13814"
     },
-    "https://arxiv.org/abs/2609.14005": {
-      "published_at": "2026-09-17T14:04:50Z",
-      "source": "hf-papers",
-      "source_id": "2609.14005"
-    },
     "https://arxiv.org/abs/2609.15779": {
       "published_at": "2026-09-22T03:03:16Z",
       "source": "hf-papers",
@@ -36,11 +31,6 @@
       "source": "hf-papers",
       "source_id": "2609.16900"
     },
-    "https://arxiv.org/abs/2609.17488": {
-      "published_at": "2026-09-18T03:03:42Z",
-      "source": "hf-papers",
-      "source_id": "2609.17488"
-    },
     "https://arxiv.org/abs/2609.17496": {
       "published_at": "2026-09-21T03:08:41Z",
       "source": "hf-papers",
@@ -50,16 +40,6 @@
       "published_at": "2026-09-20T14:03:57Z",
       "source": "hf-papers",
       "source_id": "2609.17653"
-    },
-    "https://arxiv.org/abs/2609.17708": {
-      "published_at": "2026-09-17T14:04:50Z",
-      "source": "hf-papers",
-      "source_id": "2609.17708"
-    },
-    "https://arxiv.org/abs/2609.18063": {
-      "published_at": "2026-09-18T03:03:42Z",
-      "source": "hf-papers",
-      "source_id": "2609.18063"
     },
     "https://arxiv.org/abs/2609.18094": {
       "published_at": "2026-09-20T14:03:57Z",
@@ -116,10 +96,20 @@
       "source": "hf-papers",
       "source_id": "2609.26550"
     },
+    "https://arxiv.org/abs/2609.26780": {
+      "published_at": "2026-09-25T03:08:10Z",
+      "source": "hf-papers",
+      "source_id": "2609.26780"
+    },
     "https://arxiv.org/abs/2609.26781": {
       "published_at": "2026-09-23T14:07:59Z",
       "source": "hf-papers",
       "source_id": "2609.26781"
+    },
+    "https://arxiv.org/abs/2609.27891": {
+      "published_at": "2026-09-25T03:08:10Z",
+      "source": "hf-papers",
+      "source_id": "2609.27891"
     },
     "https://github.com/trycua/cua": {
       "published_at": "2026-09-20T03:03:55Z",
@@ -1832,6 +1822,30 @@
         "hn-49820496"
       ],
       "ts": "2026-09-24T03:07:46Z",
+      "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 49,
+      "eligible_per_source": {
+        "hf-papers": 21,
+        "hn": 27,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "SDK/API key unavailable in env; scoring, writing, research, and interests-clustering performed inline by the orchestrator agent per trigger.md. Adapters: hn 27, lobsters 1, hf-papers 23 (no adapter errors); raw 51 cross-source merged to 51, 2 dropped as already published -> 49 eligible. Score distribution: 3@8, 2@7, 5@6, 3@5, 5@4, 11@3, 11@2, 9@1. Above threshold(7): three 8s (hf-papers-2609.26780 SpeakerMem-R1 multi-party dialogue memory, hf-papers-2609.27334 Just-in-Time task-adaptive agent memory, hf-papers-2609.27891 SchrodingerRepo contamination-robust coding-agent eval) and two 7s (hf-papers-2609.28416 Agent-Editing world model, hf-papers-2609.27490 WhatWorkedBench agent experimental-understanding). cap=min(posts_per_run 2, posts_per_day 4 - written_today 0)=2. Mechanical greedy picked BOTH memory 8s (Just-in-Time + SpeakerMem, both hf-papers; source-diversity tie-break inert as no non-hf item scored >=7). Editorial deselection (equal score, no score sacrificed): dropped Just-in-Time Memory (27334) as a second agent-memory paper redundant with SpeakerMem and echoing the 09-22 memory-critical-path post, and promoted the next distinct 8, SchrodingerRepo (27891), giving one conversational-AI/memory post + one coding-agent eval-methodology post across two distinct lanes. Eval was noted saturated (09-21 x2 + 09-24, all LLM-as-judge), but SchrodingerRepo covers benchmark contamination/data-leakage, a different eval subtopic than judges, so it stays fresh. Research: SpeakerMem had 2 usable third-party citations (Ken Ashe blog mixed, AI Weekly mixed; both cautiously positive but skeptical the SOTA claim lacks side-by-side baselines) -> reaction paragraph included; SchrodingerRepo had only one aggregator alert (AI Weekly) plus same-topic-different-paper hits excluded as not-this-story, so below min_citations(2) and its post omits the reaction paragraph as designed. Interests: clustering ran over 60 prefiltered candidates + 2 existing interests; neither new post extends those nor forms a new >=3-post single unfolding story (agent/conversational memory and coding-agent benchmark contamination are recurring topics across independent papers readable in any order, which the prompt rejects), so nothing created or updated. Both posts written inline (315 body words SpeakerMem incl. reaction, 309 SchrodingerRepo).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.26780",
+        "hf-papers-2609.27891"
+      ],
+      "ts": "2026-09-25T03:08:10Z",
       "window": "evening"
     }
   ]
