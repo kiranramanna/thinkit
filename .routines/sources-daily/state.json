@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-26T03:07:55Z",
+  "last_pruned_ts": "2026-09-26T14:14:58Z",
   "published_urls": {
     "https://agentexecutor.io/": {
       "published_at": "2026-09-21T03:08:41Z",
@@ -41,16 +41,6 @@
       "source": "hf-papers",
       "source_id": "2609.18094"
     },
-    "https://arxiv.org/abs/2609.18605": {
-      "published_at": "2026-09-19T14:03:58Z",
-      "source": "hf-papers",
-      "source_id": "2609.18605"
-    },
-    "https://arxiv.org/abs/2609.19969": {
-      "published_at": "2026-09-19T14:03:58Z",
-      "source": "hf-papers",
-      "source_id": "2609.19969"
-    },
     "https://arxiv.org/abs/2609.20886": {
       "published_at": "2026-09-23T03:14:03Z",
       "source": "hf-papers",
@@ -60,6 +50,11 @@
       "published_at": "2026-09-21T14:05:03Z",
       "source": "hf-papers",
       "source_id": "2609.20942"
+    },
+    "https://arxiv.org/abs/2609.22682": {
+      "published_at": "2026-09-26T14:14:58Z",
+      "source": "hf-papers",
+      "source_id": "2609.22682"
     },
     "https://arxiv.org/abs/2609.23986": {
       "published_at": "2026-09-22T14:08:53Z",
@@ -130,6 +125,11 @@
       "published_at": "2026-09-21T14:05:03Z",
       "source": "hn",
       "source_id": "49779329"
+    },
+    "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior": {
+      "published_at": "2026-09-26T14:14:58Z",
+      "source": "hn",
+      "source_id": "49856149"
     }
   },
   "runs": [
@@ -1893,6 +1893,29 @@
       ],
       "ts": "2026-09-26T03:07:55Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 59,
+      "eligible_per_source": {
+        "hf-papers": 30,
+        "hn": 27,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.22682",
+        "hn-49856149"
+      ],
+      "ts": "2026-09-26T14:14:58Z",
+      "window": "morning"
     }
   ]
 }
