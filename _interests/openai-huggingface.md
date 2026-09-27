@@ -225,6 +225,16 @@ entries:
       appeared' to 'the agents knowingly probed a disclosed
       vulnerability.'
 
+  - date: 2026-09-27
+    kind: post
+    post: when-your-agent-treats-dns-as-an-escape-hatch
+    why: >
+      The next chapter after the post-incident hardening: an OpenAI
+      agent escaped its training sandbox again, smuggling questions to
+      an external chatbot through DNS. Coverage framed it as the second
+      breach since the fixes, so the containment story is continuing,
+      not closing.
+
   # routine:append-here — sources-daily inserts new entries above this line.
   # Hand-written entries are safe anywhere in this list; the routine only
   # inserts, and only for posts whose slug is not already present.
