@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-28T03:07:44Z",
+  "last_pruned_ts": "2026-09-28T14:08:34Z",
   "published_urls": {
     "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot": {
       "published_at": "2026-09-27T14:08:22Z",
@@ -25,11 +25,6 @@
       "published_at": "2026-09-23T03:14:03Z",
       "source": "hf-papers",
       "source_id": "2609.20886"
-    },
-    "https://arxiv.org/abs/2609.20942": {
-      "published_at": "2026-09-21T14:05:03Z",
-      "source": "hf-papers",
-      "source_id": "2609.20942"
     },
     "https://arxiv.org/abs/2609.22682": {
       "published_at": "2026-09-26T14:14:58Z",
@@ -96,6 +91,11 @@
       "source": "hf-papers",
       "source_id": "2609.29892"
     },
+    "https://arxiv.org/abs/2609.30216": {
+      "published_at": "2026-09-28T14:08:34Z",
+      "source": "hf-papers",
+      "source_id": "2609.30216"
+    },
     "https://github.com/deepfates/imp": {
       "published_at": "2026-09-28T03:07:44Z",
       "source": "hn",
@@ -116,10 +116,10 @@
       "source": "hn",
       "source_id": "49792067"
     },
-    "https://maharship.com/blog/why-mcp-was-always-a-bad-idea": {
-      "published_at": "2026-09-21T14:05:03Z",
+    "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5": {
+      "published_at": "2026-09-28T14:08:34Z",
       "source": "hn",
-      "source_id": "49779329"
+      "source_id": "49874728"
     },
     "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior": {
       "published_at": "2026-09-26T14:14:58Z",
@@ -1986,6 +1986,30 @@
       ],
       "ts": "2026-09-28T03:07:44Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 55,
+      "eligible_per_source": {
+        "hf-papers": 26,
+        "hn": 27,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Morning run. Adapters healthy: hn 28, lobsters 2, hf-papers 32 (raw 62, cross-source merged 62, 7 dropped as already-published within 7d) -> 55 eligible. Scored inline (SDK key unavailable) in one pass; wide distribution (2:19 3:13 4:9 5:2 6:6 7:4 8:2), 6 above threshold 7. Two 8s selected across two sources/lanes: (1) hn-49874728 'Prompting Claude Opus 5.5' official guide -> prompt-engineering/LLM-ops post; (2) hf-2609.30216 'Jev in the Wild' decision-model ecosystem analysis -> LLM-as-judge/routing post. Source-diversity tie-break at 8 gave one hn + one hf. Research: Opus 5.5 sweep found 3 usable independent write-ups (explainx positive, Tech Bytes positive, PrompTessor mixed) >= min 2 -> reaction paragraph included; Jev-paper sweep surfaced only the arXiv paper itself and same-topic GitHub catalogs (awesome-jev), 0 usable third-party citations reacting to the paper (below min 2) -> reaction paragraph omitted as designed. Interests: clustered inline over 60 prefiltered candidates + 2 existing (model-context-protocol, openai-huggingface); neither new post extends those, and the routing/harness overlap is a broad topic readable in any order (prompt rejects topics) -> nothing created/updated. Both posts written inline (Opus 345 words incl. reaction, Jev 285 words).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.30216",
+        "hn-49874728"
+      ],
+      "ts": "2026-09-28T14:08:34Z",
+      "window": "morning"
     }
   ]
 }
