@@ -1,11 +1,6 @@
 {
-  "last_pruned_ts": "2026-09-27T14:08:22Z",
+  "last_pruned_ts": "2026-09-28T03:07:44Z",
   "published_urls": {
-    "https://agentexecutor.io/": {
-      "published_at": "2026-09-21T03:08:41Z",
-      "source": "hn",
-      "source_id": "49780797"
-    },
     "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot": {
       "published_at": "2026-09-27T14:08:22Z",
       "source": "hn",
@@ -25,11 +20,6 @@
       "published_at": "2026-09-22T03:03:16Z",
       "source": "hf-papers",
       "source_id": "2609.15779"
-    },
-    "https://arxiv.org/abs/2609.17496": {
-      "published_at": "2026-09-21T03:08:41Z",
-      "source": "hf-papers",
-      "source_id": "2609.17496"
     },
     "https://arxiv.org/abs/2609.20886": {
       "published_at": "2026-09-23T03:14:03Z",
@@ -86,6 +76,11 @@
       "source": "hf-papers",
       "source_id": "2609.28416"
     },
+    "https://arxiv.org/abs/2609.29429": {
+      "published_at": "2026-09-28T03:07:44Z",
+      "source": "hf-papers",
+      "source_id": "2609.29429"
+    },
     "https://arxiv.org/abs/2609.29444": {
       "published_at": "2026-09-25T14:09:30Z",
       "source": "hf-papers",
@@ -100,6 +95,11 @@
       "published_at": "2026-09-27T14:08:22Z",
       "source": "hf-papers",
       "source_id": "2609.29892"
+    },
+    "https://github.com/deepfates/imp": {
+      "published_at": "2026-09-28T03:07:44Z",
+      "source": "hn",
+      "source_id": "49869995"
     },
     "https://github.com/devdotfast/whiteboard": {
       "published_at": "2026-09-25T14:09:30Z",
@@ -1964,6 +1964,28 @@
       ],
       "ts": "2026-09-27T14:08:22Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 55,
+      "eligible_per_source": {
+        "hf-papers": 28,
+        "hn": 25,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2609.29429",
+        "hn-49869995"
+      ],
+      "ts": "2026-09-28T03:07:44Z",
+      "window": "evening"
     }
   ]
 }
