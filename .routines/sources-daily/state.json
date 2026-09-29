@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-29T03:11:53Z",
+  "last_pruned_ts": "2026-09-29T14:49:59Z",
   "published_urls": {
     "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot": {
       "published_at": "2026-09-27T14:08:22Z",
@@ -25,16 +25,6 @@
       "published_at": "2026-09-26T14:14:58Z",
       "source": "hf-papers",
       "source_id": "2609.22682"
-    },
-    "https://arxiv.org/abs/2609.23986": {
-      "published_at": "2026-09-22T14:08:53Z",
-      "source": "hf-papers",
-      "source_id": "2609.23986"
-    },
-    "https://arxiv.org/abs/2609.24220": {
-      "published_at": "2026-09-22T14:08:53Z",
-      "source": "hf-papers",
-      "source_id": "2609.24220"
     },
     "https://arxiv.org/abs/2609.26550": {
       "published_at": "2026-09-24T03:07:46Z",
@@ -91,6 +81,11 @@
       "source": "hf-papers",
       "source_id": "2609.30216"
     },
+    "https://arxiv.org/abs/2609.31948": {
+      "published_at": "2026-09-29T14:49:59Z",
+      "source": "hf-papers",
+      "source_id": "2609.31948"
+    },
     "https://arxiv.org/abs/2609.32472": {
       "published_at": "2026-09-29T03:11:53Z",
       "source": "hf-papers",
@@ -100,6 +95,11 @@
       "published_at": "2026-09-29T03:11:53Z",
       "source": "hf-papers",
       "source_id": "2609.33295"
+    },
+    "https://arxiv.org/abs/2609.33382": {
+      "published_at": "2026-09-29T14:49:59Z",
+      "source": "hf-papers",
+      "source_id": "2609.33382"
     },
     "https://github.com/deepfates/imp": {
       "published_at": "2026-09-28T03:07:44Z",
@@ -2032,6 +2032,30 @@
       ],
       "ts": "2026-09-29T03:11:53Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 48,
+      "eligible_per_source": {
+        "hf-papers": 24,
+        "hn": 22,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 48 eligible (hf-papers 24, hn 22, lobsters 2) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 3@8, 6@7, 1@6, 7@5, 6@4, 7@3, 8@2, 10@1. Above threshold(7): three 8s (hf-papers-2609.33382 WideSWE cross-repo coding-agent benchmark, hf-papers-2609.35069 RenderRank visual-token reranker, hf-papers-2609.31948 Duplex-MPE multi-party full-duplex dialogue benchmark) and six 7s (hf-papers-2609.32577 GAGAR code-agent RL credit assignment, hf-papers-2609.33848 QwenGyre xlong-horizon agent RL; hn-49890226 AI-apps-leak-data-to-ad-trackers, hn-49893709 Meta Muse agent ignores permissions, hn-49890647 Show HN Raven harness-of-harnesses, hn-49876052 'systems no one will test'). Mechanical pick was two of the three tied 8s (all hf-papers, source-diversity tie-break inert). Editorial deselection: dropped RenderRank (2609.35069) because today's evening run already published a reranker post (2609.32472 'Rerankers Have a Set Problem'), so a second same-day reranker post would thematically duplicate it. Kept the two topically-distinct 8s: WideSWE (coding-agent cross-repo eval) and Duplex-MPE (conversational-AI multi-party turn-taking) -- two different primary lanes, neither duplicating today's evening posts (reranker + deployment-traces-as-eval). written_today was 2 (evening run), so cap=min(2,4-2)=2 held at the soft daily budget. Research: both are fresh Sept-2026 arXiv papers; web sweeps surfaced only their own arXiv/HF/GitHub/dataset pages and different same-topic papers -- no third-party coverage of either specific paper (below min_citations=2), so both posts omit the reaction paragraph as designed. Interests clustering ran over 60 prefiltered candidates + 2 existing interests: no cluster qualified -- the coding-agent and voice-agent posts are shared topics of independent papers, not one developing story, and neither new post belongs to the openai-huggingface or MCP running stories. Writing performed inline by the orchestrator agent.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.33382",
+        "hf-papers-2609.31948"
+      ],
+      "ts": "2026-09-29T14:49:59Z",
+      "window": "morning"
     }
   ]
 }
