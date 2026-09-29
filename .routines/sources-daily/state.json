@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-28T14:08:34Z",
+  "last_pruned_ts": "2026-09-29T03:11:53Z",
   "published_urls": {
     "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot": {
       "published_at": "2026-09-27T14:08:22Z",
@@ -15,11 +15,6 @@
       "published_at": "2026-09-23T14:07:59Z",
       "source": "hf-papers",
       "source_id": "2609.13814"
-    },
-    "https://arxiv.org/abs/2609.15779": {
-      "published_at": "2026-09-22T03:03:16Z",
-      "source": "hf-papers",
-      "source_id": "2609.15779"
     },
     "https://arxiv.org/abs/2609.20886": {
       "published_at": "2026-09-23T03:14:03Z",
@@ -96,6 +91,16 @@
       "source": "hf-papers",
       "source_id": "2609.30216"
     },
+    "https://arxiv.org/abs/2609.32472": {
+      "published_at": "2026-09-29T03:11:53Z",
+      "source": "hf-papers",
+      "source_id": "2609.32472"
+    },
+    "https://arxiv.org/abs/2609.33295": {
+      "published_at": "2026-09-29T03:11:53Z",
+      "source": "hf-papers",
+      "source_id": "2609.33295"
+    },
     "https://github.com/deepfates/imp": {
       "published_at": "2026-09-28T03:07:44Z",
       "source": "hn",
@@ -110,11 +115,6 @@
       "published_at": "2026-09-24T03:07:46Z",
       "source": "hn",
       "source_id": "49820496"
-    },
-    "https://linear.app/now/ci-bottleneck-reworked": {
-      "published_at": "2026-09-22T03:03:16Z",
-      "source": "hn",
-      "source_id": "49792067"
     },
     "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5": {
       "published_at": "2026-09-28T14:08:34Z",
@@ -2010,6 +2010,28 @@
       ],
       "ts": "2026-09-28T14:08:34Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 50,
+      "eligible_per_source": {
+        "hf-papers": 24,
+        "hn": 23,
+        "lobsters": 3
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2609.33295",
+        "hf-papers-2609.32472"
+      ],
+      "ts": "2026-09-29T03:11:53Z",
+      "window": "evening"
     }
   ]
 }
