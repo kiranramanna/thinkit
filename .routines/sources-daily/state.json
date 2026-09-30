@@ -1,25 +1,15 @@
 {
-  "last_pruned_ts": "2026-09-29T14:49:59Z",
+  "last_pruned_ts": "2026-09-30T03:14:18Z",
   "published_urls": {
     "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot": {
       "published_at": "2026-09-27T14:08:22Z",
       "source": "hn",
       "source_id": "49853137"
     },
-    "https://artificialanalysis.ai/models/claude-opus-5-5": {
-      "published_at": "2026-09-23T03:14:03Z",
-      "source": "hn",
-      "source_id": "49804316"
-    },
     "https://arxiv.org/abs/2609.13814": {
       "published_at": "2026-09-23T14:07:59Z",
       "source": "hf-papers",
       "source_id": "2609.13814"
-    },
-    "https://arxiv.org/abs/2609.20886": {
-      "published_at": "2026-09-23T03:14:03Z",
-      "source": "hf-papers",
-      "source_id": "2609.20886"
     },
     "https://arxiv.org/abs/2609.22682": {
       "published_at": "2026-09-26T14:14:58Z",
@@ -91,6 +81,11 @@
       "source": "hf-papers",
       "source_id": "2609.32472"
     },
+    "https://arxiv.org/abs/2609.32488": {
+      "published_at": "2026-09-30T03:14:18Z",
+      "source": "hf-papers",
+      "source_id": "2609.32488"
+    },
     "https://arxiv.org/abs/2609.33295": {
       "published_at": "2026-09-29T03:11:53Z",
       "source": "hf-papers",
@@ -115,6 +110,11 @@
       "published_at": "2026-09-24T03:07:46Z",
       "source": "hn",
       "source_id": "49820496"
+    },
+    "https://magazine.sebastianraschka.com/p/classifier-history-and-jev": {
+      "published_at": "2026-09-30T03:14:18Z",
+      "source": "hn",
+      "source_id": "49891203"
     },
     "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5": {
       "published_at": "2026-09-28T14:08:34Z",
@@ -2056,6 +2056,30 @@
       ],
       "ts": "2026-09-29T14:49:59Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 48,
+      "eligible_per_source": {
+        "hf-papers": 18,
+        "hn": 29,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 48 eligible (hn 29, hf-papers 18, lobsters 1) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 1@8, 3@7, 5@6, 2@5, 6@4, 10@3, 10@2, 11@1. Above threshold(7): hf-papers-2609.32630(8) ExpVoyager (dynamic agent skill synthesis / runtime harness), hf-papers-2609.32488(7) dense-retrieval shared-vs-dual projection geometry, hn-49891203(7) Raschka 'bag-of-words to Jev' text classification, and hn-49896604(7) OpenAI 'Dots' always-on agents. Mechanical pick was ExpVoyager(8) + text-classification(7). Applied editorial deselection of ExpVoyager: it is squarely the self-improving-agent / skill-evolution / runtime-harness theme the blog has saturated over many recent runs (most recently 2026-09-27 'when-the-model-and-the-harness-have-to-co-evolve'), so it would near-duplicate recent posts. Promoted the topically-distinct dense-retrieval paper (2609.32488, a RAG retriever-architecture angle distinct from the 2026-09-29 reranker post), giving one hf-paper + one hn and two distinct primary-lane facets (retriever encoder geometry vs NLU/text classification). No hn/lobsters selection conflict; source-diversity satisfied. Research: dense-retrieval paper is a fresh unindexed arXiv paper with only arXiv mirrors / unrelated same-topic papers surfacing; the Raschka post's only near-matches were the author's own X/Substack notes (login-walled/self), a daily.dev aggregator repost, a bot-generated GitHub issue, and the HN thread itself (excluded) -- both below min_citations=2, so both posts omit the reaction paragraph as designed. written_today was 0, cap=min(2,4-0)=2. Interests clustering ran: no cluster qualified (neither new post belongs to the tracked MCP or openai-huggingface stories, and the retriever posts are a topic not one unfolding story).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.32488",
+        "hn-49891203"
+      ],
+      "ts": "2026-09-30T03:14:18Z",
+      "window": "evening"
     }
   ]
 }
