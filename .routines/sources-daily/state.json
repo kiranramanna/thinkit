@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-09-30T14:09:23Z",
+  "last_pruned_ts": "2026-10-01T03:07:51Z",
   "published_urls": {
     "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot": {
       "published_at": "2026-09-27T14:08:22Z",
@@ -10,11 +10,6 @@
       "published_at": "2026-09-26T14:14:58Z",
       "source": "hf-papers",
       "source_id": "2609.22682"
-    },
-    "https://arxiv.org/abs/2609.26550": {
-      "published_at": "2026-09-24T03:07:46Z",
-      "source": "hf-papers",
-      "source_id": "2609.26550"
     },
     "https://arxiv.org/abs/2609.26780": {
       "published_at": "2026-09-25T03:08:10Z",
@@ -86,6 +81,16 @@
       "source": "hf-papers",
       "source_id": "2609.33382"
     },
+    "https://arxiv.org/abs/2609.34392": {
+      "published_at": "2026-10-01T03:07:51Z",
+      "source": "hf-papers",
+      "source_id": "2609.34392"
+    },
+    "https://arxiv.org/abs/2609.36130": {
+      "published_at": "2026-10-01T03:07:51Z",
+      "source": "hf-papers",
+      "source_id": "2609.36130"
+    },
     "https://arxiv.org/abs/2609.37226": {
       "published_at": "2026-09-30T14:09:23Z",
       "source": "hf-papers",
@@ -100,11 +105,6 @@
       "published_at": "2026-09-25T14:09:30Z",
       "source": "hn",
       "source_id": "49833867"
-    },
-    "https://huggingface.co/apple/LensVLM-9B": {
-      "published_at": "2026-09-24T03:07:46Z",
-      "source": "hn",
-      "source_id": "49820496"
     },
     "https://magazine.sebastianraschka.com/p/classifier-history-and-jev": {
       "published_at": "2026-09-30T03:14:18Z",
@@ -2104,6 +2104,30 @@
       ],
       "ts": "2026-09-30T14:09:23Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 55,
+      "eligible_per_source": {
+        "hf-papers": 31,
+        "hn": 23,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Evening run. Adapters healthy: hn 23, lobsters 1, hf-papers 31 (raw 55, cross-source merged 55, 0 dropped as already-published within 7d) -> 55 eligible. No Anthropic SDK/key in env -> scored and wrote inline by the orchestrator agent using the exact prompts. Score distribution: 8:4, 7:4, 6:5, 5:10, 4:6, 3:9, 2:16, 1:1 -> 8 above threshold(7): four 8s (hf-papers-2609.36130 DerivAudit long-term-agent memory-derivation audit, hf-papers-2609.34392 Org-Agent organizational multi-user agents, hf-papers-2609.37402 SaveRouter economical LLM routing, hf-papers-2609.35427 general asynchronous agents) and four 7s (hf-papers-2609.36322 KV-cache phase-sensitivity, 2609.36730 LibraryDesignBench, 2609.37236 agent proactivity; hn-49911995 Magnitude inference engine). All four 8s are hf-papers so the source-diversity tie-break was inert; the mechanical top-two (2609.36130 + 2609.34392) were already the two most topically distinct 8s and the freshest relative to recently saturated themes (async/always-on agents covered 09-30, routing covered 09-28), so no editorial deselection was needed -- 2609.37402 (routing) and 2609.35427 (async) were left unselected on those grounds. Selected: DerivAudit (agent-memory provenance/eval) + Org-Agent (enterprise multi-user agent access-control), two distinct lanes. written_today was 0, so cap=min(2,4-0)=2. Research: both are ~3-day-old arXiv papers with no story-specific public reaction (only the arXiv pages, SEO mirrors and different same-topic papers surfaced), below min_citations=2, so both posts omit the reaction paragraph as designed. Interests: ran; no cluster proposed -- the shared 'agent memory' thread across recent posts is a topic, not a single developing story, and neither new post extends the MCP or OpenAI-HF running stories. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.36130",
+        "hf-papers-2609.34392"
+      ],
+      "ts": "2026-10-01T03:07:51Z",
+      "window": "evening"
     }
   ]
 }
