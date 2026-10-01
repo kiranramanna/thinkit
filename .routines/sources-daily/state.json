@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-01T03:07:51Z",
+  "last_pruned_ts": "2026-10-01T14:07:59Z",
   "published_urls": {
     "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot": {
       "published_at": "2026-09-27T14:08:22Z",
@@ -95,6 +95,16 @@
       "published_at": "2026-09-30T14:09:23Z",
       "source": "hf-papers",
       "source_id": "2609.37226"
+    },
+    "https://arxiv.org/abs/2609.39102": {
+      "published_at": "2026-10-01T14:07:59Z",
+      "source": "hf-papers",
+      "source_id": "2609.39102"
+    },
+    "https://arxiv.org/abs/2609.39982": {
+      "published_at": "2026-10-01T14:07:59Z",
+      "source": "hf-papers",
+      "source_id": "2609.39982"
     },
     "https://github.com/deepfates/imp": {
       "published_at": "2026-09-28T03:07:44Z",
@@ -2128,6 +2138,28 @@
       ],
       "ts": "2026-10-01T03:07:51Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 51,
+      "eligible_per_source": {
+        "hf-papers": 21,
+        "hn": 27,
+        "lobsters": 3
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2609.39102",
+        "hf-papers-2609.39982"
+      ],
+      "ts": "2026-10-01T14:07:59Z",
+      "window": "morning"
     }
   ]
 }
