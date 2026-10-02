@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-01T14:07:59Z",
+  "last_pruned_ts": "2026-10-02T03:08:18Z",
   "published_urls": {
     "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot": {
       "published_at": "2026-09-27T14:08:22Z",
@@ -11,20 +11,10 @@
       "source": "hf-papers",
       "source_id": "2609.22682"
     },
-    "https://arxiv.org/abs/2609.26780": {
-      "published_at": "2026-09-25T03:08:10Z",
-      "source": "hf-papers",
-      "source_id": "2609.26780"
-    },
     "https://arxiv.org/abs/2609.27334": {
       "published_at": "2026-09-26T03:07:55Z",
       "source": "hf-papers",
       "source_id": "2609.27334"
-    },
-    "https://arxiv.org/abs/2609.27891": {
-      "published_at": "2026-09-25T03:08:10Z",
-      "source": "hf-papers",
-      "source_id": "2609.27891"
     },
     "https://arxiv.org/abs/2609.28416": {
       "published_at": "2026-09-27T03:08:49Z",
@@ -106,6 +96,11 @@
       "source": "hf-papers",
       "source_id": "2609.39982"
     },
+    "https://arxiv.org/abs/2610.01415": {
+      "published_at": "2026-10-02T03:08:18Z",
+      "source": "hf-papers",
+      "source_id": "2610.01415"
+    },
     "https://github.com/deepfates/imp": {
       "published_at": "2026-09-28T03:07:44Z",
       "source": "hn",
@@ -130,6 +125,11 @@
       "published_at": "2026-09-28T14:08:34Z",
       "source": "hn",
       "source_id": "49874728"
+    },
+    "https://turbopuffer.com/blog/rip-vector-database": {
+      "published_at": "2026-10-02T03:08:18Z",
+      "source": "hn",
+      "source_id": "49923466"
     },
     "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior": {
       "published_at": "2026-09-26T14:14:58Z",
@@ -2160,6 +2160,30 @@
       ],
       "ts": "2026-10-01T14:07:59Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 47,
+      "eligible_per_source": {
+        "hf-papers": 20,
+        "hn": 26,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored above threshold(7): six 8s (hf-papers-2610.00964 RPTune context-curation RAG, hf-papers-2610.01415 PoS belief-state long-horizon agents, hf-papers-2609.38792 LLM-judge training from language feedback, hf-papers-2609.34736 SeLMRoute LLM routing; hn-49923466 'RIP, vector database', hn-49911500 Weave Router model-routing) and eight 7s. Distribution: 6@8, 8@7, 4@6, 5@5, 4@4, 5@3, 8@2, 7@1. Mechanical selection picked RPTune + RIP-vector-database, but both are retrieval/RAG-themed; deselected RPTune before writing to avoid a same-run same-theme pair and promoted the most distinct, non-harness-saturated 8 -- hf-papers-2610.01415 (PoS explicit belief states) -- honoring the source-diversity tie-break. Final: hn-49923466 (retrieval infra / vector-DB-as-category) + hf-papers-2610.01415 (agent memory/belief-state), one hn + one hf, two distinct primary-lane themes. written_today=0 so cap=min(2,4-0)=2. Research: 'RIP, vector database' had abundant same-topic 'vector DBs are dead' commentary, but the only pieces responding to THIS specific post (a Medium article, an X article) were unreadable (HTTP 403) or login-walled, so fewer than min_citations(2) story-specific citations survived; PoS is a fresh unindexed arXiv paper with no public reaction. Both posts omit the reaction paragraph as designed. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env). Interests: clustering ran, no qualifying running story (the agent-memory posts are a topic, not one developing story; neither new post belongs to the MCP or openai-huggingface incident stories).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hn-49923466",
+        "hf-papers-2610.01415"
+      ],
+      "ts": "2026-10-02T03:08:18Z",
+      "window": "evening"
     }
   ]
 }
