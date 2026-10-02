@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-02T03:08:18Z",
+  "last_pruned_ts": "2026-10-02T14:08:15Z",
   "published_urls": {
     "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot": {
       "published_at": "2026-09-27T14:08:22Z",
@@ -25,11 +25,6 @@
       "published_at": "2026-09-28T03:07:44Z",
       "source": "hf-papers",
       "source_id": "2609.29429"
-    },
-    "https://arxiv.org/abs/2609.29444": {
-      "published_at": "2026-09-25T14:09:30Z",
-      "source": "hf-papers",
-      "source_id": "2609.29444"
     },
     "https://arxiv.org/abs/2609.29647": {
       "published_at": "2026-09-26T03:07:55Z",
@@ -61,6 +56,11 @@
       "source": "hf-papers",
       "source_id": "2609.32488"
     },
+    "https://arxiv.org/abs/2609.32520": {
+      "published_at": "2026-10-02T14:08:15Z",
+      "source": "hf-papers",
+      "source_id": "2609.32520"
+    },
     "https://arxiv.org/abs/2609.33295": {
       "published_at": "2026-09-29T03:11:53Z",
       "source": "hf-papers",
@@ -86,6 +86,11 @@
       "source": "hf-papers",
       "source_id": "2609.37226"
     },
+    "https://arxiv.org/abs/2609.39027": {
+      "published_at": "2026-10-02T14:08:15Z",
+      "source": "hf-papers",
+      "source_id": "2609.39027"
+    },
     "https://arxiv.org/abs/2609.39102": {
       "published_at": "2026-10-01T14:07:59Z",
       "source": "hf-papers",
@@ -105,11 +110,6 @@
       "published_at": "2026-09-28T03:07:44Z",
       "source": "hn",
       "source_id": "49869995"
-    },
-    "https://github.com/devdotfast/whiteboard": {
-      "published_at": "2026-09-25T14:09:30Z",
-      "source": "hn",
-      "source_id": "49833867"
     },
     "https://magazine.sebastianraschka.com/p/classifier-history-and-jev": {
       "published_at": "2026-09-30T03:14:18Z",
@@ -2184,6 +2184,28 @@
       ],
       "ts": "2026-10-02T03:08:18Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 49,
+      "eligible_per_source": {
+        "hf-papers": 22,
+        "hn": 26,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2609.32520",
+        "hf-papers-2609.39027"
+      ],
+      "ts": "2026-10-02T14:08:15Z",
+      "window": "morning"
     }
   ]
 }
