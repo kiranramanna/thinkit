@@ -1,15 +1,10 @@
 {
-  "last_pruned_ts": "2026-10-03T03:08:12Z",
+  "last_pruned_ts": "2026-10-03T14:07:39Z",
   "published_urls": {
     "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot": {
       "published_at": "2026-09-27T14:08:22Z",
       "source": "hn",
       "source_id": "49853137"
-    },
-    "https://arxiv.org/abs/2609.22682": {
-      "published_at": "2026-09-26T14:14:58Z",
-      "source": "hf-papers",
-      "source_id": "2609.22682"
     },
     "https://arxiv.org/abs/2609.28416": {
       "published_at": "2026-09-27T03:08:49Z",
@@ -101,6 +96,16 @@
       "source": "hf-papers",
       "source_id": "2610.01415"
     },
+    "https://arxiv.org/abs/2610.02122": {
+      "published_at": "2026-10-03T14:07:39Z",
+      "source": "hf-papers",
+      "source_id": "2610.02122"
+    },
+    "https://arxiv.org/abs/2610.02142": {
+      "published_at": "2026-10-03T14:07:39Z",
+      "source": "hf-papers",
+      "source_id": "2610.02142"
+    },
     "https://blog.sshh.io/p/the-harness-is-the-company": {
       "published_at": "2026-10-03T03:08:12Z",
       "source": "hn",
@@ -130,11 +135,6 @@
       "published_at": "2026-10-02T03:08:18Z",
       "source": "hn",
       "source_id": "49923466"
-    },
-    "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior": {
-      "published_at": "2026-09-26T14:14:58Z",
-      "source": "hn",
-      "source_id": "49856149"
     },
     "https://www.privatemode.ai/blog/system-one-from-glm-flash": {
       "published_at": "2026-09-27T03:08:49Z",
@@ -2230,6 +2230,30 @@
       ],
       "ts": "2026-10-03T03:08:12Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 77,
+      "eligible_per_source": {
+        "hf-papers": 49,
+        "hn": 25,
+        "lobsters": 3
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Morning run. Adapters healthy: hn 25, lobsters 3, hf-papers 50 (raw 78, cross-source merged 78, 1 dropped as already-published within 7d) -> 77 eligible. No Anthropic SDK/key in env -> scored and wrote inline by the orchestrator agent using the exact prompts. Score distribution: 8:2, 7:6, 6:5, 5:16, 4:11, 3:18, 2:14, 1:5 -> 8 above threshold(7): two 8s (hf-papers-2610.02142 'Keyword Harnesses Fail Open' tool-use eval validity, hf-papers-2610.02122 Argo-Bench enterprise data-agent eval) and six 7s (hf-papers-2609.36435 MemFold agent memory, 2609.36138 SAKIKO tool-router auditing, 2610.01428 SAGO generalization eval, 2610.01108 AgSpec coding-agent speculative decoding, 2609.32259 HeteroFold cross-family KV cache; hn-49936575 antirez local-LLM runner). Both 8s are hf-papers so the source-diversity tie-break was inert; the mechanical top-two (2610.02142 + 2610.02122) are topically distinct lanes (tool-use eval measurement integrity vs enterprise-scale data-agent benchmark), so no editorial deselection needed. written_today was 2 (evening run earlier on 10-03), so cap=min(2,4-2)=2. Research: Argo-Bench had 2 usable story-specific citations (a DEV Community writeup + AI Weekly alert, both mixed/cautiously-approving) so its post carries the reaction paragraph; Keyword-Harnesses had only 1 usable story-specific citation (AI Weekly) below min_citations=2 -- the only other hits were general 'agent harness' Substack discourse, not about this paper -- so that post omits the reaction paragraph as designed. Interests: clustering ran; no qualifying running story -- both new posts are latest entries in broad topics (agent-eval validity; enterprise data agents), not one developing story, and neither extends the MCP or openai-huggingface incident stories. Scoring+writing+interests clustering performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.02142",
+        "hf-papers-2610.02122"
+      ],
+      "ts": "2026-10-03T14:07:39Z",
+      "window": "morning"
     }
   ]
 }
