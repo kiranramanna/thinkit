@@ -1,20 +1,10 @@
 {
-  "last_pruned_ts": "2026-10-04T03:07:39Z",
+  "last_pruned_ts": "2026-10-04T14:08:55Z",
   "published_urls": {
-    "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot": {
-      "published_at": "2026-09-27T14:08:22Z",
-      "source": "hn",
-      "source_id": "49853137"
-    },
     "https://arxiv.org/abs/2609.29429": {
       "published_at": "2026-09-28T03:07:44Z",
       "source": "hf-papers",
       "source_id": "2609.29429"
-    },
-    "https://arxiv.org/abs/2609.29892": {
-      "published_at": "2026-09-27T14:08:22Z",
-      "source": "hf-papers",
-      "source_id": "2609.29892"
     },
     "https://arxiv.org/abs/2609.30216": {
       "published_at": "2026-09-28T14:08:34Z",
@@ -25,6 +15,11 @@
       "published_at": "2026-09-29T14:49:59Z",
       "source": "hf-papers",
       "source_id": "2609.31948"
+    },
+    "https://arxiv.org/abs/2609.32259": {
+      "published_at": "2026-10-04T14:08:55Z",
+      "source": "hf-papers",
+      "source_id": "2609.32259"
     },
     "https://arxiv.org/abs/2609.32472": {
       "published_at": "2026-09-29T03:11:53Z",
@@ -105,6 +100,11 @@
       "published_at": "2026-10-03T14:07:39Z",
       "source": "hf-papers",
       "source_id": "2610.02142"
+    },
+    "https://arxiv.org/abs/2610.02148": {
+      "published_at": "2026-10-04T14:08:55Z",
+      "source": "hf-papers",
+      "source_id": "2610.02148"
     },
     "https://blog.sshh.io/p/the-harness-is-the-company": {
       "published_at": "2026-10-03T03:08:12Z",
@@ -2276,6 +2276,28 @@
       ],
       "ts": "2026-10-04T03:07:39Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 74,
+      "eligible_per_source": {
+        "hf-papers": 46,
+        "hn": 26,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2610.02148",
+        "hf-papers-2609.32259"
+      ],
+      "ts": "2026-10-04T14:08:55Z",
+      "window": "morning"
     }
   ]
 }
