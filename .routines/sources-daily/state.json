@@ -1,11 +1,6 @@
 {
-  "last_pruned_ts": "2026-10-04T14:08:55Z",
+  "last_pruned_ts": "2026-10-05T03:07:42Z",
   "published_urls": {
-    "https://arxiv.org/abs/2609.29429": {
-      "published_at": "2026-09-28T03:07:44Z",
-      "source": "hf-papers",
-      "source_id": "2609.29429"
-    },
     "https://arxiv.org/abs/2609.30216": {
       "published_at": "2026-09-28T14:08:34Z",
       "source": "hf-papers",
@@ -106,15 +101,20 @@
       "source": "hf-papers",
       "source_id": "2610.02148"
     },
+    "https://arxiv.org/abs/2610.03195": {
+      "published_at": "2026-10-05T03:07:42Z",
+      "source": "hf-papers",
+      "source_id": "2610.03195"
+    },
     "https://blog.sshh.io/p/the-harness-is-the-company": {
       "published_at": "2026-10-03T03:08:12Z",
       "source": "hn",
       "source_id": "49938616"
     },
-    "https://github.com/deepfates/imp": {
-      "published_at": "2026-09-28T03:07:44Z",
+    "https://github.com/Niko1221/Strata": {
+      "published_at": "2026-10-05T03:07:42Z",
       "source": "hn",
-      "source_id": "49869995"
+      "source_id": "49953495"
     },
     "https://liao.gg/blog/agents-dont-need-memory": {
       "published_at": "2026-10-04T03:07:39Z",
@@ -2298,6 +2298,28 @@
       ],
       "ts": "2026-10-04T14:08:55Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 63,
+      "eligible_per_source": {
+        "hf-papers": 35,
+        "hn": 25,
+        "lobsters": 3
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2610.03195",
+        "hn-49953495"
+      ],
+      "ts": "2026-10-05T03:07:42Z",
+      "window": "evening"
     }
   ]
 }
