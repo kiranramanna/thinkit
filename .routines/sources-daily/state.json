@@ -1,11 +1,6 @@
 {
-  "last_pruned_ts": "2026-10-05T03:07:42Z",
+  "last_pruned_ts": "2026-10-05T14:08:26Z",
   "published_urls": {
-    "https://arxiv.org/abs/2609.30216": {
-      "published_at": "2026-09-28T14:08:34Z",
-      "source": "hf-papers",
-      "source_id": "2609.30216"
-    },
     "https://arxiv.org/abs/2609.31948": {
       "published_at": "2026-09-29T14:49:59Z",
       "source": "hf-papers",
@@ -76,6 +71,11 @@
       "source": "hf-papers",
       "source_id": "2609.39982"
     },
+    "https://arxiv.org/abs/2610.00972": {
+      "published_at": "2026-10-05T14:08:26Z",
+      "source": "hf-papers",
+      "source_id": "2610.00972"
+    },
     "https://arxiv.org/abs/2610.01415": {
       "published_at": "2026-10-02T03:08:18Z",
       "source": "hf-papers",
@@ -111,6 +111,11 @@
       "source": "hn",
       "source_id": "49938616"
     },
+    "https://developers.redhat.com/articles/2026/10/02/benchmarking-ai-decision-models-against-traditional-guardrails": {
+      "published_at": "2026-10-05T14:08:26Z",
+      "source": "hn",
+      "source_id": "49933476"
+    },
     "https://github.com/Niko1221/Strata": {
       "published_at": "2026-10-05T03:07:42Z",
       "source": "hn",
@@ -130,11 +135,6 @@
       "published_at": "2026-09-30T14:09:23Z",
       "source": "hn",
       "source_id": "49896604"
-    },
-    "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5": {
-      "published_at": "2026-09-28T14:08:34Z",
-      "source": "hn",
-      "source_id": "49874728"
     },
     "https://turbopuffer.com/blog/rip-vector-database": {
       "published_at": "2026-10-02T03:08:18Z",
@@ -2320,6 +2320,30 @@
       ],
       "ts": "2026-10-05T03:07:42Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 60,
+      "eligible_per_source": {
+        "hf-papers": 34,
+        "hn": 25,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored above threshold(7): two 8s (hf-papers-2610.00972 VeriHarness \u2014 agentic verification for long-horizon tasks without reference answers; hn-49933476 Red Hat benchmark that decision models like Jev don't beat LLM-as-a-judge or classifiers for guardrails) and three 7s (hf-papers-2610.03574 HyperBrowseComp web-browsing-agent stress test, 2610.02824 MetaRubric rubric-judge reward, 2610.02826 Recursive Self-Rewrite agent trajectories). Distribution: 2@8, 3@7, 5@6, 8@5, 7@4, 6@3, 25@2, 4@1. Algorithm took both 8s; source-diversity tie-break was inert at the top (the two 8s are already one hf + one hn). The three 7s were all hf-papers clustered in the agent-eval/harness/judging space and more thematically redundant with recent posts (10-03 'harness is the moat', 10-04 'eval harness measuring wrong thing', 10-05 'agents pick the source'); the selected pair is the most mutually-distinct available (agent output verification vs guardrail decision-models-vs-classifiers). written_today was 2 (evening run), so cap=min(2,4-2)=2 held at the soft daily budget. Research: VeriHarness is a fresh unindexed arXiv paper with only its own arXiv/HF/GitHub surfacing (no third-party coverage); the Jev/guardrails item had a live Jev-vs-judge debate but every stance-bearing analysis (MLflow, Arize, aiweekly, OpenRouter, ai.gov.sg, agent.nexus) predates the 2026-10-02 Red Hat article (Sep 17\u201328) and none covers this specific benchmark \u2014 same-topic and older-than-story, both excluded \u2014 so both posts fall below min_citations=2 and omit the reaction paragraph as designed. Interests clustering ran and found nothing (neither new post extends the MCP or OpenAI-HF stories, and agent-eval/guardrails are topics not stories). Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.00972",
+        "hn-49933476"
+      ],
+      "ts": "2026-10-05T14:08:26Z",
+      "window": "morning"
     }
   ]
 }
