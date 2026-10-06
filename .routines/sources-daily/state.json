@@ -1,6 +1,11 @@
 {
-  "last_pruned_ts": "2026-10-05T14:08:26Z",
+  "last_pruned_ts": "2026-10-06T03:07:20Z",
   "published_urls": {
+    "https://arxiv.org/abs/2608.26762": {
+      "published_at": "2026-10-06T03:07:20Z",
+      "source": "hf-papers",
+      "source_id": "2608.26762"
+    },
     "https://arxiv.org/abs/2609.31948": {
       "published_at": "2026-09-29T14:49:59Z",
       "source": "hf-papers",
@@ -10,11 +15,6 @@
       "published_at": "2026-10-04T14:08:55Z",
       "source": "hf-papers",
       "source_id": "2609.32259"
-    },
-    "https://arxiv.org/abs/2609.32472": {
-      "published_at": "2026-09-29T03:11:53Z",
-      "source": "hf-papers",
-      "source_id": "2609.32472"
     },
     "https://arxiv.org/abs/2609.32488": {
       "published_at": "2026-09-30T03:14:18Z",
@@ -31,11 +31,6 @@
       "source": "hf-papers",
       "source_id": "2609.32993"
     },
-    "https://arxiv.org/abs/2609.33295": {
-      "published_at": "2026-09-29T03:11:53Z",
-      "source": "hf-papers",
-      "source_id": "2609.33295"
-    },
     "https://arxiv.org/abs/2609.33382": {
       "published_at": "2026-09-29T14:49:59Z",
       "source": "hf-papers",
@@ -50,6 +45,11 @@
       "published_at": "2026-10-01T03:07:51Z",
       "source": "hf-papers",
       "source_id": "2609.36130"
+    },
+    "https://arxiv.org/abs/2609.36887": {
+      "published_at": "2026-10-06T03:07:20Z",
+      "source": "hf-papers",
+      "source_id": "2609.36887"
     },
     "https://arxiv.org/abs/2609.37226": {
       "published_at": "2026-09-30T14:09:23Z",
@@ -2344,6 +2344,28 @@
       ],
       "ts": "2026-10-05T14:08:26Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 69,
+      "eligible_per_source": {
+        "hf-papers": 42,
+        "hn": 23,
+        "lobsters": 4
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2608.26762",
+        "hf-papers-2609.36887"
+      ],
+      "ts": "2026-10-06T03:07:20Z",
+      "window": "evening"
     }
   ]
 }
