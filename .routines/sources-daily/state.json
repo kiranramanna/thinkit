@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-06T03:07:20Z",
+  "last_pruned_ts": "2026-10-06T14:08:35Z",
   "published_urls": {
     "https://arxiv.org/abs/2608.26762": {
       "published_at": "2026-10-06T03:07:20Z",
@@ -105,6 +105,16 @@
       "published_at": "2026-10-05T03:07:42Z",
       "source": "hf-papers",
       "source_id": "2610.03195"
+    },
+    "https://arxiv.org/abs/2610.04137": {
+      "published_at": "2026-10-06T14:08:35Z",
+      "source": "hf-papers",
+      "source_id": "2610.04137"
+    },
+    "https://arxiv.org/abs/2610.05622": {
+      "published_at": "2026-10-06T14:08:35Z",
+      "source": "hf-papers",
+      "source_id": "2610.05622"
     },
     "https://blog.sshh.io/p/the-harness-is-the-company": {
       "published_at": "2026-10-03T03:08:12Z",
@@ -2366,6 +2376,28 @@
       ],
       "ts": "2026-10-06T03:07:20Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 51,
+      "eligible_per_source": {
+        "hf-papers": 25,
+        "hn": 23,
+        "lobsters": 3
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2610.05622",
+        "hf-papers-2610.04137"
+      ],
+      "ts": "2026-10-06T14:08:35Z",
+      "window": "morning"
     }
   ]
 }
