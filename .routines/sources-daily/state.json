@@ -1,25 +1,15 @@
 {
-  "last_pruned_ts": "2026-10-06T14:08:35Z",
+  "last_pruned_ts": "2026-10-07T03:07:56Z",
   "published_urls": {
     "https://arxiv.org/abs/2608.26762": {
       "published_at": "2026-10-06T03:07:20Z",
       "source": "hf-papers",
       "source_id": "2608.26762"
     },
-    "https://arxiv.org/abs/2609.31948": {
-      "published_at": "2026-09-29T14:49:59Z",
-      "source": "hf-papers",
-      "source_id": "2609.31948"
-    },
     "https://arxiv.org/abs/2609.32259": {
       "published_at": "2026-10-04T14:08:55Z",
       "source": "hf-papers",
       "source_id": "2609.32259"
-    },
-    "https://arxiv.org/abs/2609.32488": {
-      "published_at": "2026-09-30T03:14:18Z",
-      "source": "hf-papers",
-      "source_id": "2609.32488"
     },
     "https://arxiv.org/abs/2609.32520": {
       "published_at": "2026-10-02T14:08:15Z",
@@ -31,10 +21,10 @@
       "source": "hf-papers",
       "source_id": "2609.32993"
     },
-    "https://arxiv.org/abs/2609.33382": {
-      "published_at": "2026-09-29T14:49:59Z",
+    "https://arxiv.org/abs/2609.34227": {
+      "published_at": "2026-10-07T03:07:56Z",
       "source": "hf-papers",
-      "source_id": "2609.33382"
+      "source_id": "2609.34227"
     },
     "https://arxiv.org/abs/2609.34392": {
       "published_at": "2026-10-01T03:07:51Z",
@@ -116,6 +106,11 @@
       "source": "hf-papers",
       "source_id": "2610.05622"
     },
+    "https://arxiv.org/abs/2610.05750": {
+      "published_at": "2026-10-07T03:07:56Z",
+      "source": "hf-papers",
+      "source_id": "2610.05750"
+    },
     "https://blog.sshh.io/p/the-harness-is-the-company": {
       "published_at": "2026-10-03T03:08:12Z",
       "source": "hn",
@@ -135,11 +130,6 @@
       "published_at": "2026-10-04T03:07:39Z",
       "source": "hn",
       "source_id": "49945933"
-    },
-    "https://magazine.sebastianraschka.com/p/classifier-history-and-jev": {
-      "published_at": "2026-09-30T03:14:18Z",
-      "source": "hn",
-      "source_id": "49891203"
     },
     "https://openai.com/index/introducing-dots": {
       "published_at": "2026-09-30T14:09:23Z",
@@ -2398,6 +2388,29 @@
       ],
       "ts": "2026-10-06T14:08:35Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 49,
+      "eligible_per_source": {
+        "hf-papers": 27,
+        "hn": 22
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored above threshold(7): two 8s (hf-papers-2609.34227 'When Does Selection Replace Extraction?' pre-registered agent-memory study; hf-papers-2610.05750 'Beyond Semantic Similarity' agentic-retrieval cost study) plus nine 7s (hf-papers 2610.05030 EVISKILL, 2610.01892 selection-based multimodal search, 2610.06361 agent-memory self-evolution, 2610.02586 + 2610.02076 Jev typed-decision-model/LLM-as-classifier, 2610.02320 DeskForge computer-use grounding; hn-49980487 EmbeddingGemma 2, hn-49981905 Claude Code suggested-message take, hn-49985861 AI agents hacking SK banks). Distribution: 2@8, 9@7, 4@6, 7@5, 7@4, 10@3, 5@2, 5@1. lobsters returned 0 candidates (no allowlisted tag hot); no adapter errors. Algorithm took both 8s (source-diversity tie-break inert \u2014 both hf-papers). Kept both: they are distinct facets (conversational-MEMORY architecture, extraction-vs-selection, vs query-time AGENTIC-RETRIEVAL strategy/cost) and neither is part of the saturated self-improving-harness/skill-evolution stream prior runs deselected, so no editorial swap. written_today was 0, so cap=min(2,4-0)=2. Research: both are fresh arXiv papers (Sep/Oct 2026); web searches surfaced only same-topic papers and generic agentic-RAG explainers (incl. a same-titled but DIFFERENT paper 2605.05242), no coverage of THESE specific studies, so both omit the reaction paragraph as designed (0<min_citations=2). Interests: ran, no cluster \u2014 the agent-memory/RAG posts are a topic, not a single developing story. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.34227",
+        "hf-papers-2610.05750"
+      ],
+      "ts": "2026-10-07T03:07:56Z",
+      "window": "evening"
     }
   ]
 }
