@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-07T14:08:49Z",
+  "last_pruned_ts": "2026-10-08T03:12:26Z",
   "published_urls": {
     "https://arxiv.org/abs/2608.26762": {
       "published_at": "2026-10-06T03:07:20Z",
@@ -25,16 +25,6 @@
       "published_at": "2026-10-07T03:07:56Z",
       "source": "hf-papers",
       "source_id": "2609.34227"
-    },
-    "https://arxiv.org/abs/2609.34392": {
-      "published_at": "2026-10-01T03:07:51Z",
-      "source": "hf-papers",
-      "source_id": "2609.34392"
-    },
-    "https://arxiv.org/abs/2609.36130": {
-      "published_at": "2026-10-01T03:07:51Z",
-      "source": "hf-papers",
-      "source_id": "2609.36130"
     },
     "https://arxiv.org/abs/2609.36887": {
       "published_at": "2026-10-06T03:07:20Z",
@@ -91,6 +81,11 @@
       "source": "hf-papers",
       "source_id": "2610.02148"
     },
+    "https://arxiv.org/abs/2610.03036": {
+      "published_at": "2026-10-08T03:12:26Z",
+      "source": "hf-papers",
+      "source_id": "2610.03036"
+    },
     "https://arxiv.org/abs/2610.03195": {
       "published_at": "2026-10-05T03:07:42Z",
       "source": "hf-papers",
@@ -100,6 +95,11 @@
       "published_at": "2026-10-06T14:08:35Z",
       "source": "hf-papers",
       "source_id": "2610.04137"
+    },
+    "https://arxiv.org/abs/2610.05034": {
+      "published_at": "2026-10-08T03:12:26Z",
+      "source": "hf-papers",
+      "source_id": "2610.05034"
     },
     "https://arxiv.org/abs/2610.05622": {
       "published_at": "2026-10-06T14:08:35Z",
@@ -2435,6 +2435,28 @@
       ],
       "ts": "2026-10-07T14:08:49Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 55,
+      "eligible_per_source": {
+        "hf-papers": 25,
+        "hn": 29,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2610.05034",
+        "hf-papers-2610.03036"
+      ],
+      "ts": "2026-10-08T03:12:26Z",
+      "window": "evening"
     }
   ]
 }
