@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-07T14:08:49Z",
+  "last_pruned_ts": "2026-10-08T14:09:02Z",
   "published_urls": {
     "https://arxiv.org/abs/2608.26762": {
       "published_at": "2026-10-06T03:07:20Z",
@@ -26,16 +26,6 @@
       "source": "hf-papers",
       "source_id": "2609.34227"
     },
-    "https://arxiv.org/abs/2609.34392": {
-      "published_at": "2026-10-01T03:07:51Z",
-      "source": "hf-papers",
-      "source_id": "2609.34392"
-    },
-    "https://arxiv.org/abs/2609.36130": {
-      "published_at": "2026-10-01T03:07:51Z",
-      "source": "hf-papers",
-      "source_id": "2609.36130"
-    },
     "https://arxiv.org/abs/2609.36887": {
       "published_at": "2026-10-06T03:07:20Z",
       "source": "hf-papers",
@@ -45,16 +35,6 @@
       "published_at": "2026-10-02T14:08:15Z",
       "source": "hf-papers",
       "source_id": "2609.39027"
-    },
-    "https://arxiv.org/abs/2609.39102": {
-      "published_at": "2026-10-01T14:07:59Z",
-      "source": "hf-papers",
-      "source_id": "2609.39102"
-    },
-    "https://arxiv.org/abs/2609.39982": {
-      "published_at": "2026-10-01T14:07:59Z",
-      "source": "hf-papers",
-      "source_id": "2609.39982"
     },
     "https://arxiv.org/abs/2610.00972": {
       "published_at": "2026-10-05T14:08:26Z",
@@ -101,6 +81,11 @@
       "source": "hf-papers",
       "source_id": "2610.04137"
     },
+    "https://arxiv.org/abs/2610.05034": {
+      "published_at": "2026-10-08T14:09:02Z",
+      "source": "hf-papers",
+      "source_id": "2610.05034"
+    },
     "https://arxiv.org/abs/2610.05622": {
       "published_at": "2026-10-06T14:08:35Z",
       "source": "hf-papers",
@@ -110,6 +95,11 @@
       "published_at": "2026-10-07T03:07:56Z",
       "source": "hf-papers",
       "source_id": "2610.05750"
+    },
+    "https://arxiv.org/abs/2610.10444": {
+      "published_at": "2026-10-08T14:09:02Z",
+      "source": "hf-papers",
+      "source_id": "2610.10444"
     },
     "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2": {
       "published_at": "2026-10-07T14:08:49Z",
@@ -2434,6 +2424,30 @@
         "hn-49980487"
       ],
       "ts": "2026-10-07T14:08:49Z",
+      "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 64,
+      "eligible_per_source": {
+        "hf-papers": 38,
+        "hn": 25,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored above threshold(7): one 9 (hf-papers-2610.05034 Agentic RAG Evaluation \u2014 eval-budget allocation across questions/trajectories/reads), three 8s (hf-papers-2610.10444 RunningTab environment-side task ledger; 2610.09920 invertible multi-vector visual-doc indices; 2610.07967 DecepEval agent-deception benchmark) and five 7s (hf-papers-2610.09832 SkillForge, 2609.38169 STEPQuant, 2609.39306 ReSAIL; hn-49996437 Claude Haiku 5.5, hn-49996259 Docker Agent). Distribution: 1@9, 3@8, 5@7, 6@6, 10@5, 11@4, 6@3, 13@2, 9@1. written_today was 0, so cap=min(2,4-0)=2. The mechanical algorithm took the lone 9 then, with the source-diversity tie-break inert (all 8s were hf-papers), the first 8 in order (RunningTab) \u2014 which also happened to be the most format/theme-distinct option against the eval-heavy #1 pick, so no editorial deselection was needed: one RAG-eval-methodology post + one agentic-task-state post, both breaking from the recent skill-evolution/context-pruning stream. Research: both are days-old October-2026 arXiv papers with no story-specific public reaction (web search surfaced only same-topic papers, which the spec excludes), below min_citations=2, so both posts omit the reaction paragraph as designed. Interests: ran, no cluster \u2014 only shared topics among candidates, no specific running story, neither new post extends the MCP or openai-huggingface interests. Scoring+writing+clustering performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.05034",
+        "hf-papers-2610.10444"
+      ],
+      "ts": "2026-10-08T14:09:02Z",
       "window": "morning"
     }
   ]
