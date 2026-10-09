@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-09T03:14:01Z",
+  "last_pruned_ts": "2026-10-09T14:09:09Z",
   "published_urls": {
     "https://arxiv.org/abs/2608.26762": {
       "published_at": "2026-10-06T03:07:20Z",
@@ -10,11 +10,6 @@
       "published_at": "2026-10-04T14:08:55Z",
       "source": "hf-papers",
       "source_id": "2609.32259"
-    },
-    "https://arxiv.org/abs/2609.32520": {
-      "published_at": "2026-10-02T14:08:15Z",
-      "source": "hf-papers",
-      "source_id": "2609.32520"
     },
     "https://arxiv.org/abs/2609.32993": {
       "published_at": "2026-10-03T03:08:12Z",
@@ -30,11 +25,6 @@
       "published_at": "2026-10-06T03:07:20Z",
       "source": "hf-papers",
       "source_id": "2609.36887"
-    },
-    "https://arxiv.org/abs/2609.39027": {
-      "published_at": "2026-10-02T14:08:15Z",
-      "source": "hf-papers",
-      "source_id": "2609.39027"
     },
     "https://arxiv.org/abs/2610.00972": {
       "published_at": "2026-10-05T14:08:26Z",
@@ -91,10 +81,20 @@
       "source": "hf-papers",
       "source_id": "2610.05750"
     },
+    "https://arxiv.org/abs/2610.06100": {
+      "published_at": "2026-10-09T14:09:09Z",
+      "source": "hf-papers",
+      "source_id": "2610.06100"
+    },
     "https://arxiv.org/abs/2610.06406": {
       "published_at": "2026-10-09T03:14:01Z",
       "source": "hf-papers",
       "source_id": "2610.06406"
+    },
+    "https://arxiv.org/abs/2610.09087": {
+      "published_at": "2026-10-09T14:09:09Z",
+      "source": "hf-papers",
+      "source_id": "2610.09087"
     },
     "https://arxiv.org/abs/2610.10444": {
       "published_at": "2026-10-08T14:09:02Z",
@@ -2473,6 +2473,30 @@
       ],
       "ts": "2026-10-09T03:14:01Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 59,
+      "eligible_per_source": {
+        "hf-papers": 29,
+        "hn": 28,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 59 eligible (hf-papers 29, hn 28, lobsters 2) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution 2@8, 6@7, 2@6, 6@5, 12@4, 10@3, 13@2, 8@1. Above threshold(7): two 8s (hf-papers-2610.09087 U-Space, single-pass interpretable uncertainty / when-to-defer; hf-papers-2610.06100 Trace2Env, learning-free agentic world model that rebuilds agent eval/training environments from interaction traces) and six 7s (hf-papers-2610.11794 Memento 3 rulebook memory, 2610.12289 TestPrism test eval, 2609.39068 SparseEngine serving, 2610.08215 Learn2Play Bench; hn-50000488 'why isn't industry freaking out about DeepSeek 4.1 Flash', hn-50008427 Whistle 16.9MB STT). Algorithm took both 8s; source-diversity tie-break inert (both top are hf-papers, and no hn/lobsters item scored >=7 above them). The two 8s are topically distinct (LLM-Ops uncertainty/guardrails vs agentic eval-environment synthesis) and distinct from the recent agent-eval/harness stream, so no editorial deselection was applied. written_today was 2 (03:14Z evening run), so cap=min(2,4-2)=2 held at the soft daily budget. Research: both are fresh Oct-2026 arXiv papers with no story-specific public reaction (searches returned only same-topic different papers e.g. Qwen-AgentWorld, The Anatomy of Uncertainty), below min_citations=2, so both posts omit the reaction paragraph as designed. Interests: clustering ran; the candidate neighbours are broad topic overlap (agentic-ai/llm-ops/research), not one running story, and neither new post extends a >=3-post story at confidence>=0.7, so no interest created/updated.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.09087",
+        "hf-papers-2610.06100"
+      ],
+      "ts": "2026-10-09T14:09:09Z",
+      "window": "morning"
     }
   ]
 }
