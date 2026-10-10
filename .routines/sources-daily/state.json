@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-09T03:14:01Z",
+  "last_pruned_ts": "2026-10-10T03:07:57Z",
   "published_urls": {
     "https://arxiv.org/abs/2608.26762": {
       "published_at": "2026-10-06T03:07:20Z",
@@ -11,15 +11,10 @@
       "source": "hf-papers",
       "source_id": "2609.32259"
     },
-    "https://arxiv.org/abs/2609.32520": {
-      "published_at": "2026-10-02T14:08:15Z",
+    "https://arxiv.org/abs/2609.33987": {
+      "published_at": "2026-10-10T03:07:57Z",
       "source": "hf-papers",
-      "source_id": "2609.32520"
-    },
-    "https://arxiv.org/abs/2609.32993": {
-      "published_at": "2026-10-03T03:08:12Z",
-      "source": "hf-papers",
-      "source_id": "2609.32993"
+      "source_id": "2609.33987"
     },
     "https://arxiv.org/abs/2609.34227": {
       "published_at": "2026-10-07T03:07:56Z",
@@ -30,11 +25,6 @@
       "published_at": "2026-10-06T03:07:20Z",
       "source": "hf-papers",
       "source_id": "2609.36887"
-    },
-    "https://arxiv.org/abs/2609.39027": {
-      "published_at": "2026-10-02T14:08:15Z",
-      "source": "hf-papers",
-      "source_id": "2609.39027"
     },
     "https://arxiv.org/abs/2610.00972": {
       "published_at": "2026-10-05T14:08:26Z",
@@ -96,6 +86,11 @@
       "source": "hf-papers",
       "source_id": "2610.06406"
     },
+    "https://arxiv.org/abs/2610.09087": {
+      "published_at": "2026-10-10T03:07:57Z",
+      "source": "hf-papers",
+      "source_id": "2610.09087"
+    },
     "https://arxiv.org/abs/2610.10444": {
       "published_at": "2026-10-08T14:09:02Z",
       "source": "hf-papers",
@@ -110,11 +105,6 @@
       "published_at": "2026-10-07T14:08:49Z",
       "source": "hn",
       "source_id": "49980487"
-    },
-    "https://blog.sshh.io/p/the-harness-is-the-company": {
-      "published_at": "2026-10-03T03:08:12Z",
-      "source": "hn",
-      "source_id": "49938616"
     },
     "https://developers.redhat.com/articles/2026/10/02/benchmarking-ai-decision-models-against-traditional-guardrails": {
       "published_at": "2026-10-05T14:08:26Z",
@@ -2472,6 +2462,30 @@
         "hf-papers-2610.06406"
       ],
       "ts": "2026-10-09T03:14:01Z",
+      "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 45,
+      "eligible_per_source": {
+        "hf-papers": 20,
+        "hn": 23,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 45 eligible (hf-papers 20, hn 23, lobsters 2) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 2@8, 5@7, 3@6, 6@5, 5@4, 7@3, 8@2, 9@1. Above threshold(7): seven items, all hf-papers -- two 8s (Opera-2609.33987 verbal critic that tracks whether coding-agent feedback actually resolved; U-Space-2610.09087 single-pass interpretable uncertainty/when-to-defer) and five 7s (Memento3-2610.11794, REMORY-2610.11287, OneSearch-VL-2610.12419, TestPrism-2610.12289, SparseEngine-2609.39068). No hn/lobsters item scored >=7 (top non-paper: hn-50027118 Anthropic false police tip and hn-50024913 Microsoft-Decision-1, both 6). Algorithm took both 8s; source-diversity tie-break inert (all above-threshold were hf-papers). The two 8s are topically distinct from each other (agent critic/feedback-resolution vs uncertainty/confidence calibration) and from recent posts (token routing, agent logs->graph, RAG eval budget, agent ledger/memory), so no editorial deselection was needed. written_today was 0, cap=min(2,4-0)=2. Research: both are fresh arXiv papers (Sep/Oct 2026) with no story-specific public reaction -- searches surfaced only different same-topic papers and unrelated 'U-space' airspace work -- so with 0<min_citations(2) both posts omit the reaction paragraph as designed. Interests: ran, no qualifying running story (the recent stream is a topic, not one unfolding story); nothing created or updated. Writing performed inline by the orchestrator agent.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2609.33987",
+        "hf-papers-2610.09087"
+      ],
+      "ts": "2026-10-10T03:07:57Z",
       "window": "evening"
     }
   ]
