@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-10T14:07:20Z",
+  "last_pruned_ts": "2026-10-11T03:07:36Z",
   "published_urls": {
     "https://arxiv.org/abs/2608.26762": {
       "published_at": "2026-10-06T03:07:20Z",
@@ -41,11 +41,6 @@
       "source": "hf-papers",
       "source_id": "2610.01218"
     },
-    "https://arxiv.org/abs/2610.01428": {
-      "published_at": "2026-10-04T03:07:39Z",
-      "source": "hf-papers",
-      "source_id": "2610.01428"
-    },
     "https://arxiv.org/abs/2610.02148": {
       "published_at": "2026-10-04T14:08:55Z",
       "source": "hf-papers",
@@ -80,6 +75,11 @@
       "published_at": "2026-10-09T03:14:01Z",
       "source": "hf-papers",
       "source_id": "2610.06406"
+    },
+    "https://arxiv.org/abs/2610.06496": {
+      "published_at": "2026-10-11T03:07:36Z",
+      "source": "hf-papers",
+      "source_id": "2610.06496"
     },
     "https://arxiv.org/abs/2610.09087": {
       "published_at": "2026-10-10T03:07:57Z",
@@ -116,10 +116,10 @@
       "source": "hn",
       "source_id": "49953495"
     },
-    "https://liao.gg/blog/agents-dont-need-memory": {
-      "published_at": "2026-10-04T03:07:39Z",
+    "https://ndstudio.gov/posts/say-hello-to-rampart": {
+      "published_at": "2026-10-11T03:07:36Z",
       "source": "hn",
-      "source_id": "49945933"
+      "source_id": "50024242"
     }
   },
   "runs": [
@@ -2509,6 +2509,29 @@
       ],
       "ts": "2026-10-10T14:07:20Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 68,
+      "eligible_per_source": {
+        "hf-papers": 43,
+        "hn": 25
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 68 eligible (hf-papers 43, hn 25; lobsters returned 0 \u2014 no allowlisted-tag item hot, no adapter error) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution 6@8, 12@7, 4@6, 9@5, 12@4, 10@3, 12@2, 3@1. Above threshold(7): six 8s (hf-papers 2610.06496 Intent-Eval multi-turn-intent, 2610.11287 REMORY context-compaction, 2605.22949 MARGIN multi-agent confidence calibration, 2610.12360 epistemic-humility-under-knowledge-conflict; hn-50021899 coding-agents-as-medical-team, hn-50024242 Rampart on-device PII redaction) plus twelve 7s. Mechanical selection (cap=min(2,4-0)=2, written_today=0) picked 2610.06496 + hn-50021899. Applied an editorial deselection of hn-50021899 (agentic coding-agent debugging) as thematically adjacent to the 2026-10-10 post \"Your Agents Critic Never Checks If the Fix Landed\"; promoted the equally-scored, same-source hn-50024242 (Rampart, PII guardrails) to keep source diversity (one hf-paper + one hn) and two distinct lanes \u2014 conversational-AI multi-turn intent vs on-device PII redaction \u2014 neither covered in the last several days. Research: Intent-Eval (2610.06496) is a fresh arXiv paper with no story-specific public reaction (searches returned only different same-topic papers), below min_citations=2, so that post omits the reaction paragraph as designed; Rampart had two usable readable citations covering the tool (AI Weekly mixed, RuntimeWire negative on a .gov deployment that loosened its default-deny), so that post carries a reaction paragraph. Interests: clustering returned [] \u2014 the conversational-intent thread shares a topic with the 2026-10-02 intent-drift post but is two separate papers, not one developing story, and only two posts match (below min_posts=3); no cluster created.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.06496",
+        "hn-50024242"
+      ],
+      "ts": "2026-10-11T03:07:36Z",
+      "window": "evening"
     }
   ]
 }
