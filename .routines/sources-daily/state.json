@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-11T14:08:57Z",
+  "last_pruned_ts": "2026-10-12T03:07:57Z",
   "published_urls": {
     "https://arxiv.org/abs/2608.26762": {
       "published_at": "2026-10-06T03:07:20Z",
@@ -35,11 +35,6 @@
       "published_at": "2026-10-07T14:08:49Z",
       "source": "hf-papers",
       "source_id": "2610.01218"
-    },
-    "https://arxiv.org/abs/2610.03195": {
-      "published_at": "2026-10-05T03:07:42Z",
-      "source": "hf-papers",
-      "source_id": "2610.03195"
     },
     "https://arxiv.org/abs/2610.04137": {
       "published_at": "2026-10-06T14:08:35Z",
@@ -91,6 +86,11 @@
       "source": "hf-papers",
       "source_id": "2610.11169"
     },
+    "https://arxiv.org/abs/2610.11287": {
+      "published_at": "2026-10-12T03:07:57Z",
+      "source": "hf-papers",
+      "source_id": "2610.11287"
+    },
     "https://arxiv.org/abs/2610.11794": {
       "published_at": "2026-10-10T14:07:20Z",
       "source": "hf-papers",
@@ -111,15 +111,15 @@
       "source": "hn",
       "source_id": "49933476"
     },
-    "https://github.com/Niko1221/Strata": {
-      "published_at": "2026-10-05T03:07:42Z",
-      "source": "hn",
-      "source_id": "49953495"
-    },
     "https://ndstudio.gov/posts/say-hello-to-rampart": {
       "published_at": "2026-10-11T03:07:36Z",
       "source": "hn",
       "source_id": "50024242"
+    },
+    "https://tedhaley.ca/pensieve": {
+      "published_at": "2026-10-12T03:07:57Z",
+      "source": "hn",
+      "source_id": "50049508"
     }
   },
   "runs": [
@@ -2553,6 +2553,30 @@
       ],
       "ts": "2026-10-11T14:08:57Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 57,
+      "eligible_per_source": {
+        "hf-papers": 31,
+        "hn": 25,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 57 eligible (hf-papers 38, hn 18, lobsters 1) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 2@8, 5@7, 5@6, 5@5, 4@4, 11@3, 17@2, 8@1. Above threshold(7): two 8s (hf-papers-2610.11287 REMORY residual-memory context compaction; hn-50049508 Pensieve local semantic index cutting coding-agent tool calls/tokens) plus five 7s (hf-papers 2610.08927 Station open-ended discovery, 2610.11566 incremental deep research, 2610.03136 reasoning-language RAG, 2605.22949 MARGIN runtime confidence calibration; hn-50039092 500B-token agentic FPS decompile). cap=min(2,4-0)=2, written_today=0. Greedy took both 8s; source-diversity tie-break landed one hf-paper + one hn naturally, and the two are topically distinct (agent context/memory compaction vs retrieval/tool-call reduction), so no editorial swap needed. Research: REMORY is a fresh Oct-2026 arXiv paper with only a secondary abstract-restatement (aiweekly.co), and Pensieve searches surfaced only same-topic DIFFERENT tools (Project Index, CodeGraph, a different 'Pensieve'), no story-specific reaction; both below min_citations=2 so both omit the reaction paragraph as designed. Interests: ran, no cluster -- both posts sit in the broad agent-context-management/retrieval-efficiency topic across independent papers (readable in any order), not one developing story, and neither extends the model-context-protocol or openai-huggingface incidents. Writing performed inline by the orchestrator agent.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.11287",
+        "hn-50049508"
+      ],
+      "ts": "2026-10-12T03:07:57Z",
+      "window": "evening"
     }
   ]
 }
