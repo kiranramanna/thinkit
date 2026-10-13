@@ -1,6 +1,11 @@
 {
-  "last_pruned_ts": "2026-10-13T03:07:29Z",
+  "last_pruned_ts": "2026-10-13T14:08:28Z",
   "published_urls": {
+    "https://arxiv.org/abs/2609.33304": {
+      "published_at": "2026-10-13T14:08:28Z",
+      "source": "hf-papers",
+      "source_id": "2609.33304"
+    },
     "https://arxiv.org/abs/2609.33987": {
       "published_at": "2026-10-10T03:07:57Z",
       "source": "hf-papers",
@@ -21,20 +26,10 @@
       "source": "hf-papers",
       "source_id": "2610.01218"
     },
-    "https://arxiv.org/abs/2610.04137": {
-      "published_at": "2026-10-06T14:08:35Z",
-      "source": "hf-papers",
-      "source_id": "2610.04137"
-    },
     "https://arxiv.org/abs/2610.05034": {
       "published_at": "2026-10-08T14:09:02Z",
       "source": "hf-papers",
       "source_id": "2610.05034"
-    },
-    "https://arxiv.org/abs/2610.05622": {
-      "published_at": "2026-10-06T14:08:35Z",
-      "source": "hf-papers",
-      "source_id": "2610.05622"
     },
     "https://arxiv.org/abs/2610.05750": {
       "published_at": "2026-10-07T03:07:56Z",
@@ -105,6 +100,11 @@
       "published_at": "2026-10-13T03:07:29Z",
       "source": "hf-papers",
       "source_id": "2610.12668"
+    },
+    "https://arxiv.org/abs/2610.13361": {
+      "published_at": "2026-10-13T14:08:28Z",
+      "source": "hf-papers",
+      "source_id": "2610.13361"
     },
     "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2": {
       "published_at": "2026-10-07T14:08:49Z",
@@ -2623,6 +2623,30 @@
       ],
       "ts": "2026-10-13T03:07:29Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 59,
+      "eligible_per_source": {
+        "hf-papers": 29,
+        "hn": 29,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 59 eligible (hf-papers 29, hn 29, lobsters 1) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution: 1@8, 2@7, 7@6, 5@5, 13@4, 4@3, 16@2, 11@1. Above threshold(7): one 8 (hf-papers-2610.13361 AgentSWE -- benchmark for coding agents commissioned to build/edit/optimize agents, graded on held-out requirement rubrics) plus two 7s (hf-papers-2609.33304 'Relevance Does Not Imply Applicability'/ExpActivator -- retrieved experience helps only the opening step of a GUI-agent episode; hf-papers-2610.12984 Work2Skill -- reusable agent skill induction from human GUI demos). cap=min(2,4-2)=2 (written_today=2 from the evening run, hitting the posts_per_day=4 soft cap exactly). Greedy took the 8; source-diversity tie-break was inert (all >=7 are hf-papers) so the first 7 in eligible order, ExpActivator (2609.33304), was taken -- giving two distinct angles (agent-built-agent acceptance testing vs per-step retrieval applicability), no editorial swap needed. No hn/lobsters item scored >=7 (top non-paper: hn-50063717 Janas SSD expert-streaming and hn-50059096 Agent37 sandboxes, both 6). Research: both are fresh Oct/Sep-2026 arXiv papers; WebSearch surfaced only same-topic DIFFERENT papers (SWE-bench/SWE-agent/SWE-Together for AgentSWE; KnowAct-GUIClaw/EchoTrail for ExpActivator), no story-specific public reaction, below min_citations=2, so both posts omit the reaction paragraph as designed. Interests: ran, no cluster -- both posts sit in the broad agent-evaluation and agent-memory/retrieval topics across independent papers (readable in any order), not one developing story, and neither extends the model-context-protocol or openai-huggingface incidents. Scoring+writing performed inline by the orchestrator agent.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.13361",
+        "hf-papers-2609.33304"
+      ],
+      "ts": "2026-10-13T14:08:28Z",
+      "window": "morning"
     }
   ]
 }
