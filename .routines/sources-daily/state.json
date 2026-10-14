@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-13T14:08:28Z",
+  "last_pruned_ts": "2026-10-14T03:08:00Z",
   "published_urls": {
     "https://arxiv.org/abs/2609.33304": {
       "published_at": "2026-10-13T14:08:28Z",
@@ -10,11 +10,6 @@
       "published_at": "2026-10-10T03:07:57Z",
       "source": "hf-papers",
       "source_id": "2609.33987"
-    },
-    "https://arxiv.org/abs/2609.34227": {
-      "published_at": "2026-10-07T03:07:56Z",
-      "source": "hf-papers",
-      "source_id": "2609.34227"
     },
     "https://arxiv.org/abs/2609.35855": {
       "published_at": "2026-10-10T14:07:20Z",
@@ -30,11 +25,6 @@
       "published_at": "2026-10-08T14:09:02Z",
       "source": "hf-papers",
       "source_id": "2610.05034"
-    },
-    "https://arxiv.org/abs/2610.05750": {
-      "published_at": "2026-10-07T03:07:56Z",
-      "source": "hf-papers",
-      "source_id": "2610.05750"
     },
     "https://arxiv.org/abs/2610.06406": {
       "published_at": "2026-10-09T03:14:01Z",
@@ -105,6 +95,16 @@
       "published_at": "2026-10-13T14:08:28Z",
       "source": "hf-papers",
       "source_id": "2610.13361"
+    },
+    "https://arxiv.org/abs/2610.14224": {
+      "published_at": "2026-10-14T03:08:00Z",
+      "source": "hf-papers",
+      "source_id": "2610.14224"
+    },
+    "https://arxiv.org/abs/2610.15208": {
+      "published_at": "2026-10-14T03:08:00Z",
+      "source": "hf-papers",
+      "source_id": "2610.15208"
     },
     "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2": {
       "published_at": "2026-10-07T14:08:49Z",
@@ -2647,6 +2647,28 @@
       ],
       "ts": "2026-10-13T14:08:28Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 50,
+      "eligible_per_source": {
+        "hf-papers": 24,
+        "hn": 25,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2610.14224",
+        "hf-papers-2610.15208"
+      ],
+      "ts": "2026-10-14T03:08:00Z",
+      "window": "evening"
     }
   ]
 }
