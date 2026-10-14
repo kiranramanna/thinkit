@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-14T03:08:00Z",
+  "last_pruned_ts": "2026-10-14T14:08:46Z",
   "published_urls": {
     "https://arxiv.org/abs/2609.33304": {
       "published_at": "2026-10-13T14:08:28Z",
@@ -15,11 +15,6 @@
       "published_at": "2026-10-10T14:07:20Z",
       "source": "hf-papers",
       "source_id": "2609.35855"
-    },
-    "https://arxiv.org/abs/2610.01218": {
-      "published_at": "2026-10-07T14:08:49Z",
-      "source": "hf-papers",
-      "source_id": "2610.01218"
     },
     "https://arxiv.org/abs/2610.05034": {
       "published_at": "2026-10-08T14:09:02Z",
@@ -106,10 +101,15 @@
       "source": "hf-papers",
       "source_id": "2610.15208"
     },
-    "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2": {
-      "published_at": "2026-10-07T14:08:49Z",
+    "https://arxiv.org/abs/2610.18206": {
+      "published_at": "2026-10-14T14:08:46Z",
+      "source": "hf-papers",
+      "source_id": "2610.18206"
+    },
+    "https://github.com/timescale/pg_vectorsearch": {
+      "published_at": "2026-10-14T14:08:46Z",
       "source": "hn",
-      "source_id": "49980487"
+      "source_id": "50086165"
     },
     "https://ndstudio.gov/posts/say-hello-to-rampart": {
       "published_at": "2026-10-11T03:07:36Z",
@@ -2669,6 +2669,30 @@
       ],
       "ts": "2026-10-14T03:08:00Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 65,
+      "eligible_per_source": {
+        "hf-papers": 36,
+        "hn": 27,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 65 eligible (hf-papers 36, hn 27, lobsters 2) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution 4@8, 5@7, 8@6, 3@5, 6@4, 6@3, 19@2, 15@1. Above threshold(7): four 8s (hf-papers-2610.18206 SWE-MISBEHAVIOR coding-agent boundary-violation eval; hf-papers-2610.17953 Agent-Reflex; hf-papers-2610.18766 tool-augmented rubric judges; hn-50086165 pg_vectorsearch) and five 7s (hf-papers-2610.14766 secure-code benchmark, 2610.18092 LifeSearch deep-research agents, 2610.18484 ReTerm recovery training, 2610.15765 agent-native interfaces, 2610.18272 JevGPT autonomous research). Algorithm took the first 8 (SWE-MISBEHAVIOR), then the source-diversity tie-break picked hn-50086165 (pg_vectorsearch) over the remaining hf 8s -- one hf-paper + one hn, two distinct lanes (agent safety/governance eval vs RAG vector-index infrastructure). This also avoids thematic duplication: the deep-research 7s (LifeSearch, JevGPT) would dupe today's evening post 'Why Deep-Research Agents Need a Verifier in the Loop', and the harness/self-improvement candidates (ReTerm, EMHO) dupe the saturated harness-learning stream of the last several runs. written_today was 2 (today's evening run), so cap=min(2,4-2)=2 held at the soft daily budget. Research: SWE-MISBEHAVIOR is a fresh, unindexed arXiv paper with no story-specific public reaction, and pg_vectorsearch had no third-party coverage distinct from the older pgvectorscale extension or the HN thread itself -- both below min_citations=2, so both posts omit the reaction paragraph as designed. Interests: ran, no cluster qualified (both posts share only topics, not one developing story). Scoring+writing performed inline by the orchestrator agent.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.18206",
+        "hn-50086165"
+      ],
+      "ts": "2026-10-14T14:08:46Z",
+      "window": "morning"
     }
   ]
 }
