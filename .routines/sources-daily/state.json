@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-15T03:07:22Z",
+  "last_pruned_ts": "2026-10-15T14:08:22Z",
   "published_urls": {
     "https://arxiv.org/abs/2609.33304": {
       "published_at": "2026-10-13T14:08:28Z",
@@ -15,11 +15,6 @@
       "published_at": "2026-10-10T14:07:20Z",
       "source": "hf-papers",
       "source_id": "2609.35855"
-    },
-    "https://arxiv.org/abs/2610.05034": {
-      "published_at": "2026-10-08T14:09:02Z",
-      "source": "hf-papers",
-      "source_id": "2610.05034"
     },
     "https://arxiv.org/abs/2610.06406": {
       "published_at": "2026-10-09T03:14:01Z",
@@ -45,11 +40,6 @@
       "published_at": "2026-10-13T03:07:29Z",
       "source": "hf-papers",
       "source_id": "2610.09633"
-    },
-    "https://arxiv.org/abs/2610.10444": {
-      "published_at": "2026-10-08T14:09:02Z",
-      "source": "hf-papers",
-      "source_id": "2610.10444"
     },
     "https://arxiv.org/abs/2610.10549": {
       "published_at": "2026-10-11T14:08:57Z",
@@ -96,6 +86,11 @@
       "source": "hf-papers",
       "source_id": "2610.14224"
     },
+    "https://arxiv.org/abs/2610.14774": {
+      "published_at": "2026-10-15T14:08:22Z",
+      "source": "hf-papers",
+      "source_id": "2610.14774"
+    },
     "https://arxiv.org/abs/2610.15208": {
       "published_at": "2026-10-14T03:08:00Z",
       "source": "hf-papers",
@@ -115,6 +110,11 @@
       "published_at": "2026-10-15T03:07:22Z",
       "source": "hf-papers",
       "source_id": "2610.19366"
+    },
+    "https://arxiv.org/abs/2610.19560": {
+      "published_at": "2026-10-15T14:08:22Z",
+      "source": "hf-papers",
+      "source_id": "2610.19560"
     },
     "https://github.com/timescale/pg_vectorsearch": {
       "published_at": "2026-10-14T14:08:46Z",
@@ -2725,6 +2725,30 @@
       ],
       "ts": "2026-10-15T03:07:22Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 44,
+      "eligible_per_source": {
+        "hf-papers": 21,
+        "hn": 22,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 44 eligible (hf-papers 21, hn 22, lobsters 1) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution 5@8, 7@7, 4@6, 3@5, 2@4, 9@3, 11@2, 3@1. Above threshold(7): five 8s -- RuleTrek-2610.19698 (agentic rule reasoning over distributed files), ProgAgent-2610.14774 (programmatic vs direct tool calling / context rot), Cortex-2610.20399 (context->parametric memory), tau-Emotion-Bench-2610.19560 (tool-calling agent reliability under user emotion), Doc2Harness-2610.20344 (long-horizon harness-engineering benchmark) -- plus seven 7s. Mechanical pick was two of the 8s; applied editorial deselection of Doc2Harness (harness-engineering theme saturated by the 10-12/10-13/10-14 harness posts) and Cortex (memory/context theme overlaps the same-day 10-15 'Agent Memory in Three Tiers'). Kept the two most topically-distinct in-lane 8s: ProgAgent (agentic tool orchestration) and tau-Emotion-Bench (conversational-AI agent reliability). All five 8s were hf-papers, so the source-diversity tie-break was inert. Research: both are fresh (Oct-2026) arXiv papers with no story-specific public reaction (searches surfaced only general programmatic-tool-calling material and different papers -- TEA-Bench, tau-bench), below min_citations=2, so both posts omit the reaction paragraph as designed. Interests: clustering ran over 60 prefiltered candidates + 2 existing interests and returned [] -- neither new post extends a tracked story (MCP, OpenAI x HF) or anchors a new single-story cluster; the neighbours are shared topics (context management, multi-turn reliability), not one developing story. written_today was 2 (today's evening run), so cap=min(2,4-2)=2.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.14774",
+        "hf-papers-2610.19560"
+      ],
+      "ts": "2026-10-15T14:08:22Z",
+      "window": "morning"
     }
   ]
 }
