@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-16T03:07:37Z",
+  "last_pruned_ts": "2026-10-16T14:14:22Z",
   "published_urls": {
     "https://arxiv.org/abs/2609.33304": {
       "published_at": "2026-10-13T14:08:28Z",
@@ -101,6 +101,11 @@
       "source": "hf-papers",
       "source_id": "2610.18579"
     },
+    "https://arxiv.org/abs/2610.18813": {
+      "published_at": "2026-10-16T14:14:22Z",
+      "source": "hf-papers",
+      "source_id": "2610.18813"
+    },
     "https://arxiv.org/abs/2610.19366": {
       "published_at": "2026-10-15T03:07:22Z",
       "source": "hf-papers",
@@ -115,6 +120,11 @@
       "published_at": "2026-10-16T03:07:37Z",
       "source": "hf-papers",
       "source_id": "2610.21412"
+    },
+    "https://arxiv.org/abs/2610.22350": {
+      "published_at": "2026-10-16T14:14:22Z",
+      "source": "hf-papers",
+      "source_id": "2610.22350"
     },
     "https://github.com/timescale/pg_vectorsearch": {
       "published_at": "2026-10-14T14:08:46Z",
@@ -2773,6 +2783,30 @@
       ],
       "ts": "2026-10-16T03:07:37Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 55,
+      "eligible_per_source": {
+        "hf-papers": 27,
+        "hn": 25,
+        "lobsters": 3
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 55 eligible (hf-papers 27, hn 25, lobsters 3) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution 3@8, 3@7, 4@6, 2@5, 2@4, 12@3, 18@2, 11@1. Above threshold(7): three 8s -- FDE-Gym-2610.22350 (end-to-end agent delivery benchmark, business uplift under ambiguous/implicit requirements), Self-Evolving-Agent-Harness-2610.18813 (self-modifying scaffolding with statistical admission + retention bounds), SpecAgent-2610.21463 (speculative small-model trajectories + semantic verification for tool-using agents) -- plus three 7s (2610.22344 MLExpert autonomous MLE, 2610.22322 decentralized agent-swarm self-orchestration, 2610.22174 Mosaic multi-session agentic RL). Greedy picked the two 8s FDE-Gym + Self-Evolving-Agent-Harness; all 8s were hf-papers so source-diversity tie-break was inert. The third 8 (SpecAgent) was left out by the cap and would in any case have duplicated the 10-16 evening JevAgentHarness post (both delegate routine steps to a cheap model / speculative execution), so no editorial swap was needed; the two picks sit in distinct lanes (delivery-under-ambiguity eval vs self-modifying scaffolding). written_today=2 (today's evening run wrote 2), cap=min(2,4-2)=2. Research: both are fresh (Oct-2026 / 2610) arXiv papers; WebSearch surfaced only general forward-deployed-engineering commentary (FDE-Gym) and DIFFERENT harness papers plus paper-mirror pages (Self-Evolving: ModularRSI-2609.14857, RRSI-2609.24972, HELIX-2608.13951), no story-specific public reaction below min_citations=2, so both posts omit the reaction paragraph as designed. Interests: clustering ran over 60 prefiltered candidates + 2 existing interests (model-context-protocol, openai-huggingface) and returned [] -- neither new post extends a tracked story, and both sit in broad recurring topics (harness self-evolution; agent-delivery evaluation) across independent papers readable in any order, not one developing story. Scoring+writing performed inline by the orchestrator agent.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.22350",
+        "hf-papers-2610.18813"
+      ],
+      "ts": "2026-10-16T14:14:22Z",
+      "window": "morning"
     }
   ]
 }
