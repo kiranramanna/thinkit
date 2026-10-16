@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-15T14:08:22Z",
+  "last_pruned_ts": "2026-10-16T03:07:37Z",
   "published_urls": {
     "https://arxiv.org/abs/2609.33304": {
       "published_at": "2026-10-13T14:08:28Z",
@@ -15,11 +15,6 @@
       "published_at": "2026-10-10T14:07:20Z",
       "source": "hf-papers",
       "source_id": "2609.35855"
-    },
-    "https://arxiv.org/abs/2610.06406": {
-      "published_at": "2026-10-09T03:14:01Z",
-      "source": "hf-papers",
-      "source_id": "2610.06406"
     },
     "https://arxiv.org/abs/2610.06496": {
       "published_at": "2026-10-11T03:07:36Z",
@@ -66,11 +61,6 @@
       "source": "hf-papers",
       "source_id": "2610.12114"
     },
-    "https://arxiv.org/abs/2610.12242": {
-      "published_at": "2026-10-09T03:14:01Z",
-      "source": "hf-papers",
-      "source_id": "2610.12242"
-    },
     "https://arxiv.org/abs/2610.12668": {
       "published_at": "2026-10-13T03:07:29Z",
       "source": "hf-papers",
@@ -80,6 +70,11 @@
       "published_at": "2026-10-13T14:08:28Z",
       "source": "hf-papers",
       "source_id": "2610.13361"
+    },
+    "https://arxiv.org/abs/2610.13623": {
+      "published_at": "2026-10-16T03:07:37Z",
+      "source": "hf-papers",
+      "source_id": "2610.13623"
     },
     "https://arxiv.org/abs/2610.14224": {
       "published_at": "2026-10-14T03:08:00Z",
@@ -115,6 +110,11 @@
       "published_at": "2026-10-15T14:08:22Z",
       "source": "hf-papers",
       "source_id": "2610.19560"
+    },
+    "https://arxiv.org/abs/2610.21412": {
+      "published_at": "2026-10-16T03:07:37Z",
+      "source": "hf-papers",
+      "source_id": "2610.21412"
     },
     "https://github.com/timescale/pg_vectorsearch": {
       "published_at": "2026-10-14T14:08:46Z",
@@ -2749,6 +2749,30 @@
       ],
       "ts": "2026-10-15T14:08:22Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 51,
+      "eligible_per_source": {
+        "hf-papers": 23,
+        "hn": 25,
+        "lobsters": 3
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 51 eligible (hf-papers 23, hn 25, lobsters 3) inline by the orchestrator agent (no Anthropic SDK/key in env). Distribution 2@9, 2@8, 2@7, 4@6, 3@5, 5@4, 6@3, 13@2, 14@1. Above threshold(7): two 9s -- hf-papers-2610.21412 (JevAgentHarness: delegate per-step tool-choice decisions to a cheap decision model with a fitted confidence threshold; 81-89% cheaper, up to 2.5x faster) and hf-papers-2610.13623 (APEX-Harm: prompt/script-injection safety eval for long-horizon enterprise agents over MCP servers) -- plus two 8s (2610.19128 CLASHarness multi-agent conflict, 2610.17560 EdgeWise edge-cloud delegation) and two 7s (2610.22131 Intern-Decision, 2610.21359 SWE-at-Scale). Greedy took the two 9s; both hf-papers so the source-diversity tie-break was inert. The two cover distinct lanes (agent-harness cost/routing vs agent security/governance), so no editorial swap -- EdgeWise would have duped the delegation theme and APEX-Harm is distinct enough from the 10-14 SWE-MISBEHAVIOR boundary-violation post (adversarial injection vs autonomous misbehavior). written_today=0, cap=min(2,4-0)=2. Research: both are fresh (Oct-2026 / 2610) arXiv papers; WebSearch surfaced only same-topic DIFFERENT work (Jev general product coverage + REFLEX-2609.26532 for JevAgentHarness; SABER/AgentDojo/OS-Harm/APEX-Agents/DTap for APEX-Harm), no story-specific public reaction below min_citations=2, so both posts omit the reaction paragraph as designed. Interests: ran over 60 prefiltered candidates + 2 existing interests, returned [] -- both new posts sit in broad topics (harness optimization, agent security) across independent papers readable in any order, not one developing story, and neither extends model-context-protocol or openai-huggingface. Scoring+writing performed inline by the orchestrator agent.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.21412",
+        "hf-papers-2610.13623"
+      ],
+      "ts": "2026-10-16T03:07:37Z",
+      "window": "evening"
     }
   ]
 }
