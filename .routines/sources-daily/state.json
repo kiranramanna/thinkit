@@ -1,15 +1,10 @@
 {
-  "last_pruned_ts": "2026-10-17T14:06:06Z",
+  "last_pruned_ts": "2026-10-18T03:05:47Z",
   "published_urls": {
     "https://arxiv.org/abs/2609.33304": {
       "published_at": "2026-10-13T14:08:28Z",
       "source": "hf-papers",
       "source_id": "2609.33304"
-    },
-    "https://arxiv.org/abs/2610.06496": {
-      "published_at": "2026-10-11T03:07:36Z",
-      "source": "hf-papers",
-      "source_id": "2610.06496"
     },
     "https://arxiv.org/abs/2610.07625": {
       "published_at": "2026-10-12T14:09:13Z",
@@ -96,6 +91,11 @@
       "source": "hf-papers",
       "source_id": "2610.19560"
     },
+    "https://arxiv.org/abs/2610.20939": {
+      "published_at": "2026-10-18T03:05:47Z",
+      "source": "hf-papers",
+      "source_id": "2610.20939"
+    },
     "https://arxiv.org/abs/2610.21412": {
       "published_at": "2026-10-16T03:07:37Z",
       "source": "hf-papers",
@@ -131,10 +131,10 @@
       "source": "hn",
       "source_id": "50086165"
     },
-    "https://ndstudio.gov/posts/say-hello-to-rampart": {
-      "published_at": "2026-10-11T03:07:36Z",
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017": {
+      "published_at": "2026-10-18T03:05:47Z",
       "source": "hn",
-      "source_id": "50024242"
+      "source_id": "50129045"
     },
     "https://tedhaley.ca/pensieve": {
       "published_at": "2026-10-12T03:07:57Z",
@@ -2851,6 +2851,30 @@
       ],
       "ts": "2026-10-17T14:06:06Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 51,
+      "eligible_per_source": {
+        "hf-papers": 25,
+        "hn": 25,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored above threshold(7): one 8 (hf-papers-2610.22344 MLExpert, autonomous ML-engineering agent) and five 7s (hf-papers-2610.21656 Data World, 2610.20939 MAI-Gym, 2610.17670 Cowork-Gym, 2610.22174 Mosaic; hn-50129045 DeepSeek-V4.1-Flash-1017). Distribution: 1@8, 5@7, 5@6, 5@5, 6@4, 10@3, 13@2, 6@1. The mechanical algorithm would take MLExpert(8) + the source-diversity hn pick DeepSeek-Flash(7). Editorial deselection before writing: dropped MLExpert as a near-duplicate of the saturated 48h recursive-self-improvement/orchestration theme (10-17 'Letting Agent Swarms Learn Their Own Orchestration', 10-16 'When the Scaffolding Starts Editing Itself'); promoted the most topically-distinct 7, MAI-Gym (open GUI-agent eval+RL platform, a domain not covered recently). Final pick: MAI-Gym (hf) + DeepSeek-Flash (hn) \u2014 one paper + one hn, two distinct angles (agent-eval infra vs a model-release/cost story), and the hn item also breaks an all-hf-papers streak. written_today=0, cap=min(2,4-0)=2. Research: MAI-Gym is a fresh unindexed arXiv paper with no story-specific reaction; DeepSeek-Flash-1017 is an Oct-17 checkpoint whose only web coverage is of EARLIER V4.1-Flash/V4-Flash releases (same family, not this -1017 story) \u2014 both below min_citations=2, so both posts omit the reaction paragraph as designed. Interests: ran, no cluster qualified (both new posts are topic-adjacent, not part of a specific running story). Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.20939",
+        "hn-50129045"
+      ],
+      "ts": "2026-10-18T03:05:47Z",
+      "window": "evening"
     }
   ]
 }
