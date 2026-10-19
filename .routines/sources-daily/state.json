@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-19T03:05:41Z",
+  "last_pruned_ts": "2026-10-19T14:14:09Z",
   "published_urls": {
     "https://api-docs.deepseek.com/guides/search": {
       "published_at": "2026-10-18T14:05:40Z",
@@ -11,20 +11,10 @@
       "source": "hf-papers",
       "source_id": "2609.33304"
     },
-    "https://arxiv.org/abs/2610.07625": {
-      "published_at": "2026-10-12T14:09:13Z",
-      "source": "hf-papers",
-      "source_id": "2610.07625"
-    },
     "https://arxiv.org/abs/2610.09633": {
       "published_at": "2026-10-13T03:07:29Z",
       "source": "hf-papers",
       "source_id": "2610.09633"
-    },
-    "https://arxiv.org/abs/2610.12114": {
-      "published_at": "2026-10-12T14:09:13Z",
-      "source": "hf-papers",
-      "source_id": "2610.12114"
     },
     "https://arxiv.org/abs/2610.12668": {
       "published_at": "2026-10-13T03:07:29Z",
@@ -131,6 +121,11 @@
       "source": "hf-papers",
       "source_id": "2610.22350"
     },
+    "https://arxiv.org/abs/2610.23787": {
+      "published_at": "2026-10-19T14:14:09Z",
+      "source": "hf-papers",
+      "source_id": "2610.23787"
+    },
     "https://github.com/timescale/pg_vectorsearch": {
       "published_at": "2026-10-14T14:08:46Z",
       "source": "hn",
@@ -140,6 +135,11 @@
       "published_at": "2026-10-18T03:05:47Z",
       "source": "hn",
       "source_id": "50129045"
+    },
+    "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on": {
+      "published_at": "2026-10-19T14:14:09Z",
+      "source": "hn",
+      "source_id": "50145507"
     }
   },
   "runs": [
@@ -2921,6 +2921,30 @@
       ],
       "ts": "2026-10-19T03:05:41Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 59,
+      "eligible_per_source": {
+        "hf-papers": 31,
+        "hn": 27,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored above threshold(7): five 8s (hf-papers-2610.09872 LiveMACE process-aware agent eval, hf-papers-2610.16071 Dream2Discern runtime multi-agent failure auditing, hf-papers-2610.23787 DLite history-free speculative decoding for agentic serving, hn-50151390 Harness Engineering 101, hn-50145507 'run your own LLM proxy' observability) and six 7s (hf-papers 2610.23194 OfficeTown, 2610.21082 SciPivot, 2610.07898 FC-SWE, 2610.17184 DuoDiscover, 2610.23479 HexaShell, 2610.22234 OS-Helix). Distribution: 5@8, 6@7, 7@6, 4@5, 7@4, 12@3, 13@2, 5@1. Mechanical algorithm would take LiveMACE + Harness Engineering 101 (first hf 8 + first non-hf 8). Both editorially deselected as near-duplicates of posts from the last 2-3 days: LiveMACE's process-vs-outcome agent-eval theme repeats 10-19 'Hitting the Goal Isn't the Same as Following the Rules' and the 10-16 outcome-vs-behavior eval posts; Harness Engineering 101 repeats 10-17 'The Harness Is Quietly Doing Your Agent's Thinking'. Promoted the two most distinct strong 8s via the source-diversity ordering: DLite (hf-papers, agent inference serving / LLM-ops) + the LLM-proxy observability piece (hn, LLM-ops/governance) -- one hf + one hn, two distinct production facets (serving latency vs API-traffic visibility), both breaking from the saturated harness/agent-eval stream. written_today was 2 (10-19 evening run), so cap=min(2,4-2)=2 held at the soft daily budget. Research: DLite is a fresh unindexed arXiv paper with no story-specific public reaction; the proxy post surfaced only same-topic vendor/observability pages (costhawk, langfuse, mintmcp, helicone comparisons), none of which is commentary on that specific post -- both below min_citations=2, so both posts omit the reaction paragraph as designed. Interests: no 3+ single-story cluster containing a post from this run (spec-decode and provider-visibility are recurring topics, not single developing stories; neither new post extends the MCP or OpenAI-HF interests). Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.23787",
+        "hn-50145507"
+      ],
+      "ts": "2026-10-19T14:14:09Z",
+      "window": "morning"
     }
   ]
 }
