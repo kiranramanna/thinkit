@@ -1,20 +1,10 @@
 {
-  "last_pruned_ts": "2026-10-20T03:06:07Z",
+  "last_pruned_ts": "2026-10-20T14:07:54Z",
   "published_urls": {
     "https://api-docs.deepseek.com/guides/search": {
       "published_at": "2026-10-18T14:05:40Z",
       "source": "hn",
       "source_id": "50138531"
-    },
-    "https://arxiv.org/abs/2609.33304": {
-      "published_at": "2026-10-13T14:08:28Z",
-      "source": "hf-papers",
-      "source_id": "2609.33304"
-    },
-    "https://arxiv.org/abs/2610.13361": {
-      "published_at": "2026-10-13T14:08:28Z",
-      "source": "hf-papers",
-      "source_id": "2610.13361"
     },
     "https://arxiv.org/abs/2610.13623": {
       "published_at": "2026-10-16T03:07:37Z",
@@ -121,10 +111,20 @@
       "source": "hf-papers",
       "source_id": "2610.24087"
     },
+    "https://arxiv.org/abs/2610.26453": {
+      "published_at": "2026-10-20T14:07:54Z",
+      "source": "hf-papers",
+      "source_id": "2610.26453"
+    },
     "https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring": {
       "published_at": "2026-10-20T03:06:07Z",
       "source": "hn",
       "source_id": "50153225"
+    },
+    "https://github.com/deepseek-ai/DeepInfer": {
+      "published_at": "2026-10-20T14:07:54Z",
+      "source": "hn",
+      "source_id": "50163277"
     },
     "https://github.com/timescale/pg_vectorsearch": {
       "published_at": "2026-10-14T14:08:46Z",
@@ -2969,6 +2969,30 @@
       ],
       "ts": "2026-10-20T03:06:07Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 62,
+      "eligible_per_source": {
+        "hf-papers": 32,
+        "hn": 26,
+        "lobsters": 4
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored 62 eligible in one inline pass (threshold 7). Distribution: 4@8, 8@7, 4@6, 4@5, 5@4, 16@3, 11@2, 10@1. Above threshold: four 8s (hf-papers-2610.17724 Evidence-First Agentic Verification; hf-papers-2610.19686 Interlock local-correctness-vs-task-completion; hf-papers-2610.26770 HarnessPro recursive harness self-improvement; hn-50163277 DeepSeek open-sourced inference engine) and eight 7s (hf-papers-2610.06830 MemPilot, 2610.25950 AdaExploreBench, 2610.23935 speculative decoding, 2610.24960 CoworkEnv, 2610.26453 Remembering-Has-a-Price/TokenWorth; hn-50165801 fake-stats-cited-in-LLMs, hn-50159341 WhatsApp hidden-LLM-instructions, hn-50151036 Ask-HN AI-written-code). written_today was 2 (10-20 evening run), so cap=min(2,4-2)=2. Mechanical greedy would take hf-papers-2610.17724 (first 8) then hn-50163277 via source-diversity. Editorial deselection before writing: dropped all three hf 8s as near-duplicates of the heavily saturated streams of the last 5 days -- agentic-verification/goal-vs-behavior eval (10-16 'a-correct-deliverable...', 10-19 'Hitting the Goal Isn't the Same as Following the Rules', 10-20 'Agents Beat the Expert's Math...') covers 2610.17724 and 2610.19686; harness self-improvement (10-16 'when-the-scaffolding-starts-editing-itself', 10-17 'the-harness-is-quietly-doing...', 'letting-agent-swarms-learn...') covers 2610.26770; speculative decoding (10-17, 10-19) covers the 7 2610.23935. Kept hn-50163277 (DeepSeek inference engine) as the only non-saturated 8 -- a distinct LLM-ops/serving-infra angle (open-source compute engine WITHOUT the serving layer), separate from the 10-18 DeepSeek pricing/retrieval posts. Promoted the top topically-distinct 7 hf-papers-2610.26453 (Remembering Has a Price / TokenWorth: budget-aware agent-memory worth, finding sophisticated memory barely beats plain retrieval under token budgets) -- one hn + one hf, two distinct production facets (serving-engine boundary vs agent-memory cost/value), both a break from the saturated agentic-eval/harness/spec-decode stream. Research: DeepInfer is a fresh Oct-2026 release -- web search surfaced only old DeepSeek open-infra coverage (getcoai Apr-2025 'pivot to components', older than the story -> excluded) and no commentary on THIS release; HN thread itself is about serving economics (8/card-hr profitability), used only to ground the post body not as a sentiment citation. TokenWorth is an unindexed fresh arXiv paper with no story-specific public reaction (only same-topic memory papers like LIMBO surfaced). Both below min_citations=2, so both posts omit the reaction paragraph as designed. Grounded the DeepSeek post in the actual repo README (Apache 2.0; offline inference; ships kernels/attention-DP/MoE-EP-EPLB/spec-decode/deterministic sampling, omits KV-cache/prefill-decode-disaggregation/load-balancing; originally built on vLLM) and the paper post in the full abstract. Interests: ran, no cluster qualified -- agent memory is a saturated TOPIC (dozens of distinct memory posts, readable in any order), not one unfolding story; DeepSeek posts are same-company different-releases, not a single developing story; neither new post extends the MCP or openai-huggingface interests. Scoring+writing+clustering performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hn-50163277",
+        "hf-papers-2610.26453"
+      ],
+      "ts": "2026-10-20T14:07:54Z",
+      "window": "morning"
     }
   ]
 }
