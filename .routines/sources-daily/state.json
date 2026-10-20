@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-19T14:14:09Z",
+  "last_pruned_ts": "2026-10-20T03:06:07Z",
   "published_urls": {
     "https://api-docs.deepseek.com/guides/search": {
       "published_at": "2026-10-18T14:05:40Z",
@@ -10,16 +10,6 @@
       "published_at": "2026-10-13T14:08:28Z",
       "source": "hf-papers",
       "source_id": "2609.33304"
-    },
-    "https://arxiv.org/abs/2610.09633": {
-      "published_at": "2026-10-13T03:07:29Z",
-      "source": "hf-papers",
-      "source_id": "2610.09633"
-    },
-    "https://arxiv.org/abs/2610.12668": {
-      "published_at": "2026-10-13T03:07:29Z",
-      "source": "hf-papers",
-      "source_id": "2610.12668"
     },
     "https://arxiv.org/abs/2610.13361": {
       "published_at": "2026-10-13T14:08:28Z",
@@ -125,6 +115,16 @@
       "published_at": "2026-10-19T14:14:09Z",
       "source": "hf-papers",
       "source_id": "2610.23787"
+    },
+    "https://arxiv.org/abs/2610.24087": {
+      "published_at": "2026-10-20T03:06:07Z",
+      "source": "hf-papers",
+      "source_id": "2610.24087"
+    },
+    "https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring": {
+      "published_at": "2026-10-20T03:06:07Z",
+      "source": "hn",
+      "source_id": "50153225"
     },
     "https://github.com/timescale/pg_vectorsearch": {
       "published_at": "2026-10-14T14:08:46Z",
@@ -2945,6 +2945,30 @@
       ],
       "ts": "2026-10-19T14:14:09Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 58,
+      "eligible_per_source": {
+        "hf-papers": 30,
+        "hn": 24,
+        "lobsters": 4
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored above threshold(7): three 8s (hf-papers-2610.22791 Self-Evolving Coding Agents via harness-policy optimization; hf-papers-2610.16071 Dream2Discern multi-agent runtime failure prediction; hn-50153225 Agentic Monitoring) and ten 7s. Distribution: 3@8, 10@7, 4@6, 2@5, 4@4, 11@3, 17@2, 7@1. written_today=0, cap=min(2,4-0)=2. Mechanical greedy would take 2610.22791 + 50153225 (source-diversity tie-break). Editorial deselection before writing: dropped 2610.22791 (self-evolving coding-agent HARNESS-policy) as a near-duplicate of the self-improving-harness/orchestration theme that has saturated the last several days (incl. 10-17 'The Harness Is Quietly Doing Your Agent's Thinking' and 'Letting Agent Swarms Learn Their Own Orchestration'); did NOT promote the other 8 Dream2Discern (2610.16071) because it duplicates the observability/monitoring angle of the kept item 50153225 within the same run; promoted the top topically-distinct item hf-papers-2610.24087 (OR-License: enterprise operations-research agent eval, DAQ metric) via a different facet (enterprise agent eval vs agent observability), giving one hn + one hf. Research: Agentic Monitoring is a day-old personal blog whose generic title surfaced only unrelated agent-monitoring material; OR-License is an unindexed Oct-2026 arXiv paper with no story-specific public reaction (search surfaced only different OR-agent papers) -- both below min_citations=2, so both posts omit the reaction paragraph as designed. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hn-50153225",
+        "hf-papers-2610.24087"
+      ],
+      "ts": "2026-10-20T03:06:07Z",
+      "window": "evening"
     }
   ]
 }
