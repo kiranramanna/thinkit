@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-21T03:05:22Z",
+  "last_pruned_ts": "2026-10-21T14:08:21Z",
   "published_urls": {
     "https://api-docs.deepseek.com/guides/search": {
       "published_at": "2026-10-18T14:05:40Z",
@@ -15,11 +15,6 @@
       "published_at": "2026-10-15T14:08:22Z",
       "source": "hf-papers",
       "source_id": "2610.14774"
-    },
-    "https://arxiv.org/abs/2610.18206": {
-      "published_at": "2026-10-14T14:08:46Z",
-      "source": "hf-papers",
-      "source_id": "2610.18206"
     },
     "https://arxiv.org/abs/2610.18579": {
       "published_at": "2026-10-15T03:07:22Z",
@@ -101,6 +96,11 @@
       "source": "hf-papers",
       "source_id": "2610.24087"
     },
+    "https://arxiv.org/abs/2610.24649": {
+      "published_at": "2026-10-21T14:08:21Z",
+      "source": "hf-papers",
+      "source_id": "2610.24649"
+    },
     "https://arxiv.org/abs/2610.25525": {
       "published_at": "2026-10-21T03:05:22Z",
       "source": "hf-papers",
@@ -126,11 +126,6 @@
       "source": "hn",
       "source_id": "50163277"
     },
-    "https://github.com/timescale/pg_vectorsearch": {
-      "published_at": "2026-10-14T14:08:46Z",
-      "source": "hn",
-      "source_id": "50086165"
-    },
     "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017": {
       "published_at": "2026-10-18T03:05:47Z",
       "source": "hn",
@@ -140,6 +135,11 @@
       "published_at": "2026-10-19T14:14:09Z",
       "source": "hn",
       "source_id": "50145507"
+    },
+    "https://www.hirundo.io/blog/qwen3-coder-vulnerabilities": {
+      "published_at": "2026-10-21T14:08:21Z",
+      "source": "hn",
+      "source_id": "50179706"
     }
   },
   "runs": [
@@ -3015,6 +3015,30 @@
       ],
       "ts": "2026-10-21T03:05:22Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 65,
+      "eligible_per_source": {
+        "hf-papers": 39,
+        "hn": 24,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored above threshold(7): four 8s (hf-papers-2609.34565 FlowState execution-state-as-memory, hf-papers-2610.24649 decision-model controllers raise agent cost, hf-papers-2610.27406 More Memory Worse Agents, hf-papers-2610.24899 HybridResearcher structured+unstructured RAG) and twelve 7s (ten hf-papers agentic/eval papers + hn-50179706 Qwen3-Coder persona security + hn-50175779 Claude attack-surface reduction). Distribution: 4@8, 12@7, 6@6, 2@5, 2@4, 6@3, 19@2, 14@1. The mechanical algorithm picked FlowState + decision-model-controllers (first two 8s; source-diversity tie-break inert, all four 8s are hf-papers). Editorial deselection before writing: FlowState and More Memory Worse Agents are agent-memory near-duplicates of 2026-10-20 \"When Agent Memory Cant Beat Plain Retrieval\"; HybridResearcher duplicates today-evening enterprise-RAG post \"Enterprise Agents Break on Conflicts\". Kept the one distinct, highest-value 8 (decision-model controllers / micro-judge economics, directly aligned with the writers PrEAM micro-judge research and contrarian) and promoted the best source-diverse, thematically-fresh 7 (hn-50179706 Qwen3-Coder persona-dependent insecure code) via the source-diversity tie-break, giving one hf + one hn and two distinct themes. written_today was 2 (evening run), so cap=min(2,4-2)=2 held at the soft daily budget. Research: the decision-model paper is a fresh arXiv paper with no story-specific public reaction; the Qwen3-Coder story had only one solidly-independent readable citation (SecurityWeek) after excluding the vendors own press-release syndications (VentureBeat/Morningstar/Yahoo), an aggregator repost, and a separate unreadable Booz Allen PDF, so it is below min_citations=2 \u2014 both posts omit the reaction paragraph as designed. Interests: clustering returned [] \u2014 the Qwen3-Coder post is a one-off with no prior coverage, and the decision-model-controllers post belongs to the broad agent-control/eval topic (independent findings, not one developing story). Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.24649",
+        "hn-50179706"
+      ],
+      "ts": "2026-10-21T14:08:21Z",
+      "window": "morning"
     }
   ]
 }
