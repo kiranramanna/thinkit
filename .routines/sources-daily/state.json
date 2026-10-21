@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-20T14:07:54Z",
+  "last_pruned_ts": "2026-10-21T03:05:22Z",
   "published_urls": {
     "https://api-docs.deepseek.com/guides/search": {
       "published_at": "2026-10-18T14:05:40Z",
@@ -11,20 +11,10 @@
       "source": "hf-papers",
       "source_id": "2610.13623"
     },
-    "https://arxiv.org/abs/2610.14224": {
-      "published_at": "2026-10-14T03:08:00Z",
-      "source": "hf-papers",
-      "source_id": "2610.14224"
-    },
     "https://arxiv.org/abs/2610.14774": {
       "published_at": "2026-10-15T14:08:22Z",
       "source": "hf-papers",
       "source_id": "2610.14774"
-    },
-    "https://arxiv.org/abs/2610.15208": {
-      "published_at": "2026-10-14T03:08:00Z",
-      "source": "hf-papers",
-      "source_id": "2610.15208"
     },
     "https://arxiv.org/abs/2610.18206": {
       "published_at": "2026-10-14T14:08:46Z",
@@ -111,10 +101,20 @@
       "source": "hf-papers",
       "source_id": "2610.24087"
     },
+    "https://arxiv.org/abs/2610.25525": {
+      "published_at": "2026-10-21T03:05:22Z",
+      "source": "hf-papers",
+      "source_id": "2610.25525"
+    },
     "https://arxiv.org/abs/2610.26453": {
       "published_at": "2026-10-20T14:07:54Z",
       "source": "hf-papers",
       "source_id": "2610.26453"
+    },
+    "https://arxiv.org/abs/2610.27911": {
+      "published_at": "2026-10-21T03:05:22Z",
+      "source": "hf-papers",
+      "source_id": "2610.27911"
     },
     "https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring": {
       "published_at": "2026-10-20T03:06:07Z",
@@ -2993,6 +2993,28 @@
       ],
       "ts": "2026-10-20T14:07:54Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 55,
+      "eligible_per_source": {
+        "hf-papers": 27,
+        "hn": 24,
+        "lobsters": 4
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2610.27911",
+        "hf-papers-2610.25525"
+      ],
+      "ts": "2026-10-21T03:05:22Z",
+      "window": "evening"
     }
   ]
 }
