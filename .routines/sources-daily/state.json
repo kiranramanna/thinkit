@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-21T14:08:21Z",
+  "last_pruned_ts": "2026-10-22T03:05:49Z",
   "published_urls": {
     "https://api-docs.deepseek.com/guides/search": {
       "published_at": "2026-10-18T14:05:40Z",
@@ -16,10 +16,10 @@
       "source": "hf-papers",
       "source_id": "2610.14774"
     },
-    "https://arxiv.org/abs/2610.18579": {
-      "published_at": "2026-10-15T03:07:22Z",
+    "https://arxiv.org/abs/2610.17860": {
+      "published_at": "2026-10-22T03:05:49Z",
       "source": "hf-papers",
-      "source_id": "2610.18579"
+      "source_id": "2610.17860"
     },
     "https://arxiv.org/abs/2610.18813": {
       "published_at": "2026-10-16T14:14:22Z",
@@ -30,11 +30,6 @@
       "published_at": "2026-10-19T03:05:41Z",
       "source": "hn",
       "source_id": "50145337"
-    },
-    "https://arxiv.org/abs/2610.19366": {
-      "published_at": "2026-10-15T03:07:22Z",
-      "source": "hf-papers",
-      "source_id": "2610.19366"
     },
     "https://arxiv.org/abs/2610.19560": {
       "published_at": "2026-10-15T14:08:22Z",
@@ -135,6 +130,11 @@
       "published_at": "2026-10-19T14:14:09Z",
       "source": "hn",
       "source_id": "50145507"
+    },
+    "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor": {
+      "published_at": "2026-10-22T03:05:49Z",
+      "source": "hn",
+      "source_id": "50181114"
     },
     "https://www.hirundo.io/blog/qwen3-coder-vulnerabilities": {
       "published_at": "2026-10-21T14:08:21Z",
@@ -3039,6 +3039,30 @@
       ],
       "ts": "2026-10-21T14:08:21Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 45,
+      "eligible_per_source": {
+        "hf-papers": 23,
+        "hn": 21,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored all 45 eligible inline in one pass (threshold 7; no Anthropic SDK/key in env). Distribution: 4@8, 7@7, 5@6, 2@5, 4@4, 7@3, 10@2, 6@1. Above threshold: four 8s (hf-papers-2610.17860 Socratic Skill Learning / transferable agent skills; hf-papers-2610.28577 Cache Engineering for Agents / KV-cache cost; hf-papers-2609.34565 FlowState execution-state-as-memory; hn-50181114 LiteLLM 1.107.0 PyPI compromise) and seven 7s (hf-papers 2610.29357 memory-centric continual learning, 2610.24944 Epi self-improving research agent, 2610.27190 task-composition fragility, 2610.27327 TEAL tool evolution, 2610.24628 Muse Glimmer on-device agentic; hn-50181175 Patch-the-Planet agents-uncover-vulns, hn-50176908 Alter access-control-for-agents). written_today=0 -> cap=min(2,4-0)=2. Mechanical greedy took hf-papers-2610.17860 (first 8) then hn-50181114 via source-diversity tie-break. Kept the mechanical selection: both 8s, source-diverse (hf+hn), thematically distinct (agent-skill-transfer research vs LLM-ops supply-chain security news); neither is a near-duplicate of a specific recent post, and the LiteLLM story breaks a week-long stream of agentic paper reviews with real news. Declined to swap in FlowState (agent-memory, saturated by 10-15 three-tier-memory and 10-20 memory-vs-retrieval) or Cache Engineering (inference-infra, adjacent to 10-19 spec-decode/proxy). Research: LiteLLM 1.107.0 (uploaded 2026-10-21 11:39-11:40 UTC, cook.pth/cook.py/sitecustomize.py, exfils SSH/cloud/K8s/CI creds + the proxy DB's stored provider keys, hourly C2 pulled from a since-deleted GitHub account) is too fresh for distinct indexed public reaction -- all indexed coverage is the SEPARATE March-2026 1.82.7/1.82.8 TeamPCP incident (different versions/actor/files), excluded as a different event per research-prompt. Socratic Skill Learning is an unindexed fresh arXiv paper (only same-topic skill-transfer papers surfaced, excluded). Both below min_citations=2, so both posts omit the reaction paragraph as designed (not a research failure). Grounded the LiteLLM post in the SafeDep writeup facts and the paper post in the full abstract. Interests: ran, no cluster qualified -- agent skills is a saturated TOPIC not one developing story, and the LiteLLM compromise is a single-event one-off; neither extends the MCP or openai-huggingface interests.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.17860",
+        "hn-50181114"
+      ],
+      "ts": "2026-10-22T03:05:49Z",
+      "window": "evening"
     }
   ]
 }
