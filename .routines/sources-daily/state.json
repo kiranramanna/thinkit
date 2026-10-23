@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-23T03:05:50Z",
+  "last_pruned_ts": "2026-10-23T14:15:34Z",
   "published_urls": {
     "https://api-docs.deepseek.com/guides/search": {
       "published_at": "2026-10-18T14:05:40Z",
@@ -10,11 +10,6 @@
       "published_at": "2026-10-22T03:05:49Z",
       "source": "hf-papers",
       "source_id": "2610.17860"
-    },
-    "https://arxiv.org/abs/2610.18813": {
-      "published_at": "2026-10-16T14:14:22Z",
-      "source": "hf-papers",
-      "source_id": "2610.18813"
     },
     "https://arxiv.org/abs/2610.18861": {
       "published_at": "2026-10-19T03:05:41Z",
@@ -61,11 +56,6 @@
       "source": "hf-papers",
       "source_id": "2610.22322"
     },
-    "https://arxiv.org/abs/2610.22350": {
-      "published_at": "2026-10-16T14:14:22Z",
-      "source": "hf-papers",
-      "source_id": "2610.22350"
-    },
     "https://arxiv.org/abs/2610.23787": {
       "published_at": "2026-10-19T14:14:09Z",
       "source": "hf-papers",
@@ -86,6 +76,11 @@
       "source": "hf-papers",
       "source_id": "2610.25525"
     },
+    "https://arxiv.org/abs/2610.26233": {
+      "published_at": "2026-10-23T14:15:34Z",
+      "source": "hf-papers",
+      "source_id": "2610.26233"
+    },
     "https://arxiv.org/abs/2610.26453": {
       "published_at": "2026-10-20T14:07:54Z",
       "source": "hf-papers",
@@ -100,6 +95,11 @@
       "published_at": "2026-10-22T14:07:21Z",
       "source": "hf-papers",
       "source_id": "2610.29722"
+    },
+    "https://arxiv.org/abs/2610.31062": {
+      "published_at": "2026-10-23T14:15:34Z",
+      "source": "hf-papers",
+      "source_id": "2610.31062"
     },
     "https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring": {
       "published_at": "2026-10-20T03:06:07Z",
@@ -3107,6 +3107,30 @@
       ],
       "ts": "2026-10-23T03:05:50Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 65,
+      "eligible_per_source": {
+        "hf-papers": 33,
+        "hn": 29,
+        "lobsters": 3
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "No Anthropic SDK/key in env; scored all 65 eligible inline in one pass and wrote the posts inline (per trigger execution notes). Score distribution: 1@9, 4@8, 4@7, 3@6, 8@5, 6@4, 8@3, 16@2, 15@1. Nine above threshold 7, all hf-papers -- HN this run was policy/consumer/security news with no in-lane technical substance (best HN ~6: 50203161 Dijkstra NL-programming essay, 50200997 Ask-HN on labs selling tokens), so no HN item was eligible and source-diversity tie-break could not apply. Mechanical greedy would take hf-papers-2610.30755 (9, 'Naive RAG beats complex agentic memory') + hf-papers-2610.19705 (8, RouteWeaver). Overrode editorially: skipped 2610.30755 as a thematic near-duplicate of the 2026-10-20 post 'When Agent Memory Can't Beat Plain Retrieval' (same naive-RAG-vs-agent-memory thesis, 3 days old). Among the equal-merit 8s picked the two most orthogonal and freshest for the recent stream (which has been heavy on agent loops/memory/RAG-eval/sandboxes): hf-papers-2610.26233 Heartbeat Thinking (realtime voice agents doing speculative tool execution while listening -- conversational-ai/latency) and hf-papers-2610.31062 SCOPE (compiling NL policies into neurosymbolic predicate programs for agent guardrails -- llm-ops governance). Left RouteWeaver/VerifierBench/Deep-Search unused this run. Research: both are fresh Oct-2026 arXiv papers with no indexed public reaction -- WebSearch surfaced only same-topic OTHER papers (e.g. 'Thinking While Speaking' 2511.07397; PolicyLLM/QuadSentinel for policy compilation), which research-prompt excludes as not-this-story. Both below min_citations=2, so both posts omit the reaction paragraph as designed (not a research failure). Grounded each post in its abstract. Interests: ran, returned [] -- the voice-agent cluster (Heartbeat + voice-agents-that-think + killing-the-dead-air + hardest-skill-is-silence) and the guardrail cluster (SCOPE + guardrails-follow-the-workflow + guardrail-runs-before-the-tool) are saturated TOPICS of parallel papers, not one developing story a reader follows to a resolution; neither new post extends the MCP or openai-huggingface interests.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.26233",
+        "hf-papers-2610.31062"
+      ],
+      "ts": "2026-10-23T14:15:34Z",
+      "window": "morning"
     }
   ]
 }
