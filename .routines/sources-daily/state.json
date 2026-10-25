@@ -1,10 +1,10 @@
 {
-  "last_pruned_ts": "2026-10-25T03:05:42Z",
+  "last_pruned_ts": "2026-10-25T14:05:52Z",
   "published_urls": {
-    "https://api-docs.deepseek.com/guides/search": {
-      "published_at": "2026-10-18T14:05:40Z",
-      "source": "hn",
-      "source_id": "50138531"
+    "https://arxiv.org/abs/2610.04184": {
+      "published_at": "2026-10-25T14:05:52Z",
+      "source": "hf-papers",
+      "source_id": "2610.04184"
     },
     "https://arxiv.org/abs/2610.17860": {
       "published_at": "2026-10-22T03:05:49Z",
@@ -21,15 +21,15 @@
       "source": "hf-papers",
       "source_id": "2610.19376"
     },
+    "https://arxiv.org/abs/2610.19705": {
+      "published_at": "2026-10-25T14:05:52Z",
+      "source": "hf-papers",
+      "source_id": "2610.19705"
+    },
     "https://arxiv.org/abs/2610.20424": {
       "published_at": "2026-10-19T03:05:41Z",
       "source": "hf-papers",
       "source_id": "2610.20424"
-    },
-    "https://arxiv.org/abs/2610.22174": {
-      "published_at": "2026-10-18T14:05:40Z",
-      "source": "hf-papers",
-      "source_id": "2610.22174"
     },
     "https://arxiv.org/abs/2610.23787": {
       "published_at": "2026-10-19T14:14:09Z",
@@ -3169,6 +3169,28 @@
       ],
       "ts": "2026-10-25T03:05:42Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 73,
+      "eligible_per_source": {
+        "hf-papers": 43,
+        "hn": 26,
+        "lobsters": 4
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2610.19705",
+        "hf-papers-2610.04184"
+      ],
+      "ts": "2026-10-25T14:05:52Z",
+      "window": "morning"
     }
   ]
 }
