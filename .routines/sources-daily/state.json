@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-24T14:05:30Z",
+  "last_pruned_ts": "2026-10-25T03:05:42Z",
   "published_urls": {
     "https://api-docs.deepseek.com/guides/search": {
       "published_at": "2026-10-18T14:05:40Z",
@@ -26,11 +26,6 @@
       "source": "hf-papers",
       "source_id": "2610.20424"
     },
-    "https://arxiv.org/abs/2610.20939": {
-      "published_at": "2026-10-18T03:05:47Z",
-      "source": "hf-papers",
-      "source_id": "2610.20939"
-    },
     "https://arxiv.org/abs/2610.22174": {
       "published_at": "2026-10-18T14:05:40Z",
       "source": "hf-papers",
@@ -45,6 +40,11 @@
       "published_at": "2026-10-20T03:06:07Z",
       "source": "hf-papers",
       "source_id": "2610.24087"
+    },
+    "https://arxiv.org/abs/2610.24383": {
+      "published_at": "2026-10-25T03:05:42Z",
+      "source": "hf-papers",
+      "source_id": "2610.24383"
     },
     "https://arxiv.org/abs/2610.24649": {
       "published_at": "2026-10-21T14:08:21Z",
@@ -76,6 +76,11 @@
       "source": "hf-papers",
       "source_id": "2610.29722"
     },
+    "https://arxiv.org/abs/2610.30181": {
+      "published_at": "2026-10-25T03:05:42Z",
+      "source": "hf-papers",
+      "source_id": "2610.30181"
+    },
     "https://arxiv.org/abs/2610.30418": {
       "published_at": "2026-10-24T14:05:30Z",
       "source": "hf-papers",
@@ -105,11 +110,6 @@
       "published_at": "2026-10-20T14:07:54Z",
       "source": "hn",
       "source_id": "50163277"
-    },
-    "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017": {
-      "published_at": "2026-10-18T03:05:47Z",
-      "source": "hn",
-      "source_id": "50129045"
     },
     "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on": {
       "published_at": "2026-10-19T14:14:09Z",
@@ -3145,6 +3145,30 @@
       ],
       "ts": "2026-10-24T14:05:30Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 72,
+      "eligible_per_source": {
+        "hf-papers": 45,
+        "hn": 25,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored above threshold(7): four 8s (hf-papers-2610.24383 IF-MAP influence-function agent prioritization in multi-agent systems; hf-papers-2610.31372 RIDAR research-agent integrity + runtime intervention; hf-papers-2610.19705 RouteWeaver unified LLM routing; hf-papers-2610.30181 OpenDS-World agentic deep-search benchmark) and six 7s (hf-papers 2610.22722 LLM-Attacker privacy red-team, 2610.04184 EvalResearchBench, 2610.24385 ID-TAP test-time agent personalization, 2610.27148 human-agent collaboration, 2610.30949 IQuest-Q1 agentic CLI model, 2610.25100 Deep Fusion Memory). No hn/lobsters item scored >=7 (top non-paper: 50224463 'no AI payoff outside tech' and 50223647 'AI language hard to understand', both 6). Distribution: 4@8,6@7,4@6,6@5,12@4,16@3,16@2,8@1. Mechanical algorithm would take the first two 8s (IF-MAP + RIDAR), but RIDAR was editorially deselected as thematically saturated against recent posts (10-23 'when-your-guardrail-should-be-a-program-not-a-judge', 10-01 self-improving-agent integrity). All four 8s are hf-papers so source-diversity tie-break was inert; promoted the most topically-distinct, no-recent-overlap 8 (OpenDS-World deep-search eval) alongside IF-MAP, giving two distinct primary-lane angles: multi-agent system improvement vs agentic open-web retrieval eval. written_today was 0 (first run of the UTC day), so cap=min(2,4-0)=2. Research: both are fresh late-Oct-2026 arXiv papers with no story-specific public reaction (searches surfaced only same-topic different work), below min_citations=2, so both posts omit the reaction paragraph as designed. Interests: clustering ran, returned [] (neither new post extends a specific developing story; both are one-off papers in recurring topic areas). Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.24383",
+        "hf-papers-2610.30181"
+      ],
+      "ts": "2026-10-25T03:05:42Z",
+      "window": "evening"
     }
   ]
 }
