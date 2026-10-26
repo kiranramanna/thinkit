@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-25T14:05:52Z",
+  "last_pruned_ts": "2026-10-26T03:14:31Z",
   "published_urls": {
     "https://arxiv.org/abs/2610.04184": {
       "published_at": "2026-10-25T14:05:52Z",
@@ -11,11 +11,6 @@
       "source": "hf-papers",
       "source_id": "2610.17860"
     },
-    "https://arxiv.org/abs/2610.18861": {
-      "published_at": "2026-10-19T03:05:41Z",
-      "source": "hn",
-      "source_id": "50145337"
-    },
     "https://arxiv.org/abs/2610.19376": {
       "published_at": "2026-10-23T03:05:50Z",
       "source": "hf-papers",
@@ -25,11 +20,6 @@
       "published_at": "2026-10-25T14:05:52Z",
       "source": "hf-papers",
       "source_id": "2610.19705"
-    },
-    "https://arxiv.org/abs/2610.20424": {
-      "published_at": "2026-10-19T03:05:41Z",
-      "source": "hf-papers",
-      "source_id": "2610.20424"
     },
     "https://arxiv.org/abs/2610.23787": {
       "published_at": "2026-10-19T14:14:09Z",
@@ -96,6 +86,11 @@
       "source": "hf-papers",
       "source_id": "2610.31062"
     },
+    "https://arxiv.org/abs/2610.31372": {
+      "published_at": "2026-10-26T03:14:31Z",
+      "source": "hf-papers",
+      "source_id": "2610.31372"
+    },
     "https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring": {
       "published_at": "2026-10-20T03:06:07Z",
       "source": "hn",
@@ -125,6 +120,11 @@
       "published_at": "2026-10-22T03:05:49Z",
       "source": "hn",
       "source_id": "50181114"
+    },
+    "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html": {
+      "published_at": "2026-10-26T03:14:31Z",
+      "source": "hn",
+      "source_id": "50235780"
     },
     "https://www.hirundo.io/blog/qwen3-coder-vulnerabilities": {
       "published_at": "2026-10-21T14:08:21Z",
@@ -3191,6 +3191,30 @@
       ],
       "ts": "2026-10-25T14:05:52Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 64,
+      "eligible_per_source": {
+        "hf-papers": 38,
+        "hn": 23,
+        "lobsters": 3
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored all 64 eligible candidates in one inline pass (no Anthropic SDK/key in env). Above threshold(7): three 8s (hn-50235780 'The State of Context Engineering' by Drew Breunig; hf-papers-2610.31372 RIDAR research-integrity guardrails + runtime intervention; hf-papers-2610.25100 Deep Fusion Memory, chunk-level parametric memory vs runtime RAG) and six 7s (hf-papers 2610.30932 UserArena agent-sim eval, 2610.22722 LLM-Attacker split-LLM privacy, 2610.24385 ID-TAP test-time personalization, 2610.27148 human-agent collaboration, 2610.30949 IQuest-Q1 agentic CLI; hn-50236102 OpenAI/Anthropic LLM price cuts). Distribution: 3@8, 6@7, 4@6, 6@5, 11@4, 11@3, 14@2, 9@1. written_today was 0 (first UTC-day run), so cap=min(2,4-0)=2. Selection: mechanical algorithm would take RIDAR + Context-Engineering (first two 8s). Kept Context-Engineering (direct RAG/context-engineering primary-lane hit, broad state-of survey at a distinct altitude from the blog's recent narrow context posts, and a non-paper source for variety). For the second 8 I first considered swapping RIDAR out, but the only alternative 8 (Deep Fusion Memory) sits in the blog's MOST saturated theme right now (memory-vs-retrieval, covered 10-20 'when-agent-memory-cant-beat-plain-retrieval' and 10-24 'agents-memory-layer-is-just-overhead'), whereas RIDAR's specific niche (research-integrity violations in autonomous RESEARCH agents, 14-type RIVT taxonomy + runtime intervention) is distinct from the blog's prior guardrail posts (10-05 classifier guardrail, 10-10 agent-critic, 10-23 program-not-judge). No fresher 8 existed to promote, so I respected the mechanical pick: Context-Engineering + RIDAR, one hn + one hf-paper (source-diverse). Research: both items too fresh for story-specific public reaction. The Breunig post is 2 days old; web searches surfaced only same-topic general context-engineering content and his older 2025 O'Reilly episode, none a reaction to THIS post (below min_citations=2). RIDAR is a brand-new arXiv paper; searches surfaced only adjacent different papers (BadScientist, ARIS, verification-gap survey), no commentary on RIDAR itself. Both posts omit the reaction paragraph as designed. Interests: clustering ran, returned [] \u2014 both new posts are topical takes (context engineering; agent research-integrity), not specific unfolding stories, and neither extends the tracked model-context-protocol or openai-huggingface interests.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hn-50235780",
+        "hf-papers-2610.31372"
+      ],
+      "ts": "2026-10-26T03:14:31Z",
+      "window": "evening"
     }
   ]
 }
