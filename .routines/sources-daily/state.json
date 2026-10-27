@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-27T03:05:53Z",
+  "last_pruned_ts": "2026-10-27T14:06:30Z",
   "published_urls": {
     "https://arxiv.org/abs/2610.04184": {
       "published_at": "2026-10-25T14:05:52Z",
@@ -46,11 +46,6 @@
       "source": "hf-papers",
       "source_id": "2610.26233"
     },
-    "https://arxiv.org/abs/2610.26453": {
-      "published_at": "2026-10-20T14:07:54Z",
-      "source": "hf-papers",
-      "source_id": "2610.26453"
-    },
     "https://arxiv.org/abs/2610.27911": {
       "published_at": "2026-10-21T03:05:22Z",
       "source": "hf-papers",
@@ -91,6 +86,16 @@
       "source": "hf-papers",
       "source_id": "2610.32285"
     },
+    "https://arxiv.org/abs/2610.34238": {
+      "published_at": "2026-10-27T14:06:30Z",
+      "source": "hf-papers",
+      "source_id": "2610.34238"
+    },
+    "https://arxiv.org/abs/2610.34467": {
+      "published_at": "2026-10-27T14:06:30Z",
+      "source": "hf-papers",
+      "source_id": "2610.34467"
+    },
     "https://blog.cloudflare.com/kv-cache-exposure-remediation": {
       "published_at": "2026-10-27T03:05:53Z",
       "source": "hn",
@@ -100,11 +105,6 @@
       "published_at": "2026-10-23T03:05:50Z",
       "source": "hn",
       "source_id": "50198675"
-    },
-    "https://github.com/deepseek-ai/DeepInfer": {
-      "published_at": "2026-10-20T14:07:54Z",
-      "source": "hn",
-      "source_id": "50163277"
     },
     "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html": {
       "published_at": "2026-10-22T14:07:21Z",
@@ -3259,6 +3259,30 @@
       ],
       "ts": "2026-10-27T03:05:53Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 56,
+      "eligible_per_source": {
+        "hf-papers": 31,
+        "hn": 23,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "No Anthropic SDK/key in env; scored all 56 eligible candidates in one inline pass and wrote both posts inline. Unusually agentic-heavy HF list. Above threshold(7): 8 items (1@9 DynaFlow free-form multi-agent orchestration; 2@8 Delta-tau-Bench tool-ecosystem-drift eval + Work Agents systems survey; 5@7). Distribution 1@9,2@8,5@7,7@6,5@5,7@4,8@3,10@2,11@1. written_today=2 (one evening run already today), so cap=min(2,4-2)=2. Mechanical pick = DynaFlow(9) + top 8. Both 8s are hf-papers so the source tie-break can't diversify (no hn/lobsters scored >=7 today); among the tied 8s chose Delta-tau-Bench over Work Agents for distinctness: it sits at a different altitude from DynaFlow (evaluating agents under tool/API drift vs an orchestration method) and is further from this week's saturated harness/agent-systems posts (10-27 'The Harness Is Where Agents Fail', 10-26 subagent-rewards/tool-call-accuracy). Both selections are hf-papers; no source diversity available. Research: both brand-new arXiv papers (2610.*), too fresh for public reaction \u2014 searches surfaced only same-topic different papers (DynAMO, PriorDynaFlow, tau-bench family), below min_citations=2, so both posts omit the reaction paragraph as designed (not a research failure). Interests: clustering ran, returned [] \u2014 both posts are one-off topical takes on fresh papers, not developments in a specific unfolding story, and neither extends the tracked model-context-protocol or openai-huggingface interests.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.34467",
+        "hf-papers-2610.34238"
+      ],
+      "ts": "2026-10-27T14:06:30Z",
+      "window": "morning"
     }
   ]
 }
