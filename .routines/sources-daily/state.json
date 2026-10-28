@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-28T03:05:52Z",
+  "last_pruned_ts": "2026-10-28T14:06:36Z",
   "published_urls": {
     "https://arxiv.org/abs/2610.04184": {
       "published_at": "2026-10-25T14:05:52Z",
@@ -35,11 +35,6 @@
       "published_at": "2026-10-25T03:05:42Z",
       "source": "hf-papers",
       "source_id": "2610.24383"
-    },
-    "https://arxiv.org/abs/2610.24649": {
-      "published_at": "2026-10-21T14:08:21Z",
-      "source": "hf-papers",
-      "source_id": "2610.24649"
     },
     "https://arxiv.org/abs/2610.26233": {
       "published_at": "2026-10-23T14:15:34Z",
@@ -86,6 +81,11 @@
       "source": "hf-papers",
       "source_id": "2610.32285"
     },
+    "https://arxiv.org/abs/2610.34073": {
+      "published_at": "2026-10-28T14:06:36Z",
+      "source": "hf-papers",
+      "source_id": "2610.34073"
+    },
     "https://arxiv.org/abs/2610.34238": {
       "published_at": "2026-10-27T14:06:30Z",
       "source": "hf-papers",
@@ -95,6 +95,11 @@
       "published_at": "2026-10-27T14:06:30Z",
       "source": "hf-papers",
       "source_id": "2610.34467"
+    },
+    "https://arxiv.org/abs/2610.34491": {
+      "published_at": "2026-10-28T14:06:36Z",
+      "source": "hf-papers",
+      "source_id": "2610.34491"
     },
     "https://blog.cloudflare.com/kv-cache-exposure-remediation": {
       "published_at": "2026-10-27T03:05:53Z",
@@ -120,11 +125,6 @@
       "published_at": "2026-10-26T03:14:31Z",
       "source": "hn",
       "source_id": "50235780"
-    },
-    "https://www.hirundo.io/blog/qwen3-coder-vulnerabilities": {
-      "published_at": "2026-10-21T14:08:21Z",
-      "source": "hn",
-      "source_id": "50179706"
     },
     "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm": {
       "published_at": "2026-10-26T14:19:41Z",
@@ -3307,6 +3307,30 @@
       ],
       "ts": "2026-10-28T03:05:52Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 65,
+      "eligible_per_source": {
+        "hf-papers": 37,
+        "hn": 25,
+        "lobsters": 3
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored above threshold(7): one 9 (hf-papers-2610.34073 Memory Tax -- agent memory vs naive RAG net value), one 8 (hf-papers-2610.34491 Economics of Reasoning Effort in LLM Agents), and four 7s (hf-papers-2610.24520 HABIT-Bench agent-memory eval, 2610.37255 'Your Policy Is Secretly a Harness', 2610.35013 Multiscale Policy Optimization for long-horizon agents, 2610.34714 SearchHorizonBench). No hn/lobsters item scored >=7 (top non-paper: hn-50265609 Claude for drug development and lobsters-rswyzt AI fuzzers Fuzzilli-vs-BigSleep, both 6). Distribution: 1@9, 1@8, 4@7, 7@6, 7@5, 10@4, 8@3, 17@2, 10@1. Algorithm took the 9 then the 8 (source-diversity tie-break inert -- all >=7 were hf-papers); both are topically distinct (RAG/agent-memory net value vs inference-effort cost economics) and distinct from today's evening posts (2610.32004 enterprise-agent eval, 2610.21561 factuality eval) and 10-27's harness/tool-use-eval run, so no editorial deselection was needed. written_today was 2 (evening run), so cap=min(2,4-2)=2 held at the soft daily budget. Research: both are fresh unindexed arXiv papers with no story-specific public reaction (searches surfaced only different same-topic papers), below min_citations=2, so both posts omit the reaction paragraph as designed. Interests clustering ran and found no qualifying running story (both posts are topic-level, not a single unfolding event). Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.34073",
+        "hf-papers-2610.34491"
+      ],
+      "ts": "2026-10-28T14:06:36Z",
+      "window": "morning"
     }
   ]
 }
