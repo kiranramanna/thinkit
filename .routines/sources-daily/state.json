@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-27T14:06:30Z",
+  "last_pruned_ts": "2026-10-28T03:05:52Z",
   "published_urls": {
     "https://arxiv.org/abs/2610.04184": {
       "published_at": "2026-10-25T14:05:52Z",
@@ -21,6 +21,11 @@
       "source": "hf-papers",
       "source_id": "2610.19705"
     },
+    "https://arxiv.org/abs/2610.21561": {
+      "published_at": "2026-10-28T03:05:52Z",
+      "source": "hf-papers",
+      "source_id": "2610.21561"
+    },
     "https://arxiv.org/abs/2610.23234": {
       "published_at": "2026-10-26T14:19:41Z",
       "source": "hf-papers",
@@ -36,20 +41,10 @@
       "source": "hf-papers",
       "source_id": "2610.24649"
     },
-    "https://arxiv.org/abs/2610.25525": {
-      "published_at": "2026-10-21T03:05:22Z",
-      "source": "hf-papers",
-      "source_id": "2610.25525"
-    },
     "https://arxiv.org/abs/2610.26233": {
       "published_at": "2026-10-23T14:15:34Z",
       "source": "hf-papers",
       "source_id": "2610.26233"
-    },
-    "https://arxiv.org/abs/2610.27911": {
-      "published_at": "2026-10-21T03:05:22Z",
-      "source": "hf-papers",
-      "source_id": "2610.27911"
     },
     "https://arxiv.org/abs/2610.29722": {
       "published_at": "2026-10-22T14:07:21Z",
@@ -80,6 +75,11 @@
       "published_at": "2026-10-26T03:14:31Z",
       "source": "hf-papers",
       "source_id": "2610.31372"
+    },
+    "https://arxiv.org/abs/2610.32004": {
+      "published_at": "2026-10-28T03:05:52Z",
+      "source": "hf-papers",
+      "source_id": "2610.32004"
     },
     "https://arxiv.org/abs/2610.32285": {
       "published_at": "2026-10-27T03:05:53Z",
@@ -3283,6 +3283,30 @@
       ],
       "ts": "2026-10-27T14:06:30Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 65,
+      "eligible_per_source": {
+        "hf-papers": 37,
+        "hn": 25,
+        "lobsters": 3
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored above threshold(7): one 9 (hf-papers-2610.32004 CRM-Agent-Bench, execution-grounded eval of tool-using agents in stateful enterprise/CRM environments) and one 8 (hf-papers-2610.21561 DialFork, procedural-hallucination benchmark for conversational agents), plus seven 7s (hf-papers 2610.33024 harness self-evolution, 2610.24520 HABIT-Bench agent memory, 2610.33861 ReGE experience synthesis, 2610.30970 compact tool-selection encoders, 2610.34491 reasoning-effort economics, 2610.35328 constrained decoding, 2610.34577 verification in agent harnesses). No hn/lobsters item scored >=7 (top non-paper: hn-50262229 LFM3 model launch and lobsters-rswyzt Project Zero fuzzer-vs-AI at 6). Distribution: 1@9, 1@8, 7@7, 8@6, 5@5, 6@4, 9@3, 11@2, 17@1. Algorithm took the 9 then the 8 (source-diversity tie-break inert; both hf-papers), giving two topically distinct, on-lane posts (enterprise tool-use agent eval vs conversational procedural reliability) that also break from the recently-saturated harness/skill-evolution theme, so no editorial deselection needed. written_today was 0, so cap=min(2,4-0)=2. Research: both are fresh (Oct 2026) unindexed arXiv papers; web searches surfaced only different same-topic benchmarks (CRMArena/SCUBA, HalluDial/DiaHalu), no coverage of these specific papers, so both omit the reaction paragraph as designed (below min_citations=2). Interests clustering ran and found no running story (the related enterprise-agent-eval and conversational-reliability posts are topics, not single unfolding stories). Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.32004",
+        "hf-papers-2610.21561"
+      ],
+      "ts": "2026-10-28T03:05:52Z",
+      "window": "evening"
     }
   ]
 }
