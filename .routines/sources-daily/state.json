@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-29T03:05:26Z",
+  "last_pruned_ts": "2026-10-29T14:17:54Z",
   "published_urls": {
     "https://arxiv.org/abs/2610.04184": {
       "published_at": "2026-10-25T14:05:52Z",
@@ -36,10 +36,10 @@
       "source": "hf-papers",
       "source_id": "2610.26233"
     },
-    "https://arxiv.org/abs/2610.29722": {
-      "published_at": "2026-10-22T14:07:21Z",
+    "https://arxiv.org/abs/2610.30161": {
+      "published_at": "2026-10-29T14:17:54Z",
       "source": "hf-papers",
-      "source_id": "2610.29722"
+      "source_id": "2610.30161"
     },
     "https://arxiv.org/abs/2610.30181": {
       "published_at": "2026-10-25T03:05:42Z",
@@ -111,15 +111,15 @@
       "source": "hn",
       "source_id": "50273731"
     },
+    "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce": {
+      "published_at": "2026-10-29T14:17:54Z",
+      "source": "hn",
+      "source_id": "50284255"
+    },
     "https://github.com/NVIDIA/OpenShell": {
       "published_at": "2026-10-23T03:05:50Z",
       "source": "hn",
       "source_id": "50198675"
-    },
-    "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html": {
-      "published_at": "2026-10-22T14:07:21Z",
-      "source": "hn",
-      "source_id": "50176082"
     },
     "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html": {
       "published_at": "2026-10-26T03:14:31Z",
@@ -3353,6 +3353,28 @@
       ],
       "ts": "2026-10-29T03:05:26Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 59,
+      "eligible_per_source": {
+        "hf-papers": 32,
+        "hn": 27
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.30161",
+        "hn-50284255"
+      ],
+      "ts": "2026-10-29T14:17:54Z",
+      "window": "morning"
     }
   ]
 }
