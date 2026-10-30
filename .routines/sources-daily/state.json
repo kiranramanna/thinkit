@@ -1,15 +1,10 @@
 {
-  "last_pruned_ts": "2026-10-29T14:17:54Z",
+  "last_pruned_ts": "2026-10-30T03:07:18Z",
   "published_urls": {
     "https://arxiv.org/abs/2610.04184": {
       "published_at": "2026-10-25T14:05:52Z",
       "source": "hf-papers",
       "source_id": "2610.04184"
-    },
-    "https://arxiv.org/abs/2610.19376": {
-      "published_at": "2026-10-23T03:05:50Z",
-      "source": "hf-papers",
-      "source_id": "2610.19376"
     },
     "https://arxiv.org/abs/2610.19705": {
       "published_at": "2026-10-25T14:05:52Z",
@@ -20,6 +15,11 @@
       "published_at": "2026-10-28T03:05:52Z",
       "source": "hf-papers",
       "source_id": "2610.21561"
+    },
+    "https://arxiv.org/abs/2610.22990": {
+      "published_at": "2026-10-30T03:07:18Z",
+      "source": "hf-papers",
+      "source_id": "2610.22990"
     },
     "https://arxiv.org/abs/2610.23234": {
       "published_at": "2026-10-26T14:19:41Z",
@@ -96,6 +96,11 @@
       "source": "hf-papers",
       "source_id": "2610.34491"
     },
+    "https://arxiv.org/abs/2610.37230": {
+      "published_at": "2026-10-30T03:07:18Z",
+      "source": "hf-papers",
+      "source_id": "2610.37230"
+    },
     "https://arxiv.org/abs/2610.37364": {
       "published_at": "2026-10-29T03:05:26Z",
       "source": "hf-papers",
@@ -115,11 +120,6 @@
       "published_at": "2026-10-29T14:17:54Z",
       "source": "hn",
       "source_id": "50284255"
-    },
-    "https://github.com/NVIDIA/OpenShell": {
-      "published_at": "2026-10-23T03:05:50Z",
-      "source": "hn",
-      "source_id": "50198675"
     },
     "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html": {
       "published_at": "2026-10-26T03:14:31Z",
@@ -3375,6 +3375,30 @@
       ],
       "ts": "2026-10-29T14:17:54Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 51,
+      "eligible_per_source": {
+        "hf-papers": 28,
+        "hn": 21,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored above threshold(7): four 8s (hf-papers 2610.22990 PersonaCUABench persona-conditioned computer-use agent eval, 2610.22507 RealCLI human-agent CLI collaboration eval, 2610.37230 TAO tool-aware agentic serving scheduler, 2610.37255 'Your Policy Is Secretly a Harness' harness decision-geometry) and six 7s (hf-papers 2610.35013 MPO long-horizon RL, 2610.37624 memory-fails-group-decisions, 2610.36077 The Trinity recursive self-improvement, 2610.37175 MLE-World; hn-50289418 Mistral Large 4 open weights, hn-50296486 AI agent swarms in Minecraft/Mindustry). No lobsters item scored >=7. Distribution: 4@8, 6@7, 4@6, 4@5, 4@4, 9@3, 13@2, 7@1. The mechanical algorithm takes the first two 8s (PersonaCUABench + RealCLI), but both are agent-evaluation-benchmark papers with the near-identical 'we built a benchmark and frontier agents underperform' framing. Editorially deselected RealCLI and promoted the distinct 8 TAO (LLM-ops / agentic serving infrastructure: tool-aware joint scheduling, -36.3% TTFT) to pair with PersonaCUABench (agent eval: completion != serving the user), giving two topically distinct score-8 posts and avoiding the saturated self-improving-harness theme (2610.37255/2610.36077 left unpicked). All four 8s are hf-papers so the source-diversity tie-break was inert. written_today was 0, so cap=min(2,4-0)=2. Research: both are fresh (Oct-2026) unindexed arXiv papers; web search surfaced only different same-topic systems/benchmarks (TAO: PASTE/Continuum/Agentix/TOPAS; PersonaCUABench: MyPCBench/PersonaBench), none of them coverage of THESE papers, so both posts omit the reaction paragraph as designed (0 < min_citations=2). Interests clustering ran and found no single developing story above min_confidence 0.7 (the user-intent-eval and agent-serving threads are themes, not one story). Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.37230",
+        "hf-papers-2610.22990"
+      ],
+      "ts": "2026-10-30T03:07:18Z",
+      "window": "evening"
     }
   ]
 }
