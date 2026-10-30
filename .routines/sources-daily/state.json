@@ -1,15 +1,10 @@
 {
-  "last_pruned_ts": "2026-10-29T14:17:54Z",
+  "last_pruned_ts": "2026-10-30T14:09:40Z",
   "published_urls": {
     "https://arxiv.org/abs/2610.04184": {
       "published_at": "2026-10-25T14:05:52Z",
       "source": "hf-papers",
       "source_id": "2610.04184"
-    },
-    "https://arxiv.org/abs/2610.19376": {
-      "published_at": "2026-10-23T03:05:50Z",
-      "source": "hf-papers",
-      "source_id": "2610.19376"
     },
     "https://arxiv.org/abs/2610.19705": {
       "published_at": "2026-10-25T14:05:52Z",
@@ -31,11 +26,6 @@
       "source": "hf-papers",
       "source_id": "2610.24383"
     },
-    "https://arxiv.org/abs/2610.26233": {
-      "published_at": "2026-10-23T14:15:34Z",
-      "source": "hf-papers",
-      "source_id": "2610.26233"
-    },
     "https://arxiv.org/abs/2610.30161": {
       "published_at": "2026-10-29T14:17:54Z",
       "source": "hf-papers",
@@ -55,11 +45,6 @@
       "published_at": "2026-10-24T14:05:30Z",
       "source": "hf-papers",
       "source_id": "2610.30755"
-    },
-    "https://arxiv.org/abs/2610.31062": {
-      "published_at": "2026-10-23T14:15:34Z",
-      "source": "hf-papers",
-      "source_id": "2610.31062"
     },
     "https://arxiv.org/abs/2610.31372": {
       "published_at": "2026-10-26T03:14:31Z",
@@ -96,10 +81,20 @@
       "source": "hf-papers",
       "source_id": "2610.34491"
     },
+    "https://arxiv.org/abs/2610.37230": {
+      "published_at": "2026-10-30T14:09:40Z",
+      "source": "hf-papers",
+      "source_id": "2610.37230"
+    },
     "https://arxiv.org/abs/2610.37364": {
       "published_at": "2026-10-29T03:05:26Z",
       "source": "hf-papers",
       "source_id": "2610.37364"
+    },
+    "https://arxiv.org/abs/2610.40454": {
+      "published_at": "2026-10-30T14:09:40Z",
+      "source": "hf-papers",
+      "source_id": "2610.40454"
     },
     "https://blog.cloudflare.com/kv-cache-exposure-remediation": {
       "published_at": "2026-10-27T03:05:53Z",
@@ -115,11 +110,6 @@
       "published_at": "2026-10-29T14:17:54Z",
       "source": "hn",
       "source_id": "50284255"
-    },
-    "https://github.com/NVIDIA/OpenShell": {
-      "published_at": "2026-10-23T03:05:50Z",
-      "source": "hn",
-      "source_id": "50198675"
     },
     "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html": {
       "published_at": "2026-10-26T03:14:31Z",
@@ -3374,6 +3364,28 @@
         "hn-50284255"
       ],
       "ts": "2026-10-29T14:17:54Z",
+      "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 58,
+      "eligible_per_source": {
+        "hf-papers": 32,
+        "hn": 24,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2610.40454",
+        "hf-papers-2610.37230"
+      ],
+      "ts": "2026-10-30T14:09:40Z",
       "window": "morning"
     }
   ]
