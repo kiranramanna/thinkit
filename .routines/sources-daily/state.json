@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-10-30T14:09:40Z",
+  "last_pruned_ts": "2026-10-31T14:13:11Z",
   "published_urls": {
     "https://arxiv.org/abs/2610.04184": {
       "published_at": "2026-10-25T14:05:52Z",
@@ -36,16 +36,6 @@
       "source": "hf-papers",
       "source_id": "2610.30181"
     },
-    "https://arxiv.org/abs/2610.30418": {
-      "published_at": "2026-10-24T14:05:30Z",
-      "source": "hf-papers",
-      "source_id": "2610.30418"
-    },
-    "https://arxiv.org/abs/2610.30755": {
-      "published_at": "2026-10-24T14:05:30Z",
-      "source": "hf-papers",
-      "source_id": "2610.30755"
-    },
     "https://arxiv.org/abs/2610.31372": {
       "published_at": "2026-10-26T03:14:31Z",
       "source": "hf-papers",
@@ -81,6 +71,11 @@
       "source": "hf-papers",
       "source_id": "2610.34491"
     },
+    "https://arxiv.org/abs/2610.35671": {
+      "published_at": "2026-10-31T14:13:11Z",
+      "source": "hf-papers",
+      "source_id": "2610.35671"
+    },
     "https://arxiv.org/abs/2610.37230": {
       "published_at": "2026-10-30T14:09:40Z",
       "source": "hf-papers",
@@ -110,6 +105,11 @@
       "published_at": "2026-10-29T14:17:54Z",
       "source": "hn",
       "source_id": "50284255"
+    },
+    "https://phorion.io/blog/offical-claude-code-vsx-compromise": {
+      "published_at": "2026-10-31T14:13:11Z",
+      "source": "hn",
+      "source_id": "50300683"
     },
     "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html": {
       "published_at": "2026-10-26T03:14:31Z",
@@ -3386,6 +3386,30 @@
         "hf-papers-2610.37230"
       ],
       "ts": "2026-10-30T14:09:40Z",
+      "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 59,
+      "eligible_per_source": {
+        "hf-papers": 32,
+        "hn": 25,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored above threshold(7): two 8s (hf-papers-2610.35671 independent DeepSeek V4.1 Flash-1017 safety/loss-of-control eval; hn-50300683 trojanized official Claude Code VS Code extension with a persistent SSH backdoor on the Cursor marketplace) and seven 7s, all hf-papers agent-eval/harness papers (2610.38342 Investor's Last Exam, 2610.29927 benchmark-as-difficulty-measure, 2610.35138 Co-Design Bench, 2610.37786 WebAnything, 2610.37161 WorkFactory, 2610.22990 PersonaCUABench, 2610.22507 RealCLI). No lobsters item scored >=7. Distribution: 2@8, 7@7, 8@6, 8@5, 4@4, 6@3, 15@2, 9@1. Algorithm took both 8s; the source-diversity tie-break was naturally satisfied (one hf-paper + one hn) and the two are topically distinct (LLM-ops safety/governance eval vs. agentic dev-tooling supply-chain security), so no editorial deselection was needed. written_today was 0, so cap=min(2,4-0)=2. Research: both items had ample story-specific third-party coverage, so BOTH posts carry a reaction paragraph -- DeepSeek eval cited 4 outlets (Let's Data Science/Devdiscourse/FourWeekMBA mixed, ForkLog negative); the Cursor backdoor cited 5 (BleepingComputer/The Hacker News/Unite.AI neutral, Help Net Security mixed, StepSecurity negative). Interests: ran, nothing qualified -- neither new post continues a specific developing story (DeepSeek eval and the Cursor backdoor are distinct new incidents, not continuations of the MCP or openai-huggingface timelines). Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.35671",
+        "hn-50300683"
+      ],
+      "ts": "2026-10-31T14:13:11Z",
       "window": "morning"
     }
   ]
