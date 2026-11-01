@@ -1,6 +1,11 @@
 {
-  "last_pruned_ts": "2026-10-31T14:13:11Z",
+  "last_pruned_ts": "2026-11-01T03:05:45Z",
   "published_urls": {
+    "https://arxiv.org/abs/2609.05881": {
+      "published_at": "2026-11-01T03:05:45Z",
+      "source": "hf-papers",
+      "source_id": "2609.05881"
+    },
     "https://arxiv.org/abs/2610.04184": {
       "published_at": "2026-10-25T14:05:52Z",
       "source": "hf-papers",
@@ -21,20 +26,10 @@
       "source": "hf-papers",
       "source_id": "2610.23234"
     },
-    "https://arxiv.org/abs/2610.24383": {
-      "published_at": "2026-10-25T03:05:42Z",
-      "source": "hf-papers",
-      "source_id": "2610.24383"
-    },
     "https://arxiv.org/abs/2610.30161": {
       "published_at": "2026-10-29T14:17:54Z",
       "source": "hf-papers",
       "source_id": "2610.30161"
-    },
-    "https://arxiv.org/abs/2610.30181": {
-      "published_at": "2026-10-25T03:05:42Z",
-      "source": "hf-papers",
-      "source_id": "2610.30181"
     },
     "https://arxiv.org/abs/2610.31372": {
       "published_at": "2026-10-26T03:14:31Z",
@@ -105,6 +100,11 @@
       "published_at": "2026-10-29T14:17:54Z",
       "source": "hn",
       "source_id": "50284255"
+    },
+    "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve": {
+      "published_at": "2026-11-01T03:05:45Z",
+      "source": "hn",
+      "source_id": "50320995"
     },
     "https://phorion.io/blog/offical-claude-code-vsx-compromise": {
       "published_at": "2026-10-31T14:13:11Z",
@@ -3411,6 +3411,30 @@
       ],
       "ts": "2026-10-31T14:13:11Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 59,
+      "eligible_per_source": {
+        "hf-papers": 33,
+        "hn": 24,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored above threshold(7): one 8 (hn-50320995 Memdoor -- a 5-model Qwen3.8-27B team scoring 9.8/10 vs Fable 5's 8.0 single-call on ten LiveCodeBench Hard problems, squarely the writer's multi-agent orchestration lane) and eight 7s (hf-papers-2609.05881 Broken on Arrival quantized-artifact QA; plus agent-eval/harness papers 2610.38342 Investor's Last Exam, 2610.29927 benchmark-as-measure, 2610.35138 Co-Design Bench, 2610.37786 WebAnything, 2610.37161 WorkFactory, 2610.22990 PersonaCUABench, 2610.22507 RealCLI). No lobsters item scored >=7. Distribution: 1@8, 8@7, 2@6, 12@5, 9@4, 7@3, 12@2, 8@1. Greedy pick took the 8 (hn) then the first 7 from an unused source (hf-papers-2609.05881); the source-diversity tie-break was satisfied naturally (one hn + one hf-paper) and the two are topically distinct (multi-agent coding orchestration vs. quantized-model supply-chain QA), so no editorial deselection was needed. written_today was 0, so cap=min(2,4-0)=2. Research: neither item had >=2 usable third-party citations -- Memdoor is a brand-new repo surfaced only on HN (an AlternativeTo directory listing is not story coverage); Broken on Arrival's only write-up was an SEO-aggregator (groundy.com) whose numbers conflict with the abstract, and the HF threads found were about other broken GGUFs, not this paper -- so BOTH posts omit the reaction paragraph (expected for a fresh arXiv paper and a new repo). Interests: ran, nothing qualified -- the dominant 'harness not the model' pattern is a recurring editorial thesis across unrelated papers (a topic, readable in any order), not one unfolding story; neither new post continues a specific developing incident nor relates to the MCP or openai-huggingface timelines. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hn-50320995",
+        "hf-papers-2609.05881"
+      ],
+      "ts": "2026-11-01T03:05:45Z",
+      "window": "evening"
     }
   ]
 }
