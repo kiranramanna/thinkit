@@ -1,20 +1,10 @@
 {
-  "last_pruned_ts": "2026-11-01T03:05:45Z",
+  "last_pruned_ts": "2026-11-01T14:07:05Z",
   "published_urls": {
     "https://arxiv.org/abs/2609.05881": {
       "published_at": "2026-11-01T03:05:45Z",
       "source": "hf-papers",
       "source_id": "2609.05881"
-    },
-    "https://arxiv.org/abs/2610.04184": {
-      "published_at": "2026-10-25T14:05:52Z",
-      "source": "hf-papers",
-      "source_id": "2610.04184"
-    },
-    "https://arxiv.org/abs/2610.19705": {
-      "published_at": "2026-10-25T14:05:52Z",
-      "source": "hf-papers",
-      "source_id": "2610.19705"
     },
     "https://arxiv.org/abs/2610.21561": {
       "published_at": "2026-10-28T03:05:52Z",
@@ -81,6 +71,11 @@
       "source": "hf-papers",
       "source_id": "2610.37364"
     },
+    "https://arxiv.org/abs/2610.38342": {
+      "published_at": "2026-11-01T14:07:05Z",
+      "source": "hf-papers",
+      "source_id": "2610.38342"
+    },
     "https://arxiv.org/abs/2610.40454": {
       "published_at": "2026-10-30T14:09:40Z",
       "source": "hf-papers",
@@ -105,6 +100,11 @@
       "published_at": "2026-11-01T03:05:45Z",
       "source": "hn",
       "source_id": "50320995"
+    },
+    "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing": {
+      "published_at": "2026-11-01T14:07:05Z",
+      "source": "hn",
+      "source_id": "50322173"
     },
     "https://phorion.io/blog/offical-claude-code-vsx-compromise": {
       "published_at": "2026-10-31T14:13:11Z",
@@ -3435,6 +3435,30 @@
       ],
       "ts": "2026-11-01T03:05:45Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 58,
+      "eligible_per_source": {
+        "hf-papers": 33,
+        "hn": 22,
+        "lobsters": 3
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored above threshold(7): one 8 (hn-50322173 -- a Brazilian labor court sanctioning two law firms for hiding a white-on-white prompt injection in a court filing that told the court's Galileu AI to review the petition superficially; a concrete LLM-ops guardrail/governance incident) and seven 7s, all agent-eval hf-papers (2610.38342 Investor's Last Exam, 2610.29927 benchmark-as-empirical-measure, 2610.35138 Co-Design Bench, 2610.37786 WebAnything, 2610.37161 WorkFactory, 2610.22990 PersonaCUABench, 2610.22507 RealCLI). No lobsters item scored >=7. Distribution: 1@8, 7@7, 3@6, 10@5, 5@4, 10@3, 14@2, 8@1. Greedy pick took the 8 (hn) then the first 7 from an unused source (hf-papers-2610.38342 Investor's Last Exam); the source-diversity tie-break was satisfied naturally (one hn + one hf-paper) and the two are topically distinct (document-ingestion prompt-injection governance vs. financial-agent evaluation), so no editorial deselection was needed. An evening run earlier today wrote 2 posts, so written_today was 2 and cap=min(2,4-2)=2. Research: the Brazilian case had ample stance-diverse coverage (3 citations: Minnesota Lawyer neutral, J.L. Ellis critical, Magica mixed/skeptical) so that post carries a reaction paragraph; Investor's Last Exam is too fresh for any story-specific public reaction (searches surfaced only other finance benchmarks), so it omits the reaction paragraph -- expected for an hf-paper. Interests: ran, nothing qualified -- the document-attack post shares only the 'attack surface' topic with the openai-huggingface intrusion incident (a distinct event, not that timeline), and the Investor's Last Exam paper is part of the recurring agent-eval editorial thesis (a topic readable in any order), not one unfolding story. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hn-50322173",
+        "hf-papers-2610.38342"
+      ],
+      "ts": "2026-11-01T14:07:05Z",
+      "window": "morning"
     }
   ]
 }
