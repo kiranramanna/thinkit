@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-01T14:07:05Z",
+  "last_pruned_ts": "2026-11-02T14:27:16Z",
   "published_urls": {
     "https://arxiv.org/abs/2609.05881": {
       "published_at": "2026-11-01T03:05:45Z",
@@ -11,20 +11,15 @@
       "source": "hf-papers",
       "source_id": "2610.21561"
     },
-    "https://arxiv.org/abs/2610.23234": {
-      "published_at": "2026-10-26T14:19:41Z",
+    "https://arxiv.org/abs/2610.22740": {
+      "published_at": "2026-11-02T14:27:16Z",
       "source": "hf-papers",
-      "source_id": "2610.23234"
+      "source_id": "2610.22740"
     },
     "https://arxiv.org/abs/2610.30161": {
       "published_at": "2026-10-29T14:17:54Z",
       "source": "hf-papers",
       "source_id": "2610.30161"
-    },
-    "https://arxiv.org/abs/2610.31372": {
-      "published_at": "2026-10-26T03:14:31Z",
-      "source": "hf-papers",
-      "source_id": "2610.31372"
     },
     "https://arxiv.org/abs/2610.32004": {
       "published_at": "2026-10-28T03:05:52Z",
@@ -55,6 +50,11 @@
       "published_at": "2026-10-28T14:06:36Z",
       "source": "hf-papers",
       "source_id": "2610.34491"
+    },
+    "https://arxiv.org/abs/2610.34722": {
+      "published_at": "2026-11-02T14:27:16Z",
+      "source": "hf-papers",
+      "source_id": "2610.34722"
     },
     "https://arxiv.org/abs/2610.35671": {
       "published_at": "2026-10-31T14:13:11Z",
@@ -110,16 +110,6 @@
       "published_at": "2026-10-31T14:13:11Z",
       "source": "hn",
       "source_id": "50300683"
-    },
-    "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html": {
-      "published_at": "2026-10-26T03:14:31Z",
-      "source": "hn",
-      "source_id": "50235780"
-    },
-    "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm": {
-      "published_at": "2026-10-26T14:19:41Z",
-      "source": "hn",
-      "source_id": "50242870"
     }
   },
   "runs": [
@@ -3458,6 +3448,29 @@
         "hf-papers-2610.38342"
       ],
       "ts": "2026-11-01T14:07:05Z",
+      "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 63,
+      "eligible_per_source": {
+        "hf-papers": 33,
+        "hn": 30
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored above threshold(7): two 8+ direct hits that are both hf-papers (2610.34722 CEPO -- coordinator/executor prompt-optimization structure for multi-agent systems; 2610.22740 R^2Orch -- recursive self-play orchestration with Skill Withdrawal toward zero-skill deployment), both scored 9 as the writer's exact specialties (multi-agent orchestration patent + prompt-optimization paper); plus 2610.34298 MCP-vs-CLI interfaces (8) and three 7s (2610.39086 HALO proactive-agent eval, 2610.40738 Apriel Voice speech+tool-use, 2610.38174 EasyProver recursive-agent harness). No HN item scored >=7 (best were 5: Platonic-Representation/JEPA and China AI export controls); lobsters returned 0 candidates (no allowlisted-tag item met the score>=10 floor today -- fetch succeeded, 25 raw items, none AI/compsci/programming). Distribution: 2@9, 1@8, 3@7, 4@6, 6@5, 5@4, 9@3, 29@2, 4@1. Greedy pick took both 9s; the source-diversity tie-break could not apply because every >=7 item was an hf-paper, so both selected are hf-papers -- the algorithm's natural outcome. The two are methodologically distinct (prompt-structure refactor vs. RL self-play training) and map one-to-one onto the writer's two specialties, so no editorial deselection. written_today was 0, so cap=min(2,4-0)=2. Research: neither paper had >=2 usable third-party citations -- both are brand-new arXiv papers surfaced only on HF Daily Papers, and searches returned only other similar papers, not coverage of these -- so BOTH posts omit the reaction paragraph (expected for fresh hf-papers). Interests: ran, nothing qualified -- neither new post continues a tracked story (MCP spec evolution or the OpenAI/HF intrusion), and the agent-skills/prompt-optimization neighbours share a recurring editorial topic ('where agent skills live'), readable in any order, not one unfolding story. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.34722",
+        "hf-papers-2610.22740"
+      ],
+      "ts": "2026-11-02T14:27:16Z",
       "window": "morning"
     }
   ]
