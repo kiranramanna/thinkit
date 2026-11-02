@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-01T14:07:05Z",
+  "last_pruned_ts": "2026-11-02T03:11:28Z",
   "published_urls": {
     "https://arxiv.org/abs/2609.05881": {
       "published_at": "2026-11-01T03:05:45Z",
@@ -45,6 +45,11 @@
       "published_at": "2026-10-27T14:06:30Z",
       "source": "hf-papers",
       "source_id": "2610.34238"
+    },
+    "https://arxiv.org/abs/2610.34298": {
+      "published_at": "2026-11-02T03:11:28Z",
+      "source": "hf-papers",
+      "source_id": "2610.34298"
     },
     "https://arxiv.org/abs/2610.34467": {
       "published_at": "2026-10-27T14:06:30Z",
@@ -110,6 +115,11 @@
       "published_at": "2026-10-31T14:13:11Z",
       "source": "hn",
       "source_id": "50300683"
+    },
+    "https://picon.dev/en/publications/ai-assisted-engineering": {
+      "published_at": "2026-11-02T03:11:28Z",
+      "source": "hn",
+      "source_id": "50331998"
     },
     "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html": {
       "published_at": "2026-10-26T03:14:31Z",
@@ -3459,6 +3469,28 @@
       ],
       "ts": "2026-11-01T14:07:05Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 58,
+      "eligible_per_source": {
+        "hf-papers": 32,
+        "hn": 25,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2610.34298",
+        "hn-50331998"
+      ],
+      "ts": "2026-11-02T03:11:28Z",
+      "window": "evening"
     }
   ]
 }
