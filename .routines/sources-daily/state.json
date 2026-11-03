@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-02T14:27:16Z",
+  "last_pruned_ts": "2026-11-03T03:05:22Z",
   "published_urls": {
     "https://arxiv.org/abs/2609.05881": {
       "published_at": "2026-11-01T03:05:45Z",
@@ -26,11 +26,6 @@
       "source": "hf-papers",
       "source_id": "2610.32004"
     },
-    "https://arxiv.org/abs/2610.32285": {
-      "published_at": "2026-10-27T03:05:53Z",
-      "source": "hf-papers",
-      "source_id": "2610.32285"
-    },
     "https://arxiv.org/abs/2610.34073": {
       "published_at": "2026-10-28T14:06:36Z",
       "source": "hf-papers",
@@ -40,6 +35,11 @@
       "published_at": "2026-10-27T14:06:30Z",
       "source": "hf-papers",
       "source_id": "2610.34238"
+    },
+    "https://arxiv.org/abs/2610.34298": {
+      "published_at": "2026-11-03T03:05:22Z",
+      "source": "hf-papers",
+      "source_id": "2610.34298"
     },
     "https://arxiv.org/abs/2610.34467": {
       "published_at": "2026-10-27T14:06:30Z",
@@ -76,15 +76,15 @@
       "source": "hf-papers",
       "source_id": "2610.38342"
     },
+    "https://arxiv.org/abs/2610.39086": {
+      "published_at": "2026-11-03T03:05:22Z",
+      "source": "hf-papers",
+      "source_id": "2610.39086"
+    },
     "https://arxiv.org/abs/2610.40454": {
       "published_at": "2026-10-30T14:09:40Z",
       "source": "hf-papers",
       "source_id": "2610.40454"
-    },
-    "https://blog.cloudflare.com/kv-cache-exposure-remediation": {
-      "published_at": "2026-10-27T03:05:53Z",
-      "source": "hn",
-      "source_id": "50252159"
     },
     "https://cursor.com/blog/agent-sdk": {
       "published_at": "2026-10-29T03:05:26Z",
@@ -3472,6 +3472,30 @@
       ],
       "ts": "2026-11-02T14:27:16Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 54,
+      "eligible_per_source": {
+        "hf-papers": 27,
+        "hn": 24,
+        "lobsters": 3
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored above threshold(7): three 8s (hf-papers-2610.39086 HALO human-grounded proactive-agent eval; hf-papers-2610.34298 MCP-vs-CLI matched-interface behavior study; hf-papers-2610.37651 GEPA-Curator curated learning for self-improving agents) and four 7s (hf-papers-2610.40256 interdependent-spec long-horizon coding, hf-papers-2610.39276 MemSteer agent memory, hf-papers-2610.40738 Apriel Voice speech+tool-use, hn-50339913 Momentic autonomous QA agents). No lobsters item scored >=7. Distribution: 3@8, 4@7, 5@6, 3@5, 7@4, 8@3, 15@2, 9@1. The mechanical algorithm would take the first two 8s (GEPA-Curator + HALO); all three 8s are hf-papers so the source-diversity tie-break is inert. Editorial deselection before writing: dropped GEPA-Curator (self-improving-agent / prompt-curriculum theme) because the 2026-11-02 posts already cover it (an-orchestrator-that-keeps-deleting-its-own-skills, your-multi-agent-prompt-is-two-prompts-pretending-to-be-one); promoted the distinct third 8, MCP-vs-CLI, giving two topically distinct direct hits: proactive-agent evaluation (HALO) and agent tool-interface representation (MCP vs CLI). written_today was 0, so cap=min(2,4-0)=2. Research: both are fresh unindexed October-2026 arXiv papers with no story-specific public reaction (web search surfaced only differently-named/same-topic papers and general MCP-vs-CLI blog commentary, none covering these specific studies), below min_citations=2, so both posts omit the reaction paragraph as designed. Interests clustering ran and returned [] (neither new post is a new development in a specific unfolding story; the MCP-vs-CLI paper shares only the MCP topic with the existing model-context-protocol spec-evolution interest). Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.39086",
+        "hf-papers-2610.34298"
+      ],
+      "ts": "2026-11-03T03:05:22Z",
+      "window": "evening"
     }
   ]
 }
