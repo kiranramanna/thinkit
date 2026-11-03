@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-03T03:05:22Z",
+  "last_pruned_ts": "2026-11-03T14:06:10Z",
   "published_urls": {
     "https://arxiv.org/abs/2609.05881": {
       "published_at": "2026-11-01T03:05:45Z",
@@ -31,20 +31,10 @@
       "source": "hf-papers",
       "source_id": "2610.34073"
     },
-    "https://arxiv.org/abs/2610.34238": {
-      "published_at": "2026-10-27T14:06:30Z",
-      "source": "hf-papers",
-      "source_id": "2610.34238"
-    },
     "https://arxiv.org/abs/2610.34298": {
       "published_at": "2026-11-03T03:05:22Z",
       "source": "hf-papers",
       "source_id": "2610.34298"
-    },
-    "https://arxiv.org/abs/2610.34467": {
-      "published_at": "2026-10-27T14:06:30Z",
-      "source": "hf-papers",
-      "source_id": "2610.34467"
     },
     "https://arxiv.org/abs/2610.34491": {
       "published_at": "2026-10-28T14:06:36Z",
@@ -70,6 +60,16 @@
       "published_at": "2026-10-29T03:05:26Z",
       "source": "hf-papers",
       "source_id": "2610.37364"
+    },
+    "https://arxiv.org/abs/2610.37651": {
+      "published_at": "2026-11-03T14:06:10Z",
+      "source": "hf-papers",
+      "source_id": "2610.37651"
+    },
+    "https://arxiv.org/abs/2610.37826": {
+      "published_at": "2026-11-03T14:06:10Z",
+      "source": "hf-papers",
+      "source_id": "2610.37826"
     },
     "https://arxiv.org/abs/2610.38342": {
       "published_at": "2026-11-01T14:07:05Z",
@@ -3496,6 +3496,30 @@
       ],
       "ts": "2026-11-03T03:05:22Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 52,
+      "eligible_per_source": {
+        "hf-papers": 26,
+        "hn": 23,
+        "lobsters": 3
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Adapters: hn 23, lobsters 4 (3 after cross-source merge), hf-papers fetch failed transiently on first attempt then returned 26 on retry (not a real outage; no ADAPTER_ERROR recorded). 52 eligible after dedup (1 cross-source merge hn+lobsters on the Astra weight-space post, 0 already-published). Scored above threshold(7): one 9 (hf-papers-2610.37826 DeFT-RAG, multi-hop RAG decomposition with reusable QA cache + graph retrieval), three 8s (hf-papers-2611.03178 CoworkOS agent harness/orchestration, hf-papers-2610.42128 DecisionRank reranker distillation, hf-papers-2610.37651 GEPA-Curator curated prompt-optimization) and six 7s (hf-papers 2611.01484 CrossSWE, 2611.03126 CUA-Master, 2611.02102 NorthCUA, 2610.27954 Lost-in-Recovery; hn-50348962 NVIDIA auto-ontology, hn-50339913 Momentic QA agents). Distribution: 1@9, 3@8, 6@7, 6@6, 2@5, 6@4, 8@3, 14@2, 6@1. Algorithm would take DeFT-RAG(9) then the first tied 8 CoworkOS; editorially deselected CoworkOS as a near-duplicate of the heavily-saturated agent-harness/orchestration theme (7 of the last ~16 posts) and promoted the next distinct 8, GEPA-Curator (prompt-optimization/curated-judges, a fresh angle and close to the writer's own prompt-optimization work). Also avoided DecisionRank(8) as it duplicates the reranker RAG theme covered 10-30. Final pair: DeFT-RAG (RAG/KG retrieval) + GEPA-Curator (agentic prompt optimization), two distinct themes, both hf-papers (source-diversity tie-break inert; all >=8 items were hf-papers). written_today was 2 (03:05 evening run), so cap=min(2,4-2)=2. Research: both are fresh unindexed arXiv papers with no story-specific public reaction (searches surfaced only different same-topic papers and abstract-mirror aggregators), below min_citations=2, so both posts omit the reaction paragraph as designed. Interests: clustering ran over 60 prefiltered candidates + 2 existing interests (model-context-protocol, openai-huggingface); neither new post extends those and neither forms a single developing story (RAG techniques / self-improving agents are topics, not stories), so no cluster created. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.37826",
+        "hf-papers-2610.37651"
+      ],
+      "ts": "2026-11-03T14:06:10Z",
+      "window": "morning"
     }
   ]
 }
