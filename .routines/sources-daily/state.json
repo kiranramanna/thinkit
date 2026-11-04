@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-04T03:05:42Z",
+  "last_pruned_ts": "2026-11-04T14:13:41Z",
   "published_urls": {
     "https://arxiv.org/abs/2609.05881": {
       "published_at": "2026-11-01T03:05:45Z",
@@ -16,20 +16,10 @@
       "source": "hf-papers",
       "source_id": "2610.30161"
     },
-    "https://arxiv.org/abs/2610.34073": {
-      "published_at": "2026-10-28T14:06:36Z",
-      "source": "hf-papers",
-      "source_id": "2610.34073"
-    },
     "https://arxiv.org/abs/2610.34298": {
       "published_at": "2026-11-03T03:05:22Z",
       "source": "hf-papers",
       "source_id": "2610.34298"
-    },
-    "https://arxiv.org/abs/2610.34491": {
-      "published_at": "2026-10-28T14:06:36Z",
-      "source": "hf-papers",
-      "source_id": "2610.34491"
     },
     "https://arxiv.org/abs/2610.34722": {
       "published_at": "2026-11-02T14:27:16Z",
@@ -85,6 +75,16 @@
       "published_at": "2026-11-04T03:05:42Z",
       "source": "hf-papers",
       "source_id": "2611.02332"
+    },
+    "https://arxiv.org/abs/2611.05036": {
+      "published_at": "2026-11-04T14:13:41Z",
+      "source": "hf-papers",
+      "source_id": "2611.05036"
+    },
+    "https://arxiv.org/abs/2611.05275": {
+      "published_at": "2026-11-04T14:13:41Z",
+      "source": "hf-papers",
+      "source_id": "2611.05275"
     },
     "https://cursor.com/blog/agent-sdk": {
       "published_at": "2026-10-29T03:05:26Z",
@@ -3544,6 +3544,29 @@
       ],
       "ts": "2026-11-04T03:05:42Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 61,
+      "eligible_per_source": {
+        "hf-papers": 31,
+        "hn": 30
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Adapters: hn 30, lobsters 0 (fetch OK, nothing cleared the tag-allowlist + min_score=10 floor; no ADAPTER_ERROR), hf-papers 31. 61 eligible after dedup (0 cross-source merges, 0 already-published). Scored above threshold(7): four 8s (hf-papers-2611.05036 ToolSpace tool-centric env synthesis from real MCP execution traces; hf-papers-2611.05275 Route Anything model/policy routing under quality-cost; hf-papers-2610.39813 EvoTeam multi-agent collaboration via evolving teams; hf-papers-2610.40753 Caper consequence-aware approval for coding agents) and four 7s (hf-papers 2611.02017 Switch-SWE focus-task resumption, 2611.03634 WebHarbor GUI-agent envs, 2611.04035 Recursa self-improving FM, 2611.02079 ParetoSaddler harness opt). No hn or lobsters item reached 7. Distribution: 4@8, 4@7, 9@6, 10@5, 9@4, 5@3, 17@2, 3@1. Mechanical algorithm would take the first two 8s (EvoTeam + ToolSpace); all >=8 are hf-papers so source-diversity tie-break is inert. Editorial deselection before writing: dropped Caper (near-duplicate of 2026-11-04 'when-the-guardrail-is-a-proof-not-a-prompt' published the prior evening run + the agent-guardrails-as-code interest already has 4 entries) and dropped EvoTeam from the pair (multi-agent orchestration is the most-saturated theme and had a double on 2026-11-02); promoted Route Anything (routing is a core profile topic uncovered in the recent window). Final pair: ToolSpace (agent tool-environment synthesis) + Route Anything (model/policy routing) \u2014 two distinct agentic subtopics, freshest vs the last 3 days. written_today was 2 (03:05 evening run), so cap=min(2,4-2)=2. Research: both are fresh November-2026 arXiv papers with no story-specific public reaction (searches surfaced only differently-named same-topic papers \u2014 ToolVerse/SynthTools/EnvScaler/ASTRA for ToolSpace, routing surveys for Route Anything \u2014 and generic routing commentary), below min_citations=2, so both posts omit the reaction paragraph as designed. Interests clustering ran over 60 prefiltered candidates + 3 existing interests (agent-guardrails-as-code, model-context-protocol, openai-huggingface) and returned []: routing and 'benchmarks measure the wrong thing' are recurring topics, not single unfolding stories, and neither new post extends the three existing stories. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2611.05036",
+        "hf-papers-2611.05275"
+      ],
+      "ts": "2026-11-04T14:13:41Z",
+      "window": "morning"
     }
   ]
 }
