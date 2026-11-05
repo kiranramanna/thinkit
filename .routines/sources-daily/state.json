@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-05T03:06:03Z",
+  "last_pruned_ts": "2026-11-05T14:09:16Z",
   "published_urls": {
     "https://arxiv.org/abs/2609.05881": {
       "published_at": "2026-11-01T03:05:45Z",
@@ -91,6 +91,11 @@
       "source": "hf-papers",
       "source_id": "2611.05306"
     },
+    "https://arxiv.org/abs/2611.06483": {
+      "published_at": "2026-11-05T14:09:16Z",
+      "source": "hf-papers",
+      "source_id": "2611.06483"
+    },
     "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce": {
       "published_at": "2026-10-29T14:17:54Z",
       "source": "hn",
@@ -105,6 +110,11 @@
       "published_at": "2026-11-01T14:07:05Z",
       "source": "hn",
       "source_id": "50322173"
+    },
+    "https://news.ycombinator.com/item?id=50366117": {
+      "published_at": "2026-11-05T14:09:16Z",
+      "source": "hn",
+      "source_id": "50366117"
     },
     "https://phorion.io/blog/offical-claude-code-vsx-compromise": {
       "published_at": "2026-10-31T14:13:11Z",
@@ -3590,6 +3600,29 @@
       ],
       "ts": "2026-11-05T03:06:03Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 53,
+      "eligible_per_source": {
+        "hf-papers": 26,
+        "hn": 27
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Scored above threshold(7): two 8s (hf-papers-2611.06483 \"What Does Multi-Turn RL Really Improve in LLM Agents?\" and hn-50366117 \"Ask HN: What's your current AI agentic setup?\") plus seven 7s (hf-papers 2611.01926 TAC-CoT, 2611.06910 FrontierPhysics agent-eval, 2610.40516 multilingual safety training, 2611.05345 adversarial speculative long-horizon agents; hn-50369925 Ripple-65B agentic-coding, hn-50376313 GPT-6 Astra safety sandbagging, hn-50368626 provable LLM inference). Distribution: 2@8, 7@7, 5@6, 2@5, 2@4, 8@3, 22@2, 5@1. Selection took the two 8s; source-diversity tie-break gave one hf-paper + one hn with distinct angles (agent multi-turn RL research vs. a practitioner agentic-setup thread), also breaking the recent all-hf-papers streak. lobsters returned 0 candidates (no allowlisted-tag hot item). written_today was 2 (03:06 evening run), so cap=min(2,4-2)=2 held at the soft daily budget. Research: the paper is a fresh unindexed Nov-2026 arXiv (searches surfaced only different RL papers), and no third-party coverage of the specific Ask HN thread surfaced, so both are below min_citations=2 and omit the reaction paragraph as designed. Interests: no developing-story cluster qualified (both posts are standalone reviews; the \"harness not the model\" overlap is a recurring thesis/topic, not one unfolding story), returned []. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2611.06483",
+        "hn-50366117"
+      ],
+      "ts": "2026-11-05T14:09:16Z",
+      "window": "morning"
     }
   ]
 }
