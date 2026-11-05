@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-04T14:13:41Z",
+  "last_pruned_ts": "2026-11-05T03:06:03Z",
   "published_urls": {
     "https://arxiv.org/abs/2609.05881": {
       "published_at": "2026-11-01T03:05:45Z",
@@ -36,11 +36,6 @@
       "source": "hf-papers",
       "source_id": "2610.37230"
     },
-    "https://arxiv.org/abs/2610.37364": {
-      "published_at": "2026-10-29T03:05:26Z",
-      "source": "hf-papers",
-      "source_id": "2610.37364"
-    },
     "https://arxiv.org/abs/2610.37651": {
       "published_at": "2026-11-03T14:06:10Z",
       "source": "hf-papers",
@@ -60,6 +55,11 @@
       "published_at": "2026-11-03T03:05:22Z",
       "source": "hf-papers",
       "source_id": "2610.39086"
+    },
+    "https://arxiv.org/abs/2610.39813": {
+      "published_at": "2026-11-05T03:06:03Z",
+      "source": "hf-papers",
+      "source_id": "2610.39813"
     },
     "https://arxiv.org/abs/2610.40454": {
       "published_at": "2026-10-30T14:09:40Z",
@@ -86,10 +86,10 @@
       "source": "hf-papers",
       "source_id": "2611.05275"
     },
-    "https://cursor.com/blog/agent-sdk": {
-      "published_at": "2026-10-29T03:05:26Z",
-      "source": "hn",
-      "source_id": "50273731"
+    "https://arxiv.org/abs/2611.05306": {
+      "published_at": "2026-11-05T03:06:03Z",
+      "source": "hf-papers",
+      "source_id": "2611.05306"
     },
     "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce": {
       "published_at": "2026-10-29T14:17:54Z",
@@ -3567,6 +3567,29 @@
       ],
       "ts": "2026-11-04T14:13:41Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 50,
+      "eligible_per_source": {
+        "hf-papers": 25,
+        "hn": 25
+      },
+      "interests": {
+        "created": [
+          "bigger-context-isnt-the-answer (4)"
+        ],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2611.05306",
+        "hf-papers-2610.39813"
+      ],
+      "ts": "2026-11-05T03:06:03Z",
+      "window": "evening"
     }
   ]
 }
