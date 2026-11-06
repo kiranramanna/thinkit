@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-06T03:10:25Z",
+  "last_pruned_ts": "2026-11-06T14:10:07Z",
   "published_urls": {
     "https://arxiv.org/abs/2609.05881": {
       "published_at": "2026-11-01T03:05:45Z",
@@ -26,11 +26,6 @@
       "source": "hf-papers",
       "source_id": "2610.35671"
     },
-    "https://arxiv.org/abs/2610.37230": {
-      "published_at": "2026-10-30T14:09:40Z",
-      "source": "hf-papers",
-      "source_id": "2610.37230"
-    },
     "https://arxiv.org/abs/2610.37651": {
       "published_at": "2026-11-03T14:06:10Z",
       "source": "hf-papers",
@@ -56,10 +51,10 @@
       "source": "hf-papers",
       "source_id": "2610.39813"
     },
-    "https://arxiv.org/abs/2610.40454": {
-      "published_at": "2026-10-30T14:09:40Z",
+    "https://arxiv.org/abs/2610.41432": {
+      "published_at": "2026-11-06T14:10:07Z",
       "source": "hf-papers",
-      "source_id": "2610.40454"
+      "source_id": "2610.41432"
     },
     "https://arxiv.org/abs/2610.42128": {
       "published_at": "2026-11-04T03:05:42Z",
@@ -95,6 +90,11 @@
       "published_at": "2026-11-05T14:09:16Z",
       "source": "hf-papers",
       "source_id": "2611.06483"
+    },
+    "https://github.com/anthropics/claude-code/issues/107757": {
+      "published_at": "2026-11-06T14:10:07Z",
+      "source": "hn",
+      "source_id": "50385272"
     },
     "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve": {
       "published_at": "2026-11-01T03:05:45Z",
@@ -3645,6 +3645,30 @@
       ],
       "ts": "2026-11-06T03:10:25Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 59,
+      "eligible_per_source": {
+        "hf-papers": 31,
+        "hn": 26,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Adapters: hn 27, lobsters 2, hf-papers 33 (all OK, no ADAPTER_ERROR). 59 eligible after dedup (0 cross-source merges, 3 already-published dropped). Scored above threshold(7): one 8 (hf-papers-2610.41432 Hybrid Computer Use, unified programmatic/semantic/visual interface for computer-use agents) and six 7s (hf-papers 2611.00883 BestRand benchmark compression, 2611.02075 DPDM agent decision-making, 2611.03743 EvoMemState agent memory, 2611.04277 Harness-S agent-training harnesses, 2611.07854 Drex production decision models; hn-50385272 \"Claude Code sends your email address to websites\"). Distribution: 1@8, 6@7, 7@6, 6@5, 6@4, 4@3, 18@2, 11@1. Selection took the 8 (HCU) then the source-diversity tie-break promoted the only non-hf-papers 7 (hn-50385272), giving one hf-paper + one hn with distinct angles (computer-use tool-interface research vs. a real-world agent data-governance/PII story) and breaking the recent all-hf-papers streak. written_today was 2 (03:10 evening run), so cap=min(2,4-2)=2 held at the soft daily budget. Research: HCU is a fresh Nov-2026 arXiv with no story-specific public reaction (searches surfaced only its own project page, a differently-numbered same-title paper, and SEO aggregators), below min_citations=2, so that post omits the reaction paragraph as designed; the Claude Code email story had genuine public reaction and carries a 3-citation reaction paragraph (PromptZone negative, ExplainX mixed, TechBytes neutral). Interests: clustering ran over 60 prefiltered candidates + 4 existing interests (agent-guardrails-as-code, bigger-context-isnt-the-answer, model-context-protocol, openai-huggingface); neither new post forms a single developing story with >=3 posts (HCU is a standalone paper review; the email-leak post is a one-off incident whose only overlap with agent-guardrails-as-code is a shared governance topic, not the same unfolding story), returned []. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.41432",
+        "hn-50385272"
+      ],
+      "ts": "2026-11-06T14:10:07Z",
+      "window": "morning"
     }
   ]
 }
