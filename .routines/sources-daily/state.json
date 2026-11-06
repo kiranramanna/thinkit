@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-05T14:09:16Z",
+  "last_pruned_ts": "2026-11-06T03:10:25Z",
   "published_urls": {
     "https://arxiv.org/abs/2609.05881": {
       "published_at": "2026-11-01T03:05:45Z",
@@ -10,11 +10,6 @@
       "published_at": "2026-11-02T14:27:16Z",
       "source": "hf-papers",
       "source_id": "2610.22740"
-    },
-    "https://arxiv.org/abs/2610.30161": {
-      "published_at": "2026-10-29T14:17:54Z",
-      "source": "hf-papers",
-      "source_id": "2610.30161"
     },
     "https://arxiv.org/abs/2610.34298": {
       "published_at": "2026-11-03T03:05:22Z",
@@ -71,6 +66,11 @@
       "source": "hf-papers",
       "source_id": "2610.42128"
     },
+    "https://arxiv.org/abs/2611.01926": {
+      "published_at": "2026-11-06T03:10:25Z",
+      "source": "hf-papers",
+      "source_id": "2611.01926"
+    },
     "https://arxiv.org/abs/2611.02332": {
       "published_at": "2026-11-04T03:05:42Z",
       "source": "hf-papers",
@@ -96,15 +96,15 @@
       "source": "hf-papers",
       "source_id": "2611.06483"
     },
-    "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce": {
-      "published_at": "2026-10-29T14:17:54Z",
-      "source": "hn",
-      "source_id": "50284255"
-    },
     "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve": {
       "published_at": "2026-11-01T03:05:45Z",
       "source": "hn",
       "source_id": "50320995"
+    },
+    "https://github.com/rivet-dev/rivet": {
+      "published_at": "2026-11-06T03:10:25Z",
+      "source": "hn",
+      "source_id": "50381687"
     },
     "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing": {
       "published_at": "2026-11-01T14:07:05Z",
@@ -3623,6 +3623,28 @@
       ],
       "ts": "2026-11-05T14:09:16Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 58,
+      "eligible_per_source": {
+        "hf-papers": 30,
+        "hn": 27,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2611.01926",
+        "hn-50381687"
+      ],
+      "ts": "2026-11-06T03:10:25Z",
+      "window": "evening"
     }
   ]
 }
