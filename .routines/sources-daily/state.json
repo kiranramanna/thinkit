@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-07T03:11:56Z",
+  "last_pruned_ts": "2026-11-07T14:11:09Z",
   "published_urls": {
     "https://arxiv.org/abs/2609.05881": {
       "published_at": "2026-11-01T03:05:45Z",
@@ -20,11 +20,6 @@
       "published_at": "2026-11-02T14:27:16Z",
       "source": "hf-papers",
       "source_id": "2610.34722"
-    },
-    "https://arxiv.org/abs/2610.35671": {
-      "published_at": "2026-10-31T14:13:11Z",
-      "source": "hf-papers",
-      "source_id": "2610.35671"
     },
     "https://arxiv.org/abs/2610.37651": {
       "published_at": "2026-11-03T14:06:10Z",
@@ -76,6 +71,11 @@
       "source": "hf-papers",
       "source_id": "2611.03743"
     },
+    "https://arxiv.org/abs/2611.03852": {
+      "published_at": "2026-11-07T14:11:09Z",
+      "source": "hf-papers",
+      "source_id": "2611.03852"
+    },
     "https://arxiv.org/abs/2611.05036": {
       "published_at": "2026-11-04T14:13:41Z",
       "source": "hf-papers",
@@ -126,10 +126,10 @@
       "source": "hn",
       "source_id": "50366117"
     },
-    "https://phorion.io/blog/offical-claude-code-vsx-compromise": {
-      "published_at": "2026-10-31T14:13:11Z",
+    "https://www.anthropic.com/research/components-of-agent-memory": {
+      "published_at": "2026-11-07T14:11:09Z",
       "source": "hn",
-      "source_id": "50300683"
+      "source_id": "50402212"
     }
   },
   "runs": [
@@ -3701,6 +3701,28 @@
       ],
       "ts": "2026-11-07T03:11:56Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 53,
+      "eligible_per_source": {
+        "hf-papers": 27,
+        "hn": 25,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hn-50402212",
+        "hf-papers-2611.03852"
+      ],
+      "ts": "2026-11-07T14:11:09Z",
+      "window": "morning"
     }
   ]
 }
