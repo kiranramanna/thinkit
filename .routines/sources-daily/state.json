@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-06T14:10:07Z",
+  "last_pruned_ts": "2026-11-07T03:11:56Z",
   "published_urls": {
     "https://arxiv.org/abs/2609.05881": {
       "published_at": "2026-11-01T03:05:45Z",
@@ -71,6 +71,11 @@
       "source": "hf-papers",
       "source_id": "2611.02332"
     },
+    "https://arxiv.org/abs/2611.03743": {
+      "published_at": "2026-11-07T03:11:56Z",
+      "source": "hf-papers",
+      "source_id": "2611.03743"
+    },
     "https://arxiv.org/abs/2611.05036": {
       "published_at": "2026-11-04T14:13:41Z",
       "source": "hf-papers",
@@ -105,6 +110,11 @@
       "published_at": "2026-11-06T03:10:25Z",
       "source": "hn",
       "source_id": "50381687"
+    },
+    "https://hightouch.com/blog/llm-judges-identity-resolution": {
+      "published_at": "2026-11-07T03:11:56Z",
+      "source": "hn",
+      "source_id": "50397429"
     },
     "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing": {
       "published_at": "2026-11-01T14:07:05Z",
@@ -3669,6 +3679,28 @@
       ],
       "ts": "2026-11-06T14:10:07Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 55,
+      "eligible_per_source": {
+        "hf-papers": 27,
+        "hn": 27,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2611.03743",
+        "hn-50397429"
+      ],
+      "ts": "2026-11-07T03:11:56Z",
+      "window": "evening"
     }
   ]
 }
