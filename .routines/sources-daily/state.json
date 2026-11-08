@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-08T03:06:48Z",
+  "last_pruned_ts": "2026-11-08T14:05:51Z",
   "published_urls": {
     "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again": {
       "published_at": "2026-11-08T03:06:48Z",
@@ -30,11 +30,6 @@
       "published_at": "2026-11-03T14:06:10Z",
       "source": "hf-papers",
       "source_id": "2610.37826"
-    },
-    "https://arxiv.org/abs/2610.38342": {
-      "published_at": "2026-11-01T14:07:05Z",
-      "source": "hf-papers",
-      "source_id": "2610.38342"
     },
     "https://arxiv.org/abs/2610.39086": {
       "published_at": "2026-11-03T03:05:22Z",
@@ -96,6 +91,11 @@
       "source": "hf-papers",
       "source_id": "2611.06483"
     },
+    "https://arxiv.org/abs/2611.06500": {
+      "published_at": "2026-11-08T14:05:51Z",
+      "source": "hf-papers",
+      "source_id": "2611.06500"
+    },
     "https://arxiv.org/abs/2611.07298": {
       "published_at": "2026-11-08T03:06:48Z",
       "source": "hf-papers",
@@ -116,11 +116,6 @@
       "source": "hn",
       "source_id": "50397429"
     },
-    "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing": {
-      "published_at": "2026-11-01T14:07:05Z",
-      "source": "hn",
-      "source_id": "50322173"
-    },
     "https://news.ycombinator.com/item?id=50366117": {
       "published_at": "2026-11-05T14:09:16Z",
       "source": "hn",
@@ -130,6 +125,11 @@
       "published_at": "2026-11-07T14:11:09Z",
       "source": "hn",
       "source_id": "50402212"
+    },
+    "https://www.lorekit.io/blog/open-agent-memory-format": {
+      "published_at": "2026-11-08T14:05:51Z",
+      "source": "hn",
+      "source_id": "50411467"
     }
   },
   "runs": [
@@ -3747,6 +3747,27 @@
       ],
       "ts": "2026-11-08T03:06:48Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 54,
+      "eligible_per_source": {
+        "hf-papers": 29,
+        "hn": 25
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2611.06500",
+        "hn-50411467"
+      ],
+      "ts": "2026-11-08T14:05:51Z",
+      "window": "morning"
     }
   ]
 }
