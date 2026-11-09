@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-08T14:05:51Z",
+  "last_pruned_ts": "2026-11-09T14:13:46Z",
   "published_urls": {
     "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again": {
       "published_at": "2026-11-08T03:06:48Z",
@@ -20,6 +20,11 @@
       "published_at": "2026-11-02T14:27:16Z",
       "source": "hf-papers",
       "source_id": "2610.34722"
+    },
+    "https://arxiv.org/abs/2610.35959": {
+      "published_at": "2026-11-09T14:13:46Z",
+      "source": "hf-papers",
+      "source_id": "2610.35959"
     },
     "https://arxiv.org/abs/2610.37651": {
       "published_at": "2026-11-03T14:06:10Z",
@@ -100,6 +105,11 @@
       "published_at": "2026-11-08T03:06:48Z",
       "source": "hf-papers",
       "source_id": "2611.07298"
+    },
+    "https://arxiv.org/abs/2611.07461": {
+      "published_at": "2026-11-09T14:13:46Z",
+      "source": "hf-papers",
+      "source_id": "2611.07461"
     },
     "https://github.com/anthropics/claude-code/issues/107757": {
       "published_at": "2026-11-06T14:10:07Z",
@@ -3767,6 +3777,29 @@
         "hn-50411467"
       ],
       "ts": "2026-11-08T14:05:51Z",
+      "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 57,
+      "eligible_per_source": {
+        "hf-papers": 31,
+        "hn": 24,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2610.35959",
+        "hf-papers-2611.07461"
+      ],
+      "ts": "2026-11-09T14:13:46Z",
       "window": "morning"
     }
   ]
