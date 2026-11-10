@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-10T03:05:20Z",
+  "last_pruned_ts": "2026-11-10T14:13:03Z",
   "published_urls": {
     "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again": {
       "published_at": "2026-11-08T03:06:48Z",
@@ -10,16 +10,6 @@
       "published_at": "2026-11-09T14:13:46Z",
       "source": "hf-papers",
       "source_id": "2610.35959"
-    },
-    "https://arxiv.org/abs/2610.37651": {
-      "published_at": "2026-11-03T14:06:10Z",
-      "source": "hf-papers",
-      "source_id": "2610.37651"
-    },
-    "https://arxiv.org/abs/2610.37826": {
-      "published_at": "2026-11-03T14:06:10Z",
-      "source": "hf-papers",
-      "source_id": "2610.37826"
     },
     "https://arxiv.org/abs/2610.39813": {
       "published_at": "2026-11-05T03:06:03Z",
@@ -45,6 +35,11 @@
       "published_at": "2026-11-04T03:05:42Z",
       "source": "hf-papers",
       "source_id": "2611.02332"
+    },
+    "https://arxiv.org/abs/2611.02810": {
+      "published_at": "2026-11-10T14:13:03Z",
+      "source": "hf-papers",
+      "source_id": "2611.02810"
     },
     "https://arxiv.org/abs/2611.03743": {
       "published_at": "2026-11-07T03:11:56Z",
@@ -120,6 +115,11 @@
       "published_at": "2026-11-05T14:09:16Z",
       "source": "hn",
       "source_id": "50366117"
+    },
+    "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider": {
+      "published_at": "2026-11-10T14:13:03Z",
+      "source": "hn",
+      "source_id": "50436640"
     },
     "https://www.anthropic.com/research/components-of-agent-memory": {
       "published_at": "2026-11-07T14:11:09Z",
@@ -3815,6 +3815,30 @@
       ],
       "ts": "2026-11-10T03:05:20Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 53,
+      "eligible_per_source": {
+        "hf-papers": 25,
+        "hn": 27,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Adapters: hn 27, lobsters 1, hf-papers 26 (all OK, no ADAPTER_ERROR). 53 eligible after dedup (raw 54, 0 cross-source merges, 1 already-published dropped). Scored above threshold(7): two 8s (hf-papers-2611.02810 TRIO multi-agent RAG with per-stage task-adaptive models + query refinement; hn-50436640 Amazon replacing Sonnet 4.6 with Strands Decider for ticket labeling ~98% cheaper) and three 7s (hf-papers 2610.42148 Flide exact decision-inference engine, 2611.09891 CPU-ARC agentic reasoning caching, 2611.06808 FinDendro temporal-self-knowledge/eval-contamination benchmark). Distribution: 2@8, 3@7, 8@6, 6@5, 6@4, 11@3, 13@2, 4@1. Selection took both 8s; already source-diverse (one hf-paper + one hn). written_today was 2 (prior 2026-11-10 evening run), so cap=min(2,4-2)=2. Research: Strands Decider post (published 2026-11-09) had genuine contemporaneous web reaction \u2014 2 readable, stance-bearing citations (InfoWorld mixed/cautionary on operational cost; eesel.ai mixed, independent accuracy/cost-hybrid test) >= min_citations=2, so that post carries the reaction paragraph; TRIO is a fresh EMNLP-2026/arXiv paper with no story-specific public reaction (only the paper, citation metadata, and adjacent multi-agent-RAG work), below min_citations, so it omits the reaction paragraph as designed. Interests: clustering judged inline over 60 prefiltered candidates + 4 existing interests (agent-guardrails-as-code, bigger-context-isnt-the-answer, model-context-protocol, openai-huggingface); neither new post is a single developing story with >=3 posts (TRIO is a standalone per-stage-RAG result sharing only the RAG topic; the Strands/decider-cost post shares only a cost-routing topic with when-to-hand-your-agent-off-to-a-cheaper-model, not the same unfolding event), returned []. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2611.02810",
+        "hn-50436640"
+      ],
+      "ts": "2026-11-10T14:13:03Z",
+      "window": "morning"
     }
   ]
 }
