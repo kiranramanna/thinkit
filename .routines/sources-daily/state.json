@@ -1,25 +1,10 @@
 {
-  "last_pruned_ts": "2026-11-09T14:13:46Z",
+  "last_pruned_ts": "2026-11-10T03:05:20Z",
   "published_urls": {
     "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again": {
       "published_at": "2026-11-08T03:06:48Z",
       "source": "hn",
       "source_id": "50407882"
-    },
-    "https://arxiv.org/abs/2610.22740": {
-      "published_at": "2026-11-02T14:27:16Z",
-      "source": "hf-papers",
-      "source_id": "2610.22740"
-    },
-    "https://arxiv.org/abs/2610.34298": {
-      "published_at": "2026-11-03T03:05:22Z",
-      "source": "hf-papers",
-      "source_id": "2610.34298"
-    },
-    "https://arxiv.org/abs/2610.34722": {
-      "published_at": "2026-11-02T14:27:16Z",
-      "source": "hf-papers",
-      "source_id": "2610.34722"
     },
     "https://arxiv.org/abs/2610.35959": {
       "published_at": "2026-11-09T14:13:46Z",
@@ -35,11 +20,6 @@
       "published_at": "2026-11-03T14:06:10Z",
       "source": "hf-papers",
       "source_id": "2610.37826"
-    },
-    "https://arxiv.org/abs/2610.39086": {
-      "published_at": "2026-11-03T03:05:22Z",
-      "source": "hf-papers",
-      "source_id": "2610.39086"
     },
     "https://arxiv.org/abs/2610.39813": {
       "published_at": "2026-11-05T03:06:03Z",
@@ -96,6 +76,11 @@
       "source": "hf-papers",
       "source_id": "2611.06483"
     },
+    "https://arxiv.org/abs/2611.06498": {
+      "published_at": "2026-11-10T03:05:20Z",
+      "source": "hf-papers",
+      "source_id": "2611.06498"
+    },
     "https://arxiv.org/abs/2611.06500": {
       "published_at": "2026-11-08T14:05:51Z",
       "source": "hf-papers",
@@ -110,6 +95,11 @@
       "published_at": "2026-11-09T14:13:46Z",
       "source": "hf-papers",
       "source_id": "2611.07461"
+    },
+    "https://arxiv.org/abs/2611.09113": {
+      "published_at": "2026-11-10T03:05:20Z",
+      "source": "hf-papers",
+      "source_id": "2611.09113"
     },
     "https://github.com/anthropics/claude-code/issues/107757": {
       "published_at": "2026-11-06T14:10:07Z",
@@ -3801,6 +3791,30 @@
       ],
       "ts": "2026-11-09T14:13:46Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 59,
+      "eligible_per_source": {
+        "hf-papers": 32,
+        "hn": 26,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Adapters: hn 26, lobsters 1, hf-papers 36 (all OK, no ADAPTER_ERROR). 59 eligible after dedup (raw 63, 0 cross-source merges, 4 already-published dropped). Scored above threshold(7): one 9 (hf-papers-2611.06498 'Signed but Steerable' text-vector integrity gap in offline RAG), two 8s (hf-papers-2611.09113 Authorization Drift benchmark for agent tool-use boundaries; hf-papers-2611.07624 reliability of self-improving agent harnesses), and four 7s (hf-papers 2611.09891 agentic reasoning caching, 2611.08483 SwarmEvolve latent agent swarms, 2611.02075 DPDM agent decisions; hn-50429426 Gemini routing personal data to annotators). Distribution: 1@9, 2@8, 4@7, 10@6, 10@5, 8@4, 8@3, 11@2, 5@1. Selection took the 9 then the first 8 (both hf-papers; HN front page today was mostly model announcements and non-AI consumer/hardware items, so no source-diverse pick existed above threshold). written_today was 0 (first run of 2026-11-10), cap=min(2,4-0)=2. Research: both selected items are fresh Nov-2026 arXiv papers with no story-specific public reaction (2611.06498 had only one secondary write-up at groundy.com; 2611.09113 had none, all hits were same-topic-but-different work like MasDrift/RAC/AuthorizationBench), both below min_citations=2, so both posts omit the reaction paragraph as designed. Interests: clustering judged inline over 60 prefiltered candidates + 4 existing interests (agent-guardrails-as-code, bigger-context-isnt-the-answer, model-context-protocol, openai-huggingface); neither new post is a single developing story with >=3 posts (the RAG-embedding-integrity result is a standalone one-off; the authorization-drift benchmark is adjacent to the guardrails-as-code enforcement arc but is problem-measurement, not a continuation of that prompt->program->proof mechanism thread), returned []. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2611.06498",
+        "hf-papers-2611.09113"
+      ],
+      "ts": "2026-11-10T03:05:20Z",
+      "window": "evening"
     }
   ]
 }
