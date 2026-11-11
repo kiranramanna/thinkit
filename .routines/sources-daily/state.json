@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-11T03:12:39Z",
+  "last_pruned_ts": "2026-11-11T14:07:34Z",
   "published_urls": {
     "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again": {
       "published_at": "2026-11-08T03:06:48Z",
@@ -41,16 +41,6 @@
       "source": "hf-papers",
       "source_id": "2611.03852"
     },
-    "https://arxiv.org/abs/2611.05036": {
-      "published_at": "2026-11-04T14:13:41Z",
-      "source": "hf-papers",
-      "source_id": "2611.05036"
-    },
-    "https://arxiv.org/abs/2611.05275": {
-      "published_at": "2026-11-04T14:13:41Z",
-      "source": "hf-papers",
-      "source_id": "2611.05275"
-    },
     "https://arxiv.org/abs/2611.05306": {
       "published_at": "2026-11-05T03:06:03Z",
       "source": "hf-papers",
@@ -91,6 +81,11 @@
       "source": "hf-papers",
       "source_id": "2611.11995"
     },
+    "https://arxiv.org/abs/2611.14320": {
+      "published_at": "2026-11-11T14:07:34Z",
+      "source": "hf-papers",
+      "source_id": "2611.14320"
+    },
     "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase": {
       "published_at": "2026-11-11T03:12:39Z",
       "source": "hn",
@@ -115,6 +110,11 @@
       "published_at": "2026-11-05T14:09:16Z",
       "source": "hn",
       "source_id": "50366117"
+    },
+    "https://pietromiotti.com/latest/maya-site?maya=": {
+      "published_at": "2026-11-11T14:07:34Z",
+      "source": "hn",
+      "source_id": "50452455"
     },
     "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider": {
       "published_at": "2026-11-10T14:13:03Z",
@@ -3860,6 +3860,30 @@
       ],
       "ts": "2026-11-11T03:12:39Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 43,
+      "eligible_per_source": {
+        "hf-papers": 19,
+        "hn": 22,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Adapters: hn 22, lobsters 2, hf-papers 20 (all OK, no ADAPTER_ERROR). 43 eligible after dedup (raw 44, 0 cross-source merges, 1 already-published dropped). Scored above threshold(7): two 8s (hf-papers-2611.14320 WikiTrace evidence-linked agent memory cutting memory-induced degradation; hn-50452455 48-agent multi-agent orchestration over NASA lidar finding an apparently unmapped Maya site) and three 7s (hf-papers 2611.07464 FINCOSMOS open-world agent eval, 2611.10304 Longtail-SWE agent benchmark with solver-judge-repairer, 2611.11558 InfraRSI agentic training-infra harness). Distribution: 2@8, 3@7, 4@6, 4@5, 4@4, 11@3, 11@2, 4@1. Selection took both 8s; already source-diverse (one hf-paper + one hn), so the diversity tie-break was moot. written_today was 2 (prior 2026-11-11 evening run), so cap=min(2,4-2)=2. Research: WikiTrace is a fresh Nov-2026 arXiv submission with no story-specific public reaction (searches surfaced only adjacent agent-memory work like TrajWiki/MemTrace/Eywa/Agent Zero Memory, excluded as same-topic/older), below min_citations=2, so that post omits the reaction paragraph as designed; the Maya-site write-up returned no distinct contemporaneous commentary I could read (hits were the unrelated 2024 Campeche lidar discovery and Autodesk-Maya AI tooling, not this specific pietromiotti story), also below min_citations, so it too omits the reaction paragraph. Interests: clustering judged inline over 60 prefiltered candidates + 4 existing interests (agent-guardrails-as-code, bigger-context-isnt-the-answer, model-context-protocol, openai-huggingface); neither new post is a single developing story with >=3 posts (the WikiTrace post is one more standalone result in the broad agent-memory-reliability topic, not one unfolding event; the 48-agent lidar post is a one-off applied-orchestration story), returned []. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2611.14320",
+        "hn-50452455"
+      ],
+      "ts": "2026-11-11T14:07:34Z",
+      "window": "morning"
     }
   ]
 }
