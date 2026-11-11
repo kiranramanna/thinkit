@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-10T14:13:03Z",
+  "last_pruned_ts": "2026-11-11T03:12:39Z",
   "published_urls": {
     "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again": {
       "published_at": "2026-11-08T03:06:48Z",
@@ -21,20 +21,10 @@
       "source": "hf-papers",
       "source_id": "2610.41432"
     },
-    "https://arxiv.org/abs/2610.42128": {
-      "published_at": "2026-11-04T03:05:42Z",
-      "source": "hf-papers",
-      "source_id": "2610.42128"
-    },
     "https://arxiv.org/abs/2611.01926": {
       "published_at": "2026-11-06T03:10:25Z",
       "source": "hf-papers",
       "source_id": "2611.01926"
-    },
-    "https://arxiv.org/abs/2611.02332": {
-      "published_at": "2026-11-04T03:05:42Z",
-      "source": "hf-papers",
-      "source_id": "2611.02332"
     },
     "https://arxiv.org/abs/2611.02810": {
       "published_at": "2026-11-10T14:13:03Z",
@@ -95,6 +85,16 @@
       "published_at": "2026-11-10T03:05:20Z",
       "source": "hf-papers",
       "source_id": "2611.09113"
+    },
+    "https://arxiv.org/abs/2611.11995": {
+      "published_at": "2026-11-11T03:12:39Z",
+      "source": "hf-papers",
+      "source_id": "2611.11995"
+    },
+    "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase": {
+      "published_at": "2026-11-11T03:12:39Z",
+      "source": "hn",
+      "source_id": "50438318"
     },
     "https://github.com/anthropics/claude-code/issues/107757": {
       "published_at": "2026-11-06T14:10:07Z",
@@ -3839,6 +3839,27 @@
       ],
       "ts": "2026-11-10T14:13:03Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 49,
+      "eligible_per_source": {
+        "hf-papers": 25,
+        "hn": 24
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2611.11995",
+        "hn-50438318"
+      ],
+      "ts": "2026-11-11T03:12:39Z",
+      "window": "evening"
     }
   ]
 }
