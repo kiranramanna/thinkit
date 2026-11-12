@@ -1,10 +1,15 @@
 {
-  "last_pruned_ts": "2026-11-12T03:06:20Z",
+  "last_pruned_ts": "2026-11-12T14:12:53Z",
   "published_urls": {
     "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again": {
       "published_at": "2026-11-08T03:06:48Z",
       "source": "hn",
       "source_id": "50407882"
+    },
+    "https://arxiv.org/abs/2608.22237": {
+      "published_at": "2026-11-12T14:12:53Z",
+      "source": "hf-papers",
+      "source_id": "2608.22237"
     },
     "https://arxiv.org/abs/2610.35959": {
       "published_at": "2026-11-09T14:13:46Z",
@@ -36,11 +41,6 @@
       "source": "hf-papers",
       "source_id": "2611.03852"
     },
-    "https://arxiv.org/abs/2611.06483": {
-      "published_at": "2026-11-05T14:09:16Z",
-      "source": "hf-papers",
-      "source_id": "2611.06483"
-    },
     "https://arxiv.org/abs/2611.06498": {
       "published_at": "2026-11-10T03:05:20Z",
       "source": "hf-papers",
@@ -65,6 +65,11 @@
       "published_at": "2026-11-10T03:05:20Z",
       "source": "hf-papers",
       "source_id": "2611.09113"
+    },
+    "https://arxiv.org/abs/2611.10193": {
+      "published_at": "2026-11-12T14:12:53Z",
+      "source": "hf-papers",
+      "source_id": "2611.10193"
     },
     "https://arxiv.org/abs/2611.11995": {
       "published_at": "2026-11-11T03:12:39Z",
@@ -105,11 +110,6 @@
       "published_at": "2026-11-12T03:06:20Z",
       "source": "hn",
       "source_id": "50455633"
-    },
-    "https://news.ycombinator.com/item?id=50366117": {
-      "published_at": "2026-11-05T14:09:16Z",
-      "source": "hn",
-      "source_id": "50366117"
     },
     "https://pietromiotti.com/latest/maya-site?maya=": {
       "published_at": "2026-11-11T14:07:34Z",
@@ -3908,6 +3908,32 @@
       ],
       "ts": "2026-11-12T03:06:20Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 53,
+      "eligible_per_source": {
+        "hf-papers": 27,
+        "hn": 23,
+        "lobsters": 3
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": [
+          "bigger-context-isnt-the-answer (+1)"
+        ]
+      },
+      "notes": "Adapters: hn 25, lobsters 5, hf-papers 28 (all OK, no ADAPTER_ERROR). 54 eligible after dedup (raw 58, cross-source merged to 56, 2 already-published dropped). One extra de-facto duplicate caught manually and excluded: hn-50452455 (pietromiotti Maya-site), already published 2026-11-11 as when-agent-orchestration-beats-a-custom-model; it slipped URL-normalization dedup because the stored canonical had a trailing ?maya= query param while this run saw the bare URL \u2014 not re-published. Scored 53 candidates in one inline pass (no Anthropic SDK/key in env). Distribution: 2@8, 7@7, 1@6, 10@5, 10@4, 13@3, 6@2, 4@1. Above threshold(7): two 8s (hf-papers-2608.22237 SparseRead content-admission/token-budget reading layer for agents; hf-papers-2611.10193 PISA prompt-adaptive cost-aware ensemble routing) and seven 7s (hf-papers 2611.12304 agent-adaptive serving, 2611.13410 SteerDistill quantized-agent distillation, 2611.01527 agent decision-provenance auditing, 2611.07464 FINCOSMOS open-world agent eval, 2611.12865 verifiable-RL reward-hacking/contextual safety; hn-50456791 Gemini Decisions API, hn-50458900 United bans AI booking agents). written_today was 2 (prior 2026-11-12 evening run), so cap=min(2,4-2)=2. Selection took both 8s; both hf-papers so the source-diversity tie-break was moot. Research: both are fresh arXiv papers with no story-specific public reaction (searches surfaced only same-topic adjacent work: Sweep coding-agent file-reading and generic token-reduction posts for SparseRead; xRouter/LLMRank/CSCR/EMA routing papers for PISA, all excluded as same-topic/older), below min_citations=2, so both posts omit the reaction paragraph as designed. Interests: clustering judged inline over 60 prefiltered candidates + 4 existing interests (agent-guardrails-as-code, bigger-context-isnt-the-answer, model-context-protocol, openai-huggingface); extended bigger-context-isnt-the-answer with the SparseRead post (+1, conf 0.75) as the admission-time beat of that running case; the PISA post left standalone (the Sept router posts are a loose topic in the training/loop sense, not one developing story matching PISA cost-quality model routing). Scoring+writing performed inline by the orchestrator agent.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2608.22237",
+        "hf-papers-2611.10193"
+      ],
+      "ts": "2026-11-12T14:12:53Z",
+      "window": "morning"
     }
   ]
 }

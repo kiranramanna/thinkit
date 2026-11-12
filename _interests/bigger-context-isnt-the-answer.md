@@ -35,6 +35,15 @@ entries:
       compaction costs little accuracy and proposing semantic state
       space models — the 'you may not need long context at all' close.
 
+  - date: 2026-11-12
+    kind: post
+    post: agents-read-too-much-and-bigger-models-dont-fix-it
+    why: >
+      Moves the control point to admission time: stop the tokens at the
+      read, not after they flood the window. The new beat is that the
+      strongest model tested (Opus 5) still over-reads up to 17x, so
+      capability never erases the reading bottleneck either.
+
   # routine:append-here — sources-daily inserts new entries above this line.
   # Hand-written entries are safe anywhere in this list; the routine only
   # inserts, and only for posts whose slug is not already present.
