@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-11T14:07:34Z",
+  "last_pruned_ts": "2026-11-12T03:06:20Z",
   "published_urls": {
     "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again": {
       "published_at": "2026-11-08T03:06:48Z",
@@ -10,11 +10,6 @@
       "published_at": "2026-11-09T14:13:46Z",
       "source": "hf-papers",
       "source_id": "2610.35959"
-    },
-    "https://arxiv.org/abs/2610.39813": {
-      "published_at": "2026-11-05T03:06:03Z",
-      "source": "hf-papers",
-      "source_id": "2610.39813"
     },
     "https://arxiv.org/abs/2610.41432": {
       "published_at": "2026-11-06T14:10:07Z",
@@ -40,11 +35,6 @@
       "published_at": "2026-11-07T14:11:09Z",
       "source": "hf-papers",
       "source_id": "2611.03852"
-    },
-    "https://arxiv.org/abs/2611.05306": {
-      "published_at": "2026-11-05T03:06:03Z",
-      "source": "hf-papers",
-      "source_id": "2611.05306"
     },
     "https://arxiv.org/abs/2611.06483": {
       "published_at": "2026-11-05T14:09:16Z",
@@ -96,6 +86,11 @@
       "source": "hn",
       "source_id": "50385272"
     },
+    "https://github.com/aws/aws-emulator": {
+      "published_at": "2026-11-12T03:06:20Z",
+      "source": "hn",
+      "source_id": "50456631"
+    },
     "https://github.com/rivet-dev/rivet": {
       "published_at": "2026-11-06T03:10:25Z",
       "source": "hn",
@@ -105,6 +100,11 @@
       "published_at": "2026-11-07T03:11:56Z",
       "source": "hn",
       "source_id": "50397429"
+    },
+    "https://machinelearning.apple.com/research/faster-retrieval": {
+      "published_at": "2026-11-12T03:06:20Z",
+      "source": "hn",
+      "source_id": "50455633"
     },
     "https://news.ycombinator.com/item?id=50366117": {
       "published_at": "2026-11-05T14:09:16Z",
@@ -3884,6 +3884,30 @@
       ],
       "ts": "2026-11-11T14:07:34Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 50,
+      "eligible_per_source": {
+        "hf-papers": 24,
+        "hn": 24,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Adapters: hn 24, lobsters 4, hf-papers 26 (all OK, no ADAPTER_ERROR). 50 eligible after dedup (raw 54, cross-source merged to 52, 2 already-published dropped). Scored above threshold(7): one 9 (hn-50455633 Apple ML 'Faster Retrieval' amortizing MIPS with SupportNet/KeyNet routing learned offline for RAG) and one 8 (hn-50456631 AWS Emulator written entirely by autonomous agents on Bedrock AgentCore, engineers own the spec/merge-gate not the code); four 7s (hf-papers-2611.07464 FINCOSMOS open-world agent eval, hn-50458900 United bans AI booking agents, hn-50456791 Gemini Decisions API, hn-50455811 Pomerado MCP-for-any-website). Distribution: 1@9,1@8,4@7,3@6,3@5,14@4,7@3,12@2,5@1. Selection took the 9 then the 8 (both hn); the source-diversity tie-break never triggered since each top score was unique. written_today was 0, so cap=min(2,4-0)=2. Research: AWS-emulator post carries the reaction paragraph \u2014 3 readable, stance-bearing independent citations (Unite.AI, MLQ.ai, The Letter Two), all 'impressed but cautious' >= min_citations=2; the Apple retrieval post is a fresh ICML-2026 paper with no story-specific public reaction (only the paper, Apple's own page, one write-up explainx.ai, and an AI-generated-image aggregator excluded as low quality), below min_citations, so it omits the reaction paragraph as designed. Interests: clustering judged inline over 60 prefiltered candidates + 4 existing interests (agent-guardrails-as-code, bigger-context-isnt-the-answer, model-context-protocol, openai-huggingface); neither new post is a single developing story with >=3 posts (the Apple retrieval post shares only the broad vector-index/retrieval-efficiency topic with independent tools like Turbovec/pg_vectorsearch; the AWS agents-write-code post shares only the recurring engineer's-role-shift theme with separate launches, not the tool-call-guardrail research thread), returned []. Scoring+writing performed inline by the orchestrator agent (no Anthropic SDK/key in env).",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hn-50455633",
+        "hn-50456631"
+      ],
+      "ts": "2026-11-12T03:06:20Z",
+      "window": "evening"
     }
   ]
 }
