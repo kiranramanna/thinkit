@@ -1,6 +1,11 @@
 {
-  "last_pruned_ts": "2026-11-13T03:10:19Z",
+  "last_pruned_ts": "2026-11-13T15:28:43Z",
   "published_urls": {
+    "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity": {
+      "published_at": "2026-11-13T15:28:43Z",
+      "source": "hn",
+      "source_id": "50472260"
+    },
     "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again": {
       "published_at": "2026-11-08T03:06:48Z",
       "source": "hn",
@@ -15,11 +20,6 @@
       "published_at": "2026-11-09T14:13:46Z",
       "source": "hf-papers",
       "source_id": "2610.35959"
-    },
-    "https://arxiv.org/abs/2610.41432": {
-      "published_at": "2026-11-06T14:10:07Z",
-      "source": "hf-papers",
-      "source_id": "2610.41432"
     },
     "https://arxiv.org/abs/2611.02810": {
       "published_at": "2026-11-10T14:13:03Z",
@@ -81,6 +81,11 @@
       "source": "hf-papers",
       "source_id": "2611.14320"
     },
+    "https://arxiv.org/abs/2611.17167": {
+      "published_at": "2026-11-13T15:28:43Z",
+      "source": "hf-papers",
+      "source_id": "2611.17167"
+    },
     "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase": {
       "published_at": "2026-11-11T03:12:39Z",
       "source": "hn",
@@ -90,11 +95,6 @@
       "published_at": "2026-11-13T03:10:19Z",
       "source": "hn",
       "source_id": "50471650"
-    },
-    "https://github.com/anthropics/claude-code/issues/107757": {
-      "published_at": "2026-11-06T14:10:07Z",
-      "source": "hn",
-      "source_id": "50385272"
     },
     "https://github.com/aws/aws-emulator": {
       "published_at": "2026-11-12T03:06:20Z",
@@ -3956,6 +3956,28 @@
       ],
       "ts": "2026-11-13T03:10:19Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 48,
+      "eligible_per_source": {
+        "hf-papers": 23,
+        "hn": 23,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2611.17167",
+        "hn-50472260"
+      ],
+      "ts": "2026-11-13T15:28:43Z",
+      "window": "morning"
     }
   ]
 }
