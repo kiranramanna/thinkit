@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-12T14:12:53Z",
+  "last_pruned_ts": "2026-11-13T03:10:19Z",
   "published_urls": {
     "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again": {
       "published_at": "2026-11-08T03:06:48Z",
@@ -20,11 +20,6 @@
       "published_at": "2026-11-06T14:10:07Z",
       "source": "hf-papers",
       "source_id": "2610.41432"
-    },
-    "https://arxiv.org/abs/2611.01926": {
-      "published_at": "2026-11-06T03:10:25Z",
-      "source": "hf-papers",
-      "source_id": "2611.01926"
     },
     "https://arxiv.org/abs/2611.02810": {
       "published_at": "2026-11-10T14:13:03Z",
@@ -76,6 +71,11 @@
       "source": "hf-papers",
       "source_id": "2611.11995"
     },
+    "https://arxiv.org/abs/2611.12304": {
+      "published_at": "2026-11-13T03:10:19Z",
+      "source": "hf-papers",
+      "source_id": "2611.12304"
+    },
     "https://arxiv.org/abs/2611.14320": {
       "published_at": "2026-11-11T14:07:34Z",
       "source": "hf-papers",
@@ -86,6 +86,11 @@
       "source": "hn",
       "source_id": "50438318"
     },
+    "https://github.com/Parcha-ai/agentrun/blob/main/README.md": {
+      "published_at": "2026-11-13T03:10:19Z",
+      "source": "hn",
+      "source_id": "50471650"
+    },
     "https://github.com/anthropics/claude-code/issues/107757": {
       "published_at": "2026-11-06T14:10:07Z",
       "source": "hn",
@@ -95,11 +100,6 @@
       "published_at": "2026-11-12T03:06:20Z",
       "source": "hn",
       "source_id": "50456631"
-    },
-    "https://github.com/rivet-dev/rivet": {
-      "published_at": "2026-11-06T03:10:25Z",
-      "source": "hn",
-      "source_id": "50381687"
     },
     "https://hightouch.com/blog/llm-judges-identity-resolution": {
       "published_at": "2026-11-07T03:11:56Z",
@@ -3934,6 +3934,28 @@
       ],
       "ts": "2026-11-12T14:12:53Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 53,
+      "eligible_per_source": {
+        "hf-papers": 24,
+        "hn": 25,
+        "lobsters": 4
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2611.12304",
+        "hn-50471650"
+      ],
+      "ts": "2026-11-13T03:10:19Z",
+      "window": "evening"
     }
   ]
 }
