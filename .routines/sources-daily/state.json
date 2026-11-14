@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-14T03:05:22Z",
+  "last_pruned_ts": "2026-11-14T14:05:51Z",
   "published_urls": {
     "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free": {
       "published_at": "2026-11-14T03:05:22Z",
@@ -16,6 +16,11 @@
       "source": "hn",
       "source_id": "50407882"
     },
+    "https://arxiv.org/abs/2607.13920": {
+      "published_at": "2026-11-14T14:05:51Z",
+      "source": "hf-papers",
+      "source_id": "2607.13920"
+    },
     "https://arxiv.org/abs/2608.22237": {
       "published_at": "2026-11-12T14:12:53Z",
       "source": "hf-papers",
@@ -30,11 +35,6 @@
       "published_at": "2026-11-10T14:13:03Z",
       "source": "hf-papers",
       "source_id": "2611.02810"
-    },
-    "https://arxiv.org/abs/2611.03852": {
-      "published_at": "2026-11-07T14:11:09Z",
-      "source": "hf-papers",
-      "source_id": "2611.03852"
     },
     "https://arxiv.org/abs/2611.06498": {
       "published_at": "2026-11-10T03:05:20Z",
@@ -65,6 +65,11 @@
       "published_at": "2026-11-12T14:12:53Z",
       "source": "hf-papers",
       "source_id": "2611.10193"
+    },
+    "https://arxiv.org/abs/2611.10439": {
+      "published_at": "2026-11-14T14:05:51Z",
+      "source": "hf-papers",
+      "source_id": "2611.10439"
     },
     "https://arxiv.org/abs/2611.11995": {
       "published_at": "2026-11-11T03:12:39Z",
@@ -120,11 +125,6 @@
       "published_at": "2026-11-10T14:13:03Z",
       "source": "hn",
       "source_id": "50436640"
-    },
-    "https://www.anthropic.com/research/components-of-agent-memory": {
-      "published_at": "2026-11-07T14:11:09Z",
-      "source": "hn",
-      "source_id": "50402212"
     },
     "https://www.lorekit.io/blog/open-agent-memory-format": {
       "published_at": "2026-11-08T14:05:51Z",
@@ -4002,6 +4002,28 @@
       ],
       "ts": "2026-11-14T03:05:22Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 47,
+      "eligible_per_source": {
+        "hf-papers": 21,
+        "hn": 25,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2607.13920",
+        "hf-papers-2611.10439"
+      ],
+      "ts": "2026-11-14T14:05:51Z",
+      "window": "morning"
     }
   ]
 }
