@@ -1,6 +1,11 @@
 {
-  "last_pruned_ts": "2026-11-13T15:28:43Z",
+  "last_pruned_ts": "2026-11-14T03:05:22Z",
   "published_urls": {
+    "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free": {
+      "published_at": "2026-11-14T03:05:22Z",
+      "source": "hn",
+      "source_id": "50492141"
+    },
     "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity": {
       "published_at": "2026-11-13T15:28:43Z",
       "source": "hn",
@@ -25,11 +30,6 @@
       "published_at": "2026-11-10T14:13:03Z",
       "source": "hf-papers",
       "source_id": "2611.02810"
-    },
-    "https://arxiv.org/abs/2611.03743": {
-      "published_at": "2026-11-07T03:11:56Z",
-      "source": "hf-papers",
-      "source_id": "2611.03743"
     },
     "https://arxiv.org/abs/2611.03852": {
       "published_at": "2026-11-07T14:11:09Z",
@@ -76,6 +76,11 @@
       "source": "hf-papers",
       "source_id": "2611.12304"
     },
+    "https://arxiv.org/abs/2611.13410": {
+      "published_at": "2026-11-14T03:05:22Z",
+      "source": "hf-papers",
+      "source_id": "2611.13410"
+    },
     "https://arxiv.org/abs/2611.14320": {
       "published_at": "2026-11-11T14:07:34Z",
       "source": "hf-papers",
@@ -100,11 +105,6 @@
       "published_at": "2026-11-12T03:06:20Z",
       "source": "hn",
       "source_id": "50456631"
-    },
-    "https://hightouch.com/blog/llm-judges-identity-resolution": {
-      "published_at": "2026-11-07T03:11:56Z",
-      "source": "hn",
-      "source_id": "50397429"
     },
     "https://machinelearning.apple.com/research/faster-retrieval": {
       "published_at": "2026-11-12T03:06:20Z",
@@ -3978,6 +3978,30 @@
       ],
       "ts": "2026-11-13T15:28:43Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 46,
+      "eligible_per_source": {
+        "hf-papers": 20,
+        "hn": 25,
+        "lobsters": 1
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "notes": "Adapters: hn 25, lobsters 2, hf-papers 23 (all OK, no ADAPTER_ERROR). 46 eligible after dedup (raw 50, cross-source merged to 49, 3 already-published dropped). Scored 46 candidates in one inline pass (no Anthropic SDK/key in env). Distribution: 1@8, 3@7, 1@6, 5@5, 4@4, 7@3, 19@2, 6@1. Above threshold(7): hf-papers-2611.13410 (SteerDistill, quantization-aware distillation keeping low-bit LLM agents reliable, 8); hf-papers-2611.08318 (criteria-exposure/verifier leakage in agent evals, 7); hn-50492141 (Claude Code Projects parallel AI workers / coordinator, 7); hn-50488464 (Perplexity Decider routing+eval, 7). written_today was 0, so cap=min(2,4-0)=2. Selection took the 8 then, on the 7-way tie, the source-diversity tie-break preferred a non-hf-papers source, picking hn-50492141 -> one hf-papers + one hn. Research: SteerDistill is a fresh arXiv paper with no story-specific public reaction (searches surfaced only same-topic adjacent distillation/quantization papers: OGLS-SD, Structured Agent Distillation, Dynamic Mix Precision Routing, all excluded), below min_citations=2 -> reaction paragraph omitted. For the Claude Code Projects item, the alphasignal source is a 2026-11-13 incremental update (/fork, /btw, proactive coordinator); all verifiable coverage found (the-decoder, VentureBeat; both 2026-09-17 launch-day, plus older cost critiques) predates this specific story, and hard-rule #3 excludes anything older than the story, with no fresh reaction yet to the <24h update -> below min_citations, reaction paragraph omitted. Both posts stand without a reaction paragraph as designed. Interests: clustering judged inline over 60 prefiltered candidates + 4 existing interests (agent-guardrails-as-code, bigger-context-isnt-the-answer, model-context-protocol, openai-huggingface); neither new post extends an existing story, and neither forms a genuine 3+-post developing story (quantization/cost is a unique angle; the coordinator post shares only the broad orchestration topic with older swarm posts). Returned []. Scoring+writing performed inline by the orchestrator agent.",
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2611.13410",
+        "hn-50492141"
+      ],
+      "ts": "2026-11-14T03:05:22Z",
+      "window": "evening"
     }
   ]
 }
