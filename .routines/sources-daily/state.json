@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-14T14:05:51Z",
+  "last_pruned_ts": "2026-11-15T03:05:04Z",
   "published_urls": {
     "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free": {
       "published_at": "2026-11-14T03:05:22Z",
@@ -10,11 +10,6 @@
       "published_at": "2026-11-13T15:28:43Z",
       "source": "hn",
       "source_id": "50472260"
-    },
-    "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again": {
-      "published_at": "2026-11-08T03:06:48Z",
-      "source": "hn",
-      "source_id": "50407882"
     },
     "https://arxiv.org/abs/2607.13920": {
       "published_at": "2026-11-14T14:05:51Z",
@@ -46,15 +41,15 @@
       "source": "hf-papers",
       "source_id": "2611.06500"
     },
-    "https://arxiv.org/abs/2611.07298": {
-      "published_at": "2026-11-08T03:06:48Z",
-      "source": "hf-papers",
-      "source_id": "2611.07298"
-    },
     "https://arxiv.org/abs/2611.07461": {
       "published_at": "2026-11-09T14:13:46Z",
       "source": "hf-papers",
       "source_id": "2611.07461"
+    },
+    "https://arxiv.org/abs/2611.08318": {
+      "published_at": "2026-11-15T03:05:04Z",
+      "source": "hf-papers",
+      "source_id": "2611.08318"
     },
     "https://arxiv.org/abs/2611.09113": {
       "published_at": "2026-11-10T03:05:20Z",
@@ -120,6 +115,11 @@
       "published_at": "2026-11-11T14:07:34Z",
       "source": "hn",
       "source_id": "50452455"
+    },
+    "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature": {
+      "published_at": "2026-11-15T03:05:04Z",
+      "source": "hn",
+      "source_id": "50496811"
     },
     "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider": {
       "published_at": "2026-11-10T14:13:03Z",
@@ -4024,6 +4024,28 @@
       ],
       "ts": "2026-11-14T14:05:51Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 49,
+      "eligible_per_source": {
+        "hf-papers": 20,
+        "hn": 26,
+        "lobsters": 3
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hn-50496811",
+        "hf-papers-2611.08318"
+      ],
+      "ts": "2026-11-15T03:05:04Z",
+      "window": "evening"
     }
   ]
 }
