@@ -31,6 +31,16 @@ entries:
       the endpoint: the policy becomes a Lean-verified predicate,
       checked fail-closed before the call reaches the environment
 
+  - date: 2026-11-17
+    kind: post
+    post: when-the-authorization-check-shouldnt-need-another-model
+    why: >
+      The thread's sharpest instance yet: a prompt-injection defense
+      that keeps a model off the authorization decision entirely,
+      reading an action's target from typed tool fields and admitting it
+      against a deterministic floor. Carries 'a program, not a judge'
+      all the way into the injection case.
+
   # routine:append-here — sources-daily inserts new entries above this line.
   # Hand-written entries are safe anywhere in this list; the routine only
   # inserts, and only for posts whose slug is not already present.

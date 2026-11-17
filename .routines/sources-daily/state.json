@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-17T03:05:10Z",
+  "last_pruned_ts": "2026-11-17T14:06:52Z",
   "published_urls": {
     "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free": {
       "published_at": "2026-11-14T03:05:22Z",
@@ -21,10 +21,10 @@
       "source": "hf-papers",
       "source_id": "2608.22237"
     },
-    "https://arxiv.org/abs/2611.02810": {
-      "published_at": "2026-11-10T14:13:03Z",
+    "https://arxiv.org/abs/2611.07222": {
+      "published_at": "2026-11-17T14:06:52Z",
       "source": "hf-papers",
-      "source_id": "2611.02810"
+      "source_id": "2611.07222"
     },
     "https://arxiv.org/abs/2611.08219": {
       "published_at": "2026-11-15T14:05:37Z",
@@ -96,6 +96,11 @@
       "source": "hn",
       "source_id": "50526152"
     },
+    "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification": {
+      "published_at": "2026-11-17T14:06:52Z",
+      "source": "hn",
+      "source_id": "50529612"
+    },
     "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase": {
       "published_at": "2026-11-11T03:12:39Z",
       "source": "hn",
@@ -135,11 +140,6 @@
       "published_at": "2026-11-15T03:05:04Z",
       "source": "hn",
       "source_id": "50496811"
-    },
-    "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider": {
-      "published_at": "2026-11-10T14:13:03Z",
-      "source": "hn",
-      "source_id": "50436640"
     }
   },
   "runs": [
@@ -4144,6 +4144,30 @@
       ],
       "ts": "2026-11-17T03:05:10Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 59,
+      "eligible_per_source": {
+        "hf-papers": 25,
+        "hn": 29,
+        "lobsters": 5
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": [
+          "agent-guardrails-as-code (+1)"
+        ]
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2611.07222",
+        "hn-50529612"
+      ],
+      "ts": "2026-11-17T14:06:52Z",
+      "window": "morning"
     }
   ]
 }
