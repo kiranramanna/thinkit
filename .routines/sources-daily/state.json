@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-18T03:05:05Z",
+  "last_pruned_ts": "2026-11-18T14:06:47Z",
   "published_urls": {
     "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free": {
       "published_at": "2026-11-14T03:05:22Z",
@@ -61,11 +61,6 @@
       "source": "hf-papers",
       "source_id": "2611.13410"
     },
-    "https://arxiv.org/abs/2611.14320": {
-      "published_at": "2026-11-11T14:07:34Z",
-      "source": "hf-papers",
-      "source_id": "2611.14320"
-    },
     "https://arxiv.org/abs/2611.14960": {
       "published_at": "2026-11-18T03:05:05Z",
       "source": "hf-papers",
@@ -90,6 +85,11 @@
       "published_at": "2026-11-17T03:05:10Z",
       "source": "hf-papers",
       "source_id": "2611.17440"
+    },
+    "https://arxiv.org/abs/2611.19244": {
+      "published_at": "2026-11-18T14:06:47Z",
+      "source": "hf-papers",
+      "source_id": "2611.19244"
     },
     "https://blog.antonio.cx/running-agents-with-lend": {
       "published_at": "2026-11-17T03:05:10Z",
@@ -131,15 +131,15 @@
       "source": "hn",
       "source_id": "50441444"
     },
-    "https://pietromiotti.com/latest/maya-site?maya=": {
-      "published_at": "2026-11-11T14:07:34Z",
-      "source": "hn",
-      "source_id": "50452455"
-    },
     "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature": {
       "published_at": "2026-11-15T03:05:04Z",
       "source": "hn",
       "source_id": "50496811"
+    },
+    "https://runta.com/blog/introducing-frontierharness-eval-v1-1": {
+      "published_at": "2026-11-18T14:06:47Z",
+      "source": "hn",
+      "source_id": "50532191"
     }
   },
   "runs": [
@@ -4190,6 +4190,28 @@
       ],
       "ts": "2026-11-18T03:05:05Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 50,
+      "eligible_per_source": {
+        "hf-papers": 24,
+        "hn": 24,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2611.19244",
+        "hn-50532191"
+      ],
+      "ts": "2026-11-18T14:06:47Z",
+      "window": "morning"
     }
   ]
 }
