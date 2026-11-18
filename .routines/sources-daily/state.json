@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-17T14:06:52Z",
+  "last_pruned_ts": "2026-11-18T03:05:05Z",
   "published_urls": {
     "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free": {
       "published_at": "2026-11-14T03:05:22Z",
@@ -46,11 +46,6 @@
       "source": "hf-papers",
       "source_id": "2611.10439"
     },
-    "https://arxiv.org/abs/2611.11995": {
-      "published_at": "2026-11-11T03:12:39Z",
-      "source": "hf-papers",
-      "source_id": "2611.11995"
-    },
     "https://arxiv.org/abs/2611.12068": {
       "published_at": "2026-11-16T14:08:05Z",
       "source": "hf-papers",
@@ -70,6 +65,11 @@
       "published_at": "2026-11-11T14:07:34Z",
       "source": "hf-papers",
       "source_id": "2611.14320"
+    },
+    "https://arxiv.org/abs/2611.14960": {
+      "published_at": "2026-11-18T03:05:05Z",
+      "source": "hf-papers",
+      "source_id": "2611.14960"
     },
     "https://arxiv.org/abs/2611.16378": {
       "published_at": "2026-11-16T14:08:05Z",
@@ -101,10 +101,10 @@
       "source": "hn",
       "source_id": "50529612"
     },
-    "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase": {
-      "published_at": "2026-11-11T03:12:39Z",
+    "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review": {
+      "published_at": "2026-11-18T03:05:05Z",
       "source": "hn",
-      "source_id": "50438318"
+      "source_id": "50538303"
     },
     "https://github.com/Parcha-ai/agentrun/blob/main/README.md": {
       "published_at": "2026-11-13T03:10:19Z",
@@ -4168,6 +4168,28 @@
       ],
       "ts": "2026-11-17T14:06:52Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 50,
+      "eligible_per_source": {
+        "hf-papers": 22,
+        "hn": 25,
+        "lobsters": 3
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2611.14960",
+        "hn-50538303"
+      ],
+      "ts": "2026-11-18T03:05:05Z",
+      "window": "evening"
     }
   ]
 }
