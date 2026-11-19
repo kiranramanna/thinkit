@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-18T14:06:47Z",
+  "last_pruned_ts": "2026-11-19T03:05:42Z",
   "published_urls": {
     "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free": {
       "published_at": "2026-11-14T03:05:22Z",
@@ -20,6 +20,11 @@
       "published_at": "2026-11-12T14:12:53Z",
       "source": "hf-papers",
       "source_id": "2608.22237"
+    },
+    "https://arxiv.org/abs/2611.04395": {
+      "published_at": "2026-11-19T03:05:42Z",
+      "source": "hf-papers",
+      "source_id": "2611.04395"
     },
     "https://arxiv.org/abs/2611.07222": {
       "published_at": "2026-11-17T14:06:52Z",
@@ -111,16 +116,6 @@
       "source": "hn",
       "source_id": "50471650"
     },
-    "https://github.com/aws/aws-emulator": {
-      "published_at": "2026-11-12T03:06:20Z",
-      "source": "hn",
-      "source_id": "50456631"
-    },
-    "https://machinelearning.apple.com/research/faster-retrieval": {
-      "published_at": "2026-11-12T03:06:20Z",
-      "source": "hn",
-      "source_id": "50455633"
-    },
     "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings": {
       "published_at": "2026-11-16T03:05:25Z",
       "source": "hn",
@@ -130,6 +125,11 @@
       "published_at": "2026-11-15T14:05:37Z",
       "source": "hn",
       "source_id": "50441444"
+    },
+    "https://news.ycombinator.com/item?id=50549188": {
+      "published_at": "2026-11-19T03:05:42Z",
+      "source": "hn",
+      "source_id": "50549188"
     },
     "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature": {
       "published_at": "2026-11-15T03:05:04Z",
@@ -4212,6 +4212,27 @@
       ],
       "ts": "2026-11-18T14:06:47Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 49,
+      "eligible_per_source": {
+        "hf-papers": 25,
+        "hn": 24
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hn-50549188",
+        "hf-papers-2611.04395"
+      ],
+      "ts": "2026-11-19T03:05:42Z",
+      "window": "evening"
     }
   ]
 }
