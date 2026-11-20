@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-19T14:06:53Z",
+  "last_pruned_ts": "2026-11-20T03:05:40Z",
   "published_urls": {
     "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free": {
       "published_at": "2026-11-14T03:05:22Z",
@@ -15,11 +15,6 @@
       "published_at": "2026-11-14T14:05:51Z",
       "source": "hf-papers",
       "source_id": "2607.13920"
-    },
-    "https://arxiv.org/abs/2608.22237": {
-      "published_at": "2026-11-12T14:12:53Z",
-      "source": "hf-papers",
-      "source_id": "2608.22237"
     },
     "https://arxiv.org/abs/2611.04395": {
       "published_at": "2026-11-19T03:05:42Z",
@@ -41,11 +36,6 @@
       "source": "hf-papers",
       "source_id": "2611.08318"
     },
-    "https://arxiv.org/abs/2611.10193": {
-      "published_at": "2026-11-12T14:12:53Z",
-      "source": "hf-papers",
-      "source_id": "2611.10193"
-    },
     "https://arxiv.org/abs/2611.10439": {
       "published_at": "2026-11-14T14:05:51Z",
       "source": "hf-papers",
@@ -55,11 +45,6 @@
       "published_at": "2026-11-16T14:08:05Z",
       "source": "hf-papers",
       "source_id": "2611.12068"
-    },
-    "https://arxiv.org/abs/2611.12304": {
-      "published_at": "2026-11-13T03:10:19Z",
-      "source": "hf-papers",
-      "source_id": "2611.12304"
     },
     "https://arxiv.org/abs/2611.13410": {
       "published_at": "2026-11-14T03:05:22Z",
@@ -106,6 +91,16 @@
       "source": "hf-papers",
       "source_id": "2611.23388"
     },
+    "https://arxiv.org/abs/2611.23751": {
+      "published_at": "2026-11-20T03:05:40Z",
+      "source": "hf-papers",
+      "source_id": "2611.23751"
+    },
+    "https://arxiv.org/abs/2611.24362": {
+      "published_at": "2026-11-20T03:05:40Z",
+      "source": "hf-papers",
+      "source_id": "2611.24362"
+    },
     "https://blog.antonio.cx/running-agents-with-lend": {
       "published_at": "2026-11-17T03:05:10Z",
       "source": "hn",
@@ -120,11 +115,6 @@
       "published_at": "2026-11-18T03:05:05Z",
       "source": "hn",
       "source_id": "50538303"
-    },
-    "https://github.com/Parcha-ai/agentrun/blob/main/README.md": {
-      "published_at": "2026-11-13T03:10:19Z",
-      "source": "hn",
-      "source_id": "50471650"
     },
     "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings": {
       "published_at": "2026-11-16T03:05:25Z",
@@ -4264,6 +4254,28 @@
       ],
       "ts": "2026-11-19T14:06:53Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 56,
+      "eligible_per_source": {
+        "hf-papers": 29,
+        "hn": 25,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2611.23751",
+        "hf-papers-2611.24362"
+      ],
+      "ts": "2026-11-20T03:05:40Z",
+      "window": "evening"
     }
   ]
 }
