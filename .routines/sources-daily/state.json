@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-20T03:05:40Z",
+  "last_pruned_ts": "2026-11-20T14:06:20Z",
   "published_urls": {
     "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free": {
       "published_at": "2026-11-14T03:05:22Z",
@@ -76,6 +76,11 @@
       "source": "hf-papers",
       "source_id": "2611.17440"
     },
+    "https://arxiv.org/abs/2611.17460": {
+      "published_at": "2026-11-20T14:06:20Z",
+      "source": "hf-papers",
+      "source_id": "2611.17460"
+    },
     "https://arxiv.org/abs/2611.19244": {
       "published_at": "2026-11-18T14:06:47Z",
       "source": "hf-papers",
@@ -100,6 +105,11 @@
       "published_at": "2026-11-20T03:05:40Z",
       "source": "hf-papers",
       "source_id": "2611.24362"
+    },
+    "https://arxiv.org/abs/2611.26073": {
+      "published_at": "2026-11-20T14:06:20Z",
+      "source": "hf-papers",
+      "source_id": "2611.26073"
     },
     "https://blog.antonio.cx/running-agents-with-lend": {
       "published_at": "2026-11-17T03:05:10Z",
@@ -4276,6 +4286,30 @@
       ],
       "ts": "2026-11-20T03:05:40Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 58,
+      "eligible_per_source": {
+        "hf-papers": 32,
+        "hn": 24,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": [
+          "agent-guardrails-as-code (+1)"
+        ]
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2611.17460",
+        "hf-papers-2611.26073"
+      ],
+      "ts": "2026-11-20T14:06:20Z",
+      "window": "morning"
     }
   ]
 }

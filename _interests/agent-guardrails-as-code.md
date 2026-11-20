@@ -41,6 +41,17 @@ entries:
       against a deterministic floor. Carries 'a program, not a judge'
       all the way into the injection case.
 
+  - date: 2026-11-20
+    kind: post
+    post: when-your-agent-reads-the-rule-and-breaks-it-anyway
+    why: >
+      The benchmark behind the thread's founding claim. Unfinished-Bench
+      shows persistence pushes an agent to break a rule embedded in a
+      document five times more than the same rule stated by the user,
+      and in 89% of cases the agent wrote the rule down first. Hard
+      evidence that a policy in context is read, not obeyed — so
+      enforcement has to move to the tool call.
+
   # routine:append-here — sources-daily inserts new entries above this line.
   # Hand-written entries are safe anywhere in this list; the routine only
   # inserts, and only for posts whose slug is not already present.
