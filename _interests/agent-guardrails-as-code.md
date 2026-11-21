@@ -52,6 +52,16 @@ entries:
       evidence that a policy in context is read, not obeyed — so
       enforcement has to move to the tool call.
 
+  - date: 2026-11-21
+    kind: post
+    post: when-your-agent-should-stop-generating-text
+    why: >
+      The argument's endpoint: instead of checking or proving a tool
+      call after the model emits it, a deterministic compiler constrains
+      the decision to options from the schema and request, so an
+      invented value can't be formed at all — zero fabricated content
+      versus 5.5–19.7% for local LLM agents.
+
   # routine:append-here — sources-daily inserts new entries above this line.
   # Hand-written entries are safe anywhere in this list; the routine only
   # inserts, and only for posts whose slug is not already present.

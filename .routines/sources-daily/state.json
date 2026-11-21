@@ -1,11 +1,6 @@
 {
-  "last_pruned_ts": "2026-11-21T03:05:36Z",
+  "last_pruned_ts": "2026-11-21T14:05:47Z",
   "published_urls": {
-    "https://arxiv.org/abs/2607.13920": {
-      "published_at": "2026-11-14T14:05:51Z",
-      "source": "hf-papers",
-      "source_id": "2607.13920"
-    },
     "https://arxiv.org/abs/2611.04395": {
       "published_at": "2026-11-19T03:05:42Z",
       "source": "hf-papers",
@@ -25,11 +20,6 @@
       "published_at": "2026-11-15T03:05:04Z",
       "source": "hf-papers",
       "source_id": "2611.08318"
-    },
-    "https://arxiv.org/abs/2611.10439": {
-      "published_at": "2026-11-14T14:05:51Z",
-      "source": "hf-papers",
-      "source_id": "2611.10439"
     },
     "https://arxiv.org/abs/2611.12068": {
       "published_at": "2026-11-16T14:08:05Z",
@@ -71,6 +61,11 @@
       "source": "hf-papers",
       "source_id": "2611.20455"
     },
+    "https://arxiv.org/abs/2611.21053": {
+      "published_at": "2026-11-21T14:05:47Z",
+      "source": "hf-papers",
+      "source_id": "2611.21053"
+    },
     "https://arxiv.org/abs/2611.23068": {
       "published_at": "2026-11-19T14:06:53Z",
       "source": "hf-papers",
@@ -95,6 +90,11 @@
       "published_at": "2026-11-20T14:06:20Z",
       "source": "hf-papers",
       "source_id": "2611.26073"
+    },
+    "https://arxiv.org/abs/2611.26248": {
+      "published_at": "2026-11-21T14:05:47Z",
+      "source": "hf-papers",
+      "source_id": "2611.26248"
     },
     "https://blog.antonio.cx/running-agents-with-lend": {
       "published_at": "2026-11-17T03:05:10Z",
@@ -4322,6 +4322,30 @@
       ],
       "ts": "2026-11-21T03:05:36Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 60,
+      "eligible_per_source": {
+        "hf-papers": 30,
+        "hn": 28,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": [
+          "agent-guardrails-as-code (+1)"
+        ]
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2611.21053",
+        "hf-papers-2611.26248"
+      ],
+      "ts": "2026-11-21T14:05:47Z",
+      "window": "morning"
     }
   ]
 }
