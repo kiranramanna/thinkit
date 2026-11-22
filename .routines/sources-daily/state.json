@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-21T14:05:47Z",
+  "last_pruned_ts": "2026-11-22T03:05:29Z",
   "published_urls": {
     "https://arxiv.org/abs/2611.04395": {
       "published_at": "2026-11-19T03:05:42Z",
@@ -15,11 +15,6 @@
       "published_at": "2026-11-15T14:05:37Z",
       "source": "hf-papers",
       "source_id": "2611.08219"
-    },
-    "https://arxiv.org/abs/2611.08318": {
-      "published_at": "2026-11-15T03:05:04Z",
-      "source": "hf-papers",
-      "source_id": "2611.08318"
     },
     "https://arxiv.org/abs/2611.12068": {
       "published_at": "2026-11-16T14:08:05Z",
@@ -81,6 +76,11 @@
       "source": "hf-papers",
       "source_id": "2611.23751"
     },
+    "https://arxiv.org/abs/2611.23835": {
+      "published_at": "2026-11-22T03:05:29Z",
+      "source": "hf-papers",
+      "source_id": "2611.23835"
+    },
     "https://arxiv.org/abs/2611.24362": {
       "published_at": "2026-11-20T03:05:40Z",
       "source": "hf-papers",
@@ -126,11 +126,6 @@
       "source": "hn",
       "source_id": "50549188"
     },
-    "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature": {
-      "published_at": "2026-11-15T03:05:04Z",
-      "source": "hn",
-      "source_id": "50496811"
-    },
     "https://runta.com/blog/introducing-frontierharness-eval-v1-1": {
       "published_at": "2026-11-18T14:06:47Z",
       "source": "hn",
@@ -140,6 +135,11 @@
       "published_at": "2026-11-21T03:05:36Z",
       "source": "hn",
       "source_id": "50572348"
+    },
+    "https://www.pandex.io/": {
+      "published_at": "2026-11-22T03:05:29Z",
+      "source": "hn",
+      "source_id": "50593481"
     }
   },
   "runs": [
@@ -4346,6 +4346,28 @@
       ],
       "ts": "2026-11-21T14:05:47Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 58,
+      "eligible_per_source": {
+        "hf-papers": 30,
+        "hn": 26,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2611.23835",
+        "hn-50593481"
+      ],
+      "ts": "2026-11-22T03:05:29Z",
+      "window": "evening"
     }
   ]
 }
