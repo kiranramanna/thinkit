@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-23T03:05:36Z",
+  "last_pruned_ts": "2026-11-23T14:06:04Z",
   "published_urls": {
     "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate": {
       "published_at": "2026-11-22T14:12:59Z",
@@ -16,20 +16,10 @@
       "source": "hf-papers",
       "source_id": "2611.07222"
     },
-    "https://arxiv.org/abs/2611.12068": {
-      "published_at": "2026-11-16T14:08:05Z",
-      "source": "hf-papers",
-      "source_id": "2611.12068"
-    },
     "https://arxiv.org/abs/2611.14960": {
       "published_at": "2026-11-18T03:05:05Z",
       "source": "hf-papers",
       "source_id": "2611.14960"
-    },
-    "https://arxiv.org/abs/2611.16378": {
-      "published_at": "2026-11-16T14:08:05Z",
-      "source": "hf-papers",
-      "source_id": "2611.16378"
     },
     "https://arxiv.org/abs/2611.17440": {
       "published_at": "2026-11-17T03:05:10Z",
@@ -101,6 +91,11 @@
       "source": "hf-papers",
       "source_id": "2611.26286"
     },
+    "https://arxiv.org/abs/2611.27973": {
+      "published_at": "2026-11-23T14:06:04Z",
+      "source": "hf-papers",
+      "source_id": "2611.27973"
+    },
     "https://blog.antonio.cx/running-agents-with-lend": {
       "published_at": "2026-11-17T03:05:10Z",
       "source": "hn",
@@ -140,6 +135,11 @@
       "published_at": "2026-11-22T03:05:29Z",
       "source": "hn",
       "source_id": "50593481"
+    },
+    "https://z.ai/blog/glm-5.4": {
+      "published_at": "2026-11-23T14:06:04Z",
+      "source": "hn",
+      "source_id": "50609685"
     }
   },
   "runs": [
@@ -4412,6 +4412,28 @@
       ],
       "ts": "2026-11-23T03:05:36Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 52,
+      "eligible_per_source": {
+        "hf-papers": 25,
+        "hn": 25,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2611.27973",
+        "hn-50609685"
+      ],
+      "ts": "2026-11-23T14:06:04Z",
+      "window": "morning"
     }
   ]
 }
