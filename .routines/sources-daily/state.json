@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-22T14:12:59Z",
+  "last_pruned_ts": "2026-11-23T03:05:36Z",
   "published_urls": {
     "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate": {
       "published_at": "2026-11-22T14:12:59Z",
@@ -30,11 +30,6 @@
       "published_at": "2026-11-16T14:08:05Z",
       "source": "hf-papers",
       "source_id": "2611.16378"
-    },
-    "https://arxiv.org/abs/2611.16961": {
-      "published_at": "2026-11-16T03:05:25Z",
-      "source": "hf-papers",
-      "source_id": "2611.16961"
     },
     "https://arxiv.org/abs/2611.17440": {
       "published_at": "2026-11-17T03:05:10Z",
@@ -86,6 +81,11 @@
       "source": "hf-papers",
       "source_id": "2611.24362"
     },
+    "https://arxiv.org/abs/2611.25773": {
+      "published_at": "2026-11-23T03:05:36Z",
+      "source": "hf-papers",
+      "source_id": "2611.25773"
+    },
     "https://arxiv.org/abs/2611.26073": {
       "published_at": "2026-11-20T14:06:20Z",
       "source": "hf-papers",
@@ -116,10 +116,10 @@
       "source": "hn",
       "source_id": "50538303"
     },
-    "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings": {
-      "published_at": "2026-11-16T03:05:25Z",
+    "https://github.com/mjwsolo/localcode": {
+      "published_at": "2026-11-23T03:05:36Z",
       "source": "hn",
-      "source_id": "50506376"
+      "source_id": "50604540"
     },
     "https://news.ycombinator.com/item?id=50549188": {
       "published_at": "2026-11-19T03:05:42Z",
@@ -4390,6 +4390,28 @@
       ],
       "ts": "2026-11-22T14:12:59Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 56,
+      "eligible_per_source": {
+        "hf-papers": 28,
+        "hn": 25,
+        "lobsters": 3
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2611.25773",
+        "hn-50604540"
+      ],
+      "ts": "2026-11-23T03:05:36Z",
+      "window": "evening"
     }
   ]
 }
