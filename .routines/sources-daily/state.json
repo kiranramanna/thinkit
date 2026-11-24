@@ -1,10 +1,15 @@
 {
-  "last_pruned_ts": "2026-11-23T14:06:04Z",
+  "last_pruned_ts": "2026-11-24T03:05:05Z",
   "published_urls": {
     "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate": {
       "published_at": "2026-11-22T14:12:59Z",
       "source": "lobsters",
       "source_id": "32rhzb"
+    },
+    "https://arxiv.org/abs/2602.20031": {
+      "published_at": "2026-11-24T03:05:05Z",
+      "source": "hn",
+      "source_id": "50620328"
     },
     "https://arxiv.org/abs/2611.04395": {
       "published_at": "2026-11-19T03:05:42Z",
@@ -20,11 +25,6 @@
       "published_at": "2026-11-18T03:05:05Z",
       "source": "hf-papers",
       "source_id": "2611.14960"
-    },
-    "https://arxiv.org/abs/2611.17440": {
-      "published_at": "2026-11-17T03:05:10Z",
-      "source": "hf-papers",
-      "source_id": "2611.17440"
     },
     "https://arxiv.org/abs/2611.17460": {
       "published_at": "2026-11-20T14:06:20Z",
@@ -96,11 +96,6 @@
       "source": "hf-papers",
       "source_id": "2611.27973"
     },
-    "https://blog.antonio.cx/running-agents-with-lend": {
-      "published_at": "2026-11-17T03:05:10Z",
-      "source": "hn",
-      "source_id": "50526152"
-    },
     "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification": {
       "published_at": "2026-11-17T14:06:52Z",
       "source": "hn",
@@ -115,6 +110,11 @@
       "published_at": "2026-11-23T03:05:36Z",
       "source": "hn",
       "source_id": "50604540"
+    },
+    "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF": {
+      "published_at": "2026-11-24T03:05:05Z",
+      "source": "hn",
+      "source_id": "50611402"
     },
     "https://news.ycombinator.com/item?id=50549188": {
       "published_at": "2026-11-19T03:05:42Z",
@@ -4434,6 +4434,28 @@
       ],
       "ts": "2026-11-23T14:06:04Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 56,
+      "eligible_per_source": {
+        "hf-papers": 25,
+        "hn": 23,
+        "lobsters": 8
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hn-50620328",
+        "hn-50611402"
+      ],
+      "ts": "2026-11-24T03:05:05Z",
+      "window": "evening"
     }
   ]
 }
