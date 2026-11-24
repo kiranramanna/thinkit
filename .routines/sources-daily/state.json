@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-24T03:05:05Z",
+  "last_pruned_ts": "2026-11-24T14:05:19Z",
   "published_urls": {
     "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate": {
       "published_at": "2026-11-22T14:12:59Z",
@@ -15,11 +15,6 @@
       "published_at": "2026-11-19T03:05:42Z",
       "source": "hf-papers",
       "source_id": "2611.04395"
-    },
-    "https://arxiv.org/abs/2611.07222": {
-      "published_at": "2026-11-17T14:06:52Z",
-      "source": "hf-papers",
-      "source_id": "2611.07222"
     },
     "https://arxiv.org/abs/2611.14960": {
       "published_at": "2026-11-18T03:05:05Z",
@@ -91,15 +86,15 @@
       "source": "hf-papers",
       "source_id": "2611.26286"
     },
+    "https://arxiv.org/abs/2611.27376": {
+      "published_at": "2026-11-24T14:05:19Z",
+      "source": "hf-papers",
+      "source_id": "2611.27376"
+    },
     "https://arxiv.org/abs/2611.27973": {
       "published_at": "2026-11-23T14:06:04Z",
       "source": "hf-papers",
       "source_id": "2611.27973"
-    },
-    "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification": {
-      "published_at": "2026-11-17T14:06:52Z",
-      "source": "hn",
-      "source_id": "50529612"
     },
     "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review": {
       "published_at": "2026-11-18T03:05:05Z",
@@ -115,6 +110,11 @@
       "published_at": "2026-11-24T03:05:05Z",
       "source": "hn",
       "source_id": "50611402"
+    },
+    "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you": {
+      "published_at": "2026-11-24T14:05:19Z",
+      "source": "hn",
+      "source_id": "50627340"
     },
     "https://news.ycombinator.com/item?id=50549188": {
       "published_at": "2026-11-19T03:05:42Z",
@@ -4456,6 +4456,28 @@
       ],
       "ts": "2026-11-24T03:05:05Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 62,
+      "eligible_per_source": {
+        "hf-papers": 27,
+        "hn": 28,
+        "lobsters": 7
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2611.27376",
+        "hn-50627340"
+      ],
+      "ts": "2026-11-24T14:05:19Z",
+      "window": "morning"
     }
   ]
 }
