@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-24T14:05:19Z",
+  "last_pruned_ts": "2026-11-25T03:05:35Z",
   "published_urls": {
     "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate": {
       "published_at": "2026-11-22T14:12:59Z",
@@ -15,11 +15,6 @@
       "published_at": "2026-11-19T03:05:42Z",
       "source": "hf-papers",
       "source_id": "2611.04395"
-    },
-    "https://arxiv.org/abs/2611.14960": {
-      "published_at": "2026-11-18T03:05:05Z",
-      "source": "hf-papers",
-      "source_id": "2611.14960"
     },
     "https://arxiv.org/abs/2611.17460": {
       "published_at": "2026-11-20T14:06:20Z",
@@ -96,10 +91,10 @@
       "source": "hf-papers",
       "source_id": "2611.27973"
     },
-    "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review": {
-      "published_at": "2026-11-18T03:05:05Z",
-      "source": "hn",
-      "source_id": "50538303"
+    "https://arxiv.org/abs/2611.31198": {
+      "published_at": "2026-11-25T03:05:35Z",
+      "source": "hf-papers",
+      "source_id": "2611.31198"
     },
     "https://github.com/mjwsolo/localcode": {
       "published_at": "2026-11-23T03:05:36Z",
@@ -120,6 +115,11 @@
       "published_at": "2026-11-19T03:05:42Z",
       "source": "hn",
       "source_id": "50549188"
+    },
+    "https://prismml.com/news/bonsai-2-5-27b": {
+      "published_at": "2026-11-25T03:05:35Z",
+      "source": "hn",
+      "source_id": "50633922"
     },
     "https://runta.com/blog/introducing-frontierharness-eval-v1-1": {
       "published_at": "2026-11-18T14:06:47Z",
@@ -4478,6 +4478,28 @@
       ],
       "ts": "2026-11-24T14:05:19Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 53,
+      "eligible_per_source": {
+        "hf-papers": 26,
+        "hn": 24,
+        "lobsters": 3
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2611.31198",
+        "hn-50633922"
+      ],
+      "ts": "2026-11-25T03:05:35Z",
+      "window": "evening"
     }
   ]
 }
