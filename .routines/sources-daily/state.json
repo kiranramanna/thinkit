@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-25T03:05:35Z",
+  "last_pruned_ts": "2026-11-25T14:06:02Z",
   "published_urls": {
     "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate": {
       "published_at": "2026-11-22T14:12:59Z",
@@ -20,11 +20,6 @@
       "published_at": "2026-11-20T14:06:20Z",
       "source": "hf-papers",
       "source_id": "2611.17460"
-    },
-    "https://arxiv.org/abs/2611.19244": {
-      "published_at": "2026-11-18T14:06:47Z",
-      "source": "hf-papers",
-      "source_id": "2611.19244"
     },
     "https://arxiv.org/abs/2611.20455": {
       "published_at": "2026-11-21T03:05:36Z",
@@ -91,6 +86,11 @@
       "source": "hf-papers",
       "source_id": "2611.27973"
     },
+    "https://arxiv.org/abs/2611.30962": {
+      "published_at": "2026-11-25T14:06:02Z",
+      "source": "hf-papers",
+      "source_id": "2611.30962"
+    },
     "https://arxiv.org/abs/2611.31198": {
       "published_at": "2026-11-25T03:05:35Z",
       "source": "hf-papers",
@@ -121,15 +121,15 @@
       "source": "hn",
       "source_id": "50633922"
     },
-    "https://runta.com/blog/introducing-frontierharness-eval-v1-1": {
-      "published_at": "2026-11-18T14:06:47Z",
-      "source": "hn",
-      "source_id": "50532191"
-    },
     "https://signal.org/blog/protecting-your-privacy": {
       "published_at": "2026-11-21T03:05:36Z",
       "source": "hn",
       "source_id": "50572348"
+    },
+    "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being": {
+      "published_at": "2026-11-25T14:06:02Z",
+      "source": "hn",
+      "source_id": "50637686"
     },
     "https://www.pandex.io/": {
       "published_at": "2026-11-22T03:05:29Z",
@@ -4500,6 +4500,28 @@
       ],
       "ts": "2026-11-25T03:05:35Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 58,
+      "eligible_per_source": {
+        "hf-papers": 29,
+        "hn": 27,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2611.30962",
+        "hn-50637686"
+      ],
+      "ts": "2026-11-25T14:06:02Z",
+      "window": "morning"
     }
   ]
 }
