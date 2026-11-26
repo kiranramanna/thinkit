@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-25T14:06:02Z",
+  "last_pruned_ts": "2026-11-26T03:05:24Z",
   "published_urls": {
     "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate": {
       "published_at": "2026-11-22T14:12:59Z",
@@ -10,11 +10,6 @@
       "published_at": "2026-11-24T03:05:05Z",
       "source": "hn",
       "source_id": "50620328"
-    },
-    "https://arxiv.org/abs/2611.04395": {
-      "published_at": "2026-11-19T03:05:42Z",
-      "source": "hf-papers",
-      "source_id": "2611.04395"
     },
     "https://arxiv.org/abs/2611.17460": {
       "published_at": "2026-11-20T14:06:20Z",
@@ -96,6 +91,11 @@
       "source": "hf-papers",
       "source_id": "2611.31198"
     },
+    "https://arxiv.org/abs/2611.32884": {
+      "published_at": "2026-11-26T03:05:24Z",
+      "source": "hf-papers",
+      "source_id": "2611.32884"
+    },
     "https://github.com/mjwsolo/localcode": {
       "published_at": "2026-11-23T03:05:36Z",
       "source": "hn",
@@ -111,11 +111,6 @@
       "source": "hn",
       "source_id": "50627340"
     },
-    "https://news.ycombinator.com/item?id=50549188": {
-      "published_at": "2026-11-19T03:05:42Z",
-      "source": "hn",
-      "source_id": "50549188"
-    },
     "https://prismml.com/news/bonsai-2-5-27b": {
       "published_at": "2026-11-25T03:05:35Z",
       "source": "hn",
@@ -125,6 +120,11 @@
       "published_at": "2026-11-21T03:05:36Z",
       "source": "hn",
       "source_id": "50572348"
+    },
+    "https://www.kalzumeus.com/2026/11/25/multiagent-coding-is-the-future": {
+      "published_at": "2026-11-26T03:05:24Z",
+      "source": "hn",
+      "source_id": "50645541"
     },
     "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being": {
       "published_at": "2026-11-25T14:06:02Z",
@@ -4522,6 +4522,28 @@
       ],
       "ts": "2026-11-25T14:06:02Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 52,
+      "eligible_per_source": {
+        "hf-papers": 25,
+        "hn": 27
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2611.32884",
+        "hn-50645541"
+      ],
+      "ts": "2026-11-26T03:05:24Z",
+      "window": "evening"
     }
   ]
 }
