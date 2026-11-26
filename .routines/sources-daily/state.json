@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-26T03:05:24Z",
+  "last_pruned_ts": "2026-11-26T14:05:37Z",
   "published_urls": {
     "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate": {
       "published_at": "2026-11-22T14:12:59Z",
@@ -25,16 +25,6 @@
       "published_at": "2026-11-21T14:05:47Z",
       "source": "hf-papers",
       "source_id": "2611.21053"
-    },
-    "https://arxiv.org/abs/2611.23068": {
-      "published_at": "2026-11-19T14:06:53Z",
-      "source": "hf-papers",
-      "source_id": "2611.23068"
-    },
-    "https://arxiv.org/abs/2611.23388": {
-      "published_at": "2026-11-19T14:06:53Z",
-      "source": "hf-papers",
-      "source_id": "2611.23388"
     },
     "https://arxiv.org/abs/2611.23751": {
       "published_at": "2026-11-20T03:05:40Z",
@@ -95,6 +85,16 @@
       "published_at": "2026-11-26T03:05:24Z",
       "source": "hf-papers",
       "source_id": "2611.32884"
+    },
+    "https://arxiv.org/abs/2611.34147": {
+      "published_at": "2026-11-26T14:05:37Z",
+      "source": "hf-papers",
+      "source_id": "2611.34147"
+    },
+    "https://commandcode.ai/moat": {
+      "published_at": "2026-11-26T14:05:37Z",
+      "source": "hn",
+      "source_id": "50652184"
     },
     "https://github.com/mjwsolo/localcode": {
       "published_at": "2026-11-23T03:05:36Z",
@@ -4544,6 +4544,30 @@
       ],
       "ts": "2026-11-26T03:05:24Z",
       "window": "evening"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 55,
+      "eligible_per_source": {
+        "hf-papers": 28,
+        "hn": 25,
+        "lobsters": 2
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": [
+          "bigger-context-isnt-the-answer (+1)"
+        ]
+      },
+      "posts_written": 2,
+      "selected": [
+        "hf-papers-2611.34147",
+        "hn-50652184"
+      ],
+      "ts": "2026-11-26T14:05:37Z",
+      "window": "morning"
     }
   ]
 }
