@@ -53,6 +53,16 @@ entries:
       and the first result that inference engines have to co-design KV-
       cache editing for it to be cheap.
 
+  - date: 2026-11-27
+    kind: post
+    post: what-your-agent-should-forget-to-keep-improving
+    why: >
+      Adds the retention-side ablation the case was missing: keeping
+      individually accessible records of each attempt (context folding)
+      beats collapsing them into a rolling summary, by up to 19.2%.
+      Turns 'don't grow the window' into 'don't just summarize what you
+      keep, either.'
+
   # routine:append-here — sources-daily inserts new entries above this line.
   # Hand-written entries are safe anywhere in this list; the routine only
   # inserts, and only for posts whose slug is not already present.

@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-26T14:05:37Z",
+  "last_pruned_ts": "2026-11-27T03:04:46Z",
   "published_urls": {
     "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate": {
       "published_at": "2026-11-22T14:12:59Z",
@@ -26,20 +26,10 @@
       "source": "hf-papers",
       "source_id": "2611.21053"
     },
-    "https://arxiv.org/abs/2611.23751": {
-      "published_at": "2026-11-20T03:05:40Z",
-      "source": "hf-papers",
-      "source_id": "2611.23751"
-    },
     "https://arxiv.org/abs/2611.23835": {
       "published_at": "2026-11-22T03:05:29Z",
       "source": "hf-papers",
       "source_id": "2611.23835"
-    },
-    "https://arxiv.org/abs/2611.24362": {
-      "published_at": "2026-11-20T03:05:40Z",
-      "source": "hf-papers",
-      "source_id": "2611.24362"
     },
     "https://arxiv.org/abs/2611.25773": {
       "published_at": "2026-11-23T03:05:36Z",
@@ -70,6 +60,11 @@
       "published_at": "2026-11-23T14:06:04Z",
       "source": "hf-papers",
       "source_id": "2611.27973"
+    },
+    "https://arxiv.org/abs/2611.28244": {
+      "published_at": "2026-11-27T03:04:46Z",
+      "source": "hf-papers",
+      "source_id": "2611.28244"
     },
     "https://arxiv.org/abs/2611.30962": {
       "published_at": "2026-11-25T14:06:02Z",
@@ -120,6 +115,11 @@
       "published_at": "2026-11-21T03:05:36Z",
       "source": "hn",
       "source_id": "50572348"
+    },
+    "https://techstackups.com/articles/google-workspace-ai-agents-mcp": {
+      "published_at": "2026-11-27T03:04:46Z",
+      "source": "hn",
+      "source_id": "50653477"
     },
     "https://www.kalzumeus.com/2026/11/25/multiagent-coding-is-the-future": {
       "published_at": "2026-11-26T03:05:24Z",
@@ -4568,6 +4568,31 @@
       ],
       "ts": "2026-11-26T14:05:37Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 50,
+      "eligible_per_source": {
+        "hf-papers": 18,
+        "hn": 28,
+        "lobsters": 4
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": [
+          "bigger-context-isnt-the-answer (+1)"
+        ]
+      },
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2611.28244",
+        "hn-50653477"
+      ],
+      "ts": "2026-11-27T03:04:46Z",
+      "window": "evening"
     }
   ]
 }
