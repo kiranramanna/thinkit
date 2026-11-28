@@ -1,5 +1,5 @@
 {
-  "last_pruned_ts": "2026-11-27T14:06:00Z",
+  "last_pruned_ts": "2026-11-28T03:05:31Z",
   "published_urls": {
     "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate": {
       "published_at": "2026-11-22T14:12:59Z",
@@ -10,11 +10,6 @@
       "published_at": "2026-11-24T03:05:05Z",
       "source": "hn",
       "source_id": "50620328"
-    },
-    "https://arxiv.org/abs/2611.20455": {
-      "published_at": "2026-11-21T03:05:36Z",
-      "source": "hf-papers",
-      "source_id": "2611.20455"
     },
     "https://arxiv.org/abs/2611.21053": {
       "published_at": "2026-11-21T14:05:47Z",
@@ -71,6 +66,11 @@
       "source": "hf-papers",
       "source_id": "2611.32884"
     },
+    "https://arxiv.org/abs/2611.33307": {
+      "published_at": "2026-11-28T03:05:31Z",
+      "source": "hf-papers",
+      "source_id": "2611.33307"
+    },
     "https://arxiv.org/abs/2611.34147": {
       "published_at": "2026-11-26T14:05:37Z",
       "source": "hf-papers",
@@ -91,6 +91,11 @@
       "source": "hn",
       "source_id": "50652184"
     },
+    "https://github.com/convex/convex-backend-skill/issues/64": {
+      "published_at": "2026-11-28T03:05:31Z",
+      "source": "hn",
+      "source_id": "50669765"
+    },
     "https://github.com/mjwsolo/localcode": {
       "published_at": "2026-11-23T03:05:36Z",
       "source": "hn",
@@ -110,11 +115,6 @@
       "published_at": "2026-11-25T03:05:35Z",
       "source": "hn",
       "source_id": "50633922"
-    },
-    "https://signal.org/blog/protecting-your-privacy": {
-      "published_at": "2026-11-21T03:05:36Z",
-      "source": "hn",
-      "source_id": "50572348"
     },
     "https://techstackups.com/articles/google-workspace-ai-agents-mcp": {
       "published_at": "2026-11-27T03:04:46Z",
@@ -4615,6 +4615,29 @@
       ],
       "ts": "2026-11-27T14:06:00Z",
       "window": "morning"
+    },
+    {
+      "adapter_errors": [],
+      "eligible_count": 48,
+      "eligible_per_source": {
+        "hf-papers": 14,
+        "hn": 29,
+        "lobsters": 5
+      },
+      "interests": {
+        "created": [],
+        "rejected": 0,
+        "status": "ran",
+        "updated": []
+      },
+      "posts_written": 2,
+      "research_failed": [],
+      "selected": [
+        "hf-papers-2611.33307",
+        "hn-50669765"
+      ],
+      "ts": "2026-11-28T03:05:31Z",
+      "window": "evening"
     }
   ]
 }
